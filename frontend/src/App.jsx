@@ -1,13 +1,7 @@
 import { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route, useNavigate, useParams, useLocation } from "react-router-dom";
+import { BrowserRouter, useNavigate, useLocation } from "react-router-dom";
 import {
   ChevronUp,
-  Sparkles,
-  FolderPlus,
-  HelpCircle,
-  Check,
-  Search,
-  ShieldCheck,
 } from "lucide-react";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
@@ -16,18 +10,15 @@ import PostDetail from "./components/PostDetail";
 import PageContent from "./components/PageContent";
 import { INITIAL_POSTS, INITIAL_CATEGORIES, INITIAL_PAGES, DATA_VERSION } from "./data";
 
-// Wrapper component to handle routing logic
 function AppContent() {
   const navigate = useNavigate();
   const location = useLocation();
-  const params = useParams();
 
-  // 🔥 POSTS with VERSION CHECK - Auto reset on data change
+  // 🔥 POSTS with VERSION CHECK
   const [posts, setPosts] = useState(() => {
     const savedVersion = localStorage.getItem("vishu_data_version");
     const saved = localStorage.getItem("vishu_posts");
     
-    // If version mismatch OR no saved data, use INITIAL
     if (savedVersion !== DATA_VERSION || !saved) {
       localStorage.setItem("vishu_data_version", DATA_VERSION);
       localStorage.setItem("vishu_posts", JSON.stringify(INITIAL_POSTS));
@@ -70,14 +61,11 @@ function AppContent() {
     return localStorage.getItem("vishu_dark_mode") === "true";
   });
 
-  // Dialog / Edit modes
   const [editingPost, setEditingPost] = useState(null);
   const [isCreatingPost, setIsCreatingPost] = useState(false);
-
-  // Click to Top button visibility
   const [showScrollTop, setShowScrollTop] = useState(false);
 
-  // 🔥 Sync to localStorage with version
+  // Sync to localStorage
   useEffect(() => {
     localStorage.setItem("vishu_posts", JSON.stringify(posts));
     localStorage.setItem("vishu_data_version", DATA_VERSION);
@@ -99,33 +87,76 @@ function AppContent() {
     localStorage.setItem("vishu_dark_mode", String(darkMode));
   }, [darkMode]);
 
+  // Helper function to create post slug from title
+  const createPostSlug = (title) => {
+    return title
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  };
+
+  // Helper function to get category by slug
+  const getCategoryBySlug = (slug) => {
+    return categories.find(c => c.slug === slug);
+  };
+
+  // Helper function to get post by category slug and post slug
+  const getPostBySlugs = (categorySlug, postSlug) => {
+    const category = getCategoryBySlug(categorySlug);
+    if (!category) return null;
+    return posts.find(p => 
+      p.categoryId === category.id && 
+      createPostSlug(p.title) === postSlug
+    );
+  };
+
   // Sync URL with activeTab
   useEffect(() => {
     const path = location.pathname;
+    
     if (path === "/") {
       setActiveTab("home");
-    } else if (path.startsWith("/category/")) {
-      const slug = path.split("/category/")[1];
-      const category = categories.find(c => c.slug === slug);
-      if (category) {
-        setActiveTab(`cat-${category.id}`);
-      }
-    } else if (path.startsWith("/post/")) {
-      const postId = path.split("/post/")[1];
-      const post = posts.find(p => p.id === postId);
-      if (post) {
-        setActiveTab(`post-${postId}`);
-      }
-    } else if (path.startsWith("/page/")) {
+      return;
+    }
+
+    // Check for page routes
+    if (path.startsWith("/page/")) {
       const pageId = path.split("/page/")[1];
       const page = pages.find(p => p.id === pageId);
       if (page) {
         setActiveTab(`page-${pageId}`);
+        return;
       }
     }
+
+    // Check for category routes
+    const pathParts = path.split('/').filter(Boolean);
+    if (pathParts.length >= 1) {
+      const categorySlug = pathParts[0];
+      const category = getCategoryBySlug(categorySlug);
+      
+      if (category) {
+        if (pathParts.length === 1) {
+          // Just category: /ai-photo-editing
+          setActiveTab(`cat-${category.id}`);
+          return;
+        } else if (pathParts.length === 2) {
+          // Category + Post: /ai-photo-editing/motu-patlu-city-explore
+          const postSlug = pathParts[1];
+          const post = getPostBySlugs(categorySlug, postSlug);
+          if (post) {
+            setActiveTab(`post-${post.id}`);
+            return;
+          }
+        }
+      }
+    }
+
+    // If nothing matches, go home
+    setActiveTab("home");
   }, [location.pathname, categories, posts, pages]);
 
-  // Scroll detection for Click to Top button
+  // Scroll detection
   useEffect(() => {
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 300);
@@ -138,7 +169,7 @@ function AppContent() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  // Navigation functions with URL updates
+  // Navigation functions
   const navigateToHome = () => {
     navigate("/");
     setActiveTab("home");
@@ -149,16 +180,23 @@ function AppContent() {
   const navigateToCategory = (catId) => {
     const category = categories.find(c => c.id === catId);
     if (category) {
-      navigate(`/category/${category.slug}`);
+      navigate(`/${category.slug}`);
       setActiveTab(`cat-${catId}`);
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
   };
 
   const navigateToPost = (postId) => {
-    navigate(`/post/${postId}`);
-    setActiveTab(`post-${postId}`);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    const post = posts.find(p => p.id === postId);
+    if (post) {
+      const category = categories.find(c => c.id === post.categoryId);
+      if (category) {
+        const postSlug = createPostSlug(post.title);
+        navigate(`/${category.slug}/${postSlug}`);
+        setActiveTab(`post-${postId}`);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    }
   };
 
   const navigateToPage = (pageId) => {
@@ -167,9 +205,9 @@ function AppContent() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  // 🔥 FORCE RESET FUNCTION - Emergency use
+  // FORCE RESET
   const forceResetData = () => {
-    if (window.confirm('⚠️ Reset all data to default? This will delete all saved changes.')) {
+    if (window.confirm('⚠️ Reset all data to default?')) {
       localStorage.clear();
       window.location.reload();
     }
@@ -209,15 +247,25 @@ function AppContent() {
   // POST OPERATIONS
   const handleSavePost = (savedPost) => {
     const exists = posts.some((p) => p.id === savedPost.id);
+    let updatedPosts;
     if (exists) {
-      setPosts(posts.map((p) => (p.id === savedPost.id ? savedPost : p)));
+      updatedPosts = posts.map((p) => (p.id === savedPost.id ? savedPost : p));
     } else {
-      setPosts([savedPost, ...posts]);
+      updatedPosts = [savedPost, ...posts];
     }
+    setPosts(updatedPosts);
     setEditingPost(null);
     setIsCreatingPost(false);
-    navigate(`/post/${savedPost.id}`);
-    setActiveTab(`post-${savedPost.id}`);
+    
+    const category = categories.find(c => c.id === savedPost.categoryId);
+    if (category) {
+      const postSlug = createPostSlug(savedPost.title);
+      navigate(`/${category.slug}/${postSlug}`);
+      setActiveTab(`post-${savedPost.id}`);
+    } else {
+      navigate("/");
+      setActiveTab("home");
+    }
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
@@ -234,7 +282,7 @@ function AppContent() {
     setPages(pages.map((p) => (p.id === updatedPage.id ? updatedPage : p)));
   };
 
-  // ADD COMMENT OPERATION
+  // ADD COMMENT
   const handleAddComment = (postId, commentDetails) => {
     const newComment = {
       id: "comm-" + Date.now(),
@@ -288,42 +336,63 @@ function AppContent() {
     ? categories.find((c) => c.id === activeTab.replace("cat-", ""))
     : null;
 
-  const renderMainContent = () => {
+  // Get current post
+  const getCurrentPost = () => {
     if (activeTab.startsWith("post-")) {
       const postId = activeTab.replace("post-", "");
-      const currentPost = posts.find((p) => p.id === postId);
-      if (currentPost) {
-        return (
-          <PostDetail
-            post={currentPost}
-            categories={categories}
-            allPosts={posts}
-            darkMode={darkMode}
-            onBack={() => navigate("/")}
-            onSelectPost={navigateToPost}
-            onSelectCategory={navigateToCategory}
-            onEdit={setEditingPost}
-            onDelete={handleDeletePost}
-            onAddComment={handleAddComment}
-          />
-        );
-      } else {
-        return (
-          <div className="p-8 text-center bg-white dark:bg-neutral-900 border dark:border-neutral-800">
-            <h3 className="font-bold text-lg text-red-500">
-              Tutorial not found!
-            </h3>
-            <button
-              onClick={() => navigate("/")}
-              className="mt-4 px-4 py-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs cursor-pointer"
-            >
-              Go Back Home
-            </button>
-          </div>
-        );
-      }
+      return posts.find(p => p.id === postId);
+    }
+    return null;
+  };
+
+  const currentPost = getCurrentPost();
+
+  // Render main content
+  const renderMainContent = () => {
+    // Post Detail View
+    if (activeTab.startsWith("post-") && currentPost) {
+      return (
+        <PostDetail
+          post={currentPost}
+          categories={categories}
+          allPosts={posts}
+          darkMode={darkMode}
+          onBack={() => {
+            const category = categories.find(c => c.id === currentPost.categoryId);
+            if (category) {
+              navigate(`/${category.slug}`);
+              setActiveTab(`cat-${category.id}`);
+            } else {
+              navigate("/");
+              setActiveTab("home");
+            }
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
+          onSelectPost={navigateToPost}
+          onSelectCategory={navigateToCategory}
+          onEdit={setEditingPost}
+          onDelete={handleDeletePost}
+          onAddComment={handleAddComment}
+        />
+      );
     }
 
+    // Post not found
+    if (activeTab.startsWith("post-") && !currentPost) {
+      return (
+        <div className="p-8 text-center bg-white dark:bg-neutral-900 border dark:border-neutral-800">
+          <h3 className="font-bold text-lg text-red-500">Tutorial not found!</h3>
+          <button
+            onClick={() => navigate("/")}
+            className="mt-4 px-4 py-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs cursor-pointer"
+          >
+            Go Back Home
+          </button>
+        </div>
+      );
+    }
+
+    // Page View
     if (activeTab.startsWith("page-")) {
       const pageId = activeTab.replace("page-", "");
       const currentPage = pages.find((p) => p.id === pageId);
@@ -338,6 +407,7 @@ function AppContent() {
       }
     }
 
+    // Home/Category View
     return (
       <div className="flex flex-col gap-4 sm:gap-6">
         {currentCategory && (
@@ -422,7 +492,7 @@ function AppContent() {
           : "bg-gray-50 text-black min-h-screen transition-all"
       }
     >
-      {/* 🔥 TEMPORARY: Reset Button - Remove after testing */}
+      {/* Reset Button */}
       <button
         onClick={forceResetData}
         className="fixed bottom-24 right-6 bg-red-600 hover:bg-red-700 text-white px-3 py-1.5 text-[10px] font-bold z-50 shadow-lg rounded"

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { FolderOpen, Flame, HelpCircle, Edit3, Plus, Trash2, Check, X, ShieldAlert } from 'lucide-react';
-import vishesh from '../assets/vishes.jpeg'
+import { FolderOpen, Flame } from 'lucide-react';
 
 export default function Sidebar({
   categories,
@@ -45,7 +44,7 @@ export default function Sidebar({
 
   return (
     <aside className="w-full flex flex-col gap-6 font-sans">
-      {/* 3. Category Count list */}
+      {/* Categories */}
       <div className={`p-5 rounded-lg shadow-sm border ${
         darkMode ? 'bg-neutral-900 border-neutral-800' : 'bg-white border-slate-200'
       }`}>
@@ -80,7 +79,7 @@ export default function Sidebar({
         </div>
       </div>
 
-      {/* 4. Trending Posts Widget */}
+      {/* Trending Posts */}
       <div className={`p-5 rounded-lg shadow-sm border ${
         darkMode ? 'bg-neutral-900 border-neutral-800' : 'bg-white border-slate-200'
       }`}>
@@ -97,27 +96,35 @@ export default function Sidebar({
           <p className="text-xs text-gray-400">No trending posts marked.</p>
         ) : (
           <div className="flex flex-col gap-4">
-            {trendingPosts.map((post) => (
-              <div 
-                key={post.id} 
-                onClick={() => onSelectPost(post.id)}
-                className="flex items-start gap-3 cursor-pointer group"
-              >
-                <img 
-                  src={post.image} 
-                  alt={post.title} 
-                  className="w-16 h-16 rounded object-cover shrink-0 border dark:border-neutral-800"
-                />
-                <div className="flex flex-col gap-1">
-                  <h4 className={`text-xs font-bold leading-tight line-clamp-2 transition-colors ${
-                    darkMode ? 'text-white group-hover:text-sky-400' : 'text-black group-hover:text-sky-600'
-                  }`}>
-                    {post.title}
-                  </h4>
-                  <span className="text-[10px] text-gray-400">{post.date}</span>
+            {trendingPosts.map((post) => {
+              const category = categories.find(c => c.id === post.categoryId);
+              return (
+                <div 
+                  key={post.id} 
+                  onClick={() => onSelectPost(post.id)}
+                  className="flex items-start gap-3 cursor-pointer group"
+                >
+                  <img 
+                    src={post.image} 
+                    alt={post.title} 
+                    className="w-16 h-16 rounded object-cover shrink-0 border dark:border-neutral-800"
+                  />
+                  <div className="flex flex-col gap-1">
+                    <h4 className={`text-xs font-bold leading-tight line-clamp-2 transition-colors ${
+                      darkMode ? 'text-white group-hover:text-sky-400' : 'text-black group-hover:text-sky-600'
+                    }`}>
+                      {post.title}
+                    </h4>
+                    <span className="text-[10px] text-gray-400">{post.date}</span>
+                    {category && (
+                      <span className="text-[9px] text-sky-600 dark:text-sky-400 font-bold uppercase tracking-wider">
+                        {category.name}
+                      </span>
+                    )}
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         )}
       </div>
