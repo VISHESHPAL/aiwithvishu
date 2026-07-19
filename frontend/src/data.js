@@ -838,4 +838,126 @@ Simply copy the prompt provided in this guide, upload your reference photo, and 
     isTrending: true,
     comments: [],
   },
+  {
+    id: "post-5",
+    title:
+      "Ultra Realistic Black & White Cinematic Portrait AI Photo Editing Prompt",
+    categoryId: "cat-1", // AI Photo Editing
+    image: "/images/post5/vishesh1.png",
+    date: "July 19, 2026",
+    author: "Vishu",
+
+    introduction: `Black and white cinematic portraits have become one of the biggest AI photo editing trends in 2026. Their timeless aesthetic, dramatic lighting, and premium editorial appearance make them perfect for social media, personal branding, and professional portfolios.
+
+Unlike ordinary portraits, this style focuses on powerful storytelling through high-contrast monochrome tones, cinematic rim lighting, deep shadows, and realistic skin textures. The result looks like it was captured inside a luxury photography studio using expensive lighting equipment.
+
+The best part is that you don't need a DSLR camera, expensive studio lights, or advanced editing skills. Simply upload a clear reference photo, copy the AI prompt, and let AI generate a premium black-and-white cinematic portrait while preserving your facial features and identity.`,
+
+    whyTrending: `This editing style has become extremely popular because it delivers a luxury editorial look that instantly stands out on Instagram, Pinterest, Facebook, LinkedIn, and YouTube thumbnails.
+
+The dramatic lighting, deep shadows, glowing rim light, and monochrome color grading create an emotional and cinematic atmosphere that feels premium and timeless.
+
+Creators, influencers, students, and professionals are using this style for profile pictures, portfolio covers, wallpapers, branding, and social media posts because it gives a sophisticated and confident appearance without requiring professional photography equipment.`,
+
+    creationIntro: `Follow these simple steps to generate your own cinematic black-and-white portrait.
+
+Download the ChatGPT app from the Google Play Store or open ChatGPT on your browser.
+Sign in with your account.
+Return to this website and copy the AI prompt below.
+Click the "Create Your Image" button.
+Upload a clear front-facing photo by tapping the plus (+) icon.
+Paste the copied prompt and send it.
+Within a few moments, AI will generate your cinematic monochrome portrait while preserving your identity.
+Finally, download the generated image in high quality.`,
+
+    photoStepTitle: "Steps to Generate Black & White Cinematic Portraits:",
+
+    photoItems: [
+      {
+        image: "/images/post5/vishesh2.png",
+        title: " Premium Editorial Signature Portrait",
+        prompt: `Use my uploaded photo as the identity reference and the uploaded master image only as the style reference. Preserve my exact facial structure, hairstyle, skin texture, age, proportions, and identity. Do not copy the person from the reference image.Create an ultra-realistic premium sports-editorial poster featuring a chest-up portrait. Dress me in a plain black textured athletic crewneck with no logos. Turn my body slightly away from the camera, head tilted upward, looking off-frame with a calm, confident, determined expression.Apply a high-contrast black-and-white treatment to the face while using a solid {ACCENT_COLOR} rectangular background panel inside a warm off-white paper border with subtle grain texture. Keep the design clean, minimal, and luxurious.Use dramatic studio lighting with a soft key light from the upper front-left, cinematic shadows, sharp hair detail, realistic skin pores, crisp catchlights, deep blacks, and premium magazine-quality contrast.Add the name "{NAME}" as elegant signature typography across the lower chest with small uppercase text above it if needed. Add jersey-style number "{NUMBER}" beside or below the signature. If the name or number is empty, omit them.Keep the composition centered, premium, cinematic, and social-media ready. Avoid logos, brand names, distorted anatomy, incorrect text, duplicate faces, blur, plastic skin, oversmoothing, overexposure, or low-quality details.Final output: Ultra-realistic, 4:5 vertical, 8K, sharp focus, monochrome face, colored accent panel, editorial poster, preserved identity, professional studio photography.`,
+      },
+
+      {
+        image: "/images/post5/vishesh3.png",
+        title: "Luxury Black & White Studio Portrait",
+        prompt: `Ultra-realistic cinematic black-and-white portrait of a young male in a formal black suit and tie, captured in a dark minimalist studio. Subject is slightly off-center, facing forward with a calm, serious expression and soft eye focus. Dramatic low-key lighting with a strong overhead/back light creates a glowing rim light around hair and silhouette, while the face fades into deep shadow. High contrast with smooth falloff into darkness builds a moody atmosphere. Apply heavy film grain and high ISO noise (3200–6400) for a raw analog feel. Add slight softness, subtle blur, and faint highlight bloom. Natural skin texture with visible pores. Monochrome grading with crushed blacks, soft highlights, and shallow depth of field (50mm, f/1.8) `,
+      },
+    ],
+
+    photoBtnText: "Create Your Images",
+    photoBtnLink: "https://chat.openai.com/",
+
+    videoStepTitle: "",
+    videoStepImage: "",
+    videoPrompt: "",
+    videoBtnText: "",
+    videoBtnLink: "",
+
+    faqs: [
+      {
+        id: "bw-faq-1",
+        question: "What is a Black & White Cinematic AI Portrait?",
+        answer:
+          "It is an AI-generated premium monochrome portrait featuring dramatic lighting, realistic shadows, cinematic composition, and luxury editorial styling while preserving your facial identity.",
+      },
+      {
+        id: "bw-faq-2",
+        question: "Do I need a professional camera?",
+        answer:
+          "No. A clear front-facing selfie is enough. AI recreates the professional studio lighting and cinematic atmosphere automatically.",
+      },
+      {
+        id: "bw-faq-3",
+        question: "Will AI keep my face the same?",
+        answer:
+          "Yes. Using a high-quality reference photo and a detailed prompt helps preserve your facial features, hairstyle, skin tone, and identity accurately.",
+      },
+      {
+        id: "bw-faq-4",
+        question: "Can I change the outfit?",
+        answer:
+          "Yes. You can edit the prompt to use a suit, hoodie, jacket, sweater, turtleneck, or any outfit while keeping your face unchanged.",
+      },
+      {
+        id: "bw-faq-5",
+        question: "Why are black and white portraits so popular?",
+        answer:
+          "Monochrome portraits emphasize facial expressions, lighting, and emotions while giving the image a timeless cinematic look that feels more premium than standard color portraits.",
+      },
+      {
+        id: "bw-faq-6",
+        question: "Where can I use these portraits?",
+        answer:
+          "They are perfect for Instagram, LinkedIn, Facebook, YouTube thumbnails, portfolio covers, wallpapers, profile pictures, and personal branding.",
+      },
+      {
+        id: "bw-faq-7",
+        question: "Is this prompt free to use?",
+        answer:
+          "Yes. You can copy and use the prompt with compatible AI image generators. Some platforms may require a premium subscription for maximum image quality.",
+      },
+    ],
+
+    conclusion: `Creating a premium Black & White Cinematic Portrait has never been easier. By combining a high-quality reference photo with a carefully crafted AI prompt, you can generate luxury editorial portraits that look like they were taken in a professional photography studio.
+
+The combination of dramatic rim lighting, deep shadows, realistic skin texture, monochrome color grading, and cinematic composition creates a timeless visual style suitable for both personal branding and social media.
+
+Simply copy the AI prompt from this guide, upload your reference photo, and let AI transform your ordinary selfie into a stunning cinematic masterpiece within minutes.`,
+
+    tags: [
+      "Black and White AI Portrait",
+      "Cinematic Portrait",
+      "Studio Portrait AI",
+      "Editorial AI Photo",
+      "Luxury Portrait",
+      "AI Photo Editing",
+      "Monochrome Portrait",
+      "AI Cinematic Photo",
+    ],
+
+    isTrending: true,
+    comments: [],
+  },
 ];
