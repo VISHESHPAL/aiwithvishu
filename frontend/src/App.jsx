@@ -100,6 +100,11 @@ function AppContent() {
     return categories.find(c => c.slug === slug);
   };
 
+  // Helper function to get page by slug
+  const getPageBySlug = (slug) => {
+    return pages.find(p => p.id === slug);
+  };
+
   // Helper function to get post by category slug and post slug
   const getPostBySlugs = (categorySlug, postSlug) => {
     const category = getCategoryBySlug(categorySlug);
@@ -119,35 +124,37 @@ function AppContent() {
       return;
     }
 
-    // Check for page routes
-    if (path.startsWith("/page/")) {
-      const pageId = path.split("/page/")[1];
-      const page = pages.find(p => p.id === pageId);
-      if (page) {
-        setActiveTab(`page-${pageId}`);
-        return;
-      }
+    // Remove leading slash and split
+    const pathParts = path.split('/').filter(Boolean);
+    
+    if (pathParts.length === 0) {
+      setActiveTab("home");
+      return;
     }
 
-    // Check for category routes
-    const pathParts = path.split('/').filter(Boolean);
-    if (pathParts.length >= 1) {
-      const categorySlug = pathParts[0];
-      const category = getCategoryBySlug(categorySlug);
-      
-      if (category) {
-        if (pathParts.length === 1) {
-          // Just category: /ai-photo-editing
-          setActiveTab(`cat-${category.id}`);
+    const firstPart = pathParts[0];
+
+    // Check if it's a page (about-us, privacy-policy, etc.)
+    const page = getPageBySlug(firstPart);
+    if (page) {
+      setActiveTab(`page-${page.id}`);
+      return;
+    }
+
+    // Check if it's a category
+    const category = getCategoryBySlug(firstPart);
+    if (category) {
+      if (pathParts.length === 1) {
+        // Just category: /ai-photo-editing
+        setActiveTab(`cat-${category.id}`);
+        return;
+      } else if (pathParts.length === 2) {
+        // Category + Post: /ai-photo-editing/motu-patlu-city-explore
+        const postSlug = pathParts[1];
+        const post = getPostBySlugs(firstPart, postSlug);
+        if (post) {
+          setActiveTab(`post-${post.id}`);
           return;
-        } else if (pathParts.length === 2) {
-          // Category + Post: /ai-photo-editing/motu-patlu-city-explore
-          const postSlug = pathParts[1];
-          const post = getPostBySlugs(categorySlug, postSlug);
-          if (post) {
-            setActiveTab(`post-${post.id}`);
-            return;
-          }
         }
       }
     }
@@ -200,7 +207,8 @@ function AppContent() {
   };
 
   const navigateToPage = (pageId) => {
-    navigate(`/page/${pageId}`);
+    // Page ID is the slug itself (about-us, privacy-policy, etc.)
+    navigate(`/${pageId}`);
     setActiveTab(`page-${pageId}`);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -347,6 +355,17 @@ function AppContent() {
 
   const currentPost = getCurrentPost();
 
+  // Get current page
+  const getCurrentPage = () => {
+    if (activeTab.startsWith("page-")) {
+      const pageId = activeTab.replace("page-", "");
+      return pages.find(p => p.id === pageId);
+    }
+    return null;
+  };
+
+  const currentPage = getCurrentPage();
+
   // Render main content
   const renderMainContent = () => {
     // Post Detail View
@@ -393,18 +412,29 @@ function AppContent() {
     }
 
     // Page View
-    if (activeTab.startsWith("page-")) {
-      const pageId = activeTab.replace("page-", "");
-      const currentPage = pages.find((p) => p.id === pageId);
-      if (currentPage) {
-        return (
-          <PageContent
-            page={currentPage}
-            darkMode={darkMode}
-            onSavePage={handleSavePage}
-          />
-        );
-      }
+    if (activeTab.startsWith("page-") && currentPage) {
+      return (
+        <PageContent
+          page={currentPage}
+          darkMode={darkMode}
+          onSavePage={handleSavePage}
+        />
+      );
+    }
+
+    // Page not found
+    if (activeTab.startsWith("page-") && !currentPage) {
+      return (
+        <div className="p-8 text-center bg-white dark:bg-neutral-900 border dark:border-neutral-800">
+          <h3 className="font-bold text-lg text-red-500">Page not found!</h3>
+          <button
+            onClick={() => navigate("/")}
+            className="mt-4 px-4 py-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs cursor-pointer"
+          >
+            Go Back Home
+          </button>
+        </div>
+      );
     }
 
     // Home/Category View
@@ -549,6 +579,13 @@ function AppContent() {
           </p>
           <div className="flex flex-wrap justify-center gap-2 sm:gap-4">
             <button
+              onClick={() => navigateToPage("about-us")}
+              className="hover:underline hover:text-black dark:hover:text-white"
+            >
+              About Us
+            </button>
+            <span>•</span>
+            <button
               onClick={() => navigateToPage("privacy-policy")}
               className="hover:underline hover:text-black dark:hover:text-white"
             >
@@ -567,6 +604,13 @@ function AppContent() {
               className="hover:underline hover:text-black dark:hover:text-white"
             >
               Disclaimer
+            </button>
+            <span>•</span>
+            <button
+              onClick={() => navigateToPage("contact-us")}
+              className="hover:underline hover:text-black dark:hover:text-white"
+            >
+              Contact Us
             </button>
           </div>
         </div>

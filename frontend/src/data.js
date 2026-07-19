@@ -15,7 +15,7 @@ export const INITIAL_CATEGORIES = [
 export const INITIAL_PAGES = [
   {
     id: "about-us",
-    title: "About us",
+    title: "About Us",
     content: `Welcome to AI with Vishu
 
 Hello! AI with Vishu is a professional platform where we provide interesting and valuable content focused on Photo & Video Editing.
