@@ -1,14 +1,14 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, lazy, Suspense } from "react";
 import { BrowserRouter, useNavigate, useLocation } from "react-router-dom";
-import {
-  ChevronUp,
-} from "lucide-react";
+import { ChevronUp } from "lucide-react";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import PostCard from "./components/PostCard";
-import PostDetail from "./components/PostDetail";
-import PageContent from "./components/PageContent";
 import { INITIAL_POSTS, INITIAL_CATEGORIES, INITIAL_PAGES, DATA_VERSION } from "./data";
+
+// ✅ Lazy Loading - Performance Improve karega
+const PostDetail = lazy(() => import("./components/PostDetail"));
+const PageContent = lazy(() => import("./components/PageContent"));
 
 function AppContent() {
   const navigate = useNavigate();
@@ -64,6 +64,22 @@ function AppContent() {
   const [editingPost, setEditingPost] = useState(null);
   const [isCreatingPost, setIsCreatingPost] = useState(false);
   const [showScrollTop, setShowScrollTop] = useState(false);
+
+  // ✅ Scroll debounce - Performance improve
+  useEffect(() => {
+    let timeoutId;
+    const handleScroll = () => {
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(() => {
+        setShowScrollTop(window.scrollY > 300);
+      }, 100);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      clearTimeout(timeoutId);
+    };
+  }, []);
 
   // Sync to localStorage
   useEffect(() => {
@@ -124,7 +140,6 @@ function AppContent() {
       return;
     }
 
-    // Remove leading slash and split
     const pathParts = path.split('/').filter(Boolean);
     
     if (pathParts.length === 0) {
@@ -134,22 +149,18 @@ function AppContent() {
 
     const firstPart = pathParts[0];
 
-    // Check if it's a page (about-us, privacy-policy, etc.)
     const page = getPageBySlug(firstPart);
     if (page) {
       setActiveTab(`page-${page.id}`);
       return;
     }
 
-    // Check if it's a category
     const category = getCategoryBySlug(firstPart);
     if (category) {
       if (pathParts.length === 1) {
-        // Just category: /ai-photo-editing
         setActiveTab(`cat-${category.id}`);
         return;
       } else if (pathParts.length === 2) {
-        // Category + Post: /ai-photo-editing/motu-patlu-city-explore
         const postSlug = pathParts[1];
         const post = getPostBySlugs(firstPart, postSlug);
         if (post) {
@@ -159,18 +170,8 @@ function AppContent() {
       }
     }
 
-    // If nothing matches, go home
     setActiveTab("home");
   }, [location.pathname, categories, posts, pages]);
-
-  // Scroll detection
-  useEffect(() => {
-    const handleScroll = () => {
-      setShowScrollTop(window.scrollY > 300);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   const handleScrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -207,7 +208,6 @@ function AppContent() {
   };
 
   const navigateToPage = (pageId) => {
-    // Page ID is the slug itself (about-us, privacy-policy, etc.)
     navigate(`/${pageId}`);
     setActiveTab(`page-${pageId}`);
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -344,7 +344,6 @@ function AppContent() {
     ? categories.find((c) => c.id === activeTab.replace("cat-", ""))
     : null;
 
-  // Get current post
   const getCurrentPost = () => {
     if (activeTab.startsWith("post-")) {
       const postId = activeTab.replace("post-", "");
@@ -355,7 +354,6 @@ function AppContent() {
 
   const currentPost = getCurrentPost();
 
-  // Get current page
   const getCurrentPage = () => {
     if (activeTab.startsWith("page-")) {
       const pageId = activeTab.replace("page-", "");
@@ -366,33 +364,45 @@ function AppContent() {
 
   const currentPage = getCurrentPage();
 
+  // Loading component for lazy loading
+  const LoadingFallback = () => (
+    <div className="flex justify-center items-center py-12">
+      <div className="animate-pulse flex flex-col items-center gap-2">
+        <div className="w-12 h-12 border-4 border-sky-600 border-t-transparent rounded-full animate-spin"></div>
+        <p className="text-sm text-gray-500 dark:text-gray-400">Loading...</p>
+      </div>
+    </div>
+  );
+
   // Render main content
   const renderMainContent = () => {
     // Post Detail View
     if (activeTab.startsWith("post-") && currentPost) {
       return (
-        <PostDetail
-          post={currentPost}
-          categories={categories}
-          allPosts={posts}
-          darkMode={darkMode}
-          onBack={() => {
-            const category = categories.find(c => c.id === currentPost.categoryId);
-            if (category) {
-              navigate(`/${category.slug}`);
-              setActiveTab(`cat-${category.id}`);
-            } else {
-              navigate("/");
-              setActiveTab("home");
-            }
-            window.scrollTo({ top: 0, behavior: "smooth" });
-          }}
-          onSelectPost={navigateToPost}
-          onSelectCategory={navigateToCategory}
-          onEdit={setEditingPost}
-          onDelete={handleDeletePost}
-          onAddComment={handleAddComment}
-        />
+        <Suspense fallback={<LoadingFallback />}>
+          <PostDetail
+            post={currentPost}
+            categories={categories}
+            allPosts={posts}
+            darkMode={darkMode}
+            onBack={() => {
+              const category = categories.find(c => c.id === currentPost.categoryId);
+              if (category) {
+                navigate(`/${category.slug}`);
+                setActiveTab(`cat-${category.id}`);
+              } else {
+                navigate("/");
+                setActiveTab("home");
+              }
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+            onSelectPost={navigateToPost}
+            onSelectCategory={navigateToCategory}
+            onEdit={setEditingPost}
+            onDelete={handleDeletePost}
+            onAddComment={handleAddComment}
+          />
+        </Suspense>
       );
     }
 
@@ -403,7 +413,7 @@ function AppContent() {
           <h3 className="font-bold text-lg text-red-500">Tutorial not found!</h3>
           <button
             onClick={() => navigate("/")}
-            className="mt-4 px-4 py-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs cursor-pointer"
+            className="mt-4 px-4 py-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs cursor-pointer rounded"
           >
             Go Back Home
           </button>
@@ -414,11 +424,13 @@ function AppContent() {
     // Page View
     if (activeTab.startsWith("page-") && currentPage) {
       return (
-        <PageContent
-          page={currentPage}
-          darkMode={darkMode}
-          onSavePage={handleSavePage}
-        />
+        <Suspense fallback={<LoadingFallback />}>
+          <PageContent
+            page={currentPage}
+            darkMode={darkMode}
+            onSavePage={handleSavePage}
+          />
+        </Suspense>
       );
     }
 
@@ -429,7 +441,7 @@ function AppContent() {
           <h3 className="font-bold text-lg text-red-500">Page not found!</h3>
           <button
             onClick={() => navigate("/")}
-            className="mt-4 px-4 py-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs cursor-pointer"
+            className="mt-4 px-4 py-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs cursor-pointer rounded"
           >
             Go Back Home
           </button>
@@ -486,7 +498,7 @@ function AppContent() {
                 navigate("/");
                 setSearchQuery("");
               }}
-              className="mt-2 bg-sky-600 hover:bg-sky-700 text-white px-4 py-2 text-xs font-bold cursor-pointer"
+              className="mt-2 bg-sky-600 hover:bg-sky-700 text-white px-4 py-2 text-xs font-bold cursor-pointer rounded"
             >
               Reset Filters
             </button>
@@ -526,8 +538,9 @@ function AppContent() {
       <button
         onClick={forceResetData}
         className="fixed bottom-24 right-6 bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 text-[10px] font-bold z-50 shadow-lg rounded"
+        aria-label="Refresh Website Data"
       >
-        Refresh Website Data
+        🔄 Refresh Website Data
       </button>
 
       <Navbar
@@ -620,7 +633,7 @@ function AppContent() {
         <button
           onClick={handleScrollToTop}
           className="fixed bottom-4 sm:bottom-6 right-4 sm:right-6 bg-slate-900 hover:bg-slate-800 dark:bg-neutral-800 dark:hover:bg-neutral-700 text-white p-3 sm:p-3.5 rounded-full shadow-lg transition-all z-50 hover:scale-105 cursor-pointer"
-          title="Scroll back to top"
+          aria-label="Scroll back to top"
         >
           <ChevronUp className="w-4 h-4 sm:w-5 sm:h-5" />
         </button>

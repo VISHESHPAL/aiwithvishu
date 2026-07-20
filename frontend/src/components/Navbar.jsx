@@ -6,7 +6,6 @@ import {
   Moon,
   Menu,
   X,
-  PlusCircle,
 } from "lucide-react";
 import {
   FaWhatsapp,
@@ -54,6 +53,14 @@ export default function Navbar({
     }
   }, []);
 
+  // ✅ Keyboard accessibility for mobile menu
+  const handleKeyDown = (e, action) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      action();
+    }
+  };
+
   const handleCategoryClick = (catId) => {
     navigateToCategory(catId);
     setMobileMenuOpen(false);
@@ -70,14 +77,14 @@ export default function Navbar({
   };
 
   return (
-    <header className="w-full flex flex-col font-sans">
+    <header className="w-full flex flex-col font-sans" role="banner" aria-label="Main header">
       {/* Top bar */}
       <div className="bg-slate-900 text-white py-2.5 px-6 text-[11px] uppercase tracking-wider border-b border-slate-850">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
           <div className="flex items-center gap-3 flex-wrap justify-center">
             <span className="opacity-75">{formattedDate}</span>
-            <span className="hidden md:inline text-slate-700">|</span>
-            <div className="flex flex-wrap justify-center gap-4">
+            <span className="hidden md:inline text-slate-700" aria-hidden="true">|</span>
+            <nav className="flex flex-wrap justify-center gap-4" aria-label="Main navigation">
               <button
                 onClick={handleHomeClick}
                 className={`hover:text-sky-400 transition-colors ${
@@ -85,12 +92,13 @@ export default function Navbar({
                     ? "font-bold text-sky-400" 
                     : "text-slate-300"
                 }`}
+                aria-current={activeTab === "home" ? "page" : undefined}
               >
                 Home
               </button>
-              {pages.map((page) => (
+              {pages.map((page, index) => (
                 <React.Fragment key={page.id}>
-                  <span className="text-slate-700">|</span>
+                  <span className="text-slate-700" aria-hidden="true">|</span>
                   <button
                     onClick={() => handlePageClick(page.id)}
                     className={`hover:text-sky-400 transition-colors capitalize ${
@@ -98,48 +106,53 @@ export default function Navbar({
                         ? "font-bold text-sky-400" 
                         : "text-slate-300"
                     }`}
+                    aria-current={activeTab === `page-${page.id}` ? "page" : undefined}
                   >
                     {page.title}
                   </button>
                 </React.Fragment>
               ))}
-            </div>
+            </nav>
           </div>
 
           <div className="flex items-center gap-4">
             {/* Social Media links */}
-            <div className="flex items-center gap-3 text-slate-300">
+            <div className="flex items-center gap-3 text-slate-300" aria-label="Social media links">
               <a
                 href="https://www.instagram.com/the_vishesh_001/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-sky-400 transition-colors"
+                aria-label="Follow us on Instagram"
               >
-                <FaInstagram />
+                <FaInstagram aria-hidden="true" />
               </a>
               <a
                 href="https://t.me/visheshpal001"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-sky-400 transition-colors"
+                aria-label="Join us on Telegram"
               >
-                <FaTelegramPlane />
+                <FaTelegramPlane aria-hidden="true" />
               </a>
               <a
                 href="https://www.youtube.com/@CricNews-v2l"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-sky-400 transition-colors"
+                aria-label="Subscribe on YouTube"
               >
-                <FaYoutube />
+                <FaYoutube aria-hidden="true" />
               </a>
               <a
                 href="https://www.youtube.com/@CricNews-v2l"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-sky-400 transition-colors"
+                aria-label="Contact us on WhatsApp"
               >
-                <FaWhatsapp />
+                <FaWhatsapp aria-hidden="true" />
               </a>
             </div>
           </div>
@@ -158,6 +171,10 @@ export default function Navbar({
           <div
             className="flex items-center cursor-pointer select-none"
             onClick={handleHomeClick}
+            onKeyDown={(e) => handleKeyDown(e, handleHomeClick)}
+            role="link"
+            tabIndex={0}
+            aria-label="Go to homepage"
           >
             <h1
               className={`text-4xl md:text-6xl font-black tracking-tight ${
@@ -186,6 +203,7 @@ export default function Navbar({
             ? "bg-neutral-900 border-neutral-800"
             : "bg-white border-b border-slate-200"
         }`}
+        aria-label="Category navigation"
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           {/* Home and main categories - Desktop */}
@@ -201,8 +219,10 @@ export default function Navbar({
                   ? "text-neutral-200" 
                   : "text-black"
               }`}
+              aria-current={activeTab === "home" ? "page" : undefined}
+              aria-label="Home"
             >
-              <HomeIcon className="w-4 h-4" />
+              <HomeIcon className="w-4 h-4" aria-hidden="true" />
             </button>
 
             {categories.map((cat) => (
@@ -218,6 +238,7 @@ export default function Navbar({
                     ? "text-neutral-200" 
                     : "text-black"
                 }`}
+                aria-current={activeTab === `cat-${cat.id}` ? "page" : undefined}
               >
                 {cat.name}
               </button>
@@ -237,8 +258,9 @@ export default function Navbar({
                     : "text-black hover:text-sky-600"
                 }`}
                 aria-label="Home"
+                aria-current={activeTab === "home" ? "page" : undefined}
               >
-                <HomeIcon className="w-5 h-5" />
+                <HomeIcon className="w-5 h-5" aria-hidden="true" />
               </button>
               
               <button
@@ -246,21 +268,22 @@ export default function Navbar({
                 className={`p-2 transition-colors ${
                   darkMode ? "hover:bg-neutral-800" : "hover:bg-slate-100"
                 }`}
-                aria-label="Toggle menu"
+                aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
+                aria-expanded={mobileMenuOpen}
               >
                 {mobileMenuOpen ? (
-                  <X className={`w-5 h-5 ${darkMode ? "text-white" : "text-black"}`} />
+                  <X className={`w-5 h-5 ${darkMode ? "text-white" : "text-black"}`} aria-hidden="true" />
                 ) : (
-                  <Menu className={`w-5 h-5 ${darkMode ? "text-white" : "text-black"}`} />
+                  <Menu className={`w-5 h-5 ${darkMode ? "text-white" : "text-black"}`} aria-hidden="true" />
                 )}
               </button>
             </div>
 
-
-
             <div className="flex items-center gap-2">
-              <div className="relative">
+              <div className="relative" role="search">
+                <label htmlFor="mobile-search" className="sr-only">Search</label>
                 <input
+                  id="mobile-search"
                   type="text"
                   placeholder="Search..."
                   value={searchQuery}
@@ -270,8 +293,9 @@ export default function Navbar({
                       ? "bg-neutral-800 text-white border-neutral-700 placeholder-neutral-400"
                       : "bg-slate-100 text-black border-slate-200 placeholder-slate-400"
                   }`}
+                  aria-label="Search tutorials"
                 />
-                <Search className="w-3.5 h-3.5 text-slate-400 absolute right-2 top-1/2 -translate-y-1/2" />
+                <Search className="w-3.5 h-3.5 text-slate-400 absolute right-2 top-1/2 -translate-y-1/2" aria-hidden="true" />
               </div>
               <button
                 onClick={toggleDarkMode}
@@ -279,11 +303,12 @@ export default function Navbar({
                   darkMode ? "hover:bg-neutral-800" : "hover:bg-slate-100"
                 }`}
                 title="Switch light/dark mode"
+                aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
               >
                 {darkMode ? (
-                  <Sun className="w-4 h-4 text-white" />
+                  <Sun className="w-4 h-4 text-white" aria-hidden="true" />
                 ) : (
-                  <Moon className="w-4 h-4 text-black" />
+                  <Moon className="w-4 h-4 text-black" aria-hidden="true" />
                 )}
               </button>
             </div>
@@ -291,8 +316,10 @@ export default function Navbar({
 
           {/* Navigation Controls - Desktop */}
           <div className="hidden lg:flex items-center gap-2 h-12">
-            <div className="relative">
+            <div className="relative" role="search">
+              <label htmlFor="desktop-search" className="sr-only">Search tutorials</label>
               <input
+                id="desktop-search"
                 type="text"
                 placeholder="Search tutorials..."
                 value={searchQuery}
@@ -302,8 +329,9 @@ export default function Navbar({
                     ? "bg-neutral-800 text-white border-neutral-700 placeholder-neutral-400"
                     : "bg-slate-100 text-black border-slate-200 placeholder-slate-400"
                 }`}
+                aria-label="Search tutorials"
               />
-              <Search className="w-3.5 h-3.5 text-slate-400 absolute right-3 top-1/2 -translate-y-1/2" />
+              <Search className="w-3.5 h-3.5 text-slate-400 absolute right-3 top-1/2 -translate-y-1/2" aria-hidden="true" />
             </div>
 
             <button
@@ -312,11 +340,12 @@ export default function Navbar({
                 darkMode ? "hover:bg-neutral-800" : "hover:bg-slate-100"
               }`}
               title="Switch light/dark mode"
+              aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
             >
               {darkMode ? (
-                <Sun className="w-4 h-4 text-white" />
+                <Sun className="w-4 h-4 text-white" aria-hidden="true" />
               ) : (
-                <Moon className="w-4 h-4 text-black" />
+                <Moon className="w-4 h-4 text-black" aria-hidden="true" />
               )}
             </button>
           </div>
@@ -331,6 +360,9 @@ export default function Navbar({
               ? "bg-neutral-900 border-neutral-800"
               : "bg-white border-gray-100"
           }`}
+          role="dialog"
+          aria-label="Mobile navigation menu"
+          aria-modal="true"
         >
           <div className="p-4 flex flex-col gap-2">
             <button
@@ -342,6 +374,7 @@ export default function Navbar({
                   ? "text-white hover:bg-neutral-800"
                   : "text-black hover:bg-sky-50"
               }`}
+              aria-current={activeTab === "home" ? "page" : undefined}
             >
               Home Page
             </button>
@@ -363,6 +396,7 @@ export default function Navbar({
                       ? "text-white hover:bg-neutral-800"
                       : "text-black hover:bg-sky-50"
                   }`}
+                  aria-current={activeTab === `cat-${cat.id}` ? "page" : undefined}
                 >
                   {cat.name}
                 </button>
@@ -386,6 +420,7 @@ export default function Navbar({
                       ? "text-white hover:bg-neutral-800"
                       : "text-black hover:bg-sky-50"
                   }`}
+                  aria-current={activeTab === `page-${page.id}` ? "page" : undefined}
                 >
                   {page.title}
                 </button>

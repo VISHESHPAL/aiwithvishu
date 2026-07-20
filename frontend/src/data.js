@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.0"; // ← Change this number
+export const DATA_VERSION = "1.0.1"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -382,6 +382,208 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
+  {
+    id: "post-5",
+    title:
+      "Ultra Realistic Black & White Cinematic Portrait AI Photo Editing Prompt",
+    categoryId: "cat-1", // AI Photo Editing
+    image: "/images/post5/vishesh1.png",
+    date: "July 19, 2026",
+    author: "Vishu",
+
+    introduction: `Black and white cinematic portraits have become one of the biggest AI photo editing trends in 2026. Their timeless aesthetic, dramatic lighting, and premium editorial appearance make them perfect for social media, personal branding, and professional portfolios.Unlike ordinary portraits, this style focuses on powerful storytelling through high-contrast monochrome tones, cinematic rim lighting, deep shadows, and realistic skin textures. The result looks like it was captured inside a luxury photography studio using expensive lighting equipment.The best part is that you don't need a DSLR camera, expensive studio lights, or advanced editing skills. Simply upload a clear reference photo, copy the AI prompt, and let AI generate a premium black-and-white cinematic portrait while preserving your facial features and identity.`,
+
+    whyTrending: `This editing style has become extremely popular because it delivers a luxury editorial look that instantly stands out on Instagram, Pinterest, Facebook, LinkedIn, and YouTube thumbnails.The dramatic lighting, deep shadows, glowing rim light, and monochrome color grading create an emotional and cinematic atmosphere that feels premium and timeless.Creators, influencers, students, and professionals are using this style for profile pictures, portfolio covers, wallpapers, branding, and social media posts because it gives a sophisticated and confident appearance without requiring professional photography equipment.`,
+
+    creationIntro: `Follow these simple steps to generate your own cinematic black-and-white portrait.Download the ChatGPT app from the Google Play Store or open ChatGPT on your browser.Sign in with your account.Return to this website and copy the AI prompt below.Click the "Create Your Image" button.Upload a clear front-facing photo by tapping the plus (+) icon.Paste the copied prompt and send it.Within a few moments, AI will generate your cinematic monochrome portrait while preserving your identity.Finally, download the generated image in high quality.`,
+
+    photoStepTitle: "Steps to Generate Black & White Cinematic Portraits:",
+
+    photoItems: [
+      {
+        image: "/images/post5/vishesh2.png",
+        title: " Premium Editorial Signature Portrait",
+        prompt: `Use my uploaded photo as the identity reference and the uploaded master image only as the style reference. Preserve my exact facial structure, hairstyle, skin texture, age, proportions, and identity. Do not copy the person from the reference image.Create an ultra-realistic premium sports-editorial poster featuring a chest-up portrait. Dress me in a plain black textured athletic crewneck with no logos. Turn my body slightly away from the camera, head tilted upward, looking off-frame with a calm, confident, determined expression.Apply a high-contrast black-and-white treatment to the face while using a solid {ACCENT_COLOR} rectangular background panel inside a warm off-white paper border with subtle grain texture. Keep the design clean, minimal, and luxurious.Use dramatic studio lighting with a soft key light from the upper front-left, cinematic shadows, sharp hair detail, realistic skin pores, crisp catchlights, deep blacks, and premium magazine-quality contrast.Add the name "{NAME}" as elegant signature typography across the lower chest with small uppercase text above it if needed. Add jersey-style number "{NUMBER}" beside or below the signature. If the name or number is empty, omit them.Keep the composition centered, premium, cinematic, and social-media ready. Avoid logos, brand names, distorted anatomy, incorrect text, duplicate faces, blur, plastic skin, oversmoothing, overexposure, or low-quality details.Final output: Ultra-realistic, 4:5 vertical, 8K, sharp focus, monochrome face, colored accent panel, editorial poster, preserved identity, professional studio photography.`,
+      },
+
+      {
+        image: "/images/post5/vishesh3.png",
+        title: "Luxury Black & White Studio Portrait",
+        prompt: `Ultra-realistic cinematic black-and-white portrait of a young male in a formal black suit and tie, captured in a dark minimalist studio. Subject is slightly off-center, facing forward with a calm, serious expression and soft eye focus. Dramatic low-key lighting with a strong overhead/back light creates a glowing rim light around hair and silhouette, while the face fades into deep shadow. High contrast with smooth falloff into darkness builds a moody atmosphere. Apply heavy film grain and high ISO noise (3200–6400) for a raw analog feel. Add slight softness, subtle blur, and faint highlight bloom. Natural skin texture with visible pores. Monochrome grading with crushed blacks, soft highlights, and shallow depth of field (50mm, f/1.8) `,
+      },
+    ],
+
+    photoBtnText: "Create Your Images",
+    photoBtnLink: "https://chat.openai.com/",
+
+    videoStepTitle: "",
+    videoStepImage: "",
+    videoPrompt: "",
+    videoBtnText: "",
+    videoBtnLink: "",
+
+    faqs: [
+      {
+        id: "bw-faq-1",
+        question: "What is a Black & White Cinematic AI Portrait?",
+        answer:
+          "It is an AI-generated premium monochrome portrait featuring dramatic lighting, realistic shadows, cinematic composition, and luxury editorial styling while preserving your facial identity.",
+      },
+      {
+        id: "bw-faq-2",
+        question: "Do I need a professional camera?",
+        answer:
+          "No. A clear front-facing selfie is enough. AI recreates the professional studio lighting and cinematic atmosphere automatically.",
+      },
+      {
+        id: "bw-faq-3",
+        question: "Will AI keep my face the same?",
+        answer:
+          "Yes. Using a high-quality reference photo and a detailed prompt helps preserve your facial features, hairstyle, skin tone, and identity accurately.",
+      },
+      {
+        id: "bw-faq-4",
+        question: "Can I change the outfit?",
+        answer:
+          "Yes. You can edit the prompt to use a suit, hoodie, jacket, sweater, turtleneck, or any outfit while keeping your face unchanged.",
+      },
+      {
+        id: "bw-faq-5",
+        question: "Why are black and white portraits so popular?",
+        answer:
+          "Monochrome portraits emphasize facial expressions, lighting, and emotions while giving the image a timeless cinematic look that feels more premium than standard color portraits.",
+      },
+      {
+        id: "bw-faq-6",
+        question: "Where can I use these portraits?",
+        answer:
+          "They are perfect for Instagram, LinkedIn, Facebook, YouTube thumbnails, portfolio covers, wallpapers, profile pictures, and personal branding.",
+      },
+      {
+        id: "bw-faq-7",
+        question: "Is this prompt free to use?",
+        answer:
+          "Yes. You can copy and use the prompt with compatible AI image generators. Some platforms may require a premium subscription for maximum image quality.",
+      },
+    ],
+
+    conclusion: `Creating a premium Black & White Cinematic Portrait has never been easier. By combining a high-quality reference photo with a carefully crafted AI prompt, you can generate luxury editorial portraits that look like they were taken in a professional photography studio.The combination of dramatic rim lighting, deep shadows, realistic skin texture, monochrome color grading, and cinematic composition creates a timeless visual style suitable for both personal branding and social media.Simply copy the AI prompt from this guide, upload your reference photo, and let AI transform your ordinary selfie into a stunning cinematic masterpiece within minutes.`,
+
+    tags: [
+      "Black and White AI Portrait",
+      "Cinematic Portrait",
+      "Studio Portrait AI",
+      "Editorial AI Photo",
+      "Luxury Portrait",
+      "AI Photo Editing",
+      "Monochrome Portrait",
+      "AI Cinematic Photo",
+    ],
+
+    isTrending: true,
+    comments: [],
+  },
+  {
+    id: "post-6",
+    title:
+      "Ultra Realistic Two Mood Cinematic Black & White AI Photo Editing Prompt",
+    categoryId: "cat-1", // AI Photo Editing
+    image: "/images/post6/focus1.png",
+    date: "July 20, 2026",
+    author: "Vishu",
+
+    introduction: `Cinematic black-and-white portraits with a dual mood concept have become one of the most viral AI photo editing trends in 2026. This editing style combines two powerful emotions into a single visual story—one side representing confidence and success, while the other reflects focus, struggle, and determination. The dramatic monochrome color grading, luxury editorial composition, glowing rim lighting, and realistic skin textures create a premium studio-quality appearance. With AI, you can transform a simple selfie into a masterpiece that looks like it belongs on a magazine cover, all while preserving your facial features and identity.`,
+
+    whyTrending: `The "Two Moods, One Mindset" editing style has gained massive popularity across Instagram, Pinterest, Facebook, LinkedIn, and YouTube because it tells a story rather than showing a simple portrait. The contrast between confidence and discipline creates a powerful emotional impact that instantly captures attention. High-contrast monochrome grading, dramatic studio lighting, realistic shadows, and cinematic composition make these portraits look luxurious and timeless. Content creators, influencers, students, entrepreneurs, and professionals are using this style for profile pictures, posters, wallpapers, personal branding, and motivational social media content.`,
+
+    creationIntro: `Creating your own cinematic dual-mood portrait is simple. Download the ChatGPT app or open ChatGPT in your browser. Copy your favorite prompt from this page. Click the "Create Your Image" button below. Upload a clear, high-quality front-facing photo by tapping the plus (+) icon. Paste the copied prompt and send it. Within a few moments, AI will generate an ultra-realistic cinematic portrait while preserving your identity, facial structure, hairstyle, and expression. Finally, download the image in high resolution and share it anywhere.`,
+
+    photoStepTitle: "Steps to Generate Two Mood Cinematic Portraits:",
+
+    photoItems: [
+      {
+        image: "/images/post6/focus2.png",
+        title: "Two Mood Cinematic Motivational Poster",
+        prompt: `Create a high-contrast cinematic portrait of a young man seated alone on a dark staircase in a moody indoor setting. The scene is in black and white. The man is positioned centered on the stairs, sitting in a relaxed pose with his legs slightly apart, one hand resting near his lap. He is looking slightly downward to the side, giving a calm, deep, and introspective mood. He has curly hair, wears dark sunglasses, a light-colored open collar shirt with rolled sleeves, loose dark pants, and dark shoes. A strong white backlight creates a dramatic glow outlining his entire silhouette, with subtle smoke or mist-like light rays spreading behind him. The glow gives a powerful, almost surreal aura effect. The staircase and surrounding walls are dark, textured, and minimal, with no extra objects or text in the scene. The overall tone is cinematic, mysterious, moody, and powerful, with deep shadows, high contrast, and a glowing silhouette highlight. Aspect Ratio: 3:4 Style: Black and White, Cinematic, Moody, Glowing Silhouette Lighting: Strong Backlight, High Contrast Mood: Introspective, Dark, Powerful, Alone`,
+      },
+
+      {
+        image: "/images/post6/focus3.png",
+        title: "Dark Staircase Cinematic Black & White Portrait",
+        prompt: `A full-body photograph of a young man with wavy black hair, looking directly forward into the camera with a confident expression. He is wearing dark black sunglasses, a faded black gradient denim shirt with long sleeves slightly rolled up to his forearms, a black t-shirt underneath, loose-fit wide-leg washed black jeans, and clean white minimalist sneakers.He is leaning back against a concrete wall pillar outside a modern storefront with a dark glass facade. He holds a black takeaway coffee cup in one hand while his other hand is casually placed inside his pocket. One leg is slightly bent and crossed naturally, creating a relaxed, effortless stance.The environment is clean, modern, and urban with concrete architecture, large reflective glass windows, and a minimal industrial aesthetic. The lighting is soft, moody, and natural, with subtle cinematic shadows and realistic color grading.Capture the scene in an ultra-realistic editorial street fashion style with highly detailed skin texture, realistic fabric folds, natural facial features, premium lifestyle photography, shallow depth of field, crisp focus, soft background bokeh, and an expensive luxury fashion campaign look.Style: Ultra Realistic, Cinematic, Editorial Street Fashion, Premium Lifestyle PhotographyLighting: Soft Natural Light, Moody Cinematic ShadowsCamera: Full Body Shot, Eye-Level Angle, 85mm Lens, f/2.8Quality: 8K, HDR, Hyper Detailed, PhotorealisticAspect Ratio: 3:4Negative Prompt: low quality, blurry, cartoon, CGI, illustration, painting, extra limbs, duplicate body parts, deformed hands, bad anatomy, cropped body, watermark, logo, text, oversaturated colors, unrealistic proportions, noisy image.`,
+      },
+    ],
+
+    photoBtnText: "Create Your Images",
+    photoBtnLink: "https://chat.openai.com/",
+
+    videoStepTitle: "",
+    videoStepImage: "",
+    videoPrompt: "",
+    videoBtnText: "",
+    videoBtnLink: "",
+
+    faqs: [
+      {
+        id: "tm-faq-1",
+        question: "What is a Two Mood Cinematic AI Portrait?",
+        answer:
+          "It is a storytelling-style AI portrait that combines two contrasting emotions in one composition, usually confidence and determination, using cinematic black-and-white editing and dramatic lighting.",
+      },
+      {
+        id: "tm-faq-2",
+        question: "Can AI preserve my real face?",
+        answer:
+          "Yes. Uploading a clear front-facing reference image allows AI to accurately preserve your facial features, hairstyle, proportions, and overall identity.",
+      },
+      {
+        id: "tm-faq-3",
+        question: "Do I need professional photography equipment?",
+        answer:
+          "No. A high-quality selfie is enough. AI recreates the premium studio lighting, dramatic shadows, and cinematic atmosphere automatically.",
+      },
+      {
+        id: "tm-faq-4",
+        question: "Can I change the text on the poster?",
+        answer:
+          "Yes. You can replace the motivational caption, title, or typography with your own quote, name, or branding while keeping the same visual style.",
+      },
+      {
+        id: "tm-faq-5",
+        question: "Why is this editing style trending?",
+        answer:
+          "It combines emotional storytelling with luxury editorial photography, making it visually striking and highly engaging across social media platforms.",
+      },
+      {
+        id: "tm-faq-6",
+        question: "Where can I use these portraits?",
+        answer:
+          "These portraits are perfect for Instagram posts, YouTube thumbnails, wallpapers, LinkedIn profiles, portfolio covers, posters, and personal branding.",
+      },
+      {
+        id: "tm-faq-7",
+        question: "Can beginners use these prompts?",
+        answer:
+          "Absolutely. Simply upload your photo, paste the prompt into an AI image generator, and let AI create the cinematic artwork automatically.",
+      },
+    ],
+
+    conclusion: `The Two Mood Cinematic Black & White Portrait style is more than just a photo edit—it's a visual story. By combining confidence, determination, luxury editorial lighting, dramatic monochrome tones, and realistic AI rendering, you can create artwork that looks like a premium magazine cover. Whether you're building your personal brand, creating social media content, or simply experimenting with AI photography, this style delivers professional-quality results within minutes. Copy the prompts, upload your photo, and transform an ordinary selfie into an unforgettable cinematic masterpiece.`,
+
+    tags: [
+      "Two Mood AI Portrait",
+      "Black and White Portrait",
+      "Cinematic Poster",
+      "Motivational AI Photo",
+      "Editorial Portrait",
+      "Luxury AI Portrait",
+      "AI Photo Editing",
+      "Cinematic Photography",
+    ],
+
+    isTrending: true,
+    comments: [],
+  },
   {
     id: "post-1",
     title: "Motu Patlu City Explore AI Video Editing Tutorial | Step-by-Step",
@@ -829,107 +1031,6 @@ Simply copy the prompt provided in this guide, upload your reference photo, and 
       "AI Fashion Portrait",
       "Blue Hour Photography",
       "AI Photo Editing",
-    ],
-
-    isTrending: true,
-    comments: [],
-  },
-  {
-    id: "post-5",
-    title:
-      "Ultra Realistic Black & White Cinematic Portrait AI Photo Editing Prompt",
-    categoryId: "cat-1", // AI Photo Editing
-    image: "/images/post5/vishesh1.png",
-    date: "July 19, 2026",
-    author: "Vishu",
-
-    introduction: `Black and white cinematic portraits have become one of the biggest AI photo editing trends in 2026. Their timeless aesthetic, dramatic lighting, and premium editorial appearance make them perfect for social media, personal branding, and professional portfolios.Unlike ordinary portraits, this style focuses on powerful storytelling through high-contrast monochrome tones, cinematic rim lighting, deep shadows, and realistic skin textures. The result looks like it was captured inside a luxury photography studio using expensive lighting equipment.The best part is that you don't need a DSLR camera, expensive studio lights, or advanced editing skills. Simply upload a clear reference photo, copy the AI prompt, and let AI generate a premium black-and-white cinematic portrait while preserving your facial features and identity.`,
-
-    whyTrending: `This editing style has become extremely popular because it delivers a luxury editorial look that instantly stands out on Instagram, Pinterest, Facebook, LinkedIn, and YouTube thumbnails.The dramatic lighting, deep shadows, glowing rim light, and monochrome color grading create an emotional and cinematic atmosphere that feels premium and timeless.Creators, influencers, students, and professionals are using this style for profile pictures, portfolio covers, wallpapers, branding, and social media posts because it gives a sophisticated and confident appearance without requiring professional photography equipment.`,
-
-    creationIntro: `Follow these simple steps to generate your own cinematic black-and-white portrait.Download the ChatGPT app from the Google Play Store or open ChatGPT on your browser.Sign in with your account.Return to this website and copy the AI prompt below.Click the "Create Your Image" button.Upload a clear front-facing photo by tapping the plus (+) icon.Paste the copied prompt and send it.Within a few moments, AI will generate your cinematic monochrome portrait while preserving your identity.Finally, download the generated image in high quality.`,
-
-    photoStepTitle: "Steps to Generate Black & White Cinematic Portraits:",
-
-    photoItems: [
-      {
-        image: "/images/post5/vishesh2.png",
-        title: " Premium Editorial Signature Portrait",
-        prompt: `Use my uploaded photo as the identity reference and the uploaded master image only as the style reference. Preserve my exact facial structure, hairstyle, skin texture, age, proportions, and identity. Do not copy the person from the reference image.Create an ultra-realistic premium sports-editorial poster featuring a chest-up portrait. Dress me in a plain black textured athletic crewneck with no logos. Turn my body slightly away from the camera, head tilted upward, looking off-frame with a calm, confident, determined expression.Apply a high-contrast black-and-white treatment to the face while using a solid {ACCENT_COLOR} rectangular background panel inside a warm off-white paper border with subtle grain texture. Keep the design clean, minimal, and luxurious.Use dramatic studio lighting with a soft key light from the upper front-left, cinematic shadows, sharp hair detail, realistic skin pores, crisp catchlights, deep blacks, and premium magazine-quality contrast.Add the name "{NAME}" as elegant signature typography across the lower chest with small uppercase text above it if needed. Add jersey-style number "{NUMBER}" beside or below the signature. If the name or number is empty, omit them.Keep the composition centered, premium, cinematic, and social-media ready. Avoid logos, brand names, distorted anatomy, incorrect text, duplicate faces, blur, plastic skin, oversmoothing, overexposure, or low-quality details.Final output: Ultra-realistic, 4:5 vertical, 8K, sharp focus, monochrome face, colored accent panel, editorial poster, preserved identity, professional studio photography.`,
-      },
-
-      {
-        image: "/images/post5/vishesh3.png",
-        title: "Luxury Black & White Studio Portrait",
-        prompt: `Ultra-realistic cinematic black-and-white portrait of a young male in a formal black suit and tie, captured in a dark minimalist studio. Subject is slightly off-center, facing forward with a calm, serious expression and soft eye focus. Dramatic low-key lighting with a strong overhead/back light creates a glowing rim light around hair and silhouette, while the face fades into deep shadow. High contrast with smooth falloff into darkness builds a moody atmosphere. Apply heavy film grain and high ISO noise (3200–6400) for a raw analog feel. Add slight softness, subtle blur, and faint highlight bloom. Natural skin texture with visible pores. Monochrome grading with crushed blacks, soft highlights, and shallow depth of field (50mm, f/1.8) `,
-      },
-    ],
-
-    photoBtnText: "Create Your Images",
-    photoBtnLink: "https://chat.openai.com/",
-
-    videoStepTitle: "",
-    videoStepImage: "",
-    videoPrompt: "",
-    videoBtnText: "",
-    videoBtnLink: "",
-
-    faqs: [
-      {
-        id: "bw-faq-1",
-        question: "What is a Black & White Cinematic AI Portrait?",
-        answer:
-          "It is an AI-generated premium monochrome portrait featuring dramatic lighting, realistic shadows, cinematic composition, and luxury editorial styling while preserving your facial identity.",
-      },
-      {
-        id: "bw-faq-2",
-        question: "Do I need a professional camera?",
-        answer:
-          "No. A clear front-facing selfie is enough. AI recreates the professional studio lighting and cinematic atmosphere automatically.",
-      },
-      {
-        id: "bw-faq-3",
-        question: "Will AI keep my face the same?",
-        answer:
-          "Yes. Using a high-quality reference photo and a detailed prompt helps preserve your facial features, hairstyle, skin tone, and identity accurately.",
-      },
-      {
-        id: "bw-faq-4",
-        question: "Can I change the outfit?",
-        answer:
-          "Yes. You can edit the prompt to use a suit, hoodie, jacket, sweater, turtleneck, or any outfit while keeping your face unchanged.",
-      },
-      {
-        id: "bw-faq-5",
-        question: "Why are black and white portraits so popular?",
-        answer:
-          "Monochrome portraits emphasize facial expressions, lighting, and emotions while giving the image a timeless cinematic look that feels more premium than standard color portraits.",
-      },
-      {
-        id: "bw-faq-6",
-        question: "Where can I use these portraits?",
-        answer:
-          "They are perfect for Instagram, LinkedIn, Facebook, YouTube thumbnails, portfolio covers, wallpapers, profile pictures, and personal branding.",
-      },
-      {
-        id: "bw-faq-7",
-        question: "Is this prompt free to use?",
-        answer:
-          "Yes. You can copy and use the prompt with compatible AI image generators. Some platforms may require a premium subscription for maximum image quality.",
-      },
-    ],
-
-    conclusion: `Creating a premium Black & White Cinematic Portrait has never been easier. By combining a high-quality reference photo with a carefully crafted AI prompt, you can generate luxury editorial portraits that look like they were taken in a professional photography studio.The combination of dramatic rim lighting, deep shadows, realistic skin texture, monochrome color grading, and cinematic composition creates a timeless visual style suitable for both personal branding and social media.Simply copy the AI prompt from this guide, upload your reference photo, and let AI transform your ordinary selfie into a stunning cinematic masterpiece within minutes.`,
-
-    tags: [
-      "Black and White AI Portrait",
-      "Cinematic Portrait",
-      "Studio Portrait AI",
-      "Editorial AI Photo",
-      "Luxury Portrait",
-      "AI Photo Editing",
-      "Monochrome Portrait",
-      "AI Cinematic Photo",
     ],
 
     isTrending: true,
