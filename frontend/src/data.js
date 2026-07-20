@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.1"; // ← Change this number
+export const DATA_VERSION = "1.0.0"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -389,12 +389,8 @@ export const INITIAL_POSTS = [
     image: "/images/post1/motu1.png",
     date: "July 7, 2026",
     author: "Vishu",
-    introduction: `Friends, you all use social media and every day some trend or the other keeps going on on social media. Currently, videos of Motu Patlu exploring the city made with AI are going viral all over social media, in which they explore the city and give reviews of that city. Whoever is getting this video is also making his own video with the help of City AI and uploading it on his social media, which is getting him lakhs of views. Because these videos are so engaging to watch that they attract everyone's attention. Motu Patlu is already such a viral cartoon and when these silly exploration videos are shown, people are surprised.
-
-Friends, if you also want to make a similar silly exploration video of your own and want to grow on social media by uploading it, then this is the best time to make this video. In this article, I will tell you everything about how you want to make this Motu Patlu mall explore video. So read this article today very carefully so that you do not miss any information.`,
-    whyTrending: `Motu Patlu City Explore video is so viral because these characters are in cartoon style and moreover it is about silly exploration which is liked the most by the people living in that city. You all know how much everyone from children to young people likes cartoons in which Motu Patlu goes exploring the city and they enjoy watching them with great pleasure.
-
-Another reason is that creators, big and small, are making such videos to upload them on their social media platforms to get views, due to which it is becoming more and more popular. These videos also perform well because they are short, colorful, and entertaining. The simple storytelling and eye-catching visuals encourage viewers to watch until the end and share the videos with others.`,
+    introduction: `Friends, you all use social media and every day some trend or the other keeps going on on social media. Currently, videos of Motu Patlu exploring the city made with AI are going viral all over social media, in which they explore the city and give reviews of that city. Whoever is getting this video is also making his own video with the help of City AI and uploading it on his social media, which is getting him lakhs of views. Because these videos are so engaging to watch that they attract everyone's attention. Motu Patlu is already such a viral cartoon and when these silly exploration videos are shown, people are surprised.Friends, if you also want to make a similar silly exploration video of your own and want to grow on social media by uploading it, then this is the best time to make this video. In this article, I will tell you everything about how you want to make this Motu Patlu mall explore video. So read this article today very carefully so that you do not miss any information.`,
+    whyTrending: `Motu Patlu City Explore video is so viral because these characters are in cartoon style and moreover it is about silly exploration which is liked the most by the people living in that city. You all know how much everyone from children to young people likes cartoons in which Motu Patlu goes exploring the city and they enjoy watching them with great pleasure.Another reason is that creators, big and small, are making such videos to upload them on their social media platforms to get views, due to which it is becoming more and more popular. These videos also perform well because they are short, colorful, and entertaining. The simple storytelling and eye-catching visuals encourage viewers to watch until the end and share the videos with others.`,
     creationIntro: `Making a Motu Patlu city explore ai video is very easy, you will be able to make it within just 2-4 minutes. The process of making this video is divided into 2 parts. First of all, you have to generate the image of Motu Patlu and then you have to convert that image into video with the help of AI. I am telling you step by step how to do all this so that you do not get confused.`,
 
     // Photo step
@@ -847,28 +843,11 @@ Simply copy the prompt provided in this guide, upload your reference photo, and 
     date: "July 19, 2026",
     author: "Vishu",
 
-    introduction: `Black and white cinematic portraits have become one of the biggest AI photo editing trends in 2026. Their timeless aesthetic, dramatic lighting, and premium editorial appearance make them perfect for social media, personal branding, and professional portfolios.
+    introduction: `Black and white cinematic portraits have become one of the biggest AI photo editing trends in 2026. Their timeless aesthetic, dramatic lighting, and premium editorial appearance make them perfect for social media, personal branding, and professional portfolios.Unlike ordinary portraits, this style focuses on powerful storytelling through high-contrast monochrome tones, cinematic rim lighting, deep shadows, and realistic skin textures. The result looks like it was captured inside a luxury photography studio using expensive lighting equipment.The best part is that you don't need a DSLR camera, expensive studio lights, or advanced editing skills. Simply upload a clear reference photo, copy the AI prompt, and let AI generate a premium black-and-white cinematic portrait while preserving your facial features and identity.`,
 
-Unlike ordinary portraits, this style focuses on powerful storytelling through high-contrast monochrome tones, cinematic rim lighting, deep shadows, and realistic skin textures. The result looks like it was captured inside a luxury photography studio using expensive lighting equipment.
+    whyTrending: `This editing style has become extremely popular because it delivers a luxury editorial look that instantly stands out on Instagram, Pinterest, Facebook, LinkedIn, and YouTube thumbnails.The dramatic lighting, deep shadows, glowing rim light, and monochrome color grading create an emotional and cinematic atmosphere that feels premium and timeless.Creators, influencers, students, and professionals are using this style for profile pictures, portfolio covers, wallpapers, branding, and social media posts because it gives a sophisticated and confident appearance without requiring professional photography equipment.`,
 
-The best part is that you don't need a DSLR camera, expensive studio lights, or advanced editing skills. Simply upload a clear reference photo, copy the AI prompt, and let AI generate a premium black-and-white cinematic portrait while preserving your facial features and identity.`,
-
-    whyTrending: `This editing style has become extremely popular because it delivers a luxury editorial look that instantly stands out on Instagram, Pinterest, Facebook, LinkedIn, and YouTube thumbnails.
-
-The dramatic lighting, deep shadows, glowing rim light, and monochrome color grading create an emotional and cinematic atmosphere that feels premium and timeless.
-
-Creators, influencers, students, and professionals are using this style for profile pictures, portfolio covers, wallpapers, branding, and social media posts because it gives a sophisticated and confident appearance without requiring professional photography equipment.`,
-
-    creationIntro: `Follow these simple steps to generate your own cinematic black-and-white portrait.
-
-Download the ChatGPT app from the Google Play Store or open ChatGPT on your browser.
-Sign in with your account.
-Return to this website and copy the AI prompt below.
-Click the "Create Your Image" button.
-Upload a clear front-facing photo by tapping the plus (+) icon.
-Paste the copied prompt and send it.
-Within a few moments, AI will generate your cinematic monochrome portrait while preserving your identity.
-Finally, download the generated image in high quality.`,
+    creationIntro: `Follow these simple steps to generate your own cinematic black-and-white portrait.Download the ChatGPT app from the Google Play Store or open ChatGPT on your browser.Sign in with your account.Return to this website and copy the AI prompt below.Click the "Create Your Image" button.Upload a clear front-facing photo by tapping the plus (+) icon.Paste the copied prompt and send it.Within a few moments, AI will generate your cinematic monochrome portrait while preserving your identity.Finally, download the generated image in high quality.`,
 
     photoStepTitle: "Steps to Generate Black & White Cinematic Portraits:",
 
@@ -940,11 +919,7 @@ Finally, download the generated image in high quality.`,
       },
     ],
 
-    conclusion: `Creating a premium Black & White Cinematic Portrait has never been easier. By combining a high-quality reference photo with a carefully crafted AI prompt, you can generate luxury editorial portraits that look like they were taken in a professional photography studio.
-
-The combination of dramatic rim lighting, deep shadows, realistic skin texture, monochrome color grading, and cinematic composition creates a timeless visual style suitable for both personal branding and social media.
-
-Simply copy the AI prompt from this guide, upload your reference photo, and let AI transform your ordinary selfie into a stunning cinematic masterpiece within minutes.`,
+    conclusion: `Creating a premium Black & White Cinematic Portrait has never been easier. By combining a high-quality reference photo with a carefully crafted AI prompt, you can generate luxury editorial portraits that look like they were taken in a professional photography studio.The combination of dramatic rim lighting, deep shadows, realistic skin texture, monochrome color grading, and cinematic composition creates a timeless visual style suitable for both personal branding and social media.Simply copy the AI prompt from this guide, upload your reference photo, and let AI transform your ordinary selfie into a stunning cinematic masterpiece within minutes.`,
 
     tags: [
       "Black and White AI Portrait",

@@ -525,9 +525,9 @@ function AppContent() {
       {/* Reset Button */}
       <button
         onClick={forceResetData}
-        className="fixed bottom-24 right-6 bg-red-600 hover:bg-red-700 text-white px-3 py-1.5 text-[10px] font-bold z-50 shadow-lg rounded"
+        className="fixed bottom-24 right-6 bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 text-[10px] font-bold z-50 shadow-lg rounded"
       >
-        🔄 Reset Data
+        Refresh Website Data
       </button>
 
       <Navbar
