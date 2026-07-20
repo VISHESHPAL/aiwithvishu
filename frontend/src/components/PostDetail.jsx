@@ -197,7 +197,7 @@ export default function PostDetail({
                 src={post.videoStepImage}
                 alt="Step video"
                 loading="lazy"
-                className="absolute inset-0 w-full h-full object-cover"
+                className="absolute inset-0 m-auto h-full object-cover"
                 onError={(e) => {
                   e.target.src = 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80';
                 }}

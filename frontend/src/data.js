@@ -387,7 +387,7 @@ export const INITIAL_POSTS = [
     title:
       "Ultra Realistic Black & White Cinematic Portrait AI Photo Editing Prompt",
     categoryId: "cat-1", // AI Photo Editing
-    image: "/images/post5/vishesh1.png",
+    image: "/images/post5/vishesh1.webp",
     date: "July 19, 2026",
     author: "Vishu",
 
@@ -401,13 +401,13 @@ export const INITIAL_POSTS = [
 
     photoItems: [
       {
-        image: "/images/post5/vishesh2.png",
+        image: "/images/post5/vishesh2.webp",
         title: " Premium Editorial Signature Portrait",
         prompt: `Use my uploaded photo as the identity reference and the uploaded master image only as the style reference. Preserve my exact facial structure, hairstyle, skin texture, age, proportions, and identity. Do not copy the person from the reference image.Create an ultra-realistic premium sports-editorial poster featuring a chest-up portrait. Dress me in a plain black textured athletic crewneck with no logos. Turn my body slightly away from the camera, head tilted upward, looking off-frame with a calm, confident, determined expression.Apply a high-contrast black-and-white treatment to the face while using a solid {ACCENT_COLOR} rectangular background panel inside a warm off-white paper border with subtle grain texture. Keep the design clean, minimal, and luxurious.Use dramatic studio lighting with a soft key light from the upper front-left, cinematic shadows, sharp hair detail, realistic skin pores, crisp catchlights, deep blacks, and premium magazine-quality contrast.Add the name "{NAME}" as elegant signature typography across the lower chest with small uppercase text above it if needed. Add jersey-style number "{NUMBER}" beside or below the signature. If the name or number is empty, omit them.Keep the composition centered, premium, cinematic, and social-media ready. Avoid logos, brand names, distorted anatomy, incorrect text, duplicate faces, blur, plastic skin, oversmoothing, overexposure, or low-quality details.Final output: Ultra-realistic, 4:5 vertical, 8K, sharp focus, monochrome face, colored accent panel, editorial poster, preserved identity, professional studio photography.`,
       },
 
       {
-        image: "/images/post5/vishesh3.png",
+        image: "/images/post5/vishesh3.webp",
         title: "Luxury Black & White Studio Portrait",
         prompt: `Ultra-realistic cinematic black-and-white portrait of a young male in a formal black suit and tie, captured in a dark minimalist studio. Subject is slightly off-center, facing forward with a calm, serious expression and soft eye focus. Dramatic low-key lighting with a strong overhead/back light creates a glowing rim light around hair and silhouette, while the face fades into deep shadow. High contrast with smooth falloff into darkness builds a moody atmosphere. Apply heavy film grain and high ISO noise (3200–6400) for a raw analog feel. Add slight softness, subtle blur, and faint highlight bloom. Natural skin texture with visible pores. Monochrome grading with crushed blacks, soft highlights, and shallow depth of field (50mm, f/1.8) `,
       },
@@ -488,7 +488,7 @@ export const INITIAL_POSTS = [
     title:
       "Ultra Realistic Two Mood Cinematic Black & White AI Photo Editing Prompt",
     categoryId: "cat-1", // AI Photo Editing
-    image: "/images/post6/focus1.png",
+    image: "/images/post6/focus1.webp",
     date: "July 20, 2026",
     author: "Vishu",
 
@@ -502,13 +502,13 @@ export const INITIAL_POSTS = [
 
     photoItems: [
       {
-        image: "/images/post6/focus2.png",
+        image: "/images/post6/focus2.webp",
         title: "Two Mood Cinematic Motivational Poster",
         prompt: `Create a high-contrast cinematic portrait of a young man seated alone on a dark staircase in a moody indoor setting. The scene is in black and white. The man is positioned centered on the stairs, sitting in a relaxed pose with his legs slightly apart, one hand resting near his lap. He is looking slightly downward to the side, giving a calm, deep, and introspective mood. He has curly hair, wears dark sunglasses, a light-colored open collar shirt with rolled sleeves, loose dark pants, and dark shoes. A strong white backlight creates a dramatic glow outlining his entire silhouette, with subtle smoke or mist-like light rays spreading behind him. The glow gives a powerful, almost surreal aura effect. The staircase and surrounding walls are dark, textured, and minimal, with no extra objects or text in the scene. The overall tone is cinematic, mysterious, moody, and powerful, with deep shadows, high contrast, and a glowing silhouette highlight. Aspect Ratio: 3:4 Style: Black and White, Cinematic, Moody, Glowing Silhouette Lighting: Strong Backlight, High Contrast Mood: Introspective, Dark, Powerful, Alone`,
       },
 
       {
-        image: "/images/post6/focus3.png",
+        image: "/images/post6/focus3.webp",
         title: "Dark Staircase Cinematic Black & White Portrait",
         prompt: `A full-body photograph of a young man with wavy black hair, looking directly forward into the camera with a confident expression. He is wearing dark black sunglasses, a faded black gradient denim shirt with long sleeves slightly rolled up to his forearms, a black t-shirt underneath, loose-fit wide-leg washed black jeans, and clean white minimalist sneakers.He is leaning back against a concrete wall pillar outside a modern storefront with a dark glass facade. He holds a black takeaway coffee cup in one hand while his other hand is casually placed inside his pocket. One leg is slightly bent and crossed naturally, creating a relaxed, effortless stance.The environment is clean, modern, and urban with concrete architecture, large reflective glass windows, and a minimal industrial aesthetic. The lighting is soft, moody, and natural, with subtle cinematic shadows and realistic color grading.Capture the scene in an ultra-realistic editorial street fashion style with highly detailed skin texture, realistic fabric folds, natural facial features, premium lifestyle photography, shallow depth of field, crisp focus, soft background bokeh, and an expensive luxury fashion campaign look.Style: Ultra Realistic, Cinematic, Editorial Street Fashion, Premium Lifestyle PhotographyLighting: Soft Natural Light, Moody Cinematic ShadowsCamera: Full Body Shot, Eye-Level Angle, 85mm Lens, f/2.8Quality: 8K, HDR, Hyper Detailed, PhotorealisticAspect Ratio: 3:4Negative Prompt: low quality, blurry, cartoon, CGI, illustration, painting, extra limbs, duplicate body parts, deformed hands, bad anatomy, cropped body, watermark, logo, text, oversaturated colors, unrealistic proportions, noisy image.`,
       },
@@ -588,7 +588,7 @@ export const INITIAL_POSTS = [
     id: "post-1",
     title: "Motu Patlu City Explore AI Video Editing Tutorial | Step-by-Step",
     categoryId: "cat-2", // Ai Video Editing Free
-    image: "/images/post1/motu1.png",
+    image: "/images/post1/motu1.webp",
     date: "July 7, 2026",
     author: "Vishu",
     introduction: `Friends, you all use social media and every day some trend or the other keeps going on on social media. Currently, videos of Motu Patlu exploring the city made with AI are going viral all over social media, in which they explore the city and give reviews of that city. Whoever is getting this video is also making his own video with the help of City AI and uploading it on his social media, which is getting him lakhs of views. Because these videos are so engaging to watch that they attract everyone's attention. Motu Patlu is already such a viral cartoon and when these silly exploration videos are shown, people are surprised.Friends, if you also want to make a similar silly exploration video of your own and want to grow on social media by uploading it, then this is the best time to make this video. In this article, I will tell you everything about how you want to make this Motu Patlu mall explore video. So read this article today very carefully so that you do not miss any information.`,
@@ -597,7 +597,7 @@ export const INITIAL_POSTS = [
 
     // Photo step
     photoStepTitle: "Steps to Create Photo :",
-    photoStepImage: "/images/post1/motu2.jpg",
+    photoStepImage: "/images/post1/motu2.webp",
     photoPrompt:
       "IMAGE PROMPT:- es photo me jo Azamgarh likha hai usko hata ke (Apni City ka name likho ) likh do baki sab same rhega …",
     photoBtnText: "Create Your Image",
@@ -605,7 +605,7 @@ export const INITIAL_POSTS = [
 
     // Video step
     videoStepTitle: "Steps to Make Video :",
-    videoStepImage: "/images/post1/motu3.jpg",
+    videoStepImage: "/images/post1/motu3.webp",
     videoPrompt:
       "VIDEO PROMPT :- हेलो दोस्तो हम लोग जौनपुर आ गए हैं यहां का नजारा काफी अच्छा है क्या आप कभी इधर आए हैं",
     videoBtnText: "Create Your Video",
@@ -670,7 +670,7 @@ We hope this guide helped you understand the complete process from creating the 
     id: "post-2",
     title: "Create Your Emotional AI Photo With Your Face",
     categoryId: "cat-1", // Ai Photo Editing
-    image: "/images/post2/edit1.png",
+    image: "/images/post2/edit1.webp",
     date: "July 18, 2026",
     author: "Vishu ",
     introduction: `Have you ever stopped scrolling because a single photo caught your attention? Maybe it was someone sitting quietly beside a rainy window, walking alone on an empty road, or looking at the sky with a broken heart. These photos feel different because they don't just show a person—they tell a story. This is exactly why emotional AI photos have become one of the biggest trends on Instagram, WhatsApp, Facebook, and Pinterest. They look like scenes from a movie, but most of them are created with AI in just a few minutes.
@@ -705,13 +705,7 @@ Now Chatgpt will start creating your photo and your photo will be ready in a sho
       },
       {
         image: "/images/post2/edit3.webp",
-        prompt: `Create an ultra-realistic cinematic heartbreak portrait using the uploaded person's photo as the exact face and identity reference. Keep the person's face, hairstyle, beard, eyebrows, eyes, nose, lips, jawline, skin tone, body shape, pose, clothes, watch, and overall identity 100% identical to the uploaded photo. Do not change the person's facial features or identity. Transform the scene into a rainy night in an empty city park. The person is sitting alone on a wet wooden bench with his head lowered, looking emotionally broken and lost in deep thoughts. He is silently holding a torn handwritten love letter with both hands. A single fresh red rose lies beside him on the bench, with a few fallen petals scattered on the wet wood. The park is empty with old street lamps casting warm golden light. Heavy rain is falling, the ground is wet with realistic reflections, soft fog fills the background, and distant city lights create beautiful cinematic bokeh. Add realistic raindrops on the clothes, hair, hands, and bench. The overall mood should feel lonely, emotional, and heartbreaking, like a dramatic movie scene after a painful goodbye. Add a subtle handwritten quote in the top-right corner:
-
-"Some hearts never heal, they just learn to survive."
-
-Use dramatic cinematic lighting, volumetric fog, HDR, 85mm lens, f/1.4 aperture, shallow depth of field, ultra-realistic skin texture, natural color grading, realistic rain physics, soft shadows, professional Photoshop composite, 8K quality, emotional storytelling, award-winning cinematic photography.
-
-Negative Prompt: cartoon, anime, painting, CGI, 3D render, illustration, low quality, blurry, extra people, duplicate face, wrong face, different hairstyle, smiling, daylight, oversaturated colors, watermark, logo, text artifacts, bad anatomy, unrealistic hands, deformed fingers, low resolution.`,
+        prompt: `Create an ultra-realistic cinematic heartbreak portrait using the uploaded person's photo as the exact face and identity reference. Keep the person's face, hairstyle, beard, eyebrows, eyes, nose, lips, jawline, skin tone, body shape, pose, clothes, watch, and overall identity 100% identical to the uploaded photo. Do not change the person's facial features or identity. Transform the scene into a rainy night in an empty city park. The person is sitting alone on a wet wooden bench with his head lowered, looking emotionally broken and lost in deep thoughts. He is silently holding a torn handwritten love letter with both hands. A single fresh red rose lies beside him on the bench, with a few fallen petals scattered on the wet wood. The park is empty with old street lamps casting warm golden light. Heavy rain is falling, the ground is wet with realistic reflections, soft fog fills the background, and distant city lights create beautiful cinematic bokeh. Add realistic raindrops on the clothes, hair, hands, and bench. The overall mood should feel lonely, emotional, and heartbreaking, like a dramatic movie scene after a painful goodbye. Add a subtle handwritten quote in the top-right cornerSome hearts never heal, they just learn to survive."Use dramatic cinematic lighting, volumetric fog, HDR, 85mm lens, f/1.4 aperture, shallow depth of field, ultra-realistic skin texture, natural color grading, realistic rain physics, soft shadows, professional Photoshop composite, 8K quality, emotional storytelling, award-winning cinematic photography.Negative Prompt: cartoon, anime, painting, CGI, 3D render, illustration, low quality, blurry, extra people, duplicate face, wrong face, different hairstyle, smiling, daylight, oversaturated colors, watermark, logo, text artifacts, bad anatomy, unrealistic hands, deformed fingers, low resolution.`,
         title: "Heartbreak Rain Scene",
       },
       {
@@ -792,7 +786,7 @@ Negative Prompt: cartoon, anime, painting, illustration, CGI, 3D, low quality, b
     id: "post-3",
     title: "Ultra Realistic Cinematic Mirror AI Photo Editing Prompt",
     categoryId: "cat-1", // Ai Photo Editing
-    image: "/images/post3/mirror1.png",
+    image: "/images/post3/mirror1.webp",
     date: "July 13, 2026",
     author: "Vishu",
     introduction: `Mirror portrait photos are one of the biggest AI photo editing trends in 2026. If you use Instagram, Pinterest, or Facebook, you have probably seen people sharing stylish mirror photos with cinematic lighting, luxury backgrounds, and DSLR-quality details. These images look like they were captured by a professional photographer inside a premium studio, but in reality, many of them are created with AI in just a few minutes.
@@ -824,12 +818,12 @@ You have to download it by clicking on the arrow above.`,
     photoStepTitle: "Steps to Generate Mirror Cinematic Photos:",
     photoItems: [
       {
-        image: "/images/post3/mirror2.png",
+        image: "/images/post3/mirror2.webp",
         prompt: `"prompt":"Using the uploaded reference photo, create an ultra-realistic cinematic vertical portrait that preserves the person's facial features and hairstyle exactly as in the reference (no changes to face, haircut, or identity). The subject is wearing a crisp white tailored unbuttoned shirt and a thick polished silver chain. The camera is positioned behind the subject, who is standing in front of a modern LED-lit mirror in a dark, minimalist room. The image shows the back of the subject while the mirror provides a crystal-clear, sharp reflection of the face with a neutral, serious expression, making direct eye contact with the camera through the reflection. The subject is leaning slightly forward in an introspective pose. Soft cinematic lighting, subtle contrast, realistic skin texture, shallow depth of field, premium editorial look, vertical composition, ultra-detailed, photorealistic, 8K quality.`,
         title: "White Shirt Mirror Portrait",
       },
       {
-        image: "/images/post3/mirror3.png",
+        image: "/images/post3/mirror3.webp",
         prompt: `Use the uploaded reference photo as the sole identity reference. Create an ultra-realistic cinematic vertical (9:16) mirror portrait of the same young man, preserving his face, facial features, hairstyle, hairline, skin tone, proportions, and identity exactly as in the reference photo (100% no changes). He has naturally voluminous, slightly messy dark hair and a defined jawline. He is wearing a tailored black unbuttoned shirt with a premium thick polished silver chain around his neck. The camera is positioned behind him, capturing the back of his head and shoulders while a modern LED-lit mirror provides a crystal-clear, perfectly sharp reflection of his face. In the reflection, he has a neutral, serious expression and makes direct eye contact with the camera lens. He leans slightly forward in an introspective pose. The setting is a dark, minimalist room illuminated by soft white LED mirror lighting with subtle cinematic rim lighting, realistic shadows, and gentle volumetric ambience. Ultra-photorealistic skin texture, natural fabric detail, premium editorial fashion photography, shallow depth of field, HDR, high contrast, realistic reflections, 85mm lens, f/1.8, professional color grading, 8K resolution, extremely detailed, cinematic, hyper-realistic. Do not alter the face, haircut, hairstyle, facial proportions, expression, or identity in any way`,
         title: "Black Shirt Mirror Portrait",
       },
@@ -913,7 +907,7 @@ Copy the prompt shared in this guide, upload your photo, and create your own cin
     id: "post-4",
     title: "Ultra Realistic Rooftop Blue Hour AI Photo Editing Prompt",
     categoryId: "cat-1", // AI Photo Editing
-    image: "/images/post4/athestic1.png",
+    image: "/images/post4/athestic1.webp",
     date: "July 19, 2026",
     author: "Vishu",
 
@@ -945,18 +939,18 @@ Finally, download the generated image using the download button.`,
 
     photoItems: [
       {
-        image: "/images/post4/athestic2.png",
+        image: "/images/post4/athestic2.webp",
         title: "Blue Hour Rooftop Editorial Portrait",
         prompt: `Using the uploaded reference photo, create an ultra-realistic premium cinematic editorial portrait that preserves the person's facial features, hairstyle, face shape, skin tone, and identity exactly as in the reference (no changes to face or haircut). The subject is standing on a rooftop during blue hour, leaning naturally against a textured concrete wall with both hands inside the pockets of relaxed dark denim jeans. He is wearing a premium black open-collar shirt and stylish black rectangular sunglasses while looking slightly downward with a calm, confident expression. The background features a softly blurred modern city skyline with beautiful blue hour bokeh lights. Add a subtle motion-blurred passerby in the foreground to create cinematic storytelling and depth. Soft natural blue hour lighting, realistic shadows, editorial fashion photography, shallow depth of field, 85mm lens, f/1.8, HDR, ultra-realistic skin texture, luxury color grading, photorealistic, 8K quality.`,
       },
 
       {
-        image: "/images/post4/athestic3.png",
+        image: "/images/post4/athestic3.webp",
         title: "Luxury Rooftop Fashion Portrait",
         prompt: `Use the uploaded reference photo as the only identity reference. Preserve the face, hairstyle, facial proportions, skin tone, and identity exactly as in the uploaded image without making any changes. Create an ultra-realistic cinematic rooftop fashion portrait during blue hour. The subject is leaning casually against a concrete pillar with hands inside loose dark jeans pockets while wearing a premium black unbuttoned shirt and elegant black sunglasses. The rooftop overlooks a modern metropolitan skyline filled with soft glowing bokeh lights. A motion-blurred pedestrian walks past in the foreground, creating an artistic editorial atmosphere. Cool blue and violet cinematic tones, natural soft lighting, shallow depth of field, realistic skin pores, fabric textures, subtle reflections on concrete, 85mm full-frame lens, f/1.8, HDR, photorealistic, premium editorial quality, ultra detailed, 8K resolution.`,
       },
       {
-        image: "/images/post4/athestic4.png",
+        image: "/images/post4/athestic4.webp",
         title: "Luxury Rooftop Fashion Portrait",
         prompt: `A premium cinematic editorial portrait of a young man leaning against a concrete wall on a rooftop during blue hour. The atmosphere is calm, moody, and emotionally expressive with a subtle motion blur from a passing figure, creating a feeling of solitude, nostalgia, and quiet introspection.He has curly hair, wears black sunglasses, a black open-collar shirt, and dark loose jeans with hands in pockets, looking slightly downward in a relaxed, contemplative pose.The concrete wall has subtle textures and faint colorful reflections. The city skyline in the background is softly blurred with bokeh lights, enhancing depth and mood.Natural soft blue hour lighting with gentle shadows and a cinematic color grade in cool tones (blue, violet, gray).Shot with an 85mm lens, shallow depth of field, realistic skin texture, high detail, ultra-realistic, editorial fashion portrait quality.Aspect`,
       },
