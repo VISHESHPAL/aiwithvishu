@@ -383,6 +383,139 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+    id: "post-7",
+    title: "Ultra Premium Indian Saree Digital Collage AI Photo Editing Prompt",
+    categoryId: "cat-1",
+    image: "/images/post7/spotify1.avif",
+    date: "July 21, 2026",
+    author: "Vishu",
+
+    introduction: `Digital collage portraits have become one of the fastest-growing AI photo editing trends in 2026. This artistic style beautifully combines traditional Indian fashion with modern editorial design, resulting in premium-quality portraits that look like luxury magazine covers. The blend of handcrafted scrapbook elements, elegant sticker-style cutouts, cinematic lighting, and photorealistic textures creates a timeless visual experience that attracts attention instantly across every social media platform.
+
+Unlike ordinary AI portraits, digital collage artwork focuses on storytelling through carefully layered paper textures, premium typography-inspired compositions, realistic shadows, decorative illustrations, and soft cinematic lighting. Every layer is designed to add depth and personality while maintaining a clean editorial appearance.
+
+One of the biggest reasons behind the popularity of this editing style is its ability to preserve natural facial features while completely transforming the visual presentation. A simple selfie can become an elegant fashion poster featuring luxury design elements without requiring expensive cameras, professional lighting, or advanced Photoshop skills.
+
+Whether you're creating Instagram posts, Pinterest pins, profile pictures, wallpapers, YouTube thumbnails, portfolio covers, or aesthetic social media content, this editing style delivers a sophisticated and premium look within minutes using AI.
+
+All you need is a clear reference image and the prompt provided below. Upload your photo, paste the prompt into ChatGPT or your preferred AI image generator, and let artificial intelligence transform your portrait into a breathtaking editorial collage masterpiece.`,
+
+    whyTrending: `Luxury scrapbook collage portraits are dominating Instagram Reels, Pinterest, Threads, Facebook, and AI art communities because they perfectly combine traditional elegance with modern graphic design. Instead of creating ordinary portraits, this style transforms photographs into artistic editorial compositions that feel handcrafted and professionally designed.
+
+The thick white sticker outline immediately separates the subject from the background, creating depth and visual hierarchy. Combined with torn paper textures, masking tape, botanical sketches, handwritten notes, subtle illustrations, and cinematic lighting, the portrait feels like a premium magazine cover rather than a simple AI-generated image.
+
+Content creators, photographers, influencers, students, and digital artists are using this trend to build stronger personal brands because these portraits generate significantly higher engagement than standard selfies.
+
+The dark blurred music-player interface in the background adds a modern aesthetic while keeping the subject as the clear focal point. Meanwhile, traditional Indian clothing, jasmine flowers, oxidized jewellery, and elegant poses introduce timeless cultural beauty.
+
+This perfect balance between tradition and contemporary digital art has made collage-style portraits one of the most shared AI editing trends of 2026.`,
+
+    creationIntro: `Creating your own premium digital collage portrait is surprisingly simple. Follow the steps below carefully to achieve the highest quality results.First, install the latest ChatGPT application from the Google Play Store or open ChatGPT directly in your web browser.Log into your account and return to this page.Copy the AI prompt provided below.Click the "Create Your Image" button.Upload a clear, high-resolution front-facing selfie with good lighting. Natural daylight usually produces the best resultsPaste the copied prompt into ChatGPT and send it.Within a few moments, AI will generate a premium editorial collage portrait while preserving your facial identity and transforming your outfit, lighting, background, and artistic composition.Once satisfied with the result, download the image in maximum quality and share it on your favorite social media platform.`,
+
+    photoStepTitle: "Steps to Generate Premium Digital Collage Portraits",
+
+    photoItems: [
+      {
+        image: "/images/post7/spotify2.avif",
+        title: "Luxury Indian Editorial Scrapbook Portrait",
+        prompt: `Create an ultra-realistic digital collage artwork featuring a young South Asian woman as the central subject, isolated with a bold, thick white sticker-style outline that creates a modern cutout aesthetic. She is gracefully dressed in a traditional white saree with a rich red border, paired with a matching deep red blouse and elegant oxidized silver bangles. A fresh white jasmine flower is tucked into her long, silky black hair. She has a calm, introspective expression, her eyes gently cast downward while delicately brushing a strand of hair behind her ear, conveying serenity, elegance, and timeless beauty.Position her slightly off-center with a balanced editorial composition. Use soft cinematic lighting with subtle highlights on her face and hair, realistic skin texture, and natural fabric folds. Preserve authentic South Asian facial features and proportions while maintaining a premium fashion-editorial appearance.The background should consist of a heavily blurred, dark-mode mobile music streaming app playlist interface, recognizable only through its layered cards, album thumbnails, waveform elements, and playlist layout without readable text or identifiable branding. Apply a strong Gaussian blur and shallow depth of field so the interface acts purely as a stylish visual backdropBlend the foreground and background into a premium digital collage design with clean layering, subtle drop shadows beneath the cutout, gentle paper-texture details, and a modern graphic design aesthetic. Use a muted dark color palette in the background to make the bright white saree and sticker outline stand out dramatically.The overall mood should feel minimal, elegant, nostalgic, and contemporary, combining traditional Indian fashion with modern digital design. Ultra-detailed, photorealistic, high dynamic range (HDR), 8K quality, crisp focus on the subject, professional editorial photography, premium magazine cover aesthetic, soft filmic color grading, realistic lighting, and flawless composition. create the image`,
+      },
+      {
+        image: "/images/post7/spotify3.avif",
+        title: "Modern Saree Music Playlist Collage",
+        prompt: `Create an ultra-premium editorial digital collage portrait of a beautiful young South Asian woman as the unmistakable focal point. She is cleanly extracted and framed with a bold, thick white sticker-style outline, giving the appearance of a handcrafted paper cutout layered over a designer collage. The cutout should have subtle natural shadows and dimensional depth, making it appear physically lifted from the background.She is dressed in a graceful white cotton saree with a luxurious crimson-red border, complemented by a deep red blouse, elegant oxidized silver bangles, a tiny red bindi, and fresh jasmine flowers (gajra) delicately woven into her long, silky black hair. Her pose is soft and intimate—head slightly tilted, eyes gently lowered, peacefully tucking a loose strand of hair behind her ear with a subtle smile that radiates warmth, femininity, and timeless Indian elegance.The background consists of a heavily blurred dark-mode mobile music streaming playlist interface, intentionally abstract with no readable text or recognizable branding. The interface should dissolve into a dreamy bokeh using a strong Gaussian blur, creating depth while maintaining a sleek, modern digital atmosphere.Surround the portrait with a carefully curated collection of premium scrapbook-inspired design elements, including realistic torn-paper edges, layered paper textures, masking tape strips, notebook paper fragments, soft handwritten doodles, tiny stars, sparkles, hearts, botanical sketches, subtle brush strokes, minimalist geometric shapes, floating paper scraps, and elegant white ink illustrations. Every decorative element should feel intentional, refined, and professionally composed rather than cluttered.Apply soft cinematic lighting with delicate rim lighting around the hair, diffused highlights across the face, realistic skin texture, natural fabric folds, and subtle ambient shadows. Add a faint white outer glow, soft drop shadows beneath each collage layer, realistic paper grain, and gentle film texture to create convincing depth and tactile realism.Use a sophisticated color palette dominated by deep charcoal black, muted graphite gray, crisp white, warm ivory, and luxurious crimson red, allowing the traditional attire to stand out beautifully against the modern interface. The contrast should feel elegant and premium, never oversaturated.The overall composition should resemble a luxury fashion editorial blended with a modern Pinterest/Y2K scrapbook aesthetic, combining traditional Indian beauty with contemporary graphic design. Every element should feel balanced, minimal, and visually intentional, with generous negative space and flawless visual hierarchy.Ultra-realistic, hyper-detailed, photorealistic, 8K resolution, HDR, DSLR-quality, editorial fashion photography, premium digital collage, luxury magazine cover aesthetic, cinematic color grading, realistic lighting, shallow depth of field, subtle analog film grain, flawless skin texture, crisp edges, high dynamic range, award-winning digital artwork, masterpiece, visually stunning, elegant, timeless, and highly shareable.`,
+      },
+    ],
+
+    tipsTitle: "Tips for Best Results",
+
+    tips: [
+      "Use a high-resolution selfie.",
+      "Face should be clearly visible.",
+      "Avoid sunglasses or face masks.",
+      "Natural lighting produces the best results.",
+      "Upload a front-facing image.",
+      "Do not heavily edit your original photo.",
+      "Use premium AI models for maximum realism.",
+      "Generate multiple variations before selecting your favorite.",
+    ],
+
+    mistakesTitle: "Common Mistakes to Avoid",
+
+    mistakes: [
+      "Using blurry selfies.",
+      "Uploading low-resolution screenshots.",
+      "Poor lighting conditions.",
+      "Extreme face angles.",
+      "Overly edited reference images.",
+      "Cropping important facial features.",
+      "Using group photos.",
+      "Ignoring prompt instructions.",
+    ],
+
+    faqs: [
+      {
+        id: "faq1",
+        question: "What is a Digital Collage AI Portrait?",
+        answer:
+          "It is an AI-generated portrait that combines realistic photography with scrapbook-inspired graphic design, layered paper textures, sticker outlines, cinematic lighting, and editorial composition.",
+      },
+      {
+        id: "faq2",
+        question: "Will AI preserve my face?",
+        answer:
+          "Yes. A clear reference image allows AI to maintain your facial identity while changing clothing, lighting, and artistic styling.",
+      },
+      {
+        id: "faq3",
+        question: "Do I need Photoshop?",
+        answer: "No. Everything is generated automatically using AI.",
+      },
+      {
+        id: "faq4",
+        question: "Can I change the saree color?",
+        answer:
+          "Yes. Simply edit the prompt and replace the color description.",
+      },
+      {
+        id: "faq5",
+        question: "Can I use these images commercially?",
+        answer:
+          "That depends on the AI platform you use. Always review the platform's licensing terms before commercial use.",
+      },
+      {
+        id: "faq6",
+        question: "Which AI model gives the best results?",
+        answer:
+          "GPT Image, Flux Kontext, Midjourney, and other advanced photorealistic AI models generally produce the highest-quality editorial collage images.",
+      },
+      {
+        id: "faq7",
+        question: "Is the prompt free?",
+        answer:
+          "Yes. You can copy and use the prompt freely, although some AI image generators require a paid plan for the highest quality.",
+      },
+    ],
+
+    conclusion: `AI-powered digital collage editing has completely transformed portrait photography. With just one clear selfie and a professionally written prompt, anyone can generate breathtaking editorial artwork that rivals expensive magazine photoshoots.The combination of realistic facial preservation, cinematic lighting, luxury scrapbook elements, elegant Indian fashion, and premium graphic design creates portraits that feel timeless, artistic, and highly engaging.Whether you are building your personal brand, creating social media content, designing wallpapers, or simply experimenting with AI creativity, this editing style offers an effortless way to produce stunning visuals.
+
+Simply copy the prompt, upload your photo, and let AI turn an ordinary selfie into a luxury editorial masterpiece within minutes.`,
+
+    tags: [
+      "AI Digital Collage",
+      "Indian Saree AI Prompt",
+      "Editorial Portrait",
+      "Scrapbook AI Photo",
+      "Luxury AI Portrait",
+      "Pinterest AI Prompt",
+      "Music Playlist Collage",
+      "AI Photo Editing",
+    ],
+
+    isTrending: true,
+    comments: [],
+  },
+  {
     id: "post-5",
     title:
       "Ultra Realistic Black & White Cinematic Portrait AI Photo Editing Prompt",
