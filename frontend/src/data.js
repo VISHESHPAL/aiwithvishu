@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.0"; // ← Change this number
+export const DATA_VERSION = "1.0.1"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -382,6 +382,187 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
+  {
+    id: "post-8",
+    title:
+      "Ultra Realistic Sonam Wangchuk Protest Poster AI Photo Editing Prompt",
+    categoryId: "cat-1",
+    image: "/images/post8/sonu1.avif",
+    date: "July 22, 2026",
+    author: "Vishu",
+
+    introduction: `Editorial protest posters have become one of the most viral AI photo editing trends in 2026. Inspired by documentary photography and premium political campaign artwork, this style combines cinematic lighting, realistic human expressions, patriotic visual elements, and luxury graphic design to create powerful awareness posters.Unlike ordinary AI portraits, this editing style focuses on storytelling through meaningful compositions, premium typography, realistic banner interactions, Indian tricolor aesthetics, and photorealistic facial preservation. The final artwork resembles a high-end magazine cover or awareness campaign while maintaining natural proportions and realistic lighting.
+
+Whether you're creating awareness campaigns, artistic social media content, YouTube thumbnails, wallpapers, portfolio artwork, or editorial-style posters, this prompt delivers an ultra-premium cinematic result with incredible realism.
+
+Simply upload a clear portrait, copy the prompt below, and let AI transform your image into a stunning protest-inspired editorial masterpiece.`,
+
+    whyTrending: `Cinematic awareness posters are rapidly becoming one of the most shared AI art styles across Instagram, Pinterest, Threads, Facebook, and X. Their realistic storytelling, dramatic lighting, patriotic themes, and magazine-quality layouts attract significantly higher engagement than traditional AI portraits.
+
+The combination of premium typography, Indian tricolor textures, peaceful protest backgrounds, cinematic smoke, HDR lighting, and documentary-style realism creates images that look professionally designed instead of AI-generated.
+
+Content creators, designers, digital artists, and photographers are using this trend to produce impactful visuals that combine creativity with storytelling while preserving realistic facial identity and premium editorial aesthetics.`,
+
+    creationIntro: `Creating your own editorial protest poster is simple.
+
+Install the latest ChatGPT app or open ChatGPT in your browser.
+Copy the AI prompt below.
+Click the "Create Your Image" button.
+Upload a high-resolution front-facing portrait with good lighting.
+Paste the prompt and submit it.
+
+Within a few moments, AI will generate a cinematic awareness poster featuring realistic lighting, premium typography, patriotic elements, documentary-style composition, and ultra-detailed facial preservation.
+
+Generate multiple variations until you achieve your favorite result.`,
+
+    photoStepTitle: "Steps to Generate Editorial Protest Posters",
+
+    photoItems: [
+      {
+        image: "/images/post8/sonab1.avif",
+        title: "Editorial Protest Poster with Sonam Wangchuk",
+        prompt: `Create an ultra-premium, hyper-realistic 2:3 vertical editorial protest poster inspired by peaceful democratic participation, national unity, and social awareness. The composition should resemble a luxury magazine cover combined with a high-end political awareness campaign.
+
+On the left, feature Sonam Wangchuk wearing an elegant navy-blue kurta, standing naturally with a calm, confident smile while looking directly at the camera. His posture should appear dignified, inspiring, and authentic.
+
+On the right, feature a stylish young Indian man with medium wheatish skin, expressive brown eyes, neatly styled short black hair, light stubble, and a confident smile. He wears a premium cream oversized striped shirt with rolled sleeves, tailored black trousers, and clean white sneakers while giving a natural thumbs-up.
+
+Both subjects stand side by side with realistic proportions, maintaining eye contact with the viewer while jointly holding a premium matte-white protest banner featuring realistic fabric folds, stitched edges, subtle wrinkles, elegant Indian tricolor borders, and professionally designed typography.
+
+Headline
+
+I STAND WITH SONAM WANGCHUK
+
+Below the headline, place a detailed Ashoka Chakra centered between wide artistic saffron and green brush strokes.
+
+Banner Text
+
+JOIN US FOR:
+MASS HUNGER STRIKE
+
+• Justice for Students
+• Prayers for Sonam
+
+Create a cinematic Indian tricolor background using rich saffron, white, and green gradients blended with premium paper textures. Include softly blurred silhouettes of peaceful protesters holding placards, waving Indian flags, and a large faded Ashoka Chakra behind the subjects for depth.
+
+Enhance the scene using warm golden-hour lighting, volumetric sunlight, realistic atmospheric haze, patriotic smoke, floating dust particles, soft rim lighting, realistic environmental depth, and cinematic HDR color grading. Preserve natural skin texture, lifelike facial details, realistic clothing fabric, physically accurate lighting, rich contrast, and clean shadows.
+
+The final artwork should resemble documentary photography blended with premium editorial graphic design, featuring balanced composition, luxury typography, modern awareness campaign aesthetics, cinematic depth of field, DSLR-quality realism, photorealistic rendering, and 8K ultra-HD masterpiece quality.
+
+Negative Prompt
+
+blurry, low quality, low resolution, pixelated, distorted face, deformed anatomy, extra fingers, missing fingers, duplicated people, cropped body, bad hands, crossed eyes, unrealistic smile, wax skin, plastic skin, CGI, cartoon, anime, oversaturated colors, flat lighting, incorrect flag colors, text glitches, spelling mistakes, watermark, logo, signature, artifacts, compression noise, motion blur, poor composition, stretched limbs, duplicate objects, unrealistic shadows, poor typography, overprocessed HDR, low-detail clothing, bad perspective.`,
+      },
+
+      {
+        image: "/images/post8/sonag1.avif",
+        title: "Luxury Political Campaign Awareness Poster",
+        prompt: `Create an ultra-realistic 2:3 vertical cinematic editorial protest poster featuring Sonam Wangchuk standing on the left in a navy-blue kurta with a calm, confident smile. On the right, place a beautiful young Indian woman with expressive brown eyes, medium wheatish skin, tied-back black hair, wearing a premium cream oversized striped shirt, tailored black trousers, and white sneakers, giving a confident thumbs-up. Both stand naturally together holding a premium matte-white protest banner with realistic fabric folds and elegant Indian tricolor borders.
+
+Add a bold distressed headline at the top:
+"I STAND WITH SONAM WANGCHUK"
+
+Below it, place a detailed Ashoka Chakra centered between artistic saffron and green brush strokes.
+
+Banner text:
+
+JOIN US FOR:
+MASS HUNGER STRIKE
+Justice for Students
+Prayers for Sonam
+
+Use a cinematic Indian tricolor background with peaceful protesters, waving flags, patriotic smoke, floating dust particles, soft volumetric sunlight, golden-hour lighting, subtle paper textures, and a large faded Ashoka Chakra. Style it like a luxury political campaign poster with documentary photography, premium magazine cover aesthetics, HDR, ultra-sharp skin texture, realistic fabric details, balanced typography, cinematic depth of field, DSLR-quality realism, photorealistic 8K masterpiece.`,
+      },
+    ],
+
+    tipsTitle: "Tips for Best Results",
+
+    tips: [
+      "Upload a high-resolution portrait.",
+      "Use a front-facing image.",
+      "Natural daylight works best.",
+      "Avoid sunglasses or face coverings.",
+      "Keep your face fully visible.",
+      "Use premium AI image models.",
+      "Generate multiple variations.",
+      "Maintain realistic facial expressions.",
+    ],
+
+    mistakesTitle: "Common Mistakes to Avoid",
+
+    mistakes: [
+      "Uploading blurry selfies.",
+      "Using cropped faces.",
+      "Poor lighting.",
+      "Low-resolution screenshots.",
+      "Extreme face angles.",
+      "Over-edited photos.",
+      "Group photographs.",
+      "Ignoring prompt details.",
+    ],
+
+    faqs: [
+      {
+        id: "faq1",
+        question: "What is an AI Editorial Protest Poster?",
+        answer:
+          "It is an AI-generated awareness poster that combines realistic photography, cinematic lighting, patriotic elements, premium typography, and editorial-quality graphic design.",
+      },
+      {
+        id: "faq2",
+        question: "Will AI preserve my face?",
+        answer:
+          "Yes. A clear reference photo helps AI maintain your facial identity while changing clothing, lighting, composition, and overall design.",
+      },
+      {
+        id: "faq3",
+        question: "Do I need Photoshop?",
+        answer: "No. Everything is generated automatically using AI.",
+      },
+      {
+        id: "faq4",
+        question: "Can I customize the banner text?",
+        answer:
+          "Yes. Simply edit the prompt and replace the text with your own message.",
+      },
+      {
+        id: "faq5",
+        question: "Which AI model gives the best quality?",
+        answer:
+          "GPT Image, Flux Kontext, Midjourney, and other advanced photorealistic AI models generally provide the most realistic editorial results.",
+      },
+      {
+        id: "faq6",
+        question: "Can I use this prompt commercially?",
+        answer:
+          "Commercial use depends on the licensing terms of the AI platform you use.",
+      },
+      {
+        id: "faq7",
+        question: "Is this prompt beginner-friendly?",
+        answer:
+          "Yes. Simply upload your image, paste the prompt, and generate the artwork.",
+      },
+    ],
+
+    conclusion: `AI-generated editorial protest posters combine documentary realism with premium magazine-quality design. With one clear portrait and a professionally crafted prompt, you can create cinematic awareness artwork featuring realistic lighting, patriotic elements, luxury typography, and stunning visual storytelling.
+
+Whether you're experimenting with AI creativity, designing social media artwork, or creating editorial-style visuals, this prompt delivers professional-quality results within minutes.`,
+
+    tags: [
+      "Sonam Wangchuk AI Prompt",
+      "Editorial Protest Poster",
+      "Political Campaign AI",
+      "Awareness Poster",
+      "Indian AI Photo Editing",
+      "Cinematic AI Portrait",
+      "GPT Image Prompt",
+      "AI Photo Editing",
+    ],
+
+    isTrending: true,
+    comments: [],
+  },
   {
     id: "post-7",
     title: "Ultra Premium Indian Saree Digital Collage AI Photo Editing Prompt",
