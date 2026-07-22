@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.1"; // ← Change this number
+export const DATA_VERSION = "1.0.0"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -419,7 +419,7 @@ Generate multiple variations until you achieve your favorite result.`,
 
     photoItems: [
       {
-        image: "/images/post8/sonab1.avif",
+        image: "/images/post8/sonub1.avif",
         title: "Editorial Protest Poster with Sonam Wangchuk",
         prompt: `Create an ultra-premium, hyper-realistic 2:3 vertical editorial protest poster inspired by peaceful democratic participation, national unity, and social awareness. The composition should resemble a luxury magazine cover combined with a high-end political awareness campaign.
 
@@ -455,7 +455,7 @@ blurry, low quality, low resolution, pixelated, distorted face, deformed anatomy
       },
 
       {
-        image: "/images/post8/sonag1.avif",
+        image: "/images/post8/sonug1.avif",
         title: "Luxury Political Campaign Awareness Poster",
         prompt: `Create an ultra-realistic 2:3 vertical cinematic editorial protest poster featuring Sonam Wangchuk standing on the left in a navy-blue kurta with a calm, confident smile. On the right, place a beautiful young Indian woman with expressive brown eyes, medium wheatish skin, tied-back black hair, wearing a premium cream oversized striped shirt, tailored black trousers, and white sneakers, giving a confident thumbs-up. Both stand naturally together holding a premium matte-white protest banner with realistic fabric folds and elegant Indian tricolor borders.
 
