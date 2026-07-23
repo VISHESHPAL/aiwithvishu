@@ -109,7 +109,7 @@ export default function PostDetail({
                 <div className="w-full">
                   <div
                     className="relative w-full"
-                    style={{ paddingBottom: "55%", minHeight: "200px" }}
+                    style={{ paddingBottom: "55%", minHeight: "450px" }}
                   >
                     <img
                       src={item.image}
@@ -221,7 +221,7 @@ export default function PostDetail({
           <div className="w-full mb-4">
             <div
               className="relative w-full"
-              style={{ paddingBottom: "65%", minHeight: "220px" }}
+              style={{ paddingBottom: "65%", minHeight: "450px" }}
             >
               <img
                 src={post.videoStepImage}
