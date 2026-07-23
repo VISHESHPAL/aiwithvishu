@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.0"; // ← Change this number
+export const DATA_VERSION = "1.0.1"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -382,6 +382,225 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
+  {
+    id: "post-9",
+    title: "Ultra Realistic Luxury Night Street Candid AI Photo Editing Prompt",
+    categoryId: "cat-1",
+    image: "/images/post9/night1.avif",
+    date: "July 23, 2026",
+    author: "Vishu",
+
+    introduction: `Luxury night street portraits have become one of the biggest AI photo editing trends in 2026. Inspired by candid smartphone photography and premium city nightlife aesthetics, this style combines realistic flash photography, rain-soaked streets, glowing boutique lights, and authentic human expressions to create images that feel naturally captured instead of AI-generated.
+
+Unlike traditional AI portraits, this prompt focuses on creating an accidental social-media moment with realistic movement, natural skin texture, subtle imperfections, and believable lighting. The final image resembles a genuine iPhone photograph taken by a friend while walking through an upscale shopping district at night.
+
+Whether you're creating Instagram posts, wallpapers, profile pictures, Pinterest content, or cinematic lifestyle photography, this prompt delivers stunning smartphone-quality realism with premium urban aesthetics.`,
+
+    whyTrending: `Luxury street photography has become one of the fastest-growing AI editing styles across Instagram, Pinterest, Threads, and TikTok. The combination of wet city reflections, handheld flash photography, authentic candid expressions, and premium fashion creates an expensive visual style that attracts high engagement.
+
+Creators love this trend because it feels realistic instead of overly edited. Natural motion blur, visible skin texture, soft bokeh, and iPhone camera imperfections make the final image appear like a real memory rather than AI artwork.`,
+
+    creationIntro: `Creating your own luxury night street portrait is incredibly easy.
+
+Open ChatGPT or your favorite AI image generator.
+Upload a clear front-facing portrait.
+Copy the prompt below.
+Paste it into the image generator.
+Generate multiple variations until you find your favorite result.
+
+Within seconds, AI will transform your portrait into a realistic smartphone photograph featuring luxury shopping streets, rain reflections, natural movement, premium fashion, and authentic nighttime lighting.`,
+
+    photoStepTitle: "Steps to Generate Luxury Night Street Portrait",
+
+    photoItems: [
+      {
+        image: "/images/post9/nightb1.avif",
+        title: "Luxury Night Street Candid Portrait",
+        prompt: `Ultra-realistic handheld smartphone photograph, vertical 9:16 aspect ratio.
+
+Create a completely original, non-identifiable young person with natural facial features and realistic skin texture. Do not replicate or resemble any real person or reference face.
+
+Scene:
+A peaceful metropolitan street just after midnight during light rainfall. The subject is crossing a zebra crossing while city traffic slowly passes in the distance. Fresh rain has left the asphalt glossy, creating vivid reflections of neon signs, vehicle headlights, and traffic lights.
+
+Pose:
+The subject has almost crossed the road and instinctively glances back over one shoulder after noticing someone taking a photo. One hand naturally brushes through slightly damp hair while the other casually holds a phone near the waist. Their stride continues naturally without stopping.
+
+Expression:
+A subtle surprised smile with relaxed eyes, conveying an authentic, unposed moment. The emotion feels spontaneous rather than camera-aware.
+
+Outfit:
+Minimalist modern streetwear consisting of a fitted black jacket, oversized charcoal trousers, clean white sneakers, and a simple crossbody bag. Clothing moves naturally with walking motion.
+
+Lighting:
+Captured using an iPhone with flash enabled. Bright flash illuminates the subject while the surrounding environment remains darker. Warm streetlights mix with cool blue neon signs to create realistic color contrast. Wet roads reflect orange, blue, and white light beautifully.
+
+Camera:
+Shot handheld on an iPhone main camera.
+Slight natural camera shake.
+Realistic walking motion blur on the swinging arm, loose clothing, and hair.
+Face remains approximately 75% sharp while movement creates believable blur around the edges.
+Slightly imperfect framing with the subject positioned off-center according to the rule of thirds.
+
+Background:
+Modern downtown buildings with glowing storefront windows, blurred taxis, illuminated traffic lights, bicycles parked along the sidewalk, distant pedestrians reduced to soft silhouettes, rain-soaked pavement producing realistic reflections, shallow depth of field, natural bokeh from passing vehicles.
+
+Image Style:
+Looks like an accidental Instagram Story frame captured by a friend.
+Authentic smartphone photography.
+Natural dynamic range.
+Realistic skin pores.
+Visible digital sensor noise.
+No beauty retouching.
+No cinematic grading.
+No artificial sharpening.
+No HDR.
+No unrealistic glow.
+No AI-generated appearance.
+
+Negative Prompt:
+anime, painting, illustration, CGI, 3D render, cartoon, perfect symmetry, flawless skin, studio portrait, fashion editorial, professional lighting, unrealistic eyes, oversaturated colors, HDR, excessive sharpening, plastic skin, identity replication, celebrity resemblance, duplicated face, watermark, text, logo.`,
+      },
+
+      {
+        image: "/images/post9/nightg1.avif",
+        title: "Rainy Luxury Shopping District Portrait",
+        prompt: `Ultra-realistic candid smartphone photograph, vertical 9:16.
+
+Generate a fully original young person with naturally attractive features and realistic imperfections. The face must be unique and non-identifiable, never copied from any reference or real individual.
+
+Scene:
+A luxury shopping district late at night after rain. Elegant boutiques, glass storefronts, decorative street lamps, and quiet sidewalks create an upscale urban atmosphere. Reflections shimmer across polished stone pavement while soft mist hangs lightly in the cool night air.
+
+Composition:
+The subject is walking away from the camera but suddenly turns their head halfway back after hearing their name. Their body continues moving forward while the face briefly catches the flash. The subject is positioned near the right side of the frame, leaving generous negative space filled with glowing city lights.
+
+Pose:
+One hand gently holds the strap of a leather shoulder bag while the other naturally swings during walking. The body posture remains relaxed and effortless. Hair moves slightly from the walking motion.
+
+Expression:
+Soft smile with slightly raised eyebrows, expressing genuine curiosity mixed with playful shyness. The expression feels fleeting and authentic, like a real candid street photograph.
+
+Outfit:
+Premium monochrome outfit featuring a tailored oversized black blazer, black wide-leg trousers, white sneakers, minimal silver jewelry, and a sleek leather shoulder bag. Clothing shows realistic folds and movement.
+
+Lighting:
+Shot using an iPhone flash combined with warm decorative street lighting. Bright flash highlights the face while surrounding lights create soft golden bokeh. Reflections from luxury shop windows add subtle illumination to the environment. Gentle moisture in the air creates realistic light diffusion.
+
+Camera:
+Handheld iPhone main camera.
+Natural handheld movement.
+Slight motion blur on hair, clothing, and walking legs.
+Face approximately 70–80% sharp.
+Realistic smartphone exposure.
+Natural lens imperfections.
+Slight perspective distortion.
+Shallow depth of field.
+
+Background:
+Elegant boutique windows, luxury cafés, distant pedestrians rendered as soft silhouettes, blurred luxury vehicles, glowing street lamps, polished wet pavement, realistic city reflections, subtle nighttime haze, beautiful circular bokeh.
+
+Style:
+Authentic social-media-quality smartphone photography.
+Natural skin texture.
+Visible pores.
+Slight sensor grain.
+No excessive editing.
+No cinematic movie look.
+No fashion campaign appearance.
+Feels like a genuine candid moment captured by a friend.
+
+Negative Prompt:
+AI art, anime, painting, illustration, CGI, studio photography, beauty lighting, glamour portrait, editorial fashion shoot, HDR, oversharpening, smooth plastic skin, fake reflections, unrealistic anatomy, copied face, identity match, celebrity resemblance, watermark, logo, text.`,
+      },
+    ],
+
+    tipsTitle: "Tips for Best Results",
+
+    tips: [
+      "Upload a high-resolution front-facing portrait.",
+      "Use a neutral facial expression.",
+      "Avoid sunglasses or face coverings.",
+      "Keep hair clearly visible.",
+      "Choose premium AI image models.",
+      "Generate multiple variations.",
+      "Maintain natural facial proportions.",
+      "Avoid low-quality screenshots.",
+    ],
+
+    mistakesTitle: "Common Mistakes to Avoid",
+
+    mistakes: [
+      "Uploading blurry selfies.",
+      "Using cropped faces.",
+      "Poor lighting in the reference photo.",
+      "Extreme head angles.",
+      "Heavy beauty filters.",
+      "Group photographs.",
+      "Low-resolution images.",
+      "Ignoring the complete prompt.",
+    ],
+
+    faqs: [
+      {
+        id: "faq1",
+        question: "What is a Luxury Night Street AI Photo Prompt?",
+        answer:
+          "It is an AI prompt designed to generate realistic smartphone-style portraits in premium urban night environments with authentic lighting and natural movement.",
+      },
+      {
+        id: "faq2",
+        question: "Will AI preserve my facial features?",
+        answer:
+          "Yes. A clear portrait helps AI maintain your facial identity while changing the background, lighting, clothing, and environment.",
+      },
+      {
+        id: "faq3",
+        question: "Do I need Photoshop?",
+        answer: "No. Everything is generated automatically by AI.",
+      },
+      {
+        id: "faq4",
+        question: "Can I change the clothing?",
+        answer:
+          "Yes. Simply edit the outfit section of the prompt before generating the image.",
+      },
+      {
+        id: "faq5",
+        question: "Which AI model works best?",
+        answer:
+          "GPT Image, Flux Kontext, Midjourney, and other advanced photorealistic image models produce excellent results.",
+      },
+      {
+        id: "faq6",
+        question: "Can I use these images commercially?",
+        answer:
+          "Commercial use depends on the license of the AI platform you use.",
+      },
+      {
+        id: "faq7",
+        question: "Is this prompt beginner-friendly?",
+        answer:
+          "Yes. Just upload your portrait, paste the prompt, and generate your image.",
+      },
+    ],
+
+    conclusion: `Luxury night street AI portraits combine realistic smartphone photography with premium urban aesthetics to create authentic-looking social media images. With one clear portrait and a professionally written prompt, you can generate stunning nighttime photographs featuring rain reflections, boutique lighting, natural movement, and realistic iPhone flash within seconds.`,
+
+    tags: [
+      "Luxury Night Street Prompt",
+      "AI Photo Editing",
+      "Night Portrait Prompt",
+      "Smartphone Photography",
+      "GPT Image Prompt",
+      "Rainy Street AI",
+      "Luxury Portrait",
+      "Candid AI Photography",
+    ],
+
+    isTrending: true,
+    comments: [],
+  },
   {
     id: "post-8",
     title:
