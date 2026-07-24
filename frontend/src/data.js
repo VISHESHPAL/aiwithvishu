@@ -383,6 +383,218 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+    id: "post-10",
+    title:
+      "Ultra Realistic Luxury Birthday Poster Collage AI Photo Editing Prompt",
+    categoryId: "cat-1",
+    image: "/images/post10/birthday1.avif",
+    date: "July 24, 2026",
+    author: "Vishu",
+
+    introduction: `Luxury birthday posters have become one of the most elegant AI photo editing trends in 2026. Inspired by premium editorial magazine covers, high-end fashion photography, and sophisticated celebration aesthetics, this style combines realistic portrait collage, soft monochrome elegance, and authentic facial preservation to create images that look like professionally designed luxury birthday announcements.
+
+Unlike standard AI portraits, this prompt focuses on creating a magazine-quality editorial poster with realistic facial identity, natural skin texture, premium typography, and a sophisticated three-panel collage layout. The final image resembles a high-end fashion publication cover featuring a luxurious birthday celebration.
+
+Whether you're creating birthday invitations, social media posts, wallpapers, profile pictures, Pinterest content, or personalized gifts, this prompt delivers stunning professional-quality editorial design with premium aesthetic appeal.`,
+
+    whyTrending: `Luxury birthday editorial posters have become one of the fastest-growing AI editing styles across Instagram, Pinterest, Threads, and TikTok. The combination of elegant monochrome aesthetics, premium magazine layouts, realistic facial preservation, and sophisticated typography creates a high-end visual style that attracts significant engagement.
+
+Creators love this trend because it preserves natural facial identity while transforming portraits into luxury editorial artwork. Visible skin texture, elegant black-and-white artistic panels, soft studio lighting, and premium magazine styling make the final image appear professionally designed rather than AI-generated.`,
+
+    creationIntro: `Creating your own luxury birthday poster collage is incredibly easy.
+
+Open ChatGPT or your favorite AI image generator.
+Upload a clear front-facing portrait.
+Copy the prompt below.
+Paste it into the image generator.
+Generate multiple variations until you find your favorite result.
+
+Within seconds, AI will transform your portrait into a premium editorial birthday poster featuring elegant collage design, luxury typography, sophisticated monochrome panels, and authentic facial preservation.`,
+
+    photoStepTitle: "Steps to Generate Luxury Birthday Poster Collage",
+
+    photoItems: [
+      {
+        image: "/images/post10/birthday2.avif",
+        title: "Luxury Birthday Editorial Magazine Poster",
+        prompt: `Ultra-realistic luxury birthday poster, vertical 9:16 ratio, premium editorial collage design, elegant white and gold aesthetic, modern minimalist birthday theme.
+
+Replace ONLY the face of the center subject with my uploaded reference image. Preserve 100% facial identity, skin tone, hairstyle, facial proportions, expression, and natural beauty. Do not change the pose, dress, or composition.
+
+Create a premium three-panel collage:
+
+• Center Panel (Largest): Full-body portrait of the subject wearing a luxurious white off-shoulder princess gown with a voluminous tulle skirt, standing gracefully while holding the neckline with one hand, looking confidently toward the camera with a soft natural smile.
+
+• Left Panel: Black-and-white full-body portrait of the subject in the same gown, standing elegantly with a gentle pose, softly faded into the background.
+
+• Right Panel: Black-and-white artistic portrait of the subject standing in the same gown with a graceful fashion pose, blended with soft edges.
+
+• Background Layer: Large monochrome close-up portrait behind the center subject, showing the face looking slightly upward with a dreamy expression, creating a premium magazine-style layered effect.
+
+Background: Clean luxury white textured backdrop with subtle marble texture, soft studio lighting, gentle shadows, premium paper finish, minimal design.
+
+Typography:
+- Large bold metallic gold text: "HAPPY"
+- Elegant handwritten script overlapping: "Birthday"
+- Below: "Your Name" in stylish black serif font
+- Bottom: "Birth Date " in clean minimalist typography
+
+Decorative Elements: Soft gold accents, elegant torn-paper frame effect around the side panels, subtle light particles, premium editorial layout, luxury fashion magazine styling.
+
+Camera Style: Professional DSLR portrait photography, 85mm portrait lens, shallow depth of field, ultra-sharp focus, natural skin texture, cinematic soft lighting, high dynamic range, premium color grading, photorealistic, ultra-detailed, 8K resolution.
+
+Negative Prompt:
+anime, painting, illustration, CGI, 3D render, cartoon, perfect symmetry, flawless skin, studio portrait, fashion editorial, professional lighting, unrealistic eyes, oversaturated colors, HDR, excessive sharpening, plastic skin, identity replication, celebrity resemblance, duplicated face, watermark, text, logo.`,
+      },
+
+      {
+        image: "/images/post10/birthday4.avif",
+        title: "Luxury Beige Birthday Poster Collage",
+        prompt: `Ultra-realistic luxury birthday poster, vertical 9:16 ratio, premium editorial design, warm beige and cream monochrome aesthetic, soft cinematic lighting, elegant birthday celebration theme.
+
+Replace ONLY the face of the main subject with my uploaded reference image. Preserve 100% facial identity, skin tone, hairstyle, facial proportions, beard, expression, and natural appearance. Do not alter the body pose or composition.
+
+Create a three-portrait collage:
+• Center: Waist-up portrait of the subject wearing a black oversized sweatshirt with a small orange graphic logo, black baseball cap, and black sunglasses, standing confidently, looking slightly upward to the right with a calm expression.
+• Top Left: Medium portrait of the subject wearing an oversized beige anime graphic t-shirt and black sunglasses, standing casually with folded arms, looking to the side.
+• Top Right: Close-up side-profile portrait of the subject wearing a natural straw hat, looking toward the horizon with a confident expression.
+
+Background: Soft luxury beige textured backdrop with creamy clouds, subtle dust particles, light smoke effects, warm sunset glow, soft vignette, elegant premium atmosphere.
+
+Decorative Elements: Small realistic butterfly near the subject, subtle floating leaves, light bokeh, premium editorial overlays, soft shadow blending around portraits.
+
+Typography: Elegant script text "Happy" above large luxury serif text "BIRTHDAY", followed by the name " Your Name ADD" in stylish handwritten calligraphy at the bottom. Premium gold and cream typography with subtle embossing.
+
+Camera Style: Professional DSLR portrait photography, 85mm portrait lens, shallow depth of field, ultra-sharp focus, natural skin texture, high dynamic range, cinematic color grading, magazine-quality birthday poster, luxury composition, photorealistic, 8K.
+
+Negative Prompt:
+anime, painting, illustration, CGI, 3D render, cartoon, perfect symmetry, flawless skin, unrealistic eyes, oversaturated colors, HDR, excessive sharpening, plastic skin, identity replication, celebrity resemblance, duplicated face, watermark, text, logo.`,
+      },
+
+      {
+        image: "/images/post10/birthday3.avif",
+        title: "Luxury Floral Birthday Editorial Poster",
+        prompt: `Hyper-realistic luxury birthday editorial magazine cover, elegant floral theme, 3:4 ratio, premium fashion photography aesthetic.
+
+Reference Face: Replace ONLY the woman's face with my uploaded reference. Preserve 100% facial identity, skin tone, hairstyle, facial proportions, and expression. Do not change pose, outfit, jewelry, or composition.
+
+Subject: Young Indian woman (20–25), standing elegantly. Three-quarter body facing slightly right, head turned about 40° left, eyes looking upper left, bright natural smile, left arm across lower abdomen, right forearm resting over left arm, relaxed fingers and shoulders.
+
+Hair: Long straight silky black hair with center partition.
+
+Outfit: Luxury pastel baby pink organza saree, strapless sweetheart embroidered blouse, heavy silver floral embroidery with pearl detailing, soft pallu over left shoulder.
+
+Jewelry: Gold maang tikka, diamond & emerald choker, pink stone jhumkas, gold pearl bangles, floral ring.
+
+Background: Luxury white textured paper with large elegant floral decorations, premium birthday editorial magazine cover aesthetic, soft studio lighting, high-end fashion photography.
+
+Typography: Premium editorial birthday text overlay, elegant script and serif font combination, subtle gold accents, magazine-style title placement.
+
+Camera Style: Professional DSLR portrait photography, 85mm portrait lens, shallow depth of field, ultra-sharp focus, natural skin texture, cinematic soft lighting, high dynamic range, premium color grading, photorealistic, ultra-detailed, 8K resolution.
+
+Negative Prompt:
+anime, painting, illustration, CGI, 3D render, cartoon, perfect symmetry, flawless skin, unrealistic eyes, oversaturated colors, HDR, excessive sharpening, plastic skin, identity replication, celebrity resemblance, duplicated face, watermark, text, logo.`,
+      },
+    ],
+
+    tipsTitle: "Tips for Best Results",
+
+    tips: [
+      "Upload a high-resolution front-facing portrait with clear facial features.",
+      "Ensure good lighting in your reference photo for accurate facial preservation.",
+      "Use a neutral or natural smiling expression for the best results.",
+      "Avoid sunglasses or face coverings for the center panel.",
+      "Keep hair clearly visible and styled naturally.",
+      "Choose premium AI image models for photorealistic output.",
+      "Generate multiple variations to find the perfect layout.",
+      "Maintain natural facial proportions in the reference image.",
+      "Avoid low-quality screenshots or heavily compressed images.",
+    ],
+
+    mistakesTitle: "Common Mistakes to Avoid",
+
+    mistakes: [
+      "Uploading blurry or low-resolution selfies.",
+      "Using cropped faces that cut off important facial features.",
+      "Poor lighting in the reference photo causing unnatural results.",
+      "Extreme head angles that make facial preservation difficult.",
+      "Heavy beauty filters that distort natural skin texture.",
+      "Group photographs where the main face is not clearly visible.",
+      "Low-resolution images that result in pixelated output.",
+      "Ignoring the complete prompt and skipping important details.",
+      "Using images with heavy shadows on the face.",
+    ],
+
+    faqs: [
+      {
+        id: "faq1",
+        question: "What is a Luxury Birthday Poster AI Prompt?",
+        answer:
+          "It is an AI prompt designed to generate premium editorial-style birthday posters with collage layouts, elegant typography, luxury aesthetics, and authentic facial preservation.",
+      },
+      {
+        id: "faq2",
+        question: "Will AI preserve my facial features?",
+        answer:
+          "Yes. The prompt is specifically designed to preserve 100% facial identity, skin tone, hairstyle, facial proportions, and natural expression while transforming the overall image into a luxury birthday poster.",
+      },
+      {
+        id: "faq3",
+        question: "Do I need Photoshop or graphic design skills?",
+        answer:
+          "No. Everything is generated automatically by AI with a single prompt. No additional editing skills are required.",
+      },
+      {
+        id: "faq4",
+        question: "Can I customize the name and date on the poster?",
+        answer:
+          "Yes. Simply edit the typography section of the prompt to include any name, date, or personalized message before generating the image.",
+      },
+      {
+        id: "faq5",
+        question: "Which AI model works best for this prompt?",
+        answer:
+          "GPT Image, Flux Kontext, Midjourney, and other advanced photorealistic image models produce excellent results for premium editorial posters.",
+      },
+      {
+        id: "faq6",
+        question: "Can I use these images for commercial purposes?",
+        answer:
+          "Commercial use depends on the license of the AI platform you use. Please check the specific platform's terms of service.",
+      },
+      {
+        id: "faq7",
+        question: "Is this prompt beginner-friendly?",
+        answer:
+          "Yes. Just upload your portrait, paste the prompt, and generate your luxury birthday poster in seconds. It's designed to be accessible for all skill levels.",
+      },
+      {
+        id: "faq8",
+        question: "Can I change the dress color or style?",
+        answer:
+          "Yes. Simply edit the outfit section of the prompt to describe any dress style, color, or fashion preference you desire.",
+      },
+    ],
+
+    conclusion: `Luxury birthday poster AI prompts combine premium editorial design with authentic facial preservation to create stunning magazine-quality celebration artwork. With one clear portrait and a professionally written prompt, you can generate elegant birthday posters featuring sophisticated collage layouts, luxury typography, soft monochrome aesthetics, and realistic facial identity within seconds. Whether for social media, invitations, or personalized gifts, this prompt delivers a timeless and sophisticated visual that elevates any birthday celebration.`,
+
+    tags: [
+      "Luxury Birthday Poster",
+      "AI Photo Editing",
+      "Birthday Poster Prompt",
+      "Editorial Magazine Cover",
+      "GPT Image Prompt",
+      "Birthday Collage AI",
+      "Luxury Portrait",
+      "Premium Birthday Design",
+      "AI Collage Prompt",
+      "Birthday Editorial",
+    ],
+
+    isTrending: true,
+    comments: [],
+  },
+  {
     id: "post-9",
     title: "Ultra Realistic Luxury Night Street Candid AI Photo Editing Prompt",
     categoryId: "cat-1",
