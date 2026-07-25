@@ -1,12 +1,12 @@
-import { useState, useEffect, lazy, Suspense } from "react";
+import { useState, useEffect, lazy, Suspense, useMemo } from "react";
 import { BrowserRouter, useNavigate, useLocation } from "react-router-dom";
-import { ChevronUp } from "lucide-react";
+import { ChevronUp, ChevronLeft, ChevronRight } from "lucide-react";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import PostCard from "./components/PostCard";
 import { INITIAL_POSTS, INITIAL_CATEGORIES, INITIAL_PAGES, DATA_VERSION } from "./data";
 
-// ✅ Lazy Loading - Performance Improve karega
+// ✅ Lazy Loading
 const PostDetail = lazy(() => import("./components/PostDetail"));
 const PageContent = lazy(() => import("./components/PageContent"));
 
@@ -65,7 +65,11 @@ function AppContent() {
   const [isCreatingPost, setIsCreatingPost] = useState(false);
   const [showScrollTop, setShowScrollTop] = useState(false);
 
-  // ✅ Scroll debounce - Performance improve
+  // ✅ PAGINATION STATE
+  const [currentPage, setCurrentPage] = useState(1);
+  const POSTS_PER_PAGE = 10;
+
+  // ✅ Scroll debounce
   useEffect(() => {
     let timeoutId;
     const handleScroll = () => {
@@ -80,6 +84,11 @@ function AppContent() {
       clearTimeout(timeoutId);
     };
   }, []);
+
+  // ✅ Reset page when category or search changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [activeTab, searchQuery]);
 
   // Sync to localStorage
   useEffect(() => {
@@ -103,7 +112,7 @@ function AppContent() {
     localStorage.setItem("vishu_dark_mode", String(darkMode));
   }, [darkMode]);
 
-  // Helper function to create post slug from title
+  // Helper functions
   const createPostSlug = (title) => {
     return title
       .toLowerCase()
@@ -111,17 +120,14 @@ function AppContent() {
       .replace(/^-+|-+$/g, '');
   };
 
-  // Helper function to get category by slug
   const getCategoryBySlug = (slug) => {
     return categories.find(c => c.slug === slug);
   };
 
-  // Helper function to get page by slug
   const getPageBySlug = (slug) => {
     return pages.find(p => p.id === slug);
   };
 
-  // Helper function to get post by category slug and post slug
   const getPostBySlugs = (categorySlug, postSlug) => {
     const category = getCategoryBySlug(categorySlug);
     if (!category) return null;
@@ -182,6 +188,7 @@ function AppContent() {
     navigate("/");
     setActiveTab("home");
     setSearchQuery("");
+    setCurrentPage(1);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
@@ -190,6 +197,7 @@ function AppContent() {
     if (category) {
       navigate(`/${category.slug}`);
       setActiveTab(`cat-${catId}`);
+      setCurrentPage(1);
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
   };
@@ -210,6 +218,7 @@ function AppContent() {
   const navigateToPage = (pageId) => {
     navigate(`/${pageId}`);
     setActiveTab(`page-${pageId}`);
+    setCurrentPage(1);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
@@ -340,6 +349,51 @@ function AppContent() {
   };
 
   const filteredPosts = getFilteredPosts();
+  
+  // ✅ PAGINATION CALCULATIONS
+  const totalPosts = filteredPosts.length;
+  const totalPages = Math.ceil(totalPosts / POSTS_PER_PAGE);
+  const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
+  const endIndex = startIndex + POSTS_PER_PAGE;
+  const currentPosts = filteredPosts.slice(startIndex, endIndex);
+
+  // ✅ Pagination Handlers
+  const goToNextPage = () => {
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
+
+  const goToPrevPage = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
+
+  const goToPage = (page) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  // Get page numbers to display
+  const getPageNumbers = () => {
+    const pages = [];
+    const maxVisible = 5;
+    let start = Math.max(1, currentPage - 2);
+    let end = Math.min(totalPages, start + maxVisible - 1);
+    
+    if (end - start < maxVisible - 1) {
+      start = Math.max(1, end - maxVisible + 1);
+    }
+    
+    for (let i = start; i <= end; i++) {
+      pages.push(i);
+    }
+    return pages;
+  };
+
   const currentCategory = activeTab.startsWith("cat-")
     ? categories.find((c) => c.id === activeTab.replace("cat-", ""))
     : null;
@@ -354,7 +408,7 @@ function AppContent() {
 
   const currentPost = getCurrentPost();
 
-  const getCurrentPage = () => {
+  const getCurrentPageContent = () => {
     if (activeTab.startsWith("page-")) {
       const pageId = activeTab.replace("page-", "");
       return pages.find(p => p.id === pageId);
@@ -362,9 +416,9 @@ function AppContent() {
     return null;
   };
 
-  const currentPage = getCurrentPage();
+  const currentPageContent = getCurrentPageContent();
 
-  // Loading component for lazy loading
+  // Loading component
   const LoadingFallback = () => (
     <div className="flex justify-center items-center py-12">
       <div className="animate-pulse flex flex-col items-center gap-2">
@@ -390,6 +444,7 @@ function AppContent() {
               if (category) {
                 navigate(`/${category.slug}`);
                 setActiveTab(`cat-${category.id}`);
+                setCurrentPage(1);
               } else {
                 navigate("/");
                 setActiveTab("home");
@@ -422,11 +477,11 @@ function AppContent() {
     }
 
     // Page View
-    if (activeTab.startsWith("page-") && currentPage) {
+    if (activeTab.startsWith("page-") && currentPageContent) {
       return (
         <Suspense fallback={<LoadingFallback />}>
           <PageContent
-            page={currentPage}
+            page={currentPageContent}
             darkMode={darkMode}
             onSavePage={handleSavePage}
           />
@@ -435,7 +490,7 @@ function AppContent() {
     }
 
     // Page not found
-    if (activeTab.startsWith("page-") && !currentPage) {
+    if (activeTab.startsWith("page-") && !currentPageContent) {
       return (
         <div className="p-8 text-center bg-white dark:bg-neutral-900 border dark:border-neutral-800">
           <h3 className="font-bold text-lg text-red-500">Page not found!</h3>
@@ -449,7 +504,7 @@ function AppContent() {
       );
     }
 
-    // Home/Category View
+    // Home/Category View with Pagination
     return (
       <div className="flex flex-col gap-4 sm:gap-6">
         {currentCategory && (
@@ -474,7 +529,7 @@ function AppContent() {
               <strong className="text-sky-600 dark:text-sky-400">
                 "{searchQuery}"
               </strong>{" "}
-              ({filteredPosts.length} matches)
+              ({totalPosts} matches)
             </span>
             <button
               onClick={() => setSearchQuery("")}
@@ -485,7 +540,7 @@ function AppContent() {
           </div>
         )}
 
-        {filteredPosts.length === 0 ? (
+        {totalPosts === 0 ? (
           <div className="p-8 sm:p-12 text-center bg-white dark:bg-neutral-900 border dark:border-neutral-800 flex flex-col items-center gap-3">
             <p className="text-gray-700 dark:text-gray-300 font-bold text-sm">
               No tutorials match your request.
@@ -497,6 +552,7 @@ function AppContent() {
               onClick={() => {
                 navigate("/");
                 setSearchQuery("");
+                setCurrentPage(1);
               }}
               className="mt-2 bg-sky-600 hover:bg-sky-700 text-white px-4 py-2 text-xs font-bold cursor-pointer rounded"
             >
@@ -504,23 +560,84 @@ function AppContent() {
             </button>
           </div>
         ) : (
-          <div className="flex flex-col gap-4 sm:gap-6">
-            {filteredPosts.map((post) => (
-              <PostCard
-                key={post.id}
-                post={post}
-                categoryName={
-                  categories.find((c) => c.id === post.categoryId)?.name ||
-                  "Uncategorized"
-                }
-                darkMode={darkMode}
-                onSelect={navigateToPost}
-                onSelectCategory={navigateToCategory}
-                onEdit={setEditingPost}
-                onDelete={handleDeletePost}
-              />
-            ))}
-          </div>
+          <>
+            {/* Posts Grid */}
+            <div className="flex flex-col gap-4 sm:gap-6">
+              {currentPosts.map((post) => (
+                <PostCard
+                  key={post.id}
+                  post={post}
+                  categoryName={
+                    categories.find((c) => c.id === post.categoryId)?.name ||
+                    "Uncategorized"
+                  }
+                  darkMode={darkMode}
+                  onSelect={navigateToPost}
+                  onSelectCategory={navigateToCategory}
+                  onEdit={setEditingPost}
+                  onDelete={handleDeletePost}
+                />
+              ))}
+            </div>
+
+            {/* ✅ PAGINATION */}
+            {totalPages > 1 && (
+              <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 border-t border-slate-200 dark:border-neutral-800">
+                <div className="text-xs text-gray-500 dark:text-gray-400">
+                  Showing {startIndex + 1} - {Math.min(endIndex, totalPosts)} of {totalPosts} posts
+                </div>
+                
+                <div className="flex items-center gap-1 flex-wrap justify-center">
+                  {/* Previous Button */}
+                  <button
+                    onClick={goToPrevPage}
+                    disabled={currentPage === 1}
+                    className={`flex items-center gap-1 px-3 py-1.5 text-xs font-medium rounded transition-colors ${
+                      currentPage === 1
+                        ? "text-gray-400 dark:text-gray-600 cursor-not-allowed"
+                        : "text-gray-700 dark:text-gray-300 hover:bg-sky-50 dark:hover:bg-neutral-800 hover:text-sky-600 dark:hover:text-sky-400"
+                    }`}
+                    aria-label="Previous page"
+                  >
+                    <ChevronLeft className="w-3.5 h-3.5" />
+                    <span>Prev</span>
+                  </button>
+
+                  {/* Page Numbers */}
+                  {getPageNumbers().map((page) => (
+                    <button
+                      key={page}
+                      onClick={() => goToPage(page)}
+                      className={`min-w-[32px] h-8 px-2 text-xs font-medium rounded transition-colors ${
+                        page === currentPage
+                          ? "bg-sky-600 text-white"
+                          : "text-gray-700 dark:text-gray-300 hover:bg-sky-50 dark:hover:bg-neutral-800 hover:text-sky-600 dark:hover:text-sky-400"
+                      }`}
+                      aria-label={`Go to page ${page}`}
+                      aria-current={page === currentPage ? "page" : undefined}
+                    >
+                      {page}
+                    </button>
+                  ))}
+
+                  {/* Next Button */}
+                  <button
+                    onClick={goToNextPage}
+                    disabled={currentPage === totalPages}
+                    className={`flex items-center gap-1 px-3 py-1.5 text-xs font-medium rounded transition-colors ${
+                      currentPage === totalPages
+                        ? "text-gray-400 dark:text-gray-600 cursor-not-allowed"
+                        : "text-gray-700 dark:text-gray-300 hover:bg-sky-50 dark:hover:bg-neutral-800 hover:text-sky-600 dark:hover:text-sky-400"
+                    }`}
+                    aria-label="Next page"
+                  >
+                    <span>Next</span>
+                    <ChevronRight className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+              </div>
+            )}
+          </>
         )}
       </div>
     );

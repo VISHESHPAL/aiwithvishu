@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.0"; // ← Change this number
+export const DATA_VERSION = "1.0.1"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -382,6 +382,204 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
+  {
+  id: "post-11",
+  title:
+    "Ultra Realistic Royal Enfield Outdoor AI Photo Editing Prompt",
+  categoryId: "cat-1",
+  image: "/images/post11/royalenfield1.avif",
+  date: "July 25, 2026",
+  author: "Vishu",
+
+  introduction: `Royal Enfield outdoor AI photo editing prompts have become one of the most popular realistic portrait trends in 2026. This style combines cinematic countryside scenery, premium fashion photography, realistic smartphone camera aesthetics, and accurate facial identity preservation to create natural lifestyle portraits that look professionally captured.
+
+Unlike ordinary AI portraits, this prompt focuses on maintaining your original facial identity while placing you beside a premium matte black Royal Enfield Classic 350 during a beautiful golden-hour sunset. The result looks like a flagship smartphone photograph captured by a professional photographer.
+
+Whether you're creating Instagram posts, profile pictures, wallpapers, travel content, fashion portraits, or social media reels, this prompt generates stunning ultra-realistic outdoor photography with authentic lighting and premium composition.`,
+
+  whyTrending: `Royal Enfield portrait photography has become one of the fastest-growing AI editing trends across Instagram, Pinterest, Threads, and TikTok. The combination of premium motorcycles, cinematic countryside locations, luxury casual fashion, and realistic smartphone photography creates highly engaging content.
+
+Creators love this trend because AI preserves their natural facial identity while producing a lifestyle portrait that looks completely authentic. Warm sunset lighting, realistic clothing textures, natural body posture, and professional composition make these images almost indistinguishable from real smartphone photographs.`,
+
+  creationIntro: `Creating your own Royal Enfield outdoor portrait is extremely simple.
+
+Open ChatGPT or your favorite AI image generator.
+Upload a clear front-facing portrait.
+Copy the prompt below.
+Paste it into the image generator.
+Generate multiple variations until you achieve your favorite result.
+
+Within seconds AI creates a premium outdoor lifestyle portrait with realistic facial preservation, cinematic countryside scenery, and flagship smartphone quality.`,
+
+  photoStepTitle: "Steps to Generate Royal Enfield Outdoor Portrait",
+
+  photoItems: [
+    {
+      image: "/images/post11/royalenfield2.avif",
+      title: "Royal Enfield Sunset Outdoor Portrait",
+      prompt: `Transform the uploaded portrait into an ultra-realistic full-body outdoor smartphone photograph while preserving the subject's facial identity exactly.
+
+Maintain identical facial structure, hairstyle, eyebrows, eyelashes, eyes, nose, lips, ears, skin tone, beard (if present), facial expression, body proportions, and natural appearance.
+
+The subject stands beside a matte black Royal Enfield Classic 350 motorcycle parked on a peaceful countryside road.
+
+Right hip lightly rests against the motorcycle seat.
+Left hand gently holds the shirt placket near the third open button.
+Right hand remains inside the trouser pocket.
+Relaxed posture with one leg naturally crossed.
+
+Outfit:
+• Oversized pastel pink cotton-linen shirt
+• Broad white vertical stripes
+• Three buttons open
+• Sleeves rolled below elbows
+• Loose white straight-leg trousers
+• Beige sandals or clean white sneakers
+• Matte black sunglasses
+• Silver wristwatch
+
+Motorcycle:
+• Matte black Royal Enfield Classic 350
+• Black alloy wheels
+• Black engine
+• Round LED headlamp
+• Side stand deployed
+• Front wheel turned slightly left
+
+Location:
+Quiet rural road beside harvested agricultural fields with dry crop stubble, distant unfinished buildings, scattered trees, and dramatic orange sunset clouds.
+
+Lighting:
+Soft natural evening golden-hour light with realistic shadows.
+
+Camera:
+Flagship smartphone
+26mm lens
+4:5 vertical composition
+Natural HDR
+Ultra realistic skin texture
+Professional smartphone photography
+Photorealistic
+8K
+
+Negative Prompt:
+anime, cartoon, painting, CGI, 3D render, plastic skin, unrealistic anatomy, bad hands, duplicate body, blurry face, watermark, logo, oversaturated colors, low quality.`,
+    },
+
+    {
+      image: "/images/post11/royalenfield3.avif",
+      title: "Royal Enfield Golden Hour Lifestyle Portrait",
+      prompt: `Create a premium lifestyle portrait beside a matte black Royal Enfield Classic 350 during sunset.
+
+Preserve 100% facial identity, hairstyle, skin tone, expression, and body proportions.
+
+The subject wears a premium striped pastel pink shirt, white trousers, sunglasses, and wristwatch while casually leaning against the motorcycle.
+
+Capture cinematic golden-hour lighting, harvested fields, cloudy sky, realistic smartphone color science, natural depth of field, premium fashion photography style, ultra-detailed textures, and authentic outdoor atmosphere.
+
+Negative Prompt:
+low quality, illustration, cartoon, CGI, watermark, logo, deformed hands, bad anatomy, unrealistic proportions, plastic skin, oversharpening.`,
+    },
+
+  ],
+
+  tipsTitle: "Tips for Best Results",
+
+  tips: [
+    "Upload a high-resolution front-facing portrait.",
+    "Avoid sunglasses in your reference image.",
+    "Use natural lighting in your uploaded photo.",
+    "Keep your complete face clearly visible.",
+    "Avoid heavy beauty filters.",
+    "Generate multiple variations for the best composition.",
+    "Use premium AI image models for maximum realism.",
+    "Maintain natural facial expressions.",
+    "Choose high-quality output resolution."
+  ],
+
+  mistakesTitle: "Common Mistakes to Avoid",
+
+  mistakes: [
+    "Uploading blurry selfies.",
+    "Using cropped faces.",
+    "Extreme head angles.",
+    "Heavy filters that change facial features.",
+    "Low-resolution reference photos.",
+    "Group photos instead of single portraits.",
+    "Ignoring important prompt details.",
+    "Using poor lighting in the reference image.",
+    "Over-editing the generated result."
+  ],
+
+  faqs: [
+    {
+      id: "faq1",
+      question: "What is this Royal Enfield AI prompt?",
+      answer:
+        "It is a realistic AI image prompt designed to create premium outdoor portraits beside a Royal Enfield motorcycle while preserving facial identity."
+    },
+    {
+      id: "faq2",
+      question: "Will my face remain the same?",
+      answer:
+        "Yes. The prompt specifically instructs AI to preserve your facial identity, hairstyle, skin tone, and expression."
+    },
+    {
+      id: "faq3",
+      question: "Do I need Photoshop?",
+      answer:
+        "No. Simply upload your portrait and paste the prompt into an AI image generator."
+    },
+    {
+      id: "faq4",
+      question: "Can I change the outfit?",
+      answer:
+        "Yes. Replace the clothing section with any outfit of your choice."
+    },
+    {
+      id: "faq5",
+      question: "Which AI model works best?",
+      answer:
+        "GPT Image, Flux Kontext, Midjourney, and other advanced photorealistic image generators work very well."
+    },
+    {
+      id: "faq6",
+      question: "Can I use the generated image commercially?",
+      answer:
+        "Commercial usage depends on the AI platform's licensing terms."
+    },
+    {
+      id: "faq7",
+      question: "Is this prompt beginner friendly?",
+      answer:
+        "Yes. Upload a photo, paste the prompt, and generate your image."
+    },
+    {
+      id: "faq8",
+      question: "Can I change the location?",
+      answer:
+        "Absolutely. Replace the countryside description with any location you prefer."
+    }
+  ],
+
+  conclusion: `Royal Enfield outdoor AI photo editing prompts combine premium lifestyle photography with realistic facial preservation to produce stunning countryside portraits. By using one clear reference image and a professionally written prompt, you can generate Instagram-worthy motorcycle portraits featuring cinematic sunset lighting, realistic smartphone photography, authentic facial identity, and luxury fashion styling within seconds.`,
+
+  tags: [
+    "Royal Enfield AI Prompt",
+    "AI Photo Editing",
+    "Motorcycle Portrait",
+    "Outdoor Portrait",
+    "GPT Image Prompt",
+    "Royal Enfield Classic 350",
+    "Smartphone Photography",
+    "AI Portrait",
+    "Instagram AI Prompt",
+    "Photorealistic AI"
+  ],
+
+  isTrending: true,
+  comments: [],
+},
   {
     id: "post-10",
     title:

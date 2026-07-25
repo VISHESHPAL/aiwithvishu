@@ -645,7 +645,7 @@ export default function PostDetail({
                   src={rPost.image}
                   alt={rPost.title}
                   loading="lazy"
-                  className="absolute inset-0 w-full h-full object-cover rounded-t"
+                  className="absolute inset-0 w-full h-full rounded-t"
                   onError={(e) => {
                     e.target.src =
                       "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=400&q=80";
