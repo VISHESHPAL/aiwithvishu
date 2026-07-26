@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.1"; // ← Change this number
+export const DATA_VERSION = "1.0.0"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -383,6 +383,147 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  id: "post-12",
+  title: "Ultra Realistic Dragon AI Photo Editing Prompt",
+  categoryId: "cat-1",
+  image: "/images/post12/Dragon1.avif",
+  date: "July 26, 2026",
+  author: "Vishu",
+
+  introduction: `Dragon AI photo editing prompts have become one of the biggest fantasy portrait trends of 2026. These prompts combine realistic human photography with cinematic dark fantasy elements, allowing creators to generate breathtaking images featuring gigantic ultra-realistic dragons naturally integrated into real-world environments.
+
+Unlike ordinary fantasy edits, this prompt keeps your original facial identity exactly the same while placing a massive dragon wrapped around the building behind you. Every scale, shadow, reflection, lighting effect, and environmental detail is designed to look naturally captured by a professional DSLR camera rather than artificially generated.
+
+Whether you're creating Instagram posts, YouTube thumbnails, wallpapers, profile pictures, fantasy edits, or viral social media content, this prompt produces stunning photorealistic dragon portraits with dramatic cinematic atmosphere and ultra-detailed realism.`,
+
+  whyTrending: `Fantasy AI portraits featuring enormous dragons have exploded across Instagram, Pinterest, TikTok, and Threads. Creators love combining realistic photography with mythical creatures because the results immediately grab attention and generate high engagement.
+
+This editing style preserves the subject's real appearance while seamlessly integrating a gigantic dragon into the environment using realistic lighting, shadows, depth, reflections, and cinematic composition. The final result looks like a scene from a blockbuster fantasy movie captured in real life.`,
+
+  creationIntro: `Creating your own Dragon AI portrait is incredibly simple.
+
+Open ChatGPT or your favorite AI image generator.
+Upload a clear portrait.
+Copy one of the prompts below.
+Paste it into the image generator.
+Generate multiple variations for the best cinematic result.
+
+Within seconds AI creates an ultra-realistic fantasy portrait while perfectly preserving your face, pose, clothing, and natural appearance.`,
+
+  photoStepTitle: "Steps to Generate Ultra Realistic Dragon Portrait",
+
+  photoItems: [
+    {
+      image: "/images/post12/Dragon2.avif",
+      title: "Ultra Realistic Black Dragon Portrait",
+      prompt: `Keep the original person exactly the same. Add a gigantic ultra-realistic black dragon wrapped around the building behind me, with razor-sharp obsidian scales, massive curved horns, glowing amber eyes, enormous claws gripping the rooftop and walls, and its huge head lowered close to me as if watching me. The dragon should appear naturally integrated into the scene with realistic scale, shadows, reflections, depth, and cinematic lighting. Add subtle fog near the ground, dark fantasy atmosphere, high contrast, moody black and grey color grading, ultra-detailed textures, 8K HDR, DSLR quality, photorealistic, dramatic composition, no changes to my face, pose, outfit, or background except for the dragon with 3:4 ratio. Negative Prompt:low quality, cartoon, anime, illustration, CGI, unrealistic anatomy, plastic skin, watermark, logo, blurry image, oversaturated colors.`,
+    },
+
+    {
+      image: "/images/post12/Dragon3.avif",
+      title: "Ultra Realistic Red Yellow Dragon Portrait",
+      prompt: `Keep the original person exactly the same. Add a gigantic ultra-realistic Red Yellow Mix dragon wrapped around the building behind me, with razor-sharp obsidian scales, massive curved horns, glowing amber eyes, enormous claws gripping the rooftop and walls, and its huge head lowered close to me as if watching me. The dragon should appear naturally integrated into the scene with realistic scale, shadows, reflections, depth, and cinematic lighting. Add subtle fog near the ground, Red Yellow Mix fantasy atmosphere, high contrast, moody Red Yellow Mix and grey color grading, ultra-detailed textures, 8K HDR, DSLR quality, photorealistic, dramatic composition, no changes to my face, pose, outfit, or background except for the dragon with 3:4 ratio.Negative Prompt:low quality, cartoon, anime, illustration, CGI, unrealistic anatomy, plastic skin, watermark, logo, blurry image, oversaturated colors.`,
+    },
+  ],
+
+  tipsTitle: "Tips for Best Results",
+
+  tips: [
+    "Upload a high-resolution portrait.",
+    "Keep your face fully visible.",
+    "Use natural lighting in your reference image.",
+    "Avoid heavy beauty filters.",
+    "Use a single-person portrait.",
+    "Generate multiple variations.",
+    "Use premium AI image models.",
+    "Choose cinematic lighting settings.",
+    "Export in maximum resolution."
+  ],
+
+  mistakesTitle: "Common Mistakes to Avoid",
+
+  mistakes: [
+    "Uploading blurry selfies.",
+    "Using cropped faces.",
+    "Using group photos.",
+    "Extreme camera angles.",
+    "Heavy beauty filters.",
+    "Low-resolution reference images.",
+    "Removing important prompt details.",
+    "Over-editing the generated result.",
+    "Using unrealistic fantasy settings."
+  ],
+
+  faqs: [
+    {
+      id: "faq1",
+      question: "What is this Dragon AI prompt?",
+      answer:
+        "It is a photorealistic AI image prompt designed to create cinematic portraits featuring gigantic fantasy dragons while preserving your original facial identity."
+    },
+    {
+      id: "faq2",
+      question: "Will my face remain unchanged?",
+      answer:
+        "Yes. The prompt specifically instructs the AI to preserve your face, hairstyle, expression, and natural appearance."
+    },
+    {
+      id: "faq3",
+      question: "Do I need Photoshop?",
+      answer:
+        "No. Simply upload your portrait and paste the prompt into an AI image generator."
+    },
+    {
+      id: "faq4",
+      question: "Can I change the dragon color?",
+      answer:
+        "Yes. Replace Black, Pink, or Red Yellow Mix with any color you prefer."
+    },
+    {
+      id: "faq5",
+      question: "Which AI model works best?",
+      answer:
+        "GPT Image, Flux Kontext, Midjourney, Ideogram, and other advanced photorealistic AI models produce excellent results."
+    },
+    {
+      id: "faq6",
+      question: "Can I use these images commercially?",
+      answer:
+        "Commercial usage depends on the licensing terms of the AI image generation platform you use."
+    },
+    {
+      id: "faq7",
+      question: "Can beginners use this prompt?",
+      answer:
+        "Absolutely. Just upload your portrait, paste the prompt, and generate the image."
+    },
+    {
+      id: "faq8",
+      question: "Can I change the background location?",
+      answer:
+        "Yes. Replace the building description with castles, mountains, cities, forests, or any fantasy environment."
+    }
+  ],
+
+  conclusion: `Ultra Realistic Dragon AI Photo Editing Prompts allow anyone to create breathtaking fantasy portraits while preserving their real appearance. By combining one high-quality portrait with a professionally crafted prompt, you can generate cinematic dragon scenes featuring realistic lighting, detailed mythical creatures, DSLR-quality textures, and blockbuster-style fantasy compositions within seconds.`,
+
+  tags: [
+    "Dragon AI Prompt",
+    "Fantasy AI Photo",
+    "AI Photo Editing",
+    "GPT Image Prompt",
+    "Dragon Portrait",
+    "Fantasy Portrait",
+    "Photorealistic AI",
+    "Cinematic AI Art",
+    "Dark Fantasy Prompt",
+    "8K AI Image"
+  ],
+
+  isTrending: true,
+  comments: [],
+  },
+  {
   id: "post-11",
   title:
     "Ultra Realistic Royal Enfield Outdoor AI Photo Editing Prompt",
@@ -579,7 +720,7 @@ low quality, illustration, cartoon, CGI, watermark, logo, deformed hands, bad an
 
   isTrending: true,
   comments: [],
-},
+  },
   {
     id: "post-10",
     title:
