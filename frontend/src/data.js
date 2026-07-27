@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.0"; // ← Change this number
+export const DATA_VERSION = "1.0.1"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -382,6 +382,156 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
+  {
+  id: "post-13",
+  title: "Ultra Realistic Rolls-Royce Night AI Photo Editing Prompt",
+  categoryId: "cat-1",
+  image: "/images/post13/RollsRoyce1.avif",
+  date: "July 27, 2026",
+  author: "Vishu",
+
+  introduction: `Luxury Rolls-Royce AI photo editing prompts have become one of the most viral cinematic portrait trends of 2026. These prompts combine premium luxury cars, realistic fashion photography, rainy night aesthetics, and Hollywood-inspired lighting to create breathtaking images that look professionally photographed rather than AI-generated.
+
+This editing style preserves your natural appearance while placing you inside an elegant luxury scene featuring an iconic black Rolls-Royce. Every detail—from the glossy paint reflections and rain-soaked streets to the glowing neon lights and cinematic atmosphere—is designed to blend naturally with your portrait.
+
+Unlike ordinary AI portraits, this prompt focuses on photorealism. It maintains your hairstyle, facial features, skin tone, expression, clothing proportions, and masculine appearance while transforming the environment into a premium luxury movie scene. The result resembles a high-end fashion campaign or blockbuster film poster captured using a professional DSLR camera.
+
+Whether you're creating Instagram posts, YouTube thumbnails, profile pictures, wallpapers, luxury edits, or viral social media content, this Rolls-Royce AI prompt delivers ultra-realistic cinematic portraits with premium quality, dramatic lighting, and luxury aesthetics.`,
+
+  whyTrending: `Luxury lifestyle AI portraits have exploded across Instagram, Pinterest, TikTok, Threads, and YouTube Shorts. Images featuring premium cars, luxury fashion, cinematic rain effects, and dramatic lighting receive significantly higher engagement because they instantly capture attention.
+
+Creators love this editing style because it transforms an ordinary portrait into a premium Hollywood-inspired luxury photograph without changing the person's natural appearance. With realistic reflections, HDR lighting, wet roads, neon glow, and blockbuster composition, these images look like scenes from a high-budget action movie.`,
+
+  creationIntro: `Creating your own Rolls-Royce luxury portrait is extremely simple.
+
+Open ChatGPT or your favorite AI image generator.
+Upload a clear portrait.
+Copy one of the prompts below.
+Paste it into the AI image generator.
+Generate multiple variations for the most realistic result.
+
+Within seconds, AI creates an ultra-realistic luxury portrait while preserving your natural face, hairstyle, expression, and identity, placing you inside a premium Rolls-Royce cinematic scene.`,
+
+  photoStepTitle: "Steps to Generate Ultra Realistic Rolls-Royce Portrait",
+
+  photoItems: [
+    {
+      image: "/images/post13/RollsRoyce2.avif",
+      title: "Ultra Realistic Rolls-Royce Stepping Out Portrait",
+      prompt: `Use my uploaded photo as the reference for the person's appearance while preserving the same natural hairstyle, facial hair, skin tone, age, and overall masculine look. Create a completely new cinematic portrait of a confident young man stepping out of a luxurious black Rolls-Royce in a rainy metropolitan street at night. He is wearing a premium tailored black three-piece suit with a long black overcoat, black leather gloves, polished black formal shoes, and elegant black sunglasses. One foot is placed confidently on the rain-soaked pavement while the other remains inside the car. One hand holds the top edge of the open driver's door while the other adjusts the overcoat naturally. The camera is positioned low in front of the vehicle, emphasizing the iconic Rolls-Royce grille and bright LED headlights. Heavy rain falls throughout the scene, with realistic water splashes beneath the shoe, wet reflective asphalt, drifting mist, cinematic fog, glowing red neon lights reflecting across the luxury car, volumetric lighting, dramatic atmosphere, premium Hollywood action-film style, shallow depth of field, realistic reflections, HDR lighting, ultra-detailed textures, Sony A7R V, 85mm lens, f/1.4, blockbuster composition, hyper-realistic, 16K quality, photorealistic, luxury editorial photography, 3:4 aspect ratio.
+
+Negative Prompt: anime, cartoon, illustration, painting, sketch, watercolor, CGI, 3D render, low quality, blurry, pixelated, unrealistic anatomy, extra fingers, duplicate limbs, distorted face, wax skin, watermark, logo, text, oversaturated colors, artifacts, unrealistic reflections.`,
+    },
+
+    {
+      image: "/images/post13/RollsRoyce3.avif",
+      title: "Ultra Realistic Rolls-Royce Sitting Inside Portrait",
+      prompt: `Use my uploaded photo as the reference for the person's appearance while preserving the same natural hairstyle, facial hair, skin tone, age, and overall masculine look. Create an ultra-realistic cinematic portrait of a confident young man sitting inside a luxurious black Rolls-Royce in a rainy metropolitan city at night. He is wearing a premium tailored black three-piece suit with a long black overcoat, black leather gloves, polished black formal shoes, and elegant black sunglasses. He is seated in the driver's seat with the driver's door slightly open while heavy rain falls outside. He is holding a large black umbrella partially above the open door, with one hand resting confidently on the steering wheel while looking through the rain with a calm and powerful expression. Raindrops cover the windows and door while glowing red neon lights reflect across the wet body of the luxury car. Add cinematic movie lighting, premium black-and-red color grading, luxurious atmosphere, shallow depth of field, realistic reflections, volumetric lighting, HDR, Sony A7R V, 85mm lens, blockbuster composition, ultra-realistic, hyper-detailed, photorealistic, luxury editorial photography, 16K quality, 3:4 aspect ratio.
+
+Negative Prompt: anime, cartoon, painting, illustration, CGI, unrealistic anatomy, plastic skin, watermark, logo, blurry image, low resolution, distorted face, extra limbs, duplicate body parts, poor reflections, oversaturated colors, artifacts.`,
+    },
+
+  ],
+
+  tipsTitle: "Tips for Best Results",
+
+  tips: [
+    "Upload a high-resolution portrait.",
+    "Keep your entire face clearly visible.",
+    "Use natural outdoor lighting in your reference photo.",
+    "Avoid beauty filters and AI-enhanced selfies.",
+    "Wear formal or semi-formal clothing for the best luxury look.",
+    "Generate multiple variations for improved realism.",
+    "Use premium AI image generation models.",
+    "Enable photorealistic or cinematic settings if available.",
+    "Export the final image in maximum resolution."
+  ],
+
+  mistakesTitle: "Common Mistakes to Avoid",
+
+  mistakes: [
+    "Uploading blurry or compressed images.",
+    "Using cropped faces.",
+    "Uploading group photos.",
+    "Extreme camera angles.",
+    "Using heavy beauty filters.",
+    "Low-resolution reference photos.",
+    "Removing important prompt details.",
+    "Using unrealistic lighting settings.",
+    "Over-editing the final generated image."
+  ],
+
+  faqs: [
+    {
+      id: "faq1",
+      question: "What is this Rolls-Royce AI prompt?",
+      answer:
+        "It is a luxury cinematic AI image prompt designed to generate photorealistic portraits featuring a premium Rolls-Royce while preserving your natural appearance."
+    },
+    {
+      id: "faq2",
+      question: "Will my face remain unchanged?",
+      answer:
+        "Yes. The prompt instructs the AI to preserve your facial features, hairstyle, expression, and natural appearance."
+    },
+    {
+      id: "faq3",
+      question: "Do I need Photoshop?",
+      answer:
+        "No. Simply upload your portrait and paste the prompt into an AI image generator."
+    },
+    {
+      id: "faq4",
+      question: "Can I change the car color?",
+      answer:
+        "Yes. Replace 'black Rolls-Royce' with white, silver, blue, emerald green, or any luxury color you prefer."
+    },
+    {
+      id: "faq5",
+      question: "Which AI models produce the best results?",
+      answer:
+        "GPT Image, Flux Kontext, Midjourney, Ideogram, and other advanced photorealistic AI models work exceptionally well."
+    },
+    {
+      id: "faq6",
+      question: "Can I use these images commercially?",
+      answer:
+        "Commercial usage depends on the licensing policy of the AI image generation platform you use."
+    },
+    {
+      id: "faq7",
+      question: "Can beginners use this prompt?",
+      answer:
+        "Absolutely. Just upload your portrait, paste the prompt, and generate multiple variations."
+    },
+    {
+      id: "faq8",
+      question: "Can I change the background location?",
+      answer:
+        "Yes. You can replace the rainy city with Dubai, London, New York, Tokyo, Paris, luxury hotels, private mansions, or any premium environment."
+    }
+  ],
+
+  conclusion: `Ultra Realistic Rolls-Royce Night AI Photo Editing Prompts make it easy to create premium cinematic portraits that combine luxury fashion, iconic vehicles, dramatic rainy-night lighting, and blockbuster-style photography while preserving your natural appearance. With one high-quality portrait and a professionally crafted prompt, you can generate breathtaking luxury images suitable for Instagram, YouTube thumbnails, wallpapers, profile pictures, and viral social media content within seconds.`,
+
+  tags: [
+    "Rolls-Royce AI Prompt",
+    "Luxury AI Photo",
+    "AI Photo Editing",
+    "GPT Image Prompt",
+    "Luxury Car Portrait",
+    "Luxury Lifestyle AI",
+    "Photorealistic AI",
+    "Cinematic AI Art",
+    "Luxury Car AI Prompt",
+    "Rainy Night Portrait",
+    "Hollywood AI Photo",
+    "8K AI Image"
+  ],
+
+  isTrending: true,
+  comments: [],
+  },
   {
   id: "post-12",
   title: "Ultra Realistic Dragon AI Photo Editing Prompt",
