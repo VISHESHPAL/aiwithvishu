@@ -433,6 +433,15 @@ Negative Prompt: anime, cartoon, painting, illustration, CGI, unrealistic anatom
 
   ],
 
+    photoBtnText: "Create Your Images",
+    photoBtnLink: "https://chat.openai.com/",
+
+    videoStepTitle: "",
+    videoStepImage: "",
+    videoPrompt: "",
+    videoBtnText: "",
+    videoBtnLink: "",
+
   tipsTitle: "Tips for Best Results",
 
   tips: [
@@ -575,6 +584,15 @@ Within seconds AI creates an ultra-realistic fantasy portrait while perfectly pr
       prompt: `Keep the original person exactly the same. Add a gigantic ultra-realistic Red Yellow Mix dragon wrapped around the building behind me, with razor-sharp obsidian scales, massive curved horns, glowing amber eyes, enormous claws gripping the rooftop and walls, and its huge head lowered close to me as if watching me. The dragon should appear naturally integrated into the scene with realistic scale, shadows, reflections, depth, and cinematic lighting. Add subtle fog near the ground, Red Yellow Mix fantasy atmosphere, high contrast, moody Red Yellow Mix and grey color grading, ultra-detailed textures, 8K HDR, DSLR quality, photorealistic, dramatic composition, no changes to my face, pose, outfit, or background except for the dragon with 3:4 ratio.Negative Prompt:low quality, cartoon, anime, illustration, CGI, unrealistic anatomy, plastic skin, watermark, logo, blurry image, oversaturated colors.`,
     },
   ],
+
+    photoBtnText: "Create Your Images",
+    photoBtnLink: "https://gemini.google.com/",
+
+    videoStepTitle: "",
+    videoStepImage: "",
+    videoPrompt: "",
+    videoBtnText: "",
+    videoBtnLink: "",
 
   tipsTitle: "Tips for Best Results",
 
@@ -773,6 +791,14 @@ low quality, illustration, cartoon, CGI, watermark, logo, deformed hands, bad an
     },
 
   ],
+    photoBtnText: "Create Your Images",
+    photoBtnLink: "https://chat.openai.com/",
+
+    videoStepTitle: "",
+    videoStepImage: "",
+    videoPrompt: "",
+    videoBtnText: "",
+    videoBtnLink: "",
 
   tipsTitle: "Tips for Best Results",
 
@@ -984,7 +1010,17 @@ Camera Style: Professional DSLR portrait photography, 85mm portrait lens, shallo
 Negative Prompt:
 anime, painting, illustration, CGI, 3D render, cartoon, perfect symmetry, flawless skin, unrealistic eyes, oversaturated colors, HDR, excessive sharpening, plastic skin, identity replication, celebrity resemblance, duplicated face, watermark, text, logo.`,
       },
-    ],
+    ], 
+    photoBtnText: "Create Your Images",
+    photoBtnLink: "https://chat.openai.com/",
+
+    videoStepTitle: "",
+    videoStepImage: "",
+    videoPrompt: "",
+    videoBtnText: "",
+    videoBtnLink: "",
+
+
 
     tipsTitle: "Tips for Best Results",
 
@@ -1216,6 +1252,15 @@ AI art, anime, painting, illustration, CGI, studio photography, beauty lighting,
       },
     ],
 
+    photoBtnText: "Create Your Images",
+    photoBtnLink: "https://chat.openai.com/",
+
+    videoStepTitle: "",
+    videoStepImage: "",
+    videoPrompt: "",
+    videoBtnText: "",
+    videoBtnLink: "",
+
     tipsTitle: "Tips for Best Results",
 
     tips: [
@@ -1395,6 +1440,15 @@ Use a cinematic Indian tricolor background with peaceful protesters, waving flag
       },
     ],
 
+    photoBtnText: "Create Your Images",
+    photoBtnLink: "https://chat.openai.com/",
+
+    videoStepTitle: "",
+    videoStepImage: "",
+    videoPrompt: "",
+    videoBtnText: "",
+    videoBtnLink: "",
+
     tipsTitle: "Tips for Best Results",
 
     tips: [
@@ -1527,6 +1581,16 @@ This perfect balance between tradition and contemporary digital art has made col
         prompt: `Create an ultra-premium editorial digital collage portrait of a beautiful young South Asian woman as the unmistakable focal point. She is cleanly extracted and framed with a bold, thick white sticker-style outline, giving the appearance of a handcrafted paper cutout layered over a designer collage. The cutout should have subtle natural shadows and dimensional depth, making it appear physically lifted from the background.She is dressed in a graceful white cotton saree with a luxurious crimson-red border, complemented by a deep red blouse, elegant oxidized silver bangles, a tiny red bindi, and fresh jasmine flowers (gajra) delicately woven into her long, silky black hair. Her pose is soft and intimate—head slightly tilted, eyes gently lowered, peacefully tucking a loose strand of hair behind her ear with a subtle smile that radiates warmth, femininity, and timeless Indian elegance.The background consists of a heavily blurred dark-mode mobile music streaming playlist interface, intentionally abstract with no readable text or recognizable branding. The interface should dissolve into a dreamy bokeh using a strong Gaussian blur, creating depth while maintaining a sleek, modern digital atmosphere.Surround the portrait with a carefully curated collection of premium scrapbook-inspired design elements, including realistic torn-paper edges, layered paper textures, masking tape strips, notebook paper fragments, soft handwritten doodles, tiny stars, sparkles, hearts, botanical sketches, subtle brush strokes, minimalist geometric shapes, floating paper scraps, and elegant white ink illustrations. Every decorative element should feel intentional, refined, and professionally composed rather than cluttered.Apply soft cinematic lighting with delicate rim lighting around the hair, diffused highlights across the face, realistic skin texture, natural fabric folds, and subtle ambient shadows. Add a faint white outer glow, soft drop shadows beneath each collage layer, realistic paper grain, and gentle film texture to create convincing depth and tactile realism.Use a sophisticated color palette dominated by deep charcoal black, muted graphite gray, crisp white, warm ivory, and luxurious crimson red, allowing the traditional attire to stand out beautifully against the modern interface. The contrast should feel elegant and premium, never oversaturated.The overall composition should resemble a luxury fashion editorial blended with a modern Pinterest/Y2K scrapbook aesthetic, combining traditional Indian beauty with contemporary graphic design. Every element should feel balanced, minimal, and visually intentional, with generous negative space and flawless visual hierarchy.Ultra-realistic, hyper-detailed, photorealistic, 8K resolution, HDR, DSLR-quality, editorial fashion photography, premium digital collage, luxury magazine cover aesthetic, cinematic color grading, realistic lighting, shallow depth of field, subtle analog film grain, flawless skin texture, crisp edges, high dynamic range, award-winning digital artwork, masterpiece, visually stunning, elegant, timeless, and highly shareable.`,
       },
     ],
+
+
+    photoBtnText: "Create Your Images",
+    photoBtnLink: "https://chat.openai.com/",
+
+    videoStepTitle: "",
+    videoStepImage: "",
+    videoPrompt: "",
+    videoBtnText: "",
+    videoBtnLink: "",
 
     tipsTitle: "Tips for Best Results",
 
