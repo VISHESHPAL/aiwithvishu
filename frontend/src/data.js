@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.1"; // ← Change this number
+export const DATA_VERSION = "1.0.0"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -382,6 +382,136 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
+  {
+  "id": "post-14",
+  "title": "Ultra Realistic Cinematic House Landscape AI Photo Editing Prompt",
+  "categoryId": "cat-1",
+  "image": "/images/post14/monsoon1.avif",
+  "date": "July 28, 2026",
+  "author": "Vishu",
+
+  "introduction": "Ultra Realistic Cinematic House Landscape AI photo editing prompts have become one of the fastest-growing AI photography trends of 2026. Unlike ordinary AI edits that simply change the background, this editing style transforms an everyday outdoor portrait into a breathtaking cinematic masterpiece while preserving the person's original identity with exceptional realism. Inspired by Hollywood travel films, National Geographic landscape photography, and luxury outdoor campaigns, these prompts combine professional DSLR image quality, dramatic environmental lighting, realistic atmospheric effects, and premium color grading to create photographs that look completely authentic.\n\nThis editing style focuses on preserving every important facial and body detail of the original subject. Your hairstyle, facial structure, eyes, eyebrows, skin tone, expression, clothing, backpack, body proportions, posture, and overall appearance remain completely unchanged. Instead of modifying your identity, the AI intelligently enhances the surrounding environment by introducing realistic HDR lighting, cinematic shadows, volumetric sunlight, dramatic clouds, atmospheric haze, rich greenery, and natural environmental depth.\n\nOne of the biggest reasons this editing style has become so popular is its incredible realism. Rather than producing an artificial AI appearance, it creates photographs that resemble premium commercial advertisements captured using professional cameras such as the Sony A7R V or Nikon Z9. Every blade of grass, tree, mountain, cloud, pathway, and sunlight reflection is rendered with remarkable detail, producing a natural outdoor scene that feels alive and immersive.\n\nProfessional travel photographers often rely on perfect weather conditions, expensive camera equipment, and advanced post-processing to create this type of imagery. With modern AI image generation models such as GPT Image, Flux Kontext, Midjourney, Ideogram, and other advanced photorealistic models, creators can now achieve a comparable visual style within seconds by using carefully written prompts. These prompts instruct the AI to preserve the subject's identity while enhancing every environmental element with cinematic precision.\ncontent, these cinematic landscape prompts instantly elevate the visual quality of your photographs. Rich natural colors, realistic atmospheric perspective, premium HDR lighting, and breathtaking scenery create images that naturally attract attention across every social media platform.\n\nUnlike fantasy AI art or heavily stylized edits, this prompt is designed specifically for photorealism. Every detail is based on real-world lighting physics, authentic environmental textures, realistic shadows, global illumination, and professional camera optics.The final result combines luxury travel photography, cinematic storytelling, premium DSLR realism, and blockbuster-quality environmental design to create breathtaking images suitable for every modern social media platform.",
+
+  "whyTrending": "Cinematic outdoor AI portraits have become one of the most viral content categories across Instagram, Pinterest, TikTok, Threads, Facebook, and YouTube Shorts. Users are increasingly drawn toward images featuring dramatic mountain landscapes, luxury countryside houses, lush greenery, volumetric sunlight, realistic clouds, and cinematic environmental storytelling because they instantly stand out in crowded social media feeds.\n\nUnlike traditional AI portraits that often appear artificial, this editing style focuses entirely on realism. Professional color grading, natural lighting, environmental depth, realistic shadows, HDR rendering, and DSLR-quality textures create photographs that look indistinguishable from real outdoor photography.\n\nCreators also appreciate how these prompts preserve their natural appearance while dramatically improving the environment around them. Rather than replacing facial features or changing identity, the AI enhances the landscape using realistic weather conditions, cinematic skies, premium lighting, atmospheric fog, detailed vegetation, and award-winning travel photography aesthetics.\n\nAnother reason behind this trend is the rapid improvement of AI image generation technology. Modern models now understand realistic lighting, environmental perspective, lens optics, camera depth of field, HDR rendering, and natural color science far better than previous generations. As a result, creators can now generate premium-quality travel photographs suitable for professional portfolios, commercial campaigns, social media branding, and digital marketing without expensive camera equipment or complex editing software.\n\nThis editing style continues to dominate because it combines authenticity, realism, luxury travel aesthetics, and cinematic storytelling into one complete visual experience that consistently receives higher engagement across nearly every social media platform.",
+
+  "creationIntro": "Creating your own Ultra Realistic Cinematic House Landscape portrait is extremely simple and requires only a few minutes.\n\nOpen ChatGPT or your preferred AI image generation platform.\nUpload a high-quality outdoor portrait with good lighting.\nCopy one of the professionally written prompts provided below.\nPaste it into the AI image generator.\nGenerate multiple variations to achieve the most realistic result.\n\nWithin seconds, AI transforms your ordinary outdoor photograph into an award-winning cinematic landscape while preserving your original face, hairstyle, clothing, body proportions, expression, backpack, and natural appearance. The surrounding environment is enhanced with dramatic skies, realistic mountains, lush greenery, volumetric sunlight, HDR lighting, atmospheric depth, premium DSLR color science, and breathtaking travel photography aesthetics, producing a final image that looks like it was captured by a professional landscape photographer using a flagship Sony or Nikon camera.",
+
+  "photoStepTitle": "Steps to Generate Ultra Realistic Cinematic House Landscape Portrait",
+
+  "photoItems": [
+    {
+      "image": "/images/post14/monsoon2.avif",
+      "title": "Ultra Realistic Moody Monsoon Landscape Portrait",
+      "prompt" : ` Transform this image into an ultra-realistic cinematic landscape masterpiece while preserving the original composition, framing, camera angle, perspective, subject placement, and all existing natural elements exactly as they are. Do not replace, remove, or rearrange anything.Enhance the scene with dense rolling mountain fog, soft drifting mist, low-hanging clouds wrapping around the hills, and subtle volumetric light rays filtering through dramatic storm clouds. Create a cold, moody monsoon atmosphere with rich atmospheric depth, realistic haze, and natural environmental diffusion. Preserve the lush green rolling hills, wild grass textures, distant forest, and layered mountain landscape with maximum realism.Apply premium cinematic color grading using deep emerald green, moss green, forest green, dark teal, muted blue, cool gray, and earthy natural tones while maintaining realistic colors. Increase texture detail in the grass, trees, clouds, and mist with photorealistic lighting, realistic global illumination, soft ambient shadows, and HDR dynamic range.Preserve the person exactly as in the original image, including pose, clothing, backpack, hat, body proportions, and position in the frame. Keep the person naturally integrated into the environment without altering identity or postureSimulate professional DSLR photography captured on a Sony A7R V / Nikon Z9 with a 24mm ultra-wide lens, f/4 aperture, RAW processing, ultra-sharp foreground detail, smooth atmospheric perspective, realistic depth of field, premium travel photography, National Geographic quality, award-winning landscape photography, hyper-realistic textures, lifelike colors, cinematic mood, Unreal Engine realism, Octane Render quality, 16-bit color, 8K resolution, ultra-detailed, masterpiece composition, viral Instagram-quality nature photography, high-end commercial outdoor campaign look.Negative Promptblurry, low resolution, cartoon, anime, CGI, artificial fog, fake clouds, oversaturated colors, excessive HDR, unrealistic lighting, plastic textures, low detail, noise, compression artifacts, watermark, text, logo, distorted landscape, floating objects, duplicate trees, duplicate mountains, unrealistic grass, bad perspective, over-sharpening, oversmoothing, low-quality render, color banding, unnatural shadows, deformed person, extra limbs, cropped subject. follow this`
+    },
+    {
+      "image": "/images/post14/monsoon3.avif",
+      "title": "Ultra Realistic Golden Hour Luxury House Portrait",
+      "prompt": ` Transform this image into a world-class cinematic masterpiece while preserving the person's identity perfectly. Ultra-realistic DSLR quality, luxury editorial photography, Hollywood movie color science, premium skin texture, razor-sharp facial details, crystal-clear eyes, realistic hair strands, natural pores, subtle cinematic contrast, dramatic soft lighting, volumetric light rays, depth of field, HDR, rich dynamic range, ultra-clean background, realistic shadows, premium fashion magazine aesthetic, expensive luxury vibe, award-winning photography, hyper-realistic textures, lifelike colors, photorealism, masterpiece composition, viral Instagram quality, ultra-detailed, 16-bit color, professional retouching, Nikon Z9 / Sony A7R V quality, 85mm f/1.4 lens, RAW processing, Unreal Engine realism, Octane Render quality, 8K, insanely detailed, trending social media edit, no over-smoothing, natural skin tones, realistic lighting, high-end commercial campaign look.Negative Prompt : blurry, low resolution, cartoon, anime, CGI look, plastic skin, oversaturated colors, excessive HDR, distorted face, extra fingers, artifacts, watermark, text, logo, noise, compression, unrealistic lighting, bad anatomy, duplicate features.`
+    }
+  ],
+
+  "photoBtnText": "Create Your Images",
+  "photoBtnLink": "https://chat.openai.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Tips for Best Results",
+
+  "tips": [
+    "Upload a high-resolution outdoor portrait with good lighting.",
+    "Keep your entire face and body clearly visible.",
+    "Use natural outdoor lighting in your reference photo.",
+    "Avoid beauty filters and AI-enhanced selfies.",
+    "Wear casual or adventure-appropriate clothing for the best landscape look.",
+    "Choose a photo with a clear background to allow for better environmental enhancement.",
+    "Generate multiple variations for improved realism.",
+    "Use premium AI image generation models like GPT Image, Flux Kontext, or Midjourney.",
+    "Enable photorealistic or cinematic settings if available.",
+    "Export the final image in maximum resolution."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Uploading blurry or compressed images.",
+    "Using cropped faces or subjects.",
+    "Uploading group photos.",
+    "Extreme camera angles that make integration difficult.",
+    "Using heavy beauty filters that reduce realism.",
+    "Low-resolution reference photos.",
+    "Removing important prompt details.",
+    "Using unrealistic lighting settings.",
+    "Over-editing the final generated image."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "What is this Cinematic Landscape AI prompt?",
+      "answer": "It is a cinematic AI image prompt designed to generate photorealistic landscape portraits featuring luxury houses, dramatic mountains, and premium outdoor environments while preserving your natural appearance."
+    },
+    {
+      "id": "faq2",
+      "question": "Will my face remain unchanged?",
+      "answer": "Yes. The prompt instructs the AI to preserve your facial features, hairstyle, expression, clothing, backpack, and natural appearance."
+    },
+    {
+      "id": "faq3",
+      "question": "Do I need Photoshop?",
+      "answer": "No. Simply upload your portrait and paste the prompt into an AI image generator."
+    },
+    {
+      "id": "faq4",
+      "question": "Can I change the landscape style?",
+      "answer": "Yes. You can replace the mountain landscape with beaches, forests, deserts, snow-capped mountains, lakeside views, or any outdoor environment you prefer."
+    },
+    {
+      "id": "faq5",
+      "question": "Which AI models produce the best results?",
+      "answer": "GPT Image, Flux Kontext, Midjourney, Ideogram, and other advanced photorealistic AI models work exceptionally well."
+    },
+    {
+      "id": "faq6",
+      "question": "Can I use these images commercially?",
+      "answer": "Commercial usage depends on the licensing policy of the AI image generation platform you use."
+    },
+    {
+      "id": "faq7",
+      "question": "Can beginners use this prompt?",
+      "answer": "Absolutely. Just upload your portrait, paste the prompt, and generate multiple variations."
+    },
+    {
+      "id": "faq8",
+      "question": "Can I change the time of day or weather?",
+      "answer": "Yes. You can modify the prompt to create sunrise, sunset, night, rainy, snowy, foggy, or any atmospheric condition you desire."
+    }
+  ],
+
+  "conclusion": "Ultra Realistic Cinematic House Landscape AI Photo Editing Prompts make it easy to create premium outdoor portraits that combine luxury travel aesthetics, dramatic natural environments, Hollywood-inspired lighting, and blockbuster-quality photography while preserving your natural appearance. With one high-quality portrait and a professionally crafted prompt, you can generate breathtaking landscape images suitable for Instagram, YouTube thumbnails, wallpapers, profile pictures, travel blogs, and viral social media content within seconds.",
+
+  "tags": [
+    "Cinematic Landscape AI Prompt",
+    "Luxury House AI Photo",
+    "AI Photo Editing",
+    "GPT Image Prompt",
+    "Landscape Portrait",
+    "Travel Lifestyle AI",
+    "Photorealistic AI",
+    "Cinematic AI Art",
+    "Mountain AI Prompt",
+    "Golden Hour Portrait",
+    "National Geographic AI",
+    "8K AI Image"
+  ],
+
+  "isTrending": true,
+  "comments": []
+  },
   {
   id: "post-13",
   title: "Ultra Realistic Rolls-Royce Night AI Photo Editing Prompt",
