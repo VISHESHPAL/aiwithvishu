@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.1"; // ← Change this number
+export const DATA_VERSION = "1.0.0"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -383,142 +383,6 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
-  "id": "post-16",
-  "title": "Ultra Realistic Lord Krishna Devotional AI Portrait Prompt",
-  "categoryId": "cat-1",
-  "image": "/images/post16/krishna1.avif",
-  "date": "July 29, 2026",
-  "author": "Vishu",
-
-  "introduction": "Ultra Realistic Lord Krishna Devotional AI portraits have become one of the most meaningful and visually stunning trends of 2026. This editing style combines spiritual devotion with premium cinematic photography, creating breathtaking images that capture divine connection, faith, and hope. Whether you want to stand before a majestic Krishna mural or reach toward the divine in a heavenly rooftop scene, these prompts preserve your natural appearance while placing you inside a sacred cinematic universe.\n\nUnlike typical AI portraits, this style focuses on achieving photorealistic results that rival professional editorial photography and award-winning spiritual artwork. Every detail is meticulously crafted—from the intricate textures of the Krishna mural, radiant golden clouds, and divine jewelry to the realistic fabric folds, wet reflective pavement, and natural skin texture. The results look indistinguishable from actual photographs captured by a professional photographer.\n\nThis editing style preserves every important facial and body detail of the original subject. Your exact facial structure, skin tone, hairstyle, beard pattern, smile, expression, and overall appearance remain completely unchanged. Instead of modifying your identity, the AI intelligently enhances the surrounding environment, lighting, and divine elements to create a seamless integration between you and the spiritual scene.\n\nOne of the biggest advantages of this editing style is its incredible realism. Professional photographers and visual artists often rely on expensive equipment, complex lighting setups, and advanced post-processing to create this type of imagery. With modern AI image generation models such as GPT Image, Flux Kontext, Midjourney, and Ideogram, creators can now achieve a comparable visual style within seconds by using carefully written prompts that preserve the subject's identity while enhancing every environmental and divine element with cinematic precision.",
-
-  "whyTrending": "Devotional AI portraits have exploded across Instagram, Pinterest, TikTok, and YouTube Shorts, particularly during festivals like Janmashtami and other spiritual celebrations. Images featuring Lord Krishna combined with premium fashion styling, dramatic lighting, and cinematic backgrounds receive significantly higher engagement because they resonate emotionally and tap into deep cultural and spiritual connections.\n\nCreators love this editing style because it transforms an ordinary portrait into a premium divine photograph without changing the person's natural appearance. With realistic mural textures, HDR lighting, dramatic reflections, wet pavement effects, and blockbuster composition, these images look like scenes from a high-budget spiritual film.\n\nUnlike traditional devotional photography that requires elaborate sets, costumes, and professional equipment, this AI editing style allows anyone to create stunning spiritual portraits within seconds, making this trend accessible to creators of all skill levels.",
-
-  "creationIntro": "Creating your own Ultra Realistic Lord Krishna Devotional portrait is extremely simple and requires only a few minutes.\n\nOpen ChatGPT or your preferred AI image generation platform.\nUpload a high-quality portrait with clear facial features.\nCopy one of the professionally written prompts provided below.\nPaste it into the AI image generator.\nGenerate multiple variations to achieve the most realistic result.\n\nWithin seconds, AI transforms your ordinary photograph into an award-winning devotional cinematic portrait while preserving your original face, hairstyle, beard, expression, and natural appearance. You are seamlessly integrated into a stunning spiritual scene with divine elements, dramatic cinematic lighting, and breathtaking backgrounds that look like they were captured by a professional photographer.",
-
-  "photoStepTitle": "Steps to Generate Ultra Realistic Lord Krishna Devotional Portrait",
-
-  "photoItems": [
-    {
-      "image": "/images/post16/krishna2.avif",
-      "title": "Ultra Realistic Krishna Mural Devotional Portrait",
-      "prompt": `Ultra-realistic full-body portrait of a young Indian man standing casually in front of a giant Lord Krishna mural painted on an old weathered wall. The man is smiling warmly at the camera, holding a traditional wooden flute in one hand, with the other hand in his pocket, in a relaxed crossed-leg pose. He wears a royal blue satin button-down shirt, light-wash wide-leg denim jeans, barefoot, with minimal accessories.Behind him, a breathtaking mural of Lord Krishna with blue skin, an intricate golden crown adorned with gemstones, a peacock feather, floral garlands, and a flute. The mural fills the entire background, painted in rich blue, teal, gold, and pink tones with fine artistic details and a devotional aesthetic.The ground is wet reflective pavement after rain, with scattered flower petals, cinematic reflections, shallow depth of field, soft overcast daylight, natural color grading, highly detailed skin texture, realistic fabric folds, editorial fashion photography, spiritual cultural atmosphere, premium portrait photography, 85mm lens, f/2.0, ultra-sharp focus, photorealistic, HDR, 8K quality, masterpiece.Style: luxury editorial portrait, devotional art backdrop, cinematic realism, natural lighting, high detail, realistic reflections, professional photographyNegative Prompt: blurry, low resolution, extra fingers, distorted hands, bad anatomy, duplicate objects, oversaturated colors, watermark, text, logo, cartoon, anime, CGI, plastic skin, low detail face, cropped feet, deformed flute, motion blur, noise, artifacts. `
-    },
-    {
-      "image": "/images/post16/krishna3.avif",
-      "title": "Ultra Realistic Rooftop Divine Connection Portrait",
-      "prompt" : `Ultra-realistic cinematic fantasy portrait of a young Indian man standing alone on a rooftop at night, reaching his hand upward and holding the hand of Lord Krishna emerging from radiant golden clouds in the sky. The man wears a black t-shirt, dark cardigan sweater, and blue jeans, looking upward with faith, hope, and devotion in his eyes. He is barefoot.Lord Krishna appears divine and majestic, with blue skin, an intricate golden crown decorated with gemstones and a peacock feather, floral garlands, sacred jewelry, and a glowing celestial aura. Krishna descends from luminous heavenly clouds illuminated with warm golden light, extending his hand toward the devotee in a gesture of divine connection.Deep midnight-blue sky filled with stars, a bright full moon on the left side, dramatic cloud formations, heavenly atmosphere, divine connection between human and God. Rooftop overlooking a city skyline with distant glowing lights and cinematic bokehPowerful emotional storytelling, spiritual awakening, faith overcoming darkness, dramatic contrast between cool moonlight and warm divine light. Volumetric lighting, god rays, realistic skin texture, ultra-detailed hands, cinematic composition, shallow depth of field, HDR photography, masterpiece, hyperrealistic, 8K, Unreal Engine quality, award-winning spiritual artwork. 4:5 aspect ratio.Lighting: moonlight from the left, golden celestial backlight from Krishna, volumetric clouds, cinematic rim light, dramatic shadows.Camera: full-body portrait, low-angle perspective, 85mm lens, f/1.8, ultra-sharp focus, professional color grading.Style: devotional fantasy realism, cinematic spiritual art, photorealistic divine scene, epic storytelling.Negative Prompt: blurry, low quality, extra fingers, deformed hands, bad anatomy, duplicate limbs, distorted face, cartoon, anime, CGI look, watermark, text, logo, oversaturated colors, low detail skin, cropped body, floating artifacts, unrealistic proportions.`
-    },
-    {
-      "image": "/images/post16/krishna4.avif",
-      "title": "Ultra Realistic Rooftop Divine Connection Portrait",
-      "prompt": `Use the uploaded face as identity reference. Preserve facial features accurately — same smile, same hairstyle, same beard pattern, same skin tone, same facial proportions. Place the subject standing in front of a massive Lord Krishna mural painted on an old weathered wall, holding a traditional wooden flute in one hand. The mural depicts Lord Krishna with blue skin, an intricate golden crown, peacock feather, floral garlands, and a flute, filling the entire background in rich blue, teal, gold, and pink tones.The subject wears a royal blue satin button-down shirt, light-wash wide-leg denim jeans, barefoot, with one hand in his pocket, in a relaxed crossed-leg pose. Wet reflective pavement after rain, scattered flower petals on the ground, cinematic reflections, shallow depth of field, soft overcast daylight, natural color grading, highly detailed skin texture, realistic fabric folds, editorial fashion photography, spiritual cultural atmosphere, premium portrait photography, 85mm lens, f/2.0, ultra-sharp focus, photorealistic, HDR, 8K quality, masterpiece. 4:5 portrait aspect ratio.Style: luxury editorial portrait, devotional art backdrop, cinematic realism, natural lighting, high detail, realistic reflections, professional photography.Negative Prompt: blurry, low resolution, extra fingers, distorted hands, bad anatomy, duplicate objects, oversaturated colors, watermark, text, logo, cartoon, anime, CGI, plastic skin, low detail face, cropped feet, deformed flute, motion blur, noise, artifacts. `
-    },
-  ],
-
-  "photoBtnText": "Create Your Images",
-  "photoBtnLink": "https://chat.openai.com/",
-
-  "videoStepTitle": "",
-  "videoStepImage": "",
-  "videoPrompt": "",
-  "videoBtnText": "",
-  "videoBtnLink": "",
-
-  "tipsTitle": "Tips for Best Results",
-
-  "tips": [
-    "Upload a high-resolution portrait with clear facial features and good lighting.",
-    "Keep your entire face fully visible without obstructions.",
-    "Use natural lighting in your reference photo for the best skin tones.",
-    "Avoid beauty filters and AI-enhanced selfies that may reduce realism.",
-    "Wear simple, solid-colored clothing for the best integration.",
-    "Choose a photo with your full face visible for identity preservation.",
-    "Generate multiple variations to achieve the most realistic result.",
-    "Use premium AI image generation models like GPT Image, Flux Kontext, or Midjourney.",
-    "Enable photorealistic or cinematic settings if available.",
-    "Export the final image in maximum resolution."
-  ],
-
-  "mistakesTitle": "Common Mistakes to Avoid",
-
-  "mistakes": [
-    "Uploading blurry or compressed images.",
-    "Using cropped faces or subjects.",
-    "Uploading group photos.",
-    "Extreme camera angles that make integration difficult.",
-    "Using heavy beauty filters that reduce realism.",
-    "Low-resolution reference photos.",
-    "Removing important prompt details.",
-    "Using unrealistic lighting settings.",
-    "Over-editing the final generated image.",
-    "Using photos with poor lighting or shadows across the face."
-  ],
-
-  "faqs": [
-    {
-      "id": "faq1",
-      "question": "What is this Lord Krishna Devotional AI prompt?",
-      "answer": "It is a cinematic AI image prompt designed to generate photorealistic devotional portraits featuring Lord Krishna, divine elements, and stunning backgrounds while preserving your natural appearance."
-    },
-    {
-      "id": "faq2",
-      "question": "Will my face remain unchanged?",
-      "answer": "Yes. The prompt instructs the AI to preserve your exact facial identity, facial structure, skin tone, hairstyle, beard pattern, smile, expression, and overall appearance with 100% identity consistency."
-    },
-    {
-      "id": "faq3",
-      "question": "Do I need Photoshop or editing skills?",
-      "answer": "No. Simply upload your portrait and paste the prompt into an AI image generator. No editing skills are required."
-    },
-    {
-      "id": "faq4",
-      "question": "Can I change the background or scene?",
-      "answer": "Yes. You can modify the prompt to create temple backgrounds, forest scenes, Vrindavan settings, or any other spiritual environment you prefer."
-    },
-    {
-      "id": "faq5",
-      "question": "Which AI models produce the best results?",
-      "answer": "GPT Image, Flux Kontext, Midjourney, Ideogram, and other advanced photorealistic AI models work exceptionally well for this prompt."
-    },
-    {
-      "id": "faq6",
-      "question": "Can I use these images commercially?",
-      "answer": "Commercial usage depends on the licensing policy of the AI image generation platform you use."
-    },
-    {
-      "id": "faq7",
-      "question": "Can beginners use this prompt?",
-      "answer": "Absolutely. Just upload your portrait, paste the prompt, and generate multiple variations to find the best result."
-    },
-    {
-      "id": "faq8",
-      "question": "Can I change the style or mood?",
-      "answer": "Yes. You can modify the prompt to create sunrise, sunset, night, or any other lighting mood you desire."
-    }
-  ],
-
-  "conclusion": "Ultra Realistic Lord Krishna Devotional AI Photo Editing Prompts make it easy to create premium spiritual portraits that combine divine aesthetics, cinematic lighting, editorial fashion quality, and photorealistic photography while preserving your natural appearance. With one high-quality portrait and a professionally crafted prompt, you can generate breathtaking devotional images suitable for Instagram, YouTube thumbnails, wallpapers, profile pictures, festival posts, and viral social media content within seconds.",
-
-  "tags": [
-    "Lord Krishna AI Prompt",
-    "Devotional AI Portrait",
-    "AI Photo Editing",
-    "GPT Image Prompt",
-    "Spiritual Portrait",
-    "Cinematic AI Art",
-    "Photorealistic AI",
-    "Krishna Mural AI",
-    "Divine Connection",
-    "Janmashtami AI Art",
-    "8K AI Image",
-    "Spiritual AI Photography"
-  ],
-
-  "isTrending": true,
-  "comments": []
-  },
-  {
   "id": "post-15",
   "title": "Ultra Realistic Spider-Man AI Photo Editing Prompt",
   "categoryId": "cat-1",
@@ -652,6 +516,142 @@ export const INITIAL_POSTS = [
     "Marvel AI Art",
     "8K AI Image",
     "Superhero AI Photography"
+  ],
+
+  "isTrending": true,
+  "comments": []
+  },
+  {
+  "id": "post-16",
+  "title": "Ultra Realistic Lord Krishna Devotional AI Portrait Prompt",
+  "categoryId": "cat-1",
+  "image": "/images/post16/krishna1.avif",
+  "date": "July 29, 2026",
+  "author": "Vishu",
+
+  "introduction": "Ultra Realistic Lord Krishna Devotional AI portraits have become one of the most meaningful and visually stunning trends of 2026. This editing style combines spiritual devotion with premium cinematic photography, creating breathtaking images that capture divine connection, faith, and hope. Whether you want to stand before a majestic Krishna mural or reach toward the divine in a heavenly rooftop scene, these prompts preserve your natural appearance while placing you inside a sacred cinematic universe.\n\nUnlike typical AI portraits, this style focuses on achieving photorealistic results that rival professional editorial photography and award-winning spiritual artwork. Every detail is meticulously crafted—from the intricate textures of the Krishna mural, radiant golden clouds, and divine jewelry to the realistic fabric folds, wet reflective pavement, and natural skin texture. The results look indistinguishable from actual photographs captured by a professional photographer.\n\nThis editing style preserves every important facial and body detail of the original subject. Your exact facial structure, skin tone, hairstyle, beard pattern, smile, expression, and overall appearance remain completely unchanged. Instead of modifying your identity, the AI intelligently enhances the surrounding environment, lighting, and divine elements to create a seamless integration between you and the spiritual scene.\n\nOne of the biggest advantages of this editing style is its incredible realism. Professional photographers and visual artists often rely on expensive equipment, complex lighting setups, and advanced post-processing to create this type of imagery. With modern AI image generation models such as GPT Image, Flux Kontext, Midjourney, and Ideogram, creators can now achieve a comparable visual style within seconds by using carefully written prompts that preserve the subject's identity while enhancing every environmental and divine element with cinematic precision.",
+
+  "whyTrending": "Devotional AI portraits have exploded across Instagram, Pinterest, TikTok, and YouTube Shorts, particularly during festivals like Janmashtami and other spiritual celebrations. Images featuring Lord Krishna combined with premium fashion styling, dramatic lighting, and cinematic backgrounds receive significantly higher engagement because they resonate emotionally and tap into deep cultural and spiritual connections.\n\nCreators love this editing style because it transforms an ordinary portrait into a premium divine photograph without changing the person's natural appearance. With realistic mural textures, HDR lighting, dramatic reflections, wet pavement effects, and blockbuster composition, these images look like scenes from a high-budget spiritual film.\n\nUnlike traditional devotional photography that requires elaborate sets, costumes, and professional equipment, this AI editing style allows anyone to create stunning spiritual portraits within seconds, making this trend accessible to creators of all skill levels.",
+
+  "creationIntro": "Creating your own Ultra Realistic Lord Krishna Devotional portrait is extremely simple and requires only a few minutes.\n\nOpen ChatGPT or your preferred AI image generation platform.\nUpload a high-quality portrait with clear facial features.\nCopy one of the professionally written prompts provided below.\nPaste it into the AI image generator.\nGenerate multiple variations to achieve the most realistic result.\n\nWithin seconds, AI transforms your ordinary photograph into an award-winning devotional cinematic portrait while preserving your original face, hairstyle, beard, expression, and natural appearance. You are seamlessly integrated into a stunning spiritual scene with divine elements, dramatic cinematic lighting, and breathtaking backgrounds that look like they were captured by a professional photographer.",
+
+  "photoStepTitle": "Steps to Generate Ultra Realistic Lord Krishna Devotional Portrait",
+
+  "photoItems": [
+    {
+      "image": "/images/post16/krishna2.avif",
+      "title": "Ultra Realistic Krishna Mural Devotional Portrait",
+      "prompt": `Ultra-realistic full-body portrait of a young Indian man standing casually in front of a giant Lord Krishna mural painted on an old weathered wall. The man is smiling warmly at the camera, holding a traditional wooden flute in one hand, with the other hand in his pocket, in a relaxed crossed-leg pose. He wears a royal blue satin button-down shirt, light-wash wide-leg denim jeans, barefoot, with minimal accessories.Behind him, a breathtaking mural of Lord Krishna with blue skin, an intricate golden crown adorned with gemstones, a peacock feather, floral garlands, and a flute. The mural fills the entire background, painted in rich blue, teal, gold, and pink tones with fine artistic details and a devotional aesthetic.The ground is wet reflective pavement after rain, with scattered flower petals, cinematic reflections, shallow depth of field, soft overcast daylight, natural color grading, highly detailed skin texture, realistic fabric folds, editorial fashion photography, spiritual cultural atmosphere, premium portrait photography, 85mm lens, f/2.0, ultra-sharp focus, photorealistic, HDR, 8K quality, masterpiece.Style: luxury editorial portrait, devotional art backdrop, cinematic realism, natural lighting, high detail, realistic reflections, professional photographyNegative Prompt: blurry, low resolution, extra fingers, distorted hands, bad anatomy, duplicate objects, oversaturated colors, watermark, text, logo, cartoon, anime, CGI, plastic skin, low detail face, cropped feet, deformed flute, motion blur, noise, artifacts. `
+    },
+    {
+      "image": "/images/post16/krishna3.avif",
+      "title": "Ultra Realistic Rooftop Divine Connection Portrait",
+      "prompt" : `Ultra-realistic cinematic fantasy portrait of a young Indian man standing alone on a rooftop at night, reaching his hand upward and holding the hand of Lord Krishna emerging from radiant golden clouds in the sky. The man wears a black t-shirt, dark cardigan sweater, and blue jeans, looking upward with faith, hope, and devotion in his eyes. He is barefoot.Lord Krishna appears divine and majestic, with blue skin, an intricate golden crown decorated with gemstones and a peacock feather, floral garlands, sacred jewelry, and a glowing celestial aura. Krishna descends from luminous heavenly clouds illuminated with warm golden light, extending his hand toward the devotee in a gesture of divine connection.Deep midnight-blue sky filled with stars, a bright full moon on the left side, dramatic cloud formations, heavenly atmosphere, divine connection between human and God. Rooftop overlooking a city skyline with distant glowing lights and cinematic bokehPowerful emotional storytelling, spiritual awakening, faith overcoming darkness, dramatic contrast between cool moonlight and warm divine light. Volumetric lighting, god rays, realistic skin texture, ultra-detailed hands, cinematic composition, shallow depth of field, HDR photography, masterpiece, hyperrealistic, 8K, Unreal Engine quality, award-winning spiritual artwork. 4:5 aspect ratio.Lighting: moonlight from the left, golden celestial backlight from Krishna, volumetric clouds, cinematic rim light, dramatic shadows.Camera: full-body portrait, low-angle perspective, 85mm lens, f/1.8, ultra-sharp focus, professional color grading.Style: devotional fantasy realism, cinematic spiritual art, photorealistic divine scene, epic storytelling.Negative Prompt: blurry, low quality, extra fingers, deformed hands, bad anatomy, duplicate limbs, distorted face, cartoon, anime, CGI look, watermark, text, logo, oversaturated colors, low detail skin, cropped body, floating artifacts, unrealistic proportions.`
+    },
+    {
+      "image": "/images/post16/krishna4.avif",
+      "title": "Ultra Realistic Rooftop Divine Connection Portrait",
+      "prompt": `Use the uploaded face as identity reference. Preserve facial features accurately — same smile, same hairstyle, same beard pattern, same skin tone, same facial proportions. Place the subject standing in front of a massive Lord Krishna mural painted on an old weathered wall, holding a traditional wooden flute in one hand. The mural depicts Lord Krishna with blue skin, an intricate golden crown, peacock feather, floral garlands, and a flute, filling the entire background in rich blue, teal, gold, and pink tones.The subject wears a royal blue satin button-down shirt, light-wash wide-leg denim jeans, barefoot, with one hand in his pocket, in a relaxed crossed-leg pose. Wet reflective pavement after rain, scattered flower petals on the ground, cinematic reflections, shallow depth of field, soft overcast daylight, natural color grading, highly detailed skin texture, realistic fabric folds, editorial fashion photography, spiritual cultural atmosphere, premium portrait photography, 85mm lens, f/2.0, ultra-sharp focus, photorealistic, HDR, 8K quality, masterpiece. 4:5 portrait aspect ratio.Style: luxury editorial portrait, devotional art backdrop, cinematic realism, natural lighting, high detail, realistic reflections, professional photography.Negative Prompt: blurry, low resolution, extra fingers, distorted hands, bad anatomy, duplicate objects, oversaturated colors, watermark, text, logo, cartoon, anime, CGI, plastic skin, low detail face, cropped feet, deformed flute, motion blur, noise, artifacts. `
+    },
+  ],
+
+  "photoBtnText": "Create Your Images",
+  "photoBtnLink": "https://chat.openai.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Tips for Best Results",
+
+  "tips": [
+    "Upload a high-resolution portrait with clear facial features and good lighting.",
+    "Keep your entire face fully visible without obstructions.",
+    "Use natural lighting in your reference photo for the best skin tones.",
+    "Avoid beauty filters and AI-enhanced selfies that may reduce realism.",
+    "Wear simple, solid-colored clothing for the best integration.",
+    "Choose a photo with your full face visible for identity preservation.",
+    "Generate multiple variations to achieve the most realistic result.",
+    "Use premium AI image generation models like GPT Image, Flux Kontext, or Midjourney.",
+    "Enable photorealistic or cinematic settings if available.",
+    "Export the final image in maximum resolution."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Uploading blurry or compressed images.",
+    "Using cropped faces or subjects.",
+    "Uploading group photos.",
+    "Extreme camera angles that make integration difficult.",
+    "Using heavy beauty filters that reduce realism.",
+    "Low-resolution reference photos.",
+    "Removing important prompt details.",
+    "Using unrealistic lighting settings.",
+    "Over-editing the final generated image.",
+    "Using photos with poor lighting or shadows across the face."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "What is this Lord Krishna Devotional AI prompt?",
+      "answer": "It is a cinematic AI image prompt designed to generate photorealistic devotional portraits featuring Lord Krishna, divine elements, and stunning backgrounds while preserving your natural appearance."
+    },
+    {
+      "id": "faq2",
+      "question": "Will my face remain unchanged?",
+      "answer": "Yes. The prompt instructs the AI to preserve your exact facial identity, facial structure, skin tone, hairstyle, beard pattern, smile, expression, and overall appearance with 100% identity consistency."
+    },
+    {
+      "id": "faq3",
+      "question": "Do I need Photoshop or editing skills?",
+      "answer": "No. Simply upload your portrait and paste the prompt into an AI image generator. No editing skills are required."
+    },
+    {
+      "id": "faq4",
+      "question": "Can I change the background or scene?",
+      "answer": "Yes. You can modify the prompt to create temple backgrounds, forest scenes, Vrindavan settings, or any other spiritual environment you prefer."
+    },
+    {
+      "id": "faq5",
+      "question": "Which AI models produce the best results?",
+      "answer": "GPT Image, Flux Kontext, Midjourney, Ideogram, and other advanced photorealistic AI models work exceptionally well for this prompt."
+    },
+    {
+      "id": "faq6",
+      "question": "Can I use these images commercially?",
+      "answer": "Commercial usage depends on the licensing policy of the AI image generation platform you use."
+    },
+    {
+      "id": "faq7",
+      "question": "Can beginners use this prompt?",
+      "answer": "Absolutely. Just upload your portrait, paste the prompt, and generate multiple variations to find the best result."
+    },
+    {
+      "id": "faq8",
+      "question": "Can I change the style or mood?",
+      "answer": "Yes. You can modify the prompt to create sunrise, sunset, night, or any other lighting mood you desire."
+    }
+  ],
+
+  "conclusion": "Ultra Realistic Lord Krishna Devotional AI Photo Editing Prompts make it easy to create premium spiritual portraits that combine divine aesthetics, cinematic lighting, editorial fashion quality, and photorealistic photography while preserving your natural appearance. With one high-quality portrait and a professionally crafted prompt, you can generate breathtaking devotional images suitable for Instagram, YouTube thumbnails, wallpapers, profile pictures, festival posts, and viral social media content within seconds.",
+
+  "tags": [
+    "Lord Krishna AI Prompt",
+    "Devotional AI Portrait",
+    "AI Photo Editing",
+    "GPT Image Prompt",
+    "Spiritual Portrait",
+    "Cinematic AI Art",
+    "Photorealistic AI",
+    "Krishna Mural AI",
+    "Divine Connection",
+    "Janmashtami AI Art",
+    "8K AI Image",
+    "Spiritual AI Photography"
   ],
 
   "isTrending": true,
