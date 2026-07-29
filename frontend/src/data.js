@@ -382,6 +382,146 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
+
+  {
+  "id": "post-15",
+  "title": "Ultra Realistic Spider-Man AI Photo Editing Prompt",
+  "categoryId": "cat-1",
+  "image": "/images/post15/spiderman1.avif",
+  "date": "July 29, 2026",
+  "author": "Vishu",
+
+  "introduction": "Ultra Realistic Spider-Man AI photo editing prompts have become one of the most viral superhero portrait trends of 2026. This editing style combines the iconic Spider-Man aesthetic with premium fashion photography, dramatic cinematic lighting, and hyper-realistic DSLR quality to create breathtaking images that look like they were captured on the set of a Hollywood blockbuster. Whether you want to transform yourself into Spider-Man, Spider-Woman, or a completely original superhero character, these prompts preserve your natural appearance while placing you inside a stunning cinematic universe.\n\nUnlike traditional AI portraits that often appear artificial or cartoonish, this editing style focuses on achieving photorealistic results that rival professional movie posters and editorial fashion campaigns. Every detail is meticulously crafted—from the intricate hexagonal fabric texture of the suit, realistic stitching, and metallic spider emblem to the natural fabric tension, folds, and muscle definition. The results look indistinguishable from actual photographs of a real person wearing a premium superhero costume.\n\nThis editing style preserves every important facial and body detail of the original subject. Your exact facial structure, skin tone, eye shape, eyebrows, nose, lips, hairstyle, hairline, expression, age, and overall appearance remain completely unchanged. Instead of modifying your identity, the AI intelligently enhances the surrounding environment, lighting, and costume details to create a seamless integration between you and the Spider-Man universe.\n\nOne of the biggest advantages of this editing style is its incredible realism. Rather than producing a generic AI-generated character, it creates photographs that resemble premium commercial advertisements captured using professional cameras such as the Sony A7R V. Every reflection, shadow, fabric wrinkle, and environmental detail is rendered with remarkable precision, producing a superhero portrait that feels alive and immersive.\n\nProfessional costume designers, photographers, and visual effects artists often rely on expensive equipment, complex lighting setups, and advanced post-processing to create this type of imagery. With modern AI image generation models such as GPT Image, Flux Kontext, Midjourney, Ideogram, and other advanced photorealistic models, creators can now achieve a comparable visual style within seconds by using carefully written prompts. These prompts instruct the AI to preserve the subject's identity while enhancing every environmental and costume element with cinematic precision.\n\nAnother major advantage of this editing style is its versatility. Whether you're creating Instagram posts, YouTube thumbnails, profile pictures, wallpapers, fan art, promotional content, or viral social media posts, these Spider-Man prompts instantly elevate the visual quality of your photographs. Dramatic high-angle perspectives, golden-hour lighting, cinematic clouds, realistic reflections, and luxurious contemporary environments create images that naturally attract attention across every social media platform.\n\nUnlike fantasy AI art or heavily stylized edits, this prompt is designed specifically for photorealism. Every detail is based on real-world lighting physics, authentic fabric textures, realistic shadows, global illumination, and professional camera optics. This makes the final image appear as though it was captured during an actual photoshoot instead of being artificially generated. The final result combines superhero aesthetics, editorial fashion photography, premium DSLR realism, and blockbuster-quality design to create breathtaking images suitable for every modern social media platform.",
+
+  "whyTrending": "Superhero AI portraits have exploded across Instagram, TikTok, Pinterest, Threads, Facebook, and YouTube Shorts. Images featuring iconic Spider-Man aesthetics combined with premium fashion styling, dramatic lighting, and cinematic backgrounds receive significantly higher engagement because they instantly capture attention and tap into the massive global fandom of the Spider-Man franchise.\n\nCreators love this editing style because it transforms an ordinary portrait into a premium Hollywood-inspired superhero photograph without changing the person's natural appearance. With realistic fabric textures, HDR lighting, dramatic shadows, cinematic reflections, and blockbuster composition, these images look like scenes from a high-budget superhero movie.\n\nUnlike traditional cosplay photos that require expensive costumes, professional photography equipment, and complex editing software, this AI editing style allows anyone to become their favorite superhero within seconds. The results are often indistinguishable from actual professional cosplay photography, making this trend accessible to creators of all skill levels.\n\nAnother reason behind this trend is the rapid improvement of AI image generation technology. Modern models now understand realistic lighting, fabric physics, camera optics, depth of field, HDR rendering, and natural color science far better than previous generations. As a result, creators can now generate premium-quality superhero photographs suitable for professional portfolios, fan art, social media branding, and digital marketing without expensive equipment or complex software.\n\nThis editing style continues to dominate because it combines nostalgia, superhero fandom, luxury fashion aesthetics, and cinematic storytelling into one complete visual experience that consistently receives higher engagement across nearly every social media platform.",
+
+  "creationIntro": "Creating your own Ultra Realistic Spider-Man portrait is extremely simple and requires only a few minutes.\n\nOpen ChatGPT or your preferred AI image generation platform.\nUpload a high-quality portrait with clear facial features.\nCopy one of the professionally written prompts provided below.\nPaste it into the AI image generator.\nGenerate multiple variations to achieve the most realistic result.\n\nWithin seconds, AI transforms your ordinary photograph into an award-winning superhero cinematic portrait while preserving your original face, hairstyle, expression, and natural appearance. You are seamlessly integrated into a stunning Spider-Man universe with premium costume details, dramatic cinematic lighting, and breathtaking backgrounds that look like they were captured by a professional photographer using a flagship Sony or Nikon camera.",
+
+  "photoStepTitle": "Steps to Generate Ultra Realistic Spider-Man Portrait",
+
+  "photoItems": [
+    {
+      "image": "/images/post15/spiderman2.avif",
+      "title": "Ultra Realistic Spider-Man High-Angle Portrait",
+      "prompt": ` Create an ultra-realistic 8K full-body portrait of the (4 : 5) **uploaded reference woman**, preserving her **exact facial identity**, facial structure, skin tone, eye shape, nose, lips, eyebrows, hairstyle, hairline, body proportions, and overall appearance with strict identity consistency. Capture her from a dramatic high-angle perspective, with the camera positioned directly above her to create a striking, fashion-editorial composition while showing her entire body. She has long, thick, voluminous dark hair styled in soft natural waves with realistic movement and texture, warm natural skin with lifelike pores and subtle imperfections, and she looks directly into the camera with a relaxed, confident, and slightly playful expression. She is wearing a premium, skin-tight Spider-Man-inspired compression crop top featuring vibrant crimson red and deep royal blue panels, intricate hexagonal fabric texture, realistic stitching, breathable athletic material, and a sleek matte-black spider emblem centered on the chest. The fitted crop top naturally complements her athletic figure with realistic fabric tension and folds. Pair it with comfortable high-waisted light grey joggers featuring premium cotton texture, subtle wrinkles, tapered ankles, and realistic draping, along with immaculate white low-top sneakers detailed with accurate stitching and clean rubber soles. She wears a sleek black backpack naturally over both shoulders, and casually holds a matching Spider-Man fabric mask in her right hand with realistic woven texture and natural folds. Around her neck rests a delicate silver chain with a small polished rectangular pendant that subtly catches the soft ambient light. She is standing naturally in a modern indoor hallway with polished grey marble flooring featuring elegant veining, soft reflections, and clean minimalist architecture, creating a luxurious contemporary atmosphere with a subtle shallow depth of field. Soft cinematic overhead lighting provides balanced shadows, realistic global illumination, natural skin tones, gentle highlights, and physically accurate reflections across the marble floor and fabrics. Every material—including fabric, marble, leather, metal, and skin—should appear highly realistic with exceptional texture detail. The composition is perfectly centered with natural posture, realistic anatomy, and balanced symmetry, blending superhero-inspired fashion with modern urban streetwear. Captured as if photographed on a Sony A7R V using a 35mm lens, featuring DSLR-quality photography, HDR, ray-traced lighting, cinematic color grading, ultra-photorealistic rendering, razor-sharp focus, editorial fashion photography, masterpiece quality, award-winning composition, lifelike skin texture, realistic fabric physics, premium fashion styling, and stunning 8K detail. **Negative prompt:** low quality, blurry, low resolution, cartoon, CGI, painting, anime, extra fingers, missing fingers, extra limbs, bad anatomy, distorted face, incorrect facial identity, altered hairstyle, unrealistic body proportions, warped clothing, oversized head, duplicate body, plastic skin, poor lighting, overexposed, underexposed, noisy image, pixelation, oversaturated colors, watermark, logo, text, signature, cropped body, out of frame, motion blur, unrealistic Spider-Man emblem, compression artifacts, identity changes, face swap, or facial distortion.
+`
+    },
+    {
+      "image": "/images/post15/spiderman3.avif",
+      "title": "Ultra Realistic Spider-Woman Rooftop Cinematic Portrait",
+      "prompt": `Create an ultra-realistic 8K full-body portrait of a young, (4 : 5)  **uploaded reference man** captured from a dramatic high-angle perspective, with the camera positioned directly above him, creating a dynamic composition while showing his entire body. He has a sharp masculine face, a well-groomed full beard, thick eyebrows, expressive dark brown eyes, and messy, voluminous black hair with realistic texture. His warm medium-brown skin features natural pores and lifelike facial details, and he looks directly into the camera with a calm, confident, slightly playful expression. He is wearing a premium skin-tight Spider-Man-inspired compression shirt in vibrant crimson red and deep royal blue, featuring intricate hexagonal fabric texture, realistic stitching, breathable athletic material, and a bold matte-black spider emblem on the chest, perfectly fitted to emphasize his athletic physique with natural fabric folds and tension. He pairs it with relaxed-fit light grey cotton sweatpants featuring realistic wrinkles and texture, along with pristine white low-top sneakers. A sleek black backpack is worn naturally over both shoulders, while his right hand casually holds a matching Spider-Man fabric mask with visible woven texture and realistic folds. Around his neck is a thin silver chain with a small polished rectangular pendant that subtly reflects the ambient light. He stands naturally in a modern indoor hallway with polished grey marble flooring, elegant veining, soft reflections, minimalist architecture, and a luxurious contemporary atmosphere enhanced by a shallow depth of field. Soft cinematic overhead lighting creates balanced shadows, realistic global illumination, natural skin tones, gentle highlights, and accurate reflections, showcasing detailed textures of fabric, marble, metal, and leather. The composition is perfectly centered with realistic body proportions, a relaxed stance, and believable anatomy, blending superhero-inspired aesthetics with modern urban streetwear fashion. Captured as if photographed on a Sony A7R V with a 35mm lens, HDR, ultra-photorealistic, DSLR quality, ray-traced lighting, cinematic color grading, razor-sharp focus, editorial fashion photography, masterpiece quality, award-winning composition, highly detailed, lifelike textures, realistic fabric physics, and premium visual realism. Negative prompt: low quality, blurry, low resolution, cartoon, CGI, painting, anime, extra fingers, missing fingers, extra limbs, bad anatomy, distorted face, unrealistic proportions, warped clothing, oversized head, duplicate body, plastic skin, poor lighting, overexposed, underexposed, noisy image, pixelation, oversaturated colors, watermark, logo, text, signature, cropped body, out of frame, motion blur, unrealistic Spider-Man emblem, and compression artifacts.
+`
+    },
+    {
+      "image": "/images/post15/spiderman4.avif",
+      "title": "Ultra Realistic Spider-Woman Rooftop Cinematic Portrait",
+      "prompt": `**Ultra-Realistic Spider-Woman Rooftop Cinematic (4 : 5) Prompt**Use the uploaded reference image as the facial identity reference and preserve the **exact face, facial structure, eye shape, eyebrows, nose, lips, skin tone, hairstyle, hairline, expression, age, and overall feminine appearance with 100% identity consistency**. Create an ultra-realistic, cinematic 8K portrait of a young woman crouching on the edge of a rooftop at golden hour, wearing a premium Spider-Woman-inspired bodysuit. The suit features deep crimson red and midnight blue panels with an intricate raised web pattern, breathable performance fabric, subtle metallic sheen, realistic stitching, and a sleek matte-black spider emblem across the chest. The bodysuit fits naturally with realistic fabric tension, folds, and muscle definition while maintaining elegant feminine proportions. She is posed in a powerful yet relaxed Spider-Woman crouch, one hand resting naturally on the rooftop edge while the other balances her body, looking thoughtfully toward the city skyline instead of directly at the camera. Her long dark hair is styled in a naturally messy high bun with loose strands flowing in the evening breeze, illuminated by warm golden sunlight. The background showcases a breathtaking New York-inspired skyline with iconic skyscrapers, glowing sunset colors, cinematic clouds, atmospheric haze, and realistic depth. The rooftop features weathered concrete textures, subtle graffiti, industrial details, and natural imperfections that enhance realism. Soft golden-hour sunlight creates beautiful rim lighting around her hair and body, realistic shadows, warm reflections, and natural skin tones with lifelike pores and fine facial details. Capture the image as if photographed using a Sony A7R V with an 85mm f/1.4 GM lens, featuring DSLR-quality sharpness, shallow depth of field, HDR, global illumination, ray-traced lighting, realistic reflections, ultra-detailed fabric textures, cinematic color grading, editorial fashion photography, masterpiece composition, award-winning realism, hyper-detailed skin, crisp focus, premium visual quality, and stunning 8K resolution. **Do not include any text, captions, logos, watermarks, arrows, stickers, reference images, graphic overlays, borders, social media elements, or promotional design—only the clean cinematic portrait.****Negative Prompt:** text, logo, watermark, signature, caption, arrows, stickers, reference image, split layout, collage, poster design, low quality, blurry, low resolution, cartoon, CGI, painting, anime, plastic skin, face swap, altered identity, deformed face, extra fingers, missing fingers, extra limbs, bad anatomy, unrealistic proportions, duplicate body, cropped body, motion blur, noise, compression artifacts, oversaturated colors, poor lighting, distorted web pattern, unrealistic suit texture, or out-of-frame composition.
+`
+    }
+  ],
+
+  "photoBtnText": "Create Your Images",
+  "photoBtnLink": "https://chat.openai.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Tips for Best Results",
+
+  "tips": [
+    "Upload a high-resolution portrait with clear facial features and good lighting.",
+    "Keep your entire face fully visible without obstructions.",
+    "Use natural lighting in your reference photo for the best skin tones.",
+    "Avoid beauty filters and AI-enhanced selfies that may reduce realism.",
+    "Wear simple, form-fitting clothing for the best costume integration.",
+    "Choose a photo with your full face visible for identity preservation.",
+    "Generate multiple variations to achieve the most realistic result.",
+    "Use premium AI image generation models like GPT Image, Flux Kontext, or Midjourney.",
+    "Enable photorealistic or cinematic settings if available.",
+    "Export the final image in maximum resolution."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Uploading blurry or compressed images.",
+    "Using cropped faces or subjects.",
+    "Uploading group photos.",
+    "Extreme camera angles that make integration difficult.",
+    "Using heavy beauty filters that reduce realism.",
+    "Low-resolution reference photos.",
+    "Removing important prompt details.",
+    "Using unrealistic lighting settings.",
+    "Over-editing the final generated image.",
+    "Using photos with poor lighting or shadows across the face."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "What is this Spider-Man AI prompt?",
+      "answer": "It is a cinematic AI image prompt designed to generate photorealistic Spider-Man portraits featuring premium costume details, dramatic lighting, and stunning backgrounds while preserving your natural appearance."
+    },
+    {
+      "id": "faq2",
+      "question": "Will my face remain unchanged?",
+      "answer": "Yes. The prompt instructs the AI to preserve your exact facial identity, facial structure, skin tone, eye shape, eyebrows, nose, lips, hairstyle, hairline, expression, and overall appearance with 100% identity consistency."
+    },
+    {
+      "id": "faq3",
+      "question": "Do I need Photoshop or editing skills?",
+      "answer": "No. Simply upload your portrait and paste the prompt into an AI image generator. No editing skills are required."
+    },
+    {
+      "id": "faq4",
+      "question": "Can I change the suit color or design?",
+      "answer": "Yes. You can modify the prompt to create black Spider-Man suits, Iron Spider suits, classic red and blue, or even custom color combinations."
+    },
+    {
+      "id": "faq5",
+      "question": "Which AI models produce the best results?",
+      "answer": "GPT Image, Flux Kontext, Midjourney, Ideogram, and other advanced photorealistic AI models work exceptionally well for this prompt."
+    },
+    {
+      "id": "faq6",
+      "question": "Can I use these images commercially?",
+      "answer": "Commercial usage depends on the licensing policy of the AI image generation platform you use. Be aware of potential copyright issues with Spider-Man merchandise."
+    },
+    {
+      "id": "faq7",
+      "question": "Can beginners use this prompt?",
+      "answer": "Absolutely. Just upload your portrait, paste the prompt, and generate multiple variations to find the best result."
+    },
+    {
+      "id": "faq8",
+      "question": "Can I change the background location?",
+      "answer": "Yes. You can replace the modern hallway or rooftop with Times Square, a skyscraper, a subway station, an urban alley, or any Spider-Man-inspired environment."
+    }
+  ],
+
+  "conclusion": "Ultra Realistic Spider-Man AI Photo Editing Prompts make it easy to create premium superhero portraits that combine iconic Spider-Man aesthetics, Hollywood-inspired lighting, fashion editorial quality, and blockbuster photography while preserving your natural appearance. With one high-quality portrait and a professionally crafted prompt, you can generate breathtaking superhero images suitable for Instagram, YouTube thumbnails, wallpapers, profile pictures, fan art, and viral social media content within seconds.",
+
+  "tags": [
+    "Spider-Man AI Prompt",
+    "Spider-Woman AI Portrait",
+    "AI Photo Editing",
+    "GPT Image Prompt",
+    "Superhero Portrait",
+    "Cinematic AI Art",
+    "Photorealistic AI",
+    "Spider-Man Suit AI",
+    "Golden Hour Portrait",
+    "Marvel AI Art",
+    "8K AI Image",
+    "Superhero AI Photography"
+  ],
+
+  "isTrending": true,
+  "comments": []
+},
   {
   "id": "post-14",
   "title": "Ultra Realistic Cinematic House Landscape AI Photo Editing Prompt",
@@ -412,7 +552,7 @@ export const INITIAL_POSTS = [
   ],
 
   "photoBtnText": "Create Your Images",
-  "photoBtnLink": "https://chat.openai.com/",
+  "photoBtnLink": "https://gemini.google.com/",
 
   "videoStepTitle": "",
   "videoStepImage": "",
