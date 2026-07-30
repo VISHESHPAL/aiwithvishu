@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.0"; // ← Change this number
+export const DATA_VERSION = "1.0.1"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -382,6 +382,142 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
+
+  {
+  "id": "post-16",
+  "title": "Cinematic Urban Street Style AI Photo Editing Prompt",
+  "categoryId": "cat-1",
+  "image": "/images/post17/streetstyle1.avif",
+  "date": "July 30, 2026",
+  "author": "Vishu",
+
+  "introduction": "Cinematic Urban Street Style AI photo editing prompts have become one of the most viral aesthetic portrait trends of 2026. This editing style combines the gritty, moody atmosphere of city life with premium streetwear fashion, dramatic film-grading, and hyper-realistic DSLR quality to create breathtaking images that look like they were captured on the set of an indie movie or high-end fashion campaign. Whether you want to transform yourself into a chic city dweller, an edgy streetwear model, or a cinematic protagonist, these prompts preserve your natural appearance while placing you inside a stunning urban universe.\n\nUnlike traditional AI portraits that often appear artificial or overly glossy, this editing style focuses on achieving moody, cinematic photorealism that rivals professional street photography and editorial fashion magazines. Every detail is meticulously crafted—from the intricate textures of woven fabrics and wired earphones to the mesmerizing bokeh of blurred city traffic and neon lights. The results look indistinguishable from actual photographs captured by a professional photographer during an evening urban photoshoot.\n\nThis editing style preserves every important facial and body detail of the original subject. Your exact facial structure, skin tone, eye shape, eyebrows, nose, lips, hairstyle, hairline, expression, age, and overall appearance remain completely unchanged. Instead of modifying your identity, the AI intelligently enhances the surrounding environment, lighting, and wardrobe details to create a seamless integration between you and the cinematic cityscape.\n\nOne of the biggest advantages of this editing style is its incredible atmospheric realism. Rather than producing a generic AI-generated character, it creates photographs that resemble premium street-style advertisements captured using professional cameras such as the Sony A7R V or Leica M11. Every reflection, shadow, fabric wrinkle, and environmental bokeh detail is rendered with remarkable precision, producing a portrait that feels alive, immersive, and effortlessly cool.\n\nProfessional street photographers often rely on expensive equipment, complex lighting setups, and extensive Lightroom color-grading to create this type of imagery. With modern AI image generation models such as GPT Image, Flux Kontext, Midjourney, Ideogram, and other advanced photorealistic models, creators can now achieve a comparable visual style within seconds by using carefully written prompts. These prompts instruct the AI to preserve the subject's identity while enhancing every environmental and costume element with cinematic precision.\n\nAnother major advantage of this editing style is its versatility. Whether you're creating Instagram posts, YouTube thumbnails, profile pictures, wallpapers, fan art, promotional content, or viral social media posts, these urban prompts instantly elevate the visual quality of your photographs. Dramatic shallow depth of field, moody teal-and-green color grading, glowing city bokeh, and contemporary fashion elements create images that naturally attract attention across every social media platform.\n\nUnlike fantasy AI art or heavily stylized edits, this prompt is designed specifically for grounded photorealism. Every detail is based on real-world lighting physics, authentic fabric textures, realistic shadows, global illumination, and professional camera optics. This makes the final image appear as though it was captured during an actual evening streetscape photoshoot instead of being artificially generated. The final result combines streetwear aesthetics, editorial fashion photography, premium DSLR realism, and moody cinematic storytelling to create breathtaking images suitable for every modern social media platform.",
+
+  "whyTrending": "Moody urban AI portraits have exploded across Instagram, TikTok, Pinterest, Threads, Facebook, and YouTube Shorts. Images featuring cinematic streetwear aesthetics combined with premium fashion styling, dark teal color grading, and heavily blurred city backgrounds receive significantly higher engagement because they instantly capture attention and tap into the massive global popularity of streetwear culture and cinematography.\n\nCreators love this editing style because it transforms an ordinary portrait into a premium Hollywood-inspired, urban editorial photograph without changing the person's natural appearance. With realistic fabric textures, HDR lighting, dramatic shadows, cinematic bokeh, and blockbuster composition, these images look like scenes from a high-budget film or a luxury fashion campaign.\n\nUnlike traditional street photoshoots that require expensive equipment, perfect lighting, and complex editing software, this AI editing style allows anyone to become a cinematic protagonist within seconds. The results are often indistinguishable from actual professional photography, making this trend accessible to creators of all skill levels.\n\nAnother reason behind this trend is the rapid improvement of AI image generation technology. Modern models now understand realistic lighting, depth of field, optical lens physics, HDR rendering, and natural color science far better than previous generations. As a result, creators can now generate premium-quality urban photographs suitable for professional portfolios, social media branding, and digital marketing without expensive equipment or complex software.\n\nThis editing style continues to dominate because it combines cinematic storytelling, streetwear fashion, and moody atmospheric aesthetics into one complete visual experience that consistently receives higher engagement across nearly every social media platform.",
+
+  "creationIntro": "Creating your own Cinematic Urban Street Style portrait is extremely simple and requires only a few minutes.\n\nOpen ChatGPT or your preferred AI image generation platform.\nUpload a high-quality portrait with clear facial features.\nCopy one of the professionally written prompts provided below.\nPaste it into the AI image generator.\nGenerate multiple variations to achieve the most realistic result.\n\nWithin seconds, AI transforms your ordinary photograph into an award-winning cinematic urban portrait while preserving your original face, hairstyle, expression, and natural appearance. You are seamlessly integrated into a stunning cityscape with premium streetwear details, dramatic moody lighting, and breathtaking bokeh backgrounds that look like they were captured by a professional photographer using a flagship Leica or Sony camera.",
+
+  "photoStepTitle": "Steps to Generate Cinematic Urban Street Portrait",
+
+  "photoItems": [
+    {
+      "image": "/images/post17/streetstyle2.avif",
+      "title": "Cinematic Urban Female Street Portrait",
+      "prompt" : `Prompt: A cinematic, photorealistic street photography shot of [SUBJECT] standing dead center, walking through a crowded, bustling city street at night. The subject is wearing white wired earphones and a dark, textured heavy wool coat, holding a bag. They have a serious, calm expression, looking directly into the camera. The surrounding crowd is heavily out of focus, creating an intense, dreamy shallow depth of field with massive bokeh. The background features glowing, blurred city lights and red traffic light bokeh orbs. The image features a dark, moody, highly desaturated cinematic color grade dominated by deep teal, dark olive greens, and shadowy blacks. Shot on an 85mm prime lens at f/1.4, cinematic grading, soft ambient street lighting, sharp focus on the subject's face and eyes, hyper-detailed skin texture, 8k resolution, editorial portrait style, moody atmosphere, high contrast. --ar 3:4Negative Prompt: blurry subject, low quality, extra fingers, deformed hands, bad anatomy, duplicate limbs, distorted face, cartoon, anime, CGI look, 3d render, plastic skin, watermark, text, logo, oversaturated colors, bright colors, sunny daytime, low detail skin, cropped body, floating artifacts, unrealistic proportions, two heads, duplicate people, flat lighting, soft shadows, messy background, visible noise, grainy image. ` 
+    },{
+      "image": "/images/post17/streetstyle3.avif",
+      "title": "Cinematic Urban Male Street Portrait",
+      "prompt" : ` Prompt: A cinematic, photorealistic street photography shot of [SUBJECT] standing dead center, walking through a crowded, bustling city street at night. The subject is wearing white wired earphones and a dark, textured heavy wool coat, holding a bag. They have a serious, calm expression, looking directly into the camera. The surrounding crowd is heavily out of focus, creating an intense, dreamy shallow depth of field with massive bokeh. The background features glowing, blurred city lights and red traffic light bokeh orbs. The image features a dark, moody, highly desaturated cinematic color grade dominated by deep teal, dark olive greens, and shadowy blacks. Shot on an 85mm prime lens at f/1.4, cinematic grading, soft ambient street lighting, sharp focus on the subject's face and eyes, hyper-detailed skin texture, 8k resolution, editorial portrait style, moody atmosphere, high contrast. --ar 3:4Negative Prompt: blurry subject, low quality, extra fingers, deformed hands, bad anatomy, duplicate limbs, distorted face, cartoon, anime, CGI look, 3d render, plastic skin, watermark, text, logo, oversaturated colors, bright colors, sunny daytime, low detail skin, cropped body, floating artifacts, unrealistic proportions, two heads, duplicate people, flat lighting, soft shadows, messy background, visible noise, grainy image.` 
+    },
+    {
+      "image": "/images/post17/streetstyle4.avif",
+      "title": "Ultra-Realistic Side-Profile City Walk",
+       "prompt" : ` Prompt: A cinematic, gritty street photography shot of [SUBJECT] walking through a bustling city crosswalk, captured from a side-profile angle looking forward and slightly upward with a calm, focused, and introspective expression. The subject is wearing wired white earphones trailing down their chest and a layered, casual dark olive-green utility jacket. The immediate foreground and background feature heavily blurred, anonymous pedestrians, creating an intense, sweeping motion-blur effect that emphasizes speed and the busy urban environment. The background reveals towering city buildings and out-of-focus traffic lights. The color grading is moody, desaturated, and cinematic, dominated by rich olive greens, muted grayish tones, and deep shadows. Shot on an 85mm prime lens, wide aperture f/1.4 for extreme bokeh, shallow depth of field, dynamic motion blur, natural gloomy daylight, sharp focus on the subject's side profile and facial features, hyper-detailed skin texture, editorial portrait style, urban street vibe, 8k, photorealistic. Negative Prompt: blurry subject, low quality, extra fingers, deformed hands, bad anatomy, duplicate limbs, distorted face, cartoon, anime, CGI look, 3d render, plastic skin, watermark, text, logo, oversaturated colors, bright colors, sunny daytime, low detail skin, cropped body, floating artifacts, unrealistic proportions, two heads, duplicate people, flat lighting, soft shadows, messy background, visible noise, grainy image, smiling broadly, eyes closed, overexposed, front-facing pose, static background.` 
+    },
+  ],
+
+  "photoBtnText": "Create Your Urban Portrait",
+  "photoBtnLink": "https://chat.openai.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Tips for Best Results",
+
+  "tips": [
+    "Upload a high-resolution portrait with clear facial features and good lighting.",
+    "Keep your entire face fully visible without obstructions.",
+    "Use natural lighting in your reference photo for the best skin tones.",
+    "Avoid beauty filters and AI-enhanced selfies that may reduce realism.",
+    "Wear dark, simple, form-fitting clothing for the best streetwear integration.",
+    "Choose a photo where your hair and face are clearly visible.",
+    "Generate multiple variations to achieve the most moody, cinematic result.",
+    "Use premium AI image generation models like GPT Image, Flux Kontext, or Midjourney (with --cref).",
+    "Enable photorealistic or cinematic settings if available.",
+    "Export the final image in maximum resolution."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Uploading blurry or compressed images.",
+    "Using cropped faces or subjects.",
+    "Uploading group photos.",
+    "Extreme camera angles that make integration difficult.",
+    "Using heavy beauty filters that reduce realism and skin texture.",
+    "Low-resolution reference photos.",
+    "Removing important prompt details like 'wired earphones' or 'bokeh'.",
+    "Using unrealistic, over-saturated lighting settings.",
+    "Over-editing the final generated image.",
+    "Using photos with harsh lighting or deep shadows covering the face."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "What is this Cinematic Urban Street Style AI prompt?",
+      "answer": "It is a cinematic AI image prompt designed to generate photorealistic urban portraits featuring moody teal/green color grading, premium streetwear details, intense shallow depth of field (bokeh), and dramatic city backgrounds while preserving your natural appearance."
+    },
+    {
+      "id": "faq2",
+      "question": "Will my face remain unchanged?",
+      "answer": "Yes. The prompt instructs the AI to preserve your exact facial identity, facial structure, skin tone, eye shape, eyebrows, nose, lips, hairstyle, hairline, expression, and overall appearance with 100% identity consistency."
+    },
+    {
+      "id": "faq3",
+      "question": "Do I need Photoshop or editing skills?",
+      "answer": "No. Simply upload your portrait and paste the prompt into an AI image generator. No editing skills are required."
+    },
+    {
+      "id": "faq4",
+      "question": "Can I change the outfit or background?",
+      "answer": "Yes. You can modify the prompt to change the jacket color, remove the earphones, switch to a subway station, Times Square, or an abandoned alley."
+    },
+    {
+      "id": "faq5",
+      "question": "Which AI models produce the best results?",
+      "answer": "GPT Image, Flux Kontext, Midjourney (with --cref command), Ideogram, and other advanced photorealistic AI models work exceptionally well for this prompt."
+    },
+    {
+      "id": "faq6",
+      "question": "Can I use these images commercially?",
+      "answer": "Commercial usage depends on the licensing policy of the AI image generation platform you use."
+    },
+    {
+      "id": "faq7",
+      "question": "Can beginners use this prompt?",
+      "answer": "Absolutely. Just upload your portrait, paste the prompt, and generate multiple variations to find the best result."
+    },
+    {
+      "id": "faq8",
+      "question": "How do I get the specific green/teal moody color grade?",
+      "answer": "The prompt specifically includes keywords like 'moody, desaturated, dominated by deep teal and dark olive greens'. Do not remove these words if you want that exact filter."
+    }
+  ],
+
+  "conclusion": "Cinematic Urban Street Style AI Photo Editing Prompts make it easy to create premium, moody portraits that combine streetwear fashion, Hollywood-inspired cinematography, editorial photography, and blockbuster atmospheric lighting while preserving your natural appearance. With one high-quality portrait and a professionally crafted prompt, you can generate breathtaking urban images suitable for Instagram, YouTube thumbnails, wallpapers, profile pictures, editorial branding, and viral social media content within seconds.",
+
+  "tags": [
+    "Urban AI Portrait",
+    "Cinematic Street Style",
+    "Moody AI Photo",
+    "GPT Image Prompt",
+    "Streetwear AI Art",
+    "Cinematic Photography",
+    "Photorealistic AI",
+    "Teal and Green Color Grade",
+    "Bokeh AI Photo",
+    "City Night Portrait",
+    "8K AI Image",
+    "Editorial AI Photography"
+  ],
+
+  "isTrending": true,
+  "comments": []
+  },
   {
   "id": "post-15",
   "title": "Ultra Realistic Spider-Man AI Photo Editing Prompt",
