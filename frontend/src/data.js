@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.1"; // ← Change this number
+export const DATA_VERSION = "1.0.0"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -382,9 +382,140 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
+ {
+  "id": "post-18",
+  "title": "Premium Name Light Installation AI Portrait Prompt",
+  "categoryId": "cat-1",
+  "image": "/images/post18/name-light-portrait1.avif",
+  "date": "August 3, 2026",
+  "author": "Vishu",
+
+  "introduction": "Premium Name Light Installation AI Portrait Prompt ek naya trend ban chuka hai 2026 mein. Yeh style ek custom, illuminated 3D letter installation ke saath low-key studio fashion photography ko combine karta hai, jo aapko luxury magazine cover jaisa look deta hai. Chahe aap content creator ho, model ho, ya koi jo apni profile picture ko next level lena chahta hai, yeh prompt aapki natural identity ko preserve karte hue ek premium, bespoke visual experience provide karta hai.\n\nIs prompt ki sabse badi khaasiyat hai iska hyper-realism. AI ek complete studio setup create karta hai—soft cotton shirt ki texture, silver watch ki chamak, aur illuminated letters se aane wali warm amber glow. Har detail, lighting aur shadow itni realistic hoti hai ki final image kisi professional fashion photographer ne shoot ki ho, aisa lagta hai.\n\nSabse important baat yeh hai ki AI aapke chehra, skin tone, hairstyle, expression, aur age ko bilkul unchanged rakhta hai. Yeh sirf aapko ek custom environment mein place karta hai, aapki identity ko modify nahi karta. Isliye final result aapka hi ek premium, brand-focused version hota hai.\n\nModern AI models jaise GPT Image, Flux Kontext, Midjourney ki madad se ab koi bhi is professional-level portrait ko kuch seconds mein generate kar sakta hai. Isme kisi expensive camera, studio, ya editing software ki zaroorat nahi. Bas ek high-quality portrait upload karein, prompt paste karein, aur apna custom 'Name in Lights' portrait create karein.",
+
+  "whyTrending": "Personalized AI studio portraits Instagram, LinkedIn, YouTube aur portfolio websites par kaafi viral ho rahe hain. Images jisme subject apne custom name ke saath illuminated installation ke paas ho, woh instantly attention grab karte hain kyunki yeh unique, premium aur brand-focused hote hain.\n\nCreators aur professionals is style ko pasand karte hain kyunki yeh personal branding ko next level le jaata hai. Ek simple portrait ko bespoke editorial piece mein badalna, jo exclusive aur professional feel karaaye, aaj ke digital world mein ek powerful tool ban gaya hai.\n\nIs trend ki growth ka ek aur reason hai AI technology ka rapid improvement. Modern models ab lighting, depth of field, aur realistic textures ko pehle se kahin better samajhte hain. Isliye ab koi bhi, bina kisi professional photography knowledge ke, high-end studio portraits generate kar sakta hai.\n\nYeh style kaamyaab hai kyunki yeh personal identity, modern design aur premium fashion aesthetics ko ek saath combine karta hai. Results hamesha stunning aate hain, isliye yeh trend continuously grow kar raha hai aur har platform par high engagement mil raha hai.",
+
+  "creationIntro": "Apna premium Name Light Installation portrait create karna bahut easy hai aur sirf kuch minutes ka kaam hai.\n\n1. ChatGPT ya apne pasandida AI image generation platform ko open karein.\n2. Ek high-quality portrait upload karein jisme face clear dikhe.\n3. Neeche diye gaye prompt ko copy karein aur \"NAME\" ki jagah apna naam likhein.\n4. Prompt ko AI image generator mein paste karein.\n5. Multiple variations generate karein aur best result select karein.\n\nBus! Seconds mein AI aapki ordinary photo ko ek award-winning editorial studio portrait mein badal dega, aapka original face, expression, aur natural appearance bilkul same rakhte hue.",
+
+  "photoStepTitle": "Steps to Generate Your Name Light Portrait",
+
+  "photoItems": [
+    {
+      "image": "/images/post18/name-light-portrait2.avif",
+      "title": "Premium Name Light Installation Portrait",
+      "prompt" : `Create a premium, ultra-realistic full-body studio fashion portrait of the uploaded man, preserving his natural facial identity, skin tone, age, hairstyle and existing facial hair. Dress him in a relaxed deep mahroom  button-down shirt made from soft brushed cotton with an open collar, rolled sleeves and natural folds, paired with tapered black trousers, clean white low-top sneakers, black rectangular sunglasses and a silver wristwatch. Position him closely beside the installation with relaxed shoulders, ankles casually crossed, one hand inside his trouser pocket and the other holding a second pair of thin-framed sunglasses near his waist. His body faces slightly toward the camera while his head turns naturally toward camera right with a calm, confident expression. To his left, place separate oversized three-dimensional letters vertically stacked in open space, spelling “NAME” exactly from top to bottom. Each letter must have a smooth, continuous warm-white illuminated front face with thick black extruded sides, supported invisibly above a minimal black floor base. Do not use a backing panel, frame, column or visible marquee bulbs. Make the complete letter installation approximately the same height as the subject.Use a seamless deep-black studio background and dark reflective floor. Let the illuminated letters act as the dominant warm side light, casting a soft amber glow across the subject, outlining his clothing and creating a concentrated reflection beneath the installation. Add only subtle frontal fill to preserve natural facial detail and rich shadows. Eye-level 50mm perspective, realistic proportions, cinematic low-key editorial photography, clean composition without additional text or logos, 4:5 or 3:4 aspect ratio. Letters vertically stacked, No gap between the letters. `
+    },
+    {
+      "image": "/images/post18/name-light-portrait3.avif",
+      "title": "Premium Name Light Installation Portrait",
+      "prompt" : `Create a premium, ultra-realistic full-body studio fashion portrait of the uploaded man, preserving his natural facial identity, skin tone, age, hairstyle and existing facial hair. Dress him in a relaxed deep chocolate-brown button-down shirt made from soft brushed cotton with an open collar, rolled sleeves and natural folds, paired with tapered black trousers, clean white low-top sneakers, black rectangular sunglasses and a silver wristwatch. Position him closely beside the installation with relaxed shoulders, ankles casually crossed, one hand inside his trouser pocket and the other holding a second pair of thin-framed sunglasses near his waist. His body faces slightly toward the camera while his head turns naturally toward camera right with a calm, confident expression.To his left, place separate oversized three-dimensional letters vertically stacked in open space, spelling “VISHU” exactly from top to bottom. Each letter must have a smooth, continuous warm-white illuminated front face with thick black extruded sides, supported invisibly above a minimal black floor base. Do not use a backing panel, frame, column or visible marquee bulbs. Make the complete letter installation approximately the same height as the subject. Usea seamless deep-black studio background and dark reflective floor. Let the illuminated letters act as the dominant warm side light, casting a soft amber glow across the subject, outlining his clothing and creating a concentrated reflection beneath the installation. Add only subtle frontal fill to preserve natural facial detail and rich shadows. Eye-level 50mm perspective, realistic proportions, cinematic low-key editorial photography, clean composition without additional text or logos, 4:5 or 3:4 aspect ratio. Letters vertically stacked, No gap between the letters. `
+    }
+ ],
+
+  "photoBtnText": "Create Your Premium Portrait",
+  "photoBtnLink": "https://chat.openai.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "Hamesha high-resolution portrait upload karein jisme face clear aur lighting achhi ho.",
+    "Poora face visible ho, koi obstruction (like hair or hands) na ho.",
+    "Natural lighting wali photo use karein for best skin tones.",
+    "Beauty filters ya AI-enhanced selfies use na karein, isse realism kam ho jaata hai.",
+    "Dark, simple, form-fitting clothing pehnein for best integration.",
+    "Photo mein hair aur face clearly visible ho.",
+    "Multiple variations generate karein for best cinematic result.",
+    "GPT Image, Flux Kontext, ya Midjourney (with --cref) jaise premium AI models use karein.",
+    "Photorealistic ya cinematic settings enable karein agar available ho.",
+    "Final image hamesha maximum resolution mein export karein."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Blurry ya compressed images upload karna.",
+    "Cropped faces ya subjects use karna.",
+    "Group photos upload karna.",
+    "Extreme camera angles jo integration ko mushkil bana dein.",
+    "Heavy beauty filters jo realism aur skin texture ko kharab karein.",
+    "Low-resolution reference photos use karna.",
+    "Prompt se important details jaise 'illuminated letters' ya 'warm side light' hata dena.",
+    "Unrealistic, over-saturated lighting settings use karna.",
+    "Final generated image ko over-edit karna.",
+    "Aisi photo use karna jisme harsh lighting ya deep shadows face ko cover karein."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Name Light Installation AI prompt kya hai?",
+      "answer": "Yeh ek cinematic AI image prompt hai jo aapki photo ko premium studio fashion portrait mein badalta hai, jisme aapke naam ke illuminated 3D letters background mein hote hain. Yeh low-key editorial photography style mein hota hai jo luxury magazine jaisa look deta hai."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya mera face unchanged rahega?",
+      "answer": "Haan. Prompt AI ko instruct karta hai ki aapki exact facial identity, skin tone, eye shape, eyebrows, nose, lips, hairstyle, expression, aur overall appearance ko 100% preserve kare. Identity bilkul same rahti hai."
+    },
+    {
+      "id": "faq3",
+      "question": "Kya mujhe Photoshop ya editing skills chahiye?",
+      "answer": "Bilkul nahi. Bas apna portrait upload karein, prompt paste karein (pehle 'NAME' ki jagah apna naam likhein), aur AI image generator mein generate karein. Koi editing skills nahi chahiye."
+    },
+    {
+      "id": "faq4",
+      "question": "Kya main outfit ya background change kar sakta hoon?",
+      "answer": "Haan. Aap prompt mein shirt ka colour, shoes, ya background elements modify kar sakte hain. Jaise background black ki jagah dark grey kar sakte hain, ya shirt ka colour change kar sakte hain."
+    },
+    {
+      "id": "faq5",
+      "question": "Kaunse AI models best results dete hain?",
+      "answer": "GPT Image, Flux Kontext, Midjourney (with --cref command), Ideogram, aur doosre advanced photorealistic AI models is prompt ke liye bahut achha kaam karte hain."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya main in images ko commercially use kar sakta hoon?",
+      "answer": "Commercial usage us AI image generation platform ki licensing policy par depend karta hai jise aap use kar rahe hain. Kuch platforms commercial use allow karte hain, kuch nahi."
+    },
+    {
+      "id": "faq7",
+      "question": "Kya beginners yeh prompt use kar sakte hain?",
+      "answer": "Bilkul. Bas portrait upload karein, prompt mein 'NAME' ki jagah apna naam likhein, paste karein, aur generate karein. Multiple variations try karein best result ke liye."
+    },
+    {
+      "id": "faq8",
+      "question": "Mujhe specific lighting aur shadow effect kaise milega?",
+      "answer": "Prompt mein keywords jaise 'warm side light', 'soft amber glow', 'cinematic low-key', aur 'dark reflective floor' already included hain. Inhe remove na karein agar aapko wahi effect chahiye."
+    }
+  ],
+
+  "conclusion": "Premium Name Light Installation AI Portrait Prompt aapko ek custom, high-end editorial image create karne ka mauka deta hai jo aapki natural identity ko preserve karte hue aapko ek luxury magazine cover jaisa look deta hai. Bas ek high-quality portrait aur professionally crafted prompt ke saath, aap seconds mein stunning images generate kar sakte hain jo Instagram, LinkedIn, YouTube thumbnails, profile pictures, aur personal branding ke liye perfect hain.",
+
+  "tags": [
+    "Name Light Installation",
+    "AI Studio Portrait",
+    "Premium AI Photo",
+    "GPT Image Prompt",
+    "Editorial AI Photography",
+    "Cinematic Low-Key Portrait",
+    "Photorealistic AI",
+    "Personal Branding AI",
+    "Custom AI Portrait",
+    "3D Letter Installation",
+    "Luxury AI Portrait",
+    "Fashion AI Photography"
+  ],
+
+  "isTrending": true,
+  "comments": []
+},
 
   {
-  "id": "post-16",
+  "id": "post-17",
   "title": "Cinematic Urban Street Style AI Photo Editing Prompt",
   "categoryId": "cat-1",
   "image": "/images/post17/streetstyle1.avif",
