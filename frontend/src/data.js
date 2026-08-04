@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.0"; // ← Change this number
+export const DATA_VERSION = "1.0.1"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -382,6 +382,137 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
+  {
+  "id": "post-19",
+  "title": "Elegant Traditional Saree AI Portrait Prompt",
+  "categoryId": "cat-1",
+  "image": "/images/post19/saree-portrait1.avif",
+  "date": "August 4, 2026",
+  "author": "Vishu",
+
+  "introduction": "Elegant Traditional Saree AI Portrait Prompt 2026 mein ek naya trend ban chuka hai jo ethnic fashion aur cinematic photography ko ek saath combine karta hai. Yeh prompt ek stunning organza saree, traditional jasmine flower jewelry, aur warm golden lighting ke saath ek luxury editorial portrait create karta hai. Chahe aap kisi special occasion ke liye photo chahti hain, ya apni Instagram profile ko next level lena chahti hain, yeh prompt aapki natural identity ko preserve karte hue ek dreamy, cinematic masterpiece provide karta hai.\n\nIs prompt ki sabse badi khaasiyat hai iska hyper-realism aur cinematic mood. AI ek complete studio setup create karta hai—organza saree ki soft texture, gold jewelry ki chamak, jasmine flowers ki fragrance wali feel, aur walls par artistic shadows. Har detail, lighting aur fabric texture itni realistic hoti hai ki final image kisi professional fashion photographer ne luxury magazine ke liye shoot ki ho, aisa lagta hai.\n\nSabse important baat yeh hai ki AI aapka face, facial features, face shape, skin tone, hairstyle, aur expression ko bilkul unchanged rakhta hai. Yeh sirf aapko ek elegant, traditional environment mein place karta hai, aapki identity ko modify nahi karta. Isliye final result aapka hi ek premium, royalty-inspired version hota hai.\n\nModern AI models jaise GPT Image, Flux Kontext, Midjourney ki madad se ab koi bhi is professional-level traditional portrait ko kuch seconds mein generate kar sakta hai. Isme kisi expensive camera, studio, ya complex editing software ki zaroorat nahi. Bas ek high-quality portrait upload karein, prompt paste karein, aur apna custom traditional saree portrait create karein.\n\nYeh style un sabhi ke liye perfect hai jo apni ethnic beauty ko modern, cinematic style mein showcase karna chahte hain. Results hamesha stunning aate hain jo Instagram, Pinterest, YouTube thumbnails, aur personal branding ke liye perfect hain.",
+
+  "whyTrending": "Traditional saree AI portraits Instagram, Pinterest, aur luxury fashion pages par kaafi viral ho rahe hain. Images mein ethnic beauty ko cinematic photography ke saath combine kiya jaata hai, jo instantly attention grab karta hai. Log is style ko pasand karte hain kyunki yeh traditional Indian fashion ko modern, luxury editorial style mein present karta hai.\n\nCreators aur influencers is style ko adopt kar rahe hain kyunki yeh unke cultural roots ko premium, international-level photography style mein showcase karta hai. Ek simple portrait ko luxury magazine cover jaisa banane ka yeh sabse easy tarika hai.\n\nIs trend ki growth ka ek aur reason hai AI technology ka improvement. Modern models ab fabric textures, jewelry details, aur warm golden lighting ko pehle se kahin better samajhte hain. Isliye ab koi bhi, bina kisi professional photography knowledge ke, high-end traditional portraits generate kar sakta hai.\n\nYeh style kaamyaab hai kyunki yeh traditional Indian aesthetics (saree, jasmine jewelry, gajra) ko modern cinematic elements (shallow depth of field, artistic shadows, luxury grading) ke saath combine karta hai. Results hamesha stunning aur Instagram-worthy aate hain, isliye yeh trend continuously grow kar raha hai.",
+
+  "creationIntro": "Apna premium Traditional Saree AI Portrait create karna bahut easy hai aur sirf kuch minutes ka kaam hai.\n\n1. ChatGPT ya apne pasandida AI image generation platform ko open karein.\n2. Ek high-quality portrait upload karein jisme face clear dikhe.\n3. Neeche diye gaye prompts mein se koi ek copy karein.\n4. Prompt ko AI image generator mein paste karein.\n5. Multiple variations generate karein aur best result select karein.\n\nBus! Seconds mein AI aapki ordinary photo ko ek award-winning luxury editorial traditional portrait mein badal dega, aapka original face, expression, aur natural beauty bilkul same rakhte hue.",
+
+  "photoStepTitle": "Steps to Generate Your Traditional Saree Portrait",
+
+  "photoItems": [
+    {
+      "image": "/images/post19/saree-portrait2.avif",
+      "title": "Ivory White Organza Saree Portrait",
+      "prompt": `Use the uploaded girl's photo as the identity reference. Keep her exact face, facial features, face shape and skin tone unchanged. Ultra-realistic portrait of the same girl wearing an elegant ivory-white organza saree with jasmine flower jewelry, floral gajra bun, heavy gold earrings and stacked bangles. Sitting gracefully on the floor with one hand resting on her cheek, looking at the camera. Warm golden indoor lighting, large artistic shadow on the beige wall behind her, glass bowl filled with jasmine flowers in foreground, soft glowing makeup, dreamy cinematic mood, luxury editorial photography, shallow depth of field, highly detailed fabric, photorealistic, 4 : 5  portrait, 8K quality." `
+    },
+    {
+      "image": "/images/post19/saree-portrait3.avif",
+      "title": "Peacock Teal Organza Saree Portrait",
+      "prompt" : `Use the uploaded girl's photo as the identity reference. Keep her exact face, facial features, face shape and skin tone unchanged. Ultra-realistic portrait of the same girl wearing a stunning peacock teal organza saree with intricate gold and copper thread embroidery, jasmine flower jewelry, floral gajra bun, heavy gold earrings and stacked bangles. Sitting gracefully on the floor with one hand resting on her cheek, looking at the camera. Warm golden indoor lighting, large artistic shadow on the beige wall behind her, glass bowl filled with jasmine flowers in foreground, soft glowing makeup, dreamy cinematic mood, luxury editorial photography, shallow depth of field, highly detailed fabric, photorealistic, 4:5 portrait, 8K quality. `
+    }
+  ],
+
+  "photoBtnText": "Create Your Traditional Portrait",
+  "photoBtnLink": "https://chat.openai.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "Hamesha high-resolution portrait upload karein jisme face clear aur lighting achhi ho.",
+    "Poora face visible ho, koi obstruction (like hair or hands) na ho.",
+    "Natural lighting wali photo use karein for best skin tones.",
+    "Beauty filters ya AI-enhanced selfies use na karein, isse realism kam ho jaata hai.",
+    "Photo mein hair aur face clearly visible ho.",
+    "Shoulders aur upper body visible ho for best saree integration.",
+    "Multiple variations generate karein for best cinematic result.",
+    "GPT Image, Flux Kontext, ya Midjourney (with --cref) jaise premium AI models use karein.",
+    "Photorealistic ya cinematic settings enable karein agar available ho.",
+    "Final image hamesha maximum resolution mein export karein."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Blurry ya compressed images upload karna.",
+    "Cropped faces ya subjects use karna.",
+    "Group photos upload karna.",
+    "Extreme camera angles jo integration ko mushkil bana dein.",
+    "Heavy beauty filters jo realism aur skin texture ko kharab karein.",
+    "Low-resolution reference photos use karna.",
+    "Prompt se important details jaise 'organza saree' ya 'warm golden lighting' hata dena.",
+    "Unrealistic, over-saturated lighting settings use karna.",
+    "Final generated image ko over-edit karna.",
+    "Aisi photo use karna jisme harsh lighting ya deep shadows face ko cover karein."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Traditional Saree AI Portrait prompt kya hai?",
+      "answer": "Yeh ek cinematic AI image prompt hai jo aapki photo ko luxury editorial traditional portrait mein badalta hai, jisme aap elegant organza saree aur traditional jewelry mein dikhti hain. Yeh dreamy cinematic mood aur warm golden lighting ke saath premium magazine cover jaisa look deta hai."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya mera face unchanged rahega?",
+      "answer": "Haan. Prompt AI ko instruct karta hai ki aapki exact facial identity, face shape, skin tone, eye shape, eyebrows, nose, lips, hairstyle, aur expression ko 100% preserve kare. Identity bilkul same rahti hai."
+    },
+    {
+      "id": "faq3",
+      "question": "Kya mujhe Photoshop ya editing skills chahiye?",
+      "answer": "Bilkul nahi. Bas apna portrait upload karein, prompt paste karein, aur AI image generator mein generate karein. Koi editing skills nahi chahiye."
+    },
+    {
+      "id": "faq4",
+      "question": "Kya main saree ka colour ya jewelry change kar sakti hoon?",
+      "answer": "Haan. Aap prompt mein saree ka colour, jewelry style, ya background elements modify kar sakti hain. Jaise ivory-white ki jagah red, ya peacock teal ki jagah royal blue kar sakti hain."
+    },
+    {
+      "id": "faq5",
+      "question": "Kaunse AI models best results dete hain?",
+      "answer": "GPT Image, Flux Kontext, Midjourney (with --cref command), Ideogram, aur doosre advanced photorealistic AI models is prompt ke liye bahut achha kaam karte hain."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya main in images ko commercially use kar sakti hoon?",
+      "answer": "Commercial usage us AI image generation platform ki licensing policy par depend karta hai jise aap use kar rahe hain. Kuch platforms commercial use allow karte hain, kuch nahi."
+    },
+    {
+      "id": "faq7",
+      "question": "Kya beginners yeh prompt use kar sakte hain?",
+      "answer": "Bilkul. Bas portrait upload karein, prompt paste karein, aur generate karein. Multiple variations try karein best result ke liye."
+    },
+    {
+      "id": "faq8",
+      "question": "Mujhe specific dreamy cinematic mood kaise milega?",
+      "answer": "Prompt mein keywords jaise 'warm golden lighting', 'shallow depth of field', 'soft glowing makeup', aur 'dreamy cinematic mood' already included hain. Inhe remove na karein agar aapko wahi effect chahiye."
+    }
+  ],
+
+  "conclusion": "Elegant Traditional Saree AI Portrait Prompt aapko ek stunning, luxury editorial portrait create karne ka mauka deta hai jo aapki natural beauty ko preserve karte hue aapko ek royalty-inspired, cinematic look deta hai. Bas ek high-quality portrait aur professionally crafted prompt ke saath, aap seconds mein breathtaking images generate kar sakti hain jo Instagram, Pinterest, YouTube thumbnails, profile pictures, aur personal branding ke liye perfect hain.",
+
+  "tags": [
+    "Traditional Saree Portrait",
+    "AI Ethnic Portrait",
+    "Luxury Editorial AI",
+    "Organza Saree AI",
+    "Cinematic Traditional Portrait",
+    "Indian Fashion AI",
+    "Jasmine Jewelry Portrait",
+    "Dreamy AI Portrait",
+    "GPT Image Prompt",
+    "8K AI Portrait",
+    "Ethnic AI Photography",
+    "Wedding Portrait AI"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
  {
   "id": "post-18",
   "title": "Premium Name Light Installation AI Portrait Prompt",
@@ -512,7 +643,7 @@ export const INITIAL_POSTS = [
 
   "isTrending": true,
   "comments": []
-},
+ },
 
   {
   "id": "post-17",
