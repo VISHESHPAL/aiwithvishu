@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.1"; // ← Change this number
+export const DATA_VERSION = "1.0.0"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -13,13 +13,10 @@ export const INITIAL_CATEGORIES = [
 ];
 
 export const INITIAL_PAGES = [
-  {
+{
     id: "about-us",
     title: "About Us",
-    content: `Welcome to AI with Vishu
-
-Hello! AI with Vishu is a professional platform where we provide interesting and valuable content focused on Photo & Video Editing.
-
+    content: `Welcome to AI with VishuHello! AI with Vishu is a professional platform where we provide interesting and valuable content focused on Photo & Video Editing.
 We are committed to delivering high-quality, reliable, and insightful information. Our goal is to turn our passion for Photo & Video Editing into a thriving online resource.
 
 We will continue to post such valuable and knowledgeable information on our website for all of you. Your love and support mean a lot to us.
@@ -383,6 +380,137 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  "id": "post-20",
+  "title": "Black & White Ink Engraving Editorial Portrait Prompt",
+  "categoryId": "cat-1",
+  "image": "/images/post20/engraving-portrait1.avif",
+  "date": "August 5, 2026",
+  "author": "Vishu",
+
+  "introduction": "Black & White Ink Engraving Editorial Portrait Prompt 2026 mein ek unique aur premium trend ban chuka hai jo classic printmaking techniques ko modern AI technology ke saath combine karta hai. Yeh prompt ek stunning black and white ink engraving style poster create karta hai, jisme aapka formal suit mein portrait ek luxury thriller movie poster jaisa lagta hai. Chahe aap ek professional profile picture chahte hain, ya apni personal branding ko next level lena chahte hain, yeh prompt aapki natural identity ko preserve karte hue ek museum-quality fine art piece provide karta hai.\n\nIs prompt ki sabse badi khaasiyat hai iska hyper-detailed engraving style. AI traditional cross-hatching, fine-line etching, aur vintage printmaking techniques ko replicate karta hai—hazaaron thin lines face ke contours follow karti hain, volume, shadows, aur texture create karti hain. Har line itni precise aur realistic hoti hai ki final image kisi master printmaker ne haath se banayi ho, aisa lagta hai.\n\nSabse important baat yeh hai ki AI aapka face, facial features, face shape, bone structure, skin tone, eyes, eyebrows, nose, lips, jawline, aur hairstyle ko bilkul unchanged rakhta hai. Yeh sirf aapko ek premium editorial environment mein place karta hai, aapki identity ko modify nahi karta. Isliye final result aapka hi ek authoritative, cinematic version hota hai.\n\nModern AI models jaise GPT Image, Flux Kontext, Midjourney ki madad se ab koi bhi is professional-level engraving portrait ko kuch seconds mein generate kar sakta hai. Isme kisi expensive artist, printing press, ya complex editing software ki zaroorat nahi. Bas ek high-quality portrait upload karein, prompt paste karein, aur apna custom ink engraving poster create karein.\n\nYeh style un sabhi ke liye perfect hai jo apni personality ko ek dark, authoritative, aur premium way mein showcase karna chahte hain. Results hamesha stunning aate hain jo Instagram, LinkedIn, YouTube thumbnails, aur personal branding ke liye perfect hain.",
+
+  "whyTrending": "Black & white ink engraving AI portraits LinkedIn, Instagram, aur luxury design pages par kaafi viral ho rahe hain. Images mein classic printmaking aesthetics ko modern minimalism ke saath combine kiya jaata hai, jo instantly attention grab karta hai. Professionals aur creators is style ko pasand karte hain kyunki yeh unhe authoritative, serious, aur premium look deta hai.\n\nInfluencers aur entrepreneurs is style ko adopt kar rahe hain kyunki yeh unki personal branding ko ek unique, artistic edge deta hai. Ek simple portrait ko museum-quality fine art print mein badalna aaj ke digital world mein ek powerful statement ban gaya hai.\n\nIs trend ki growth ka ek aur reason hai AI technology ka improvement. Modern models ab traditional engraving techniques—cross-hatching, fine-line etching, ink splatter effects—ko pehle se kahin better samajhte hain. Isliye ab koi bhi, bina kisi artistic training ke, high-end engraving portraits generate kar sakta hai.\n\nYeh style kaamyaab hai kyunki yeh vintage printmaking (engraving, etching, ink splatter) ko modern editorial design (minimalist composition, premium typography, movie poster aesthetics) ke saath combine karta hai. Results hamesha stunning aur professionally impressive aate hain, isliye yeh trend continuously grow kar raha hai.",
+
+  "creationIntro": "Apna premium Black & White Ink Engraving Editorial Portrait create karna bahut easy hai aur sirf kuch minutes ka kaam hai.\n\n1. ChatGPT ya apne pasandida AI image generation platform ko open karein.\n2. Ek high-quality portrait upload karein jisme face clear dikhe.\n3. Neeche diye gaye prompt ko copy karein aur \"YOUR NAME\" ki jagah apna naam likhein.\n4. Prompt ko AI image generator mein paste karein.\n5. Multiple variations generate karein aur best result select karein.\n\nBus! Seconds mein AI aapki ordinary photo ko ek award-winning luxury editorial engraving poster mein badal dega, aapka original face, expression, aur natural features bilkul same rakhte hue.",
+
+  "photoStepTitle": "Steps to Generate Your Engraving Editorial Portrait",
+
+  "photoItems": [
+    {
+      "image": "/images/post20/engraving-portrait2.avif",
+      "title": "Black & White Ink Engraving Portrait",
+      "prompt": `Use the reference photo I uploaded as the character’s primary identity. Maintain 100% facial resemblance without altering the facial shape, bone structure, skin color, eyes, eyebrows, nose, lips, ears, jawline, skin texture, beard (if present), or hairstyle. Prioritize facial resemblance over artistic interpretation.Create a premium editorial illustration poster in a black-and-white ink engraving style with a vertical 4:5 composition. The character wears a formal black suit, white shirt, and black tie, with a intense, commanding, and piercing expression, looking upward with a powerful gaze toward the camera from a dramatic low-angle perspective. Position the face slightly off-center, filling about 65–75% of the frame, with the chin elevated and the jawline strongly defined to emphasize authority and dominance. The upper portion of the composition is left as negative white space for a bold, cinematic, and elegant impression.The entire illustration is crafted using engraving, cross-hatching, and fine-line etching techniques, with thousands of delicate black ink lines flowing along the contours of the face to sculpt volume, deep shadows, and texture across the skin, hair, beard, and clothing. Avoid any smooth digital painting effect — every detail must be built from crisp black ink lines, reminiscent of classic vintage print illustrations. The background is a smooth-textured white paper with ink splatters, black paint splashes, abstract brushstrokes, and ink droplets scattered artistically yet randomly. The stark high contrast between dense black ink and pristine white paper creates a bold, dramatic atmosphere. Use dramatic high-contrast lighting with strong highlights on the forehead, cheekbones, and chin, while deep shadows are formed entirely by the density and layering of carved ink lines, not color gradients.Centered at the bottom of the poster, add large typography using a condensed sans-serif font, all-caps, in black: "RUDRA SINGH" Arrange the text horizontally with wide letter spacing to create a premium, high-end movie poster look. Below the name, add a few lines of small fictitious film credits as an editorial design element, placed discreetly without distracting from the dominant presence of the face. The overall composition should evoke the feeling of a psychological thriller film poster, a luxury fashion editorial, and a museum-quality fine art print — striking a perfect balance between hyper-detailed illustration and bold, intentional white space.Visual Style: Black & White Ink Engraving, Cross-Hatching Illustration, Fine Line Etching, Vintage Printmaking, High Contrast, Dramatic Low-Angle Portrait, Editorial Movie Poster, Minimalist Composition, Ink Splatter Texture, Premium Typography, Luxury Poster Design, Hyper-Detailed Line Art, Ultra Sharp, Museum Quality, 8K, Ultra HD, 3:4 `
+    },
+    {
+      "image": "/images/post20/engraving-portrait3.avif",
+      "title": "Black & White Ink Engraving Portrait",
+      "prompt": `Use the reference photo I uploaded as the character’s primary identity. Maintain 100% facial resemblance without altering the facial shape, bone structure, skin color, eyes, eyebrows, nose, lips, ears, jawline, skin texture, beard (if present), or hairstyle. Prioritize facial resemblance over artistic interpretation.Create a premium editorial illustration poster in a black and white ink engraving style with a vertical 4:5 composition. The character wears a formal black suit, white shirt, and black tie, with a serious, cold, and authoritative expression and a sharp gaze toward the camera. Position only the right half of the face, filling about 60-70% of the frame, while the left side is left as negative white space for a minimalist and elegant impression.The entire illustration is created using engraving, cross-hatching, and fine-line etching techniques, with thousands of thin lines following the contours of the face to create volume, shadows, and texture of the skin, hair, beard, and clothing. Avoid a smooth digital painting effect: all details are built from black ink lines like classic print illustrations. The background is a smooth-textured white paper with ink splatter effects, black paint splashes, abstract brushstrokes, and ink droplets scattered randomly yet elegantly. The high contrast between the black ink and the white background creates a dramatic feel. Use high-contrast lighting to create a strong sense of depth for the face, with shadow details formed by the density of the carved lines, rather than color gradations.On the left side of the poster, add large typography using a condensed sans-serif font, all-caps, in black. **"Riya Singh"** Arrange the text horizontally with wide letter spacing to create a premium movie poster-like appearance. Add a few lines of small film credits in the bottom left corner as an editorial design element (decorative/fictitious text), without distracting from the main focus on the face.The overall composition should feel like a premium thriller movie poster, magazine editorial, and fine art print, with a balance between detailed illustrations and white space**Visual Style:** Black & White Ink Engraving, Cross Hatching Illustration, Fine Line Etching, Vintage Printmaking, High Contrast, Editorial Movie Poster, Minimalist Composition, Ink Splatter Texture, Premium Typography, Luxury Poster Design, Hyper Detailed Line Art, Ultra Sharp, Museum Quality, 8K, Ultra HD, 3:4 `
+    }
+  ],
+
+  "photoBtnText": "Create Your Engraving Portrait",
+  "photoBtnLink": "https://chat.openai.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "Hamesha high-resolution portrait upload karein jisme face clear aur lighting achhi ho.",
+    "Poora face visible ho, koi obstruction (like hair or hands) na ho.",
+    "Natural lighting wali photo use karein for best skin texture.",
+    "Beauty filters ya AI-enhanced selfies use na karein, isse engraving texture kam realistic hoti hai.",
+    "Photo mein hair aur face clearly visible ho.",
+    "Shoulders aur upper body visible ho for best suit integration.",
+    "Serious expression wali photo use karein for authoritative look.",
+    "Multiple variations generate karein for best engraving result.",
+    "GPT Image, Flux Kontext, ya Midjourney (with --cref) jaise premium AI models use karein.",
+    "Final image hamesha maximum resolution mein export karein."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Blurry ya compressed images upload karna.",
+    "Cropped faces ya subjects use karna.",
+    "Group photos upload karna.",
+    "Extreme camera angles jo integration ko mushkil bana dein.",
+    "Heavy beauty filters jo realism aur skin texture ko kharab karein.",
+    "Low-resolution reference photos use karna.",
+    "Prompt se important details jaise 'engraving' ya 'cross-hatching' hata dena.",
+    "Smiling expression use karna (serious look required).",
+    "Final generated image ko over-edit karna.",
+    "Aisi photo use karna jisme harsh lighting ya deep shadows face ko cover karein."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Black & White Ink Engraving AI prompt kya hai?",
+      "answer": "Yeh ek editorial AI image prompt hai jo aapki photo ko premium black and white ink engraving poster mein badalta hai. Yeh cross-hatching, fine-line etching, aur vintage printmaking techniques use karta hai, jo classic movie poster aur fine art print jaisa look deta hai."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya mera face unchanged rahega?",
+      "answer": "Haan. Prompt specifically instruct karta hai ki aapki exact facial identity, face shape, bone structure, skin tone, eyes, eyebrows, nose, lips, jawline, skin texture, aur hairstyle ko 100% preserve kare. Identity bilkul same rahti hai."
+    },
+    {
+      "id": "faq3",
+      "question": "Kya mujhe Photoshop ya editing skills chahiye?",
+      "answer": "Bilkul nahi. Bas apna portrait upload karein, prompt mein 'YOUR NAME' ki jagah apna naam likhein, paste karein, aur AI image generator mein generate karein. Koi editing skills nahi chahiye."
+    },
+    {
+      "id": "faq4",
+      "question": "Kya main typography ya layout change kar sakta hoon?",
+      "answer": "Haan. Aap prompt mein font style, text position, ya credit lines modify kar sakte hain. Jaise 'YOUR NAME' ki jagah koi doosra text likh sakte hain, ya font style change kar sakte hain."
+    },
+    {
+      "id": "faq5",
+      "question": "Kaunse AI models best results dete hain?",
+      "answer": "GPT Image, Flux Kontext, Midjourney (with --cref command), Ideogram, aur doosre advanced photorealistic AI models is prompt ke liye bahut achha kaam karte hain."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya main in images ko commercially use kar sakta hoon?",
+      "answer": "Commercial usage us AI image generation platform ki licensing policy par depend karta hai jise aap use kar rahe hain. Kuch platforms commercial use allow karte hain, kuch nahi."
+    },
+    {
+      "id": "faq7",
+      "question": "Kya beginners yeh prompt use kar sakte hain?",
+      "answer": "Bilkul. Bas portrait upload karein, prompt paste karein, aur generate karein. Multiple variations try karein best result ke liye."
+    },
+    {
+      "id": "faq8",
+      "question": "Mujhe specific engraving texture kaise milega?",
+      "answer": "Prompt mein keywords jaise 'cross-hatching', 'fine-line etching', 'thousands of thin lines', aur 'ink splatter effects' already included hain. Inhe remove na karein agar aapko wahi texture chahiye."
+    }
+  ],
+
+  "conclusion": "Black & White Ink Engraving Editorial Portrait Prompt aapko ek stunning, museum-quality fine art poster create karne ka mauka deta hai jo aapki natural identity ko preserve karte hue aapko authoritative, cinematic look deta hai. Bas ek high-quality portrait aur professionally crafted prompt ke saath, aap seconds mein breathtaking images generate kar sakte hain jo Instagram, LinkedIn, YouTube thumbnails, profile pictures, aur personal branding ke liye perfect hain.",
+
+  "tags": [
+    "Black And White Engraving",
+    "Ink Engraving Portrait",
+    "Cross Hatching AI",
+    "Editorial Poster AI",
+    "Vintage Printmaking",
+    "Movie Poster Style",
+    "Fine Art AI Portrait",
+    "Minimalist AI Art",
+    "GPT Image Prompt",
+    "8K AI Portrait",
+    "Premium Typography AI",
+    "Luxury Poster Design"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
+ {
   "id": "post-19",
   "title": "Elegant Traditional Saree AI Portrait Prompt",
   "categoryId": "cat-1",
