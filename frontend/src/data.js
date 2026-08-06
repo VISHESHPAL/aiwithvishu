@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.0"; // ← Change this number
+export const DATA_VERSION = "1.0.1"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -380,6 +380,147 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  "id": "post-21",
+  "title": "Ultra-Realistic Cinematic Independence Day Editorial Portrait Prompt",
+  "categoryId": "cat-1",
+  "image": "/images/post21/independence-day-portrait1.avif",
+  "date": "August 6, 2026",
+  "author": "Vishu",
+
+  "introduction": "Ultra-Realistic Cinematic Independence Day Editorial Portrait Prompt 2026 mein ek powerful aur emotional trend ban chuka hai jo Indian patriotism ko premium cinematic aesthetics ke saath combine karta hai. Yeh prompt ek stunning editorial poster create karta hai jisme aapka favorite subject—chahe woh koi bhi ho—ek historic Indian sandstone fort par khade hue, golden sunrise ki warm rays mein, tricolor flag aur confetti ke saath, ek luxury magazine cover jaisa lagta hai. Chahe aap apni personal branding ke liye patriotic content chahte hain, ya kisi special occasion ke liye ek memorable portrait, yeh prompt aapki vision ko ek museum-quality cinematic piece mein badal deta hai.\n\nIs prompt ki sabse badi khaasiyat hai iska ultra-realistic cinematic approach. AI traditional portrait photography ko Hollywood-level cinematic color grading, dramatic volumetric lighting, aur shallow depth of field ke saath combine karta hai. Har element—flag ke folds, dupatta ka flow, confetti ka scatter, birds ka formation, aur golden rays ka play—itna precise aur realistic hota hai ki final image kisi professional photographer ne top-end DSLR se capture kiya ho, aisa lagta hai.\n\nSabse important baat yeh hai ki AI aapke subject ki natural identity, facial features, skin texture, expressions, aur body language ko bilkul unchanged rakhta hai. Yeh sirf unhein ek premium cinematic environment mein place karta hai, unki originality ko modify nahi karta. Isliye final result ek authentic, emotional, aur powerful portrait hota hai jo Independence Day ki spirit ko perfect way mein capture karta hai.\n\nModern AI models jaise GPT Image, Flux Kontext, Midjourney, aur Stable Diffusion ki madad se ab koi bhi is professional-level cinematic portrait ko kuch seconds mein generate kar sakta hai. Isme kisi expensive photoshoot, studio setup, ya complex editing software ki zaroorat nahi. Bas ek high-quality reference image upload karein, prompt paste karein, aur apna custom Independence Day editorial poster create karein.\n\nYeh style un sabhi ke liye perfect hai jo apni patriotism ko ek premium, emotional, aur visually stunning way mein showcase karna chahte hain. Results hamesha breathtaking aate hain jo Instagram, LinkedIn, YouTube thumbnails, personal branding, aur special occasion ke liye perfect hain.",
+
+  "whyTrending": "Cinematic Independence Day AI portraits Instagram, LinkedIn, aur luxury design pages par kaafi viral ho rahe hain. Images mein Indian patriotism ko Hollywood-level cinematic aesthetics ke saath combine kiya jaata hai, jo instantly attention grab karta hai. Professionals, creators, aur patriots is style ko pasand karte hain kyunki yeh unhein emotional, proud, aur visually stunning look deta hai.\n\nInfluencers aur public figures is style ko adopt kar rahe hain kyunki yeh unki personal branding ko ek unique, emotional edge deta hai. Ek simple portrait ko luxury magazine cover mein badalna aaj ke digital world mein ek powerful statement ban gaya hai.\n\nIs trend ki growth ka ek aur reason hai AI technology ka improvement. Modern models ab cinematic lighting, volumetric rays, realistic fabric simulation, aur shallow depth of field ko pehle se kahin better samajhte hain. Isliye ab koi bhi, bina kisi photography training ke, high-end editorial portraits generate kar sakta hai.\n\nYeh style kaamyaab hai kyunki yeh Indian cultural elements (tricolor flag, sandstone fort, kurta, dupatta) ko modern cinematic aesthetics (dramatic lighting, shallow DOF, premium color grading) ke saath combine karta hai. Results hamesha stunning aur professionally impressive aate hain, isliye yeh trend continuously grow kar raha hai.",
+
+  "creationIntro": "Apna premium Ultra-Realistic Cinematic Independence Day Editorial Portrait create karna bahut easy hai aur sirf kuch minutes ka kaam hai.\n\n1. ChatGPT ya apne pasandida AI image generation platform ko open karein.\n2. Ek high-quality portrait upload karein jisme face clear dikhe.\n3. Neeche diye gaye prompts mein se apni choice ka prompt copy karein.\n4. Prompt ko AI image generator mein paste karein (agar zaroorat ho toh subject details modify karein).\n5. Multiple variations generate karein aur best result select karein.\n\nBus! Seconds mein AI aapki ordinary photo ko ek award-winning luxury Independence Day editorial poster mein badal dega, aapka original face, expression, aur natural features bilkul same rakhte hue.",
+
+  "photoStepTitle": "Steps to Generate Your Independence Day Editorial Portrait",
+
+  "photoItems": [
+    {
+      "image": "/images/post21/independence-day-portrait2.avif",
+      "title": "Cinematic Independence Day Portrait - Man at Fort",
+      "prompt": `Create an ultra-realistic cinematic Independence Day editorial poster in a 4:5 ratio featuring a handsome young Indian man in a premium white embroidered kurta with a flowing dupatta, standing at a historic Indian sandstone fort during a golden sunrise with warm rays, dramatic sky, birds, tricolor confetti, soft wind, and a fully visible Indian flag. Use a premium pose with his body turned 45°, looking directly at the camera with a confident, natural smile, relaxed posture, and elegant hand placement. Capture with an 85mm DSLR lens, shallow depth of field, cinematic color grading, and magazine-cover aesthetics. Add luxury typography with a bold gradient "15", modern "AUGUST", elegant script "Happy", bold "INDEPENDENCE DAY", the quote "ONE NATION. ONE DREAM. COUNTLESS HEARTS.", "FREEDOM • FAITH • FUTURE", "PROUD TO BE INDIAN", and a stylish "Jai Hind". Ultra-photorealistic, balanced composition, realistic skin texture, no AI look, no text distortion, no cropped flag. `
+    },
+    {
+      "image": "/images/post21/independence-day-portrait3.avif",
+      "title": "Cinematic Independence Day Portrait - Woman with Flag",
+      "prompt": `Ultra-realistic RAW DSLR cinematic portrait of a beautiful young South Asian woman gracefully draped in the Indian national flag (tricolor), standing against a clean matte black studio background. She is looking slightly to her left with a soft genuine smile, creating a natural candid expression. One hand gently rests under her chin while the other remains hidden beneath the flag. Long silky black hair flowing naturally in a light breeze, with a few loose strands crossing her face. She wears a simple elegant gold wristwatch, minimal makeup, naturally glowing skin with visible pores, expressive brown eyes, authentic facial texture, realistic lips and smile. The Indian flag is wrapped elegantly around her shoulders with detailed fabric folds and a clearly visible Ashoka Chakra. Soft cinematic key light from one side, subtle rim light, high contrast, realistic shadows, shallow depth of field, Canon EOS R5, RF 85mm f1.2L lens, f/1.8, ISO 100, 8K RAW, HDR, ultra-sharp focus, photorealistic. `
+    },
+    {
+      "image": "/images/post21/independence-day-portrait4.avif",
+      "title": "Cinematic Independence Day Editorial Poster - Man",
+      "prompt": ` Create an ultra-realistic, photorealistic cinematic portrait of a young Indian man celebrating India's Independence Day. The subject stands confidently on a rooftop at sunrise, holding the Indian national flag high as it waves naturally in the wind. He wears a crisp white kurta with blue jeans and clean white sneakers, along with a subtle saffron-white-green wristband. His expression is proud, calm, and patriotic. Behind him, the Indian skyline glows with warm golden morning light while hundreds of small Indian flags decorate nearby buildings. Soft saffron, white, and green smoke drifts through the air, with realistic flower petals floating gently. The background includes elegant tricolor lighting, subtle bokeh, and a few birds flying across the sky. Cinematic composition, dramatic volumetric sunlight, ultra-detailed skin texture, realistic fabric folds, natural hair movement, HDR, 85mm lens, shallow depth of field, 8K, premium color grading, authentic Indian atmosphere, no AI artifacts, no text, no watermark. `
+    },
+    {
+      "image": "/images/post21/independence-day-portrait5.avif",
+      "title": "Cinematic Independence Day Editorial Poster - Woman",
+      "prompt": `Create an ultra-realistic cinematic Independence Day editorial poster in a 4:5 ratio featuring a beautiful young Indian woman in a premium white embroidered kurta with a flowing dupatta, standing at a historic Indian sandstone fort during a golden sunrise with warm rays, dramatic sky, birds, tricolor confetti, soft wind, and a fully visible Indian flag. Use a different premium pose with her body turned 45°, looking directly at the camera with a natural smile, relaxed posture, and elegant hand placement. Capture with an 85mm DSLR lens, shallow depth of field, cinematic color grading, and magazine-cover aesthetics. Add luxury typography with a bold gradient "15", modern "AUGUST", elegant script "Happy", bold "INDEPENDENCE DAY", the quote "ONE NATION. ONE DREAM. COUNTLESS HEARTS.", "FREEDOM • FAITH • FUTURE", "PROUD TO BE INDIAN", and a stylish "Jai Hind". Ultra-photorealistic, balanced composition, realistic skin texture, no AI look, no text distortion, no cropped flag.Let me know if you want me to refine, restructure, or adapt this prompt for a different subject, gender, or style. Ultra-realistic RAW DSLR cinematic portrait of a beautiful young South Asian woman gracefully draped in the Indian national flag (tricolor), standing against a clean matte black studio background. She is looking slightly to her left with a soft genuine smile, creating a natural candid expression. One hand gently rests under her chin while the other remains hidden beneath the flag. Long silky black hair flowing naturally in a light breeze, with a few loose strands crossing her face. She wears a simple elegant gold wristwatch, minimal makeup, naturally glowing skin with visible pores, expressive brown eyes, authentic facial texture, realistic lips and smile. The Indian flag is wrapped elegantly around her shoulders with detailed fabric folds and a clearly visible Ashoka Chakra. Soft cinematic key light from one side, subtle rim light, high contrast, realistic shadows, shallow depth of field, Canon EOS R5, RF 85mm f1.2L lens, f/1.8, ISO 100, 8K RAW, HDR, ultra-sharp focus, photorealistic.Let me know if you want me to refine, restructure, or adapt this prompt.`
+    }
+  ],
+
+  "photoBtnText": "Create Your Independence Day Portrait",  
+  "photoBtnLink": "https://chat.openai.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "Hamesha high-resolution portrait upload karein jisme face clear aur lighting achhi ho.",
+    "Poora face visible ho, koi obstruction (like hair or hands) na ho.",
+    "Natural lighting wali photo use karein for best skin texture.",
+    "Beauty filters ya AI-enhanced selfies use na karein, isse realism kam hota hai.",
+    "Photo mein hair aur face clearly visible ho.",
+    "Shoulders aur upper body visible ho for best outfit integration.",
+    "Serious ya proud expression wali photo use karein for patriotic look.",
+    "Multiple variations generate karein for best cinematic result.",
+    "GPT Image, Flux Kontext, ya Midjourney (with --cref) jaise premium AI models use karein.",
+    "Final image hamesha maximum resolution mein export karein."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Blurry ya compressed images upload karna.",
+    "Cropped faces ya subjects use karna.",
+    "Group photos upload karna.",
+    "Extreme camera angles jo integration ko mushkil bana dein.",
+    "Heavy beauty filters jo realism aur skin texture ko kharab karein.",
+    "Low-resolution reference photos use karna.",
+    "Prompt se important details jaise 'cinematic' ya 'ultra-realistic' hata dena.",
+    "Sad ya neutral expression use karna (proud look required).",
+    "Final generated image ko over-edit karna.",
+    "Aisi photo use karna jisme harsh lighting ya deep shadows face ko cover karein."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Cinematic Independence Day AI prompt kya hai?",
+      "answer": "Yeh ek editorial AI image prompt hai jo aapki photo ko premium Independence Day cinematic poster mein badalta hai. Yeh ultra-realistic portrait photography, dramatic lighting, shallow depth of field, aur magazine-cover aesthetics use karta hai, jo Hollywood-level film poster jaisa look deta hai."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya mera face unchanged rahega?",
+      "answer": "Haan. Prompt specifically instruct karta hai ki aapki exact facial identity, face shape, bone structure, skin tone, eyes, eyebrows, nose, lips, jawline, skin texture, aur hairstyle ko 100% preserve kare. Identity bilkul same rahti hai."
+    },
+    {
+      "id": "faq3",
+      "question": "Kya mujhe Photoshop ya editing skills chahiye?",
+      "answer": "Bilkul nahi. Bas apna portrait upload karein, prompt paste karein, aur AI image generator mein generate karein. Koi editing skills nahi chahiye."
+    },
+    {
+      "id": "faq4",
+      "question": "Kya main typography ya layout change kar sakta hoon?",
+      "answer": "Haan. Aap prompt mein font style, text position, ya credit lines modify kar sakte hain. Jaise '15' ki jagah koi doosra number likh sakte hain, ya font style change kar sakte hain."
+    },
+    {
+      "id": "faq5",
+      "question": "Kaunse AI models best results dete hain?",
+      "answer": "GPT Image, Flux Kontext, Midjourney (with --cref command), Ideogram, aur doosre advanced photorealistic AI models is prompt ke liye bahut achha kaam karte hain."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya main in images ko commercially use kar sakta hoon?",
+      "answer": "Commercial usage us AI image generation platform ki licensing policy par depend karta hai jise aap use kar rahe hain. Kuch platforms commercial use allow karte hain, kuch nahi."
+    },
+    {
+      "id": "faq7",
+      "question": "Kya beginners yeh prompt use kar sakte hain?",
+      "answer": "Bilkul. Bas portrait upload karein, prompt paste karein, aur generate karein. Multiple variations try karein best result ke liye."
+    },
+    {
+      "id": "faq8",
+      "question": "Mujhe specific cinematic look kaise milega?",
+      "answer": "Prompt mein keywords jaise 'cinematic color grading', 'volumetric sunlight', 'shallow depth of field', aur '85mm lens' already included hain. Inhe remove na karein agar aapko wahi cinematic look chahiye."
+    }
+  ],
+
+  "conclusion": "Ultra-Realistic Cinematic Independence Day Editorial Portrait Prompt aapko ek stunning, museum-quality cinematic poster create karne ka mauka deta hai jo aapki natural identity ko preserve karte hue aapko emotional, proud, aur visually stunning look deta hai. Bas ek high-quality portrait aur professionally crafted prompt ke saath, aap seconds mein breathtaking images generate kar sakte hain jo Instagram, LinkedIn, YouTube thumbnails, profile pictures, aur personal branding ke liye perfect hain.",
+
+  "tags": [
+    "Independence Day Portrait",
+    "Cinematic AI Portrait",
+    "Indian Flag AI Art",
+    "Editorial Poster AI",
+    "Ultra Realistic AI",
+    "85mm DSLR AI",
+    "Cinematic Color Grading",
+    "Patriotic AI Art",
+    "GPT Image Prompt",
+    "8K AI Portrait",
+    "Indian Fort AI Art",
+    "Magazine Cover AI"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ }, 
+ { 
   "id": "post-20",
   "title": "Black & White Ink Engraving Editorial Portrait Prompt",
   "categoryId": "cat-1",
