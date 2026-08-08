@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.1"; // ← Change this number
+export const DATA_VERSION = "1.0.0"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -380,6 +380,139 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  "id": "post-22",
+  "title": "Over-the-Shoulder Editorial Portrait Prompt - Do Women Ka Cinematic Shot",
+  "categoryId": "cat-1",
+  "image": "/images/post22/over-the-shoulder-portrait1.avif",
+  "date": "August 8, 2026",
+  "author": "Vishu",
+
+  "introduction": "Yaar yeh Over-the-Shoulder Editorial Portrait Prompt 2026 mein bohot trend ho raha hai, especially fashion photography aur lifestyle branding mein. Is prompt mein do women ko ek candid aur intimate moment mein capture kiya jaata hai—ek foreground mein hoti hai aur doosri uske shoulder ke upar se peek karti hai. Soft natural window light, minimal room, aur dreamy bokeh background isko ek high-end magazine cover jaisa look deta hai.\n\nIs prompt ki sabse khaas baat hai iska over-the-shoulder composition. Isme foreground figure ka face bilkul visible nahi hota, sirf uske shoulder, back of head, aur outfit ka texture dikhta hai. Aur doosri woman ka sirf ek eye aur forehead dikhta hai, jo ek intriguing aur mysterious feel create karta hai. Viewer ko imagine karne ka mauka milta hai ki yeh do log kaun hain—yeh mystery hi is style ki beauty hai.\n\nNatural lighting is prompt ka game-changer hai. Soft window light right side se aati hai jo creamy skin tones, subtle shadows, aur beautiful catchlights in the eye create karti hai. 85mm lens aur f/1.8 shallow depth of field ke saath background beautifully blur ho jaata hai, aur poora focus subject pe rehta hai. Fabric textures—jaise linen shirts with visible weave aur natural wrinkles—realism aur premium feel add karte hain.\n\nAI models jaise Midjourney with --style raw --s 250 --v 6.0, GPT Image, aur Flux Kontext is prompt ko bohot beautifully execute karte hain. Ye models light, texture, depth, aur skin tones ko itna realistically render karte hain ki lagta hai kisi professional fashion photographer ne capture kiya ho. Fashion brands, lifestyle influencers, aur editorial photographers is style ko adopt kar rahe hain kyunki yeh luxury, elegance, aur mystery ko perfect way mein combine karta hai.",
+
+  "whyTrending": "Over-the-shoulder editorial portraits Instagram, Pinterest, aur high-end fashion pages par bohot viral ho rahe hain. Is style mein do women ke beech ka connection, candid moment, aur cinematic lighting instantly attention grab karta hai.\n\nIs trend ki growth ka reason hai minimalism ka rise. Log ab complex, busy compositions ki jagah simple, clean, aur emotionally resonant imagery prefer kar rahe hain. Over-the-shoulder composition exactly yehi deta hai—do logon ke beech ka ek intimate moment, beautifully lit aur professionally framed.\n\nAI technology ki improvement ne bhi is trend ko boost kiya hai. Modern models ab skin texture, fabric details, natural light behavior, aur shallow depth of field ko pehle se kahin better samajhte hain. Isliye ab koi bhi, bina kisi expensive photoshoot ke, high-end editorial portraits generate kar sakta hai.",
+
+  "creationIntro": "Apna premium Cinematic Over-the-Shoulder Editorial Portrait create karna bohot easy hai aur sirf kuch minutes ka kaam hai.\n\n1. Pehle Midjourney, ChatGPT, ya apne pasandida AI image generation platform ko open karein.\n2. Neeche diye gaye prompts mein se apni choice ka prompt copy karein.\n3. Prompt ko AI image generator mein paste karein.\n4. Multiple variations generate karein aur best result select karein.\n5. Agar Midjourney use kar rahe hain toh --ar 2:3, --style raw, --s 250, --v 6.0 parameters add karein.\n\nBas! Seconds mein AI aapki vision ko ek award-winning fashion editorial image mein badal dega.",
+
+  "photoStepTitle": "Steps to Generate Your Over-the-Shoulder Editorial Portrait",
+
+  "photoItems": [
+    {
+      "image": "/images/post22/over-the-shoulder-portrait2.avif",
+      "title": "White Linen Waali Portrait - Warm Tone",
+      "prompt": `Ultra-realistic vertical portrait of two people in a bright, minimal indoor room, lit by soft diffused natural window light. Cinematic over-the-shoulder composition with the foreground subject on the left, wearing a light White textured linen shirt, with only the side of the face and jawline visible in a tight cinematic crop. In the background, the second person playfully peeks over the shoulder, revealing only one expressive eye and part of the forehead, with long straight center-parted hair cascading down. Creamy skin tones, shallow depth of field (85mm lens, f/1.8), photorealistic fabric texture, natural color grading, elegant lifestyle aesthetic, DSLR-quality, HDR, 8K, soft highlights, film-like grain, editorial fashion mood.Negative: blurry, low quality, extra limbs, duplicate people, deformed face, watermark, logo, text, CGI, cartoon, oversaturated colors, harsh shadows, overexposed, underexposed, distorted anatomy, unnatural skin, plastic skin, airbrushed, fake, 3D render, illustration, painting, distorted fingers, bad anatomy, mutated hands, unnatural lighting, flat image, grainy, pixelated, oversharpened, unnatural posture, stiff pose, cluttered background, busy composition. `
+    },
+    {
+      "image": "/images/post22/over-the-shoulder-portrait3.avif",
+      "title": "Pink Linen Waali Portrait - Golden Hour Vibe",
+      "prompt": `Ultra-realistic vertical portrait of two people in a bright, minimal indoor room, lit by soft diffused natural window light. Cinematic over-the-shoulder composition with the foreground subject on the left, wearing a light pink textured linen shirt, with only the side of the face and jawline visible in a tight cinematic crop. In the background, the second person playfully peeks over the shoulder, revealing only one expressive eye and part of the forehead, with long straight center-parted hair cascading down. Creamy skin tones, shallow depth of field (85mm lens, f/1.8), photorealistic fabric texture, natural color grading, elegant lifestyle aesthetic, DSLR-quality, photorealistic, cinematic framing, HDR, 8K, soft highlights, film-like grain, editorial fashion mood.Negative: blurry, low quality, extra limbs, duplicate people, deformed face, watermark, logo, text, CGI, cartoon, oversaturated colors, harsh shadows, overexposed, underexposed, distorted anatomy, unnatural skin, plastic skin, airbrushed, fake, 3D render, illustration, painting, distorted fingers, bad anatomy, mutated hands, unnatural lighting, flat image, grainy, pixelated, oversharpened, unnatural posture, stiff pose, cluttered background, busy composition, distorted fingers, bad anatomy, mutated hands, unnatural skin, plastic skin, airbrushed, fake, 3D render, illustration, painting. `
+    },
+  ],
+
+  "photoBtnText": "Create Your Over-the-Shoulder Portrait",
+  "photoBtnLink": "https://chatgpt.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "Midjourney use kar rahe ho toh hamesha --ar 2:3 add karna, yeh vertical portrait ke liye best hai.",
+    "--style raw aur --s 250 use karo for more photorealistic results, AI look nahi aayega.",
+    "--v 6.0 use karo kyunki latest model hai aur sabse achha render karta hai.",
+    "Different color outfits try karo—white, pink, beige, cream, black—har color different mood deta hai.",
+    "Lighting direction change karo—right se light, left se light, ya front light—har ek different look deta hai.",
+    "Skin tone descriptions add karo—'porcelain', 'golden', 'olive', 'warm'—for better accuracy.",
+    "Fabric textures mention karo—'linen', 'silk', 'cotton', 'wool'—isse realistic folds aate hain.",
+    "Eye color specify karo—'hazel', 'blue', 'brown', 'green'—for better catchlight rendering.",
+    "Background descriptions add karo—'minimal room', 'sheer curtains', 'brick wall'—for variety.",
+    "Multiple variations generate karo aur best composition select karo, ek baar mein perfect nahi aata."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Over-the-shoulder composition ko ignore karna aur full face generate karna—yeh galat hai.",
+    "Foreground figure ka face visible karna—face visible nahi hona chahiye bilkul.",
+    "Doosri woman ka poora face visible karna—sirf ek eye aur forehead visible hona chahiye.",
+    "Background ko busy ya distracting rakhna—minimal aur clean background best hai.",
+    "Lighting ko harsh rakhna—soft, diffused lighting is must for this style.",
+    "Shallow depth of field ko hata dena—bokeh effect is important for this style.",
+    "Fabric texture ko ignore karna—texture realism add karta hai, mat bhoolna.",
+    "Catchlight in the eye ko miss karna—catchlight life add karti hai image mein.",
+    "Color grading ko oversaturate karna—muted, natural tones best hain.",
+    "Film grain aur subtle textures ko hata dena—yeh editorial feel dete hain."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Over-the-Shoulder Editorial AI prompt kya hai?",
+      "answer": "Dekho yeh ek fashion editorial AI image prompt hai jo do women ka cinematic over-the-shoulder portrait create karta hai. Foreground figure ka sirf shoulder aur back of head visible hota hai, aur doosri woman unke shoulder ke upar se peek karti hai sirf ek eye visible hota hai. Soft natural light, shallow depth of field, aur premium fashion aesthetics is style ki speciality hain."
+    },
+    {
+      "id": "faq2",
+      "question": "Yeh prompt kis type ke projects ke liye best hai?",
+      "answer": "Yeh prompt fashion editorials, lifestyle branding, fine art portraits, magazine covers, Instagram aesthetic posts, Pinterest pins, aur personal branding projects ke liye perfect hai. Luxury brands, fashion influencers, aur lifestyle bloggers is style ko extensively use kar rahe hain."
+    },
+    {
+      "id": "faq3",
+      "question": "Kya main is prompt mein colors aur outfits change kar sakta hoon?",
+      "answer": "Haan bilkul yaar. Aap outfit colors, fabric types, skin tones, eye colors, aur background colors modify kar sakte ho. Har combination different mood aur aesthetic create karta hai."
+    },
+    {
+      "id": "faq4",
+      "question": "Kaunse AI models best results dete hain?",
+      "answer": "Midjourney with --style raw --s 250 --v 6.0 is prompt ke liye best results deta hai. GPT Image, Flux Kontext, aur Stable Diffusion bhi achha kaam karte hain agar properly prompted karein."
+    },
+    {
+      "id": "faq5",
+      "question": "Kya main is style ko solo portraits ke liye adapt kar sakta hoon?",
+      "answer": "Haan. Aap foreground figure ko hata kar sirf over-the-shoulder perspective use kar sakte ho, ya mirror reflections ke saath creative compositions bana sakte ho."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya in images ko commercially use kar sakta hoon?",
+      "answer": "Commercial usage us AI image generation platform ki licensing policy par depend karta hai. Midjourney ke paid plans commercial use allow karte hain, lekin terms & conditions zaroor check karna."
+    },
+    {
+      "id": "faq7",
+      "question": "Yeh style itna popular kyun hai?",
+      "answer": "Bhai yeh style mystery, intimacy, aur elegance ko combine karta hai. Over-the-shoulder composition viewer ko imagine karne ka mauka deta hai ki yeh do log kaun hain, aur soft natural lighting ek dreamy, high-fashion vibe create karti hai jo social media par bohot engage karti hai."
+    },
+    {
+      "id": "faq8",
+      "question": "Kya main background change kar sakta hoon?",
+      "answer": "Haan. Aap 'minimal indoor room' ki jagah 'coffee shop', 'art gallery', 'rooftop', ya 'beach house' likh kar different backgrounds create kar sakte ho. Bas ensure karo ki background clean aur minimal ho."
+    }
+  ],
+
+  "conclusion": "Cinematic Over-the-Shoulder Editorial Portrait Prompt aapko ek stunning, high-fashion editorial image create karne ka mauka deta hai jo mystery, intimacy, aur elegance ko perfectly combine karta hai. Soft natural lighting, shallow depth of field, aur premium fashion aesthetics ke saath, yeh prompt aapki vision ko ek museum-quality fine art portrait mein badal deta hai. Bas apna preferred prompt select karo, AI image generator mein paste karo, aur seconds mein breathtaking images generate karo jo Instagram, Pinterest, fashion blogs, aur personal branding ke liye perfect hain.",
+
+  "tags": [
+    "Over-the-Shoulder Portrait",
+    "Cinematic AI Portrait",
+    "Editorial Fashion Photography",
+    "Two Women Portrait",
+    "Fine Art Portraiture",
+    "85mm Lens AI",
+    "Shallow Depth of Field",
+    "Natural Window Light",
+    "Midjourney Prompt",
+    "8K AI Portrait",
+    "Lifestyle Aesthetic",
+    "Magazine Cover AI",
+    "Bokeh Background",
+    "Fashion Editorial"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
+ {
   "id": "post-21",
   "title": "Ultra-Realistic Cinematic Independence Day Editorial Portrait Prompt",
   "categoryId": "cat-1",
