@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.0"; // ← Change this number
+export const DATA_VERSION = "1.0.1"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -380,6 +380,138 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  "id": "post-23",
+  "title": "Epic Earth-to-Ground Dolly Zoom Prompt - Space Se Selfie Tak Ka Cinematic Journey",
+  "categoryId": "cat-2",
+  "image": "/images/post23/earth-to-ground-portrait.avif",
+  "date": "August 8, 2026",
+  "author": "Vishu",
+
+  "introduction": "Bhai yeh Earth-to-Ground Dolly Zoom prompt 2026 ka sabse cinematic AI video trend hai! Ismein hum space se shuru karte hain—Earth ka stunning view, Indian subcontinent perfectly centered, aur phir ek smooth, ultra-fast dolly zoom shot jo bina kisi cut ke seedha ground level tak pahunchta hai aur wahan ek person ko capture karta hai. Yeh ek true one-shot wonder hai—Hollywood blockbuster opening sequence jaisa feel!\n\nIs prompt ki sabse khaas baat hai iska seamless transition. Camera thousands of kilometers upar se shuru hota hai, Earth ki curvature, star fields, aur atmospheric glow ke saath. Phir ultra-smooth speed mein niche utarta hai—clouds, rivers, Himalayas, cities, sab kuch detail mein dikhta hai. Aur finally, bina kisi break ke, yeh ground level par ek specific subject par lock ho jata hai. Transition itna natural hai ki lagta hai ek continuous shot hai.\n\nAI video models jaise Sora, Runway Gen-3, Pika, aur Kling is prompt ko bohot beautifully execute karte hain. In models ki capability hai continuous spatial continuity maintain karne ki, perspective aur depth ko accurately render karne ki, aur motion blur ke saath speed ka feel dene ki. Isliye ab koi bhi, bina kisi expensive VFX team ke, apna khud ka cinematic dolly zoom shot bana sakta hai.\n\nIs style ki popularity ka reason hai 'epic scale' ka combination with 'personal intimacy'. Ek taraf humein poori Earth dikhti hai, aur doosri taraf ek individual person—yeh contrast emotionally powerful hai. Social media par yeh videos bohot viral ho rahe hain kyunki yeh viewers ko ek unique visual experience dete hain.",
+
+  "whyTrending": "Earth-to-ground dolly zoom shots Instagram Reels, YouTube Shorts, aur TikTok par bohot viral ho rahe hain. Is style mein scale aur intimacy ka combination ek powerful emotional response create karta hai. Log is journey ko dekh kar mesmerized ho jaate hain—space se seedha kisi insaan tak ka safar.\n\nIs trend ki growth ka reason hai AI video generation technology ka rapid improvement. Ab models continuous camera movement, perspective changes, aur subject consistency ko pehle se kahin better handle kar rahe hain. Isliye creators ab professional-quality cinematic shots generate kar sakte hain bina kisi complex post-production ke.\n\nAnother reason hai 'transition' ka wow factor. Jab camera space se ground tak smoothly pahunchta hai, toh viewers ko lagta hai jaise woh khud us journey ka hissa hain. Yeh immersive experience hi is style ko itna engaging banata hai.",
+
+  "creationIntro": "Apna cinematic Earth-to-Ground Dolly Zoom video create karna bohot easy hai aur sirf kuch minutes ka kaam hai.\n\n1. Pehle pehle Earth wali reference image download karein (space se Indian subcontinent centered).\n2. Phir apni khud ki photo select karein (jisme aap final frame mein dikhna chahte hain).\n3. Dono images—Earth wali aur apni photo—ko AI video generation platform mein upload karein as reference images.\n4. Neeche diya gaya prompt copy karein aur platform mein paste karein.\n5. Generate button press karein aur apna cinematic dolly zoom video ready!\n\nBas! Seconds mein AI aapki vision ko ek Hollywood-style cinematic masterpiece mein badal dega.",
+
+  "photoStepTitle": "Steps to Generate Your Earth-to-Ground Dolly Zoom Video",
+
+  "photoItems": [
+    {
+      "image": "/images/post23/earth-reference.avif",
+      "title": "Step 1: Earth Reference Image Download Karein",
+    },
+    {
+      "image": "/images/post23/earth-to-ground-final.avif",
+      "title": "Step 3: Prompt Ko AI Video Generator Mein Paste Karein",
+      "prompt": `Begin with a photorealistic, high-resolution view of Planet Earth from deep space, with the Indian subcontinent perfectly centered in the frame (matching the first reference image). The camera is positioned thousands of kilometers away, capturing the curvature of the Earth against the blackness of space, with realistic star fields and atmospheric glowInitiate an ultra-smooth, continuous, high-velocity dolly zoom that locks onto the Indian landmass. As the camera plunges toward the surface, the descent must feel seamless and kinetic — revealing layered cloud formations, subtle atmospheric scattering, and the transition from night to day with city lights softly fading into natural sunlight. Terrain features such as the Himalayas, river systems (Ganges, Godavari), forested regions, and urban grids must emerge with photorealistic clarity, maintaining accurate perspective, depth, and subtle motion blur to enhance the sense of speedThe zoom continues without a single cut — a true one-shot wonder — maintaining absolute spatial continuity. It locks onto a precise ground-level location where the subject stands. In the final split second, the camera seamlessly matches the angle, framing, focal length, perspective, and lens distortion of the second reference image, so the transition feels like a single, uninterrupted visual journey from outer space to the individualThe subject must remain fully consistent throughout the final frame: same identity, facial features, hairstyle, dark sunglasses, black hoodie, black pants, white sneakers, and full-body stance. Lighting, shadows, and environment must blend naturally with the preceding aerial view to preserve realism and emotional impactOverall tone: epic, hyper-realistic, fluid, and emotionally immersive — like a Hollywood blockbuster opening sequence. `
+    }
+  ],
+
+  "photoBtnText": "Create Your Dolly Zoom Video",
+  "photoBtnLink": "https://labs.google/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "Hamesha do reference images use karein—ek Earth ki aur ek apni photo ki—for better spatial continuity.",
+    "Apni photo mein front-facing full-body stance ho, dark sunglasses aur black hoodie ke saath—consistency ke liye.",
+    "AI video platform select karte waqt Sora ya Runway Gen-3 ko priority dein—yeh smooth zooms ke liye best hain.",
+    "Prompt mein 'ultra-smooth', 'continuous', aur 'seamless' keywords zaroor add karein—for better transition.",
+    "Motion blur aur depth of field mention karein—isse speed aur realism enhance hota hai.",
+    "Lighting consistency ensure karein—space se ground tak lighting naturally transition kare.",
+    "Subject consistency ke liye final frame ka description detailed rakhein—hair, sunglasses, hoodie, pants, sneakers sab mention karein.",
+    "Multiple variations generate karein aur best transition wala select karein—ek baar mein perfect nahi aata.",
+    "Video length 5-8 seconds rakhein—itna kaafi hai impact create karne ke liye.",
+    "Background music add karein—epic cinematic score se impact double ho jata hai."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Sirf ek reference image use karna—do reference images zaroori hain for spatial continuity.",
+    "Apni photo mein inconsistent outfit pehanna—final frame match nahi karega.",
+    "Prompt mein 'seamless' aur 'continuous' keywords miss karna—transition jerky ho jayega.",
+    "Earth image mein Indian subcontinent centered nahi hona—target location miss ho jayegi.",
+    "Lighting transition ko ignore karna—space aur ground ki lighting match nahi karegi.",
+    "Motion blur na add karna—speed ka feel nahi aayega.",
+    "Subject consistency ka description incomplete rakhna—AI confuse ho jayega.",
+    "Background ko cluttered rakhna—focus subject pe rehna chahiye.",
+    "Video length zyada rakhna—10-15 seconds mein transition slow lagta hai.",
+    "Color grading ko oversaturate karna—natural tone best hai."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Earth-to-Ground Dolly Zoom AI prompt kya hai?",
+      "answer": "Dekho yeh ek cinematic AI video prompt hai jo space se ground tak ka seamless dolly zoom shot create karta hai. Camera thousands of kilometers upar Earth se shuru hota hai, Indian subcontinent par zoom karta hai, aur bina kisi cut ke seedha ground level par ek specific subject tak pahunchta hai. Yeh ek true one-shot wonder hai—Hollywood blockbuster opening sequence jaisa."
+    },
+    {
+      "id": "faq2",
+      "question": "Yeh prompt kis type ke projects ke liye best hai?",
+      "answer": "Yeh prompt cinematic intros, music videos, personal branding reels, travel vlogs, YouTube channel intros, Instagram Reels, aur promotional videos ke liye perfect hai. Epic scale aur personal intimacy ka combination isko visually powerful banata hai."
+    },
+    {
+      "id": "faq3",
+      "question": "Kaunse AI models best results dete hain?",
+      "answer": "Sora (OpenAI) is prompt ke liye best results deta hai. Runway Gen-3, Pika, aur Kling bhi achha kaam karte hain. Sabse important hai do reference images ka use karna—Earth wali aur apni photo—for better continuity."
+    },
+    {
+      "id": "faq4",
+      "question": "Kya main apni jagah kisi aur ki photo use kar sakta hoon?",
+      "answer": "Haan bilkul! Aap kisi bhi person ki photo use kar sakte ho—dost, family member, ya client. Bas ensure karo ki final frame mein outfit aur stance prompt ke description se match kare."
+    },
+    {
+      "id": "faq5",
+      "question": "Kya main Earth ki jagah kisi aur location se start kar sakta hoon?",
+      "answer": "Haan. Aap prompt mein 'Indian subcontinent' ki jagah 'New York City', 'London', 'Tokyo', ya kisi bhi specific location ka naam likh kar change kar sakte ho."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya in videos ko commercially use kar sakta hoon?",
+      "answer": "Commercial usage us AI video generation platform ki licensing policy par depend karta hai. Sora, Runway, aur Pika ke paid plans commercial use allow karte hain, lekin terms & conditions zaroor check karna."
+    },
+    {
+      "id": "faq7",
+      "question": "Video generate karne mein kitna time lagta hai?",
+      "answer": "Platform par depend karta hai. Sora aur Runway Gen-3 usually 1-2 minutes mein generate kar dete hain. Kling aur Pika thoda zyada time le sakte hain—3-5 minutes tak. Quality settings bhi time affect karti hain."
+    },
+    {
+      "id": "faq8",
+      "question": "Kya main video mein text ya logo add kar sakta hoon?",
+      "answer": "Haan. Generate karne ke baad aap kisi bhi video editing software (CapCut, Premiere Pro, DaVinci) mein text ya logo add kar sakte ho. Isse video personal ya branded ban jaati hai."
+    }
+  ],
+
+  "conclusion": "Earth-to-Ground Dolly Zoom prompt aapko ek epic, Hollywood-style cinematic video create karne ka mauka deta hai jo space se seedha ground tak ka seamless journey dikhati hai. Is prompt ki beauty hai iska 'one-shot wonder' feel—bina kisi cut ke, ek continuous smooth zoom jo viewers ko mesmerize kar deta hai. Bas Earth wali reference image download karo, apni photo upload karo, prompt paste karo, aur seconds mein apna cinematic masterpiece ready! Instagram Reels, YouTube Shorts, music videos, aur personal branding ke liye perfect.",
+
+  "tags": [
+    "Earth to Ground Zoom",
+    "Dolly Zoom AI",
+    "Cinematic AI Video",
+    "Space to Earth Transition",
+    "One Shot Wonder",
+    "Sora AI Video",
+    "Runway Gen-3",
+    "Epic Cinematic Zoom",
+    "Indian Subcontinent Zoom",
+    "AI Video Generation",
+    "Hollywood Style Opening",
+    "Seamless Transition",
+    "Continuous Camera Movement",
+    "Personal Branding Video"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
+ {
   "id": "post-22",
   "title": "Over-the-Shoulder Editorial Portrait Prompt - Do Women Ka Cinematic Shot",
   "categoryId": "cat-1",
