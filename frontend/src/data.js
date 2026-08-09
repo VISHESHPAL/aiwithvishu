@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.1"; // ← Change this number
+export const DATA_VERSION = "1.0.0"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -380,6 +380,134 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  "id": "post-24",
+  "title": "ASMR Styrofoam Sculpture Crafting Prompt - Realistic Close-Up Video",
+  "categoryId": "cat-2",
+  "image": "/images/post24/styrofoam-sculpture-prompt1.avif",
+  "date": "August 9, 2026",
+  "author": "Vishu",
+
+  "introduction": "Bhai ASMR Styrofoam Sculpture Crafting videos 2026 mein bohot viral ho rahe hain — especially art, craft, aur relaxation niche mein. Is prompt mein ek detailed styrofoam sculpture ka step-by-step crafting process capture kiya jaata hai. Cutting, stacking, carving, sanding, aur detailing — har action ek satisfying ASMR experience deta hai aur viewers ko mesmerize kar deta hai.\n\nIs prompt ki sabse khaas baat hai iska ultra-realistic execution. Hands ko carefully styrofoam blocks cut karte, glue se stack karte, marker se outline draw karte, aur craft knives se 3D form carve karte dikhaya jaata hai. Har step ek precise, tactile, aur visually satisfying process hai jo art lovers aur ASMR fans dono ko attract karta hai.\n\nTop-down aur macro close-up camera angles is video ko ek premium cinematic feel dete hain. 4K resolution, natural warm workshop lighting, aur crisp ASMR audio — styrofoam ki cutting aur carving ki sound — ek immersive experience create karte hain. Isliye YouTube, Instagram Reels, aur TikTok par yeh style bohot fast growth dekh raha hai.\n\nAI video generation models jaise Flow AI, Runway, aur Pika is prompt ko beautifully execute karte hain. Agar aap Flow AI mein jaake OBJECT ki jagah apna reference subject daal dete hain — chahe wo 'DOG' ho, 'CAT', ya koi aur shape — toh AI automatically ek realistic ASMR crafting video generate kar deta hai. Bohot simple hai yaar!", 
+
+  "whyTrending": "ASMR styrofoam sculpting videos ka trend social media par exponentially grow kar raha hai. Iski growth ka sabse bada reason hai viewer engagement. Log relaxing, satisfying, aur visually pleasing content dekhte hain stress relief ke liye. Styrofoam ki cutting, carving, aur sanding ki sound — yeh sab ek unique ASMR experience deta hai.\n\nDusra reason hai craft community ka rise. Pandemic ke baad se DIY aur handmade art projects ka trend bohot badha hai. Log ab khud carve karna seekh rahe hain, aur AI-generated tutorials unhe inspiration dete hain. Isliye AI ASMR sculpting prompts ka demand itna high hai.\n\nTeen reason hai AI video generation ki affordability. Pehle itna cinematic ASMR content banane ke liye expensive cameras, professional lighting, aur editing skills chahiye thi. Ab AI se koi bhi, kisi bhi subject ka realistic sculpting video seconds mein bana sakta hai.",
+
+  "creationIntro": "Apna realistic ASMR Styrofoam Sculpture Crafting video create karna bohot easy hai.\n\n1. Pehle Flow AI, Runway, ya Pika AI image/video generation platform open karein.\n2. Neeche diye gaye prompts mein se apna favorite prompt copy karein.\n3. Prompt mein 'OBJECT' ki jagah apna desired subject name likhein — jaise 'DOG', 'CAT', 'LION', 'ELEPHANT', ya koi bhi shape.\n4. Agar aapke paas reference image hai toh Flow AI mein woh upload karein aur 'OBJECT' ki jagah uska naam likhein.\n5. Generate button click karein aur seconds mein apna 4K ASMR sculpting video ready hai!\n\nBas itna simple hai. AI automatically step-by-step carving process, camera angles, lighting, aur ASMR audio ke saath ek premium quality video generate kar dega.",
+
+  "photoStepTitle": "Steps to Generate Your ASMR Styrofoam Sculpture Video",
+
+  "photoItems": [
+    {
+      "image": "/images/post24/styrofoam-sculpture-prompt2.avif",
+      "title": " Styrofoam Sculpture - ASMR Carving",
+      "prompt": `A realistic close-up ASMR video capturing the step-by-step crafting process of a detailed styrofoam sculpture.Subject: If an image is provided, use the exact subject/character shown in the reference image. Otherwise, carve a [OBJECT].Sequence & Actions:1. Hands measure and cut white styrofoam blocks using a utility knife and ruler.2. White glue is applied to stack and bond multiple blocks together into a thick cube.3. A black marker draws a clean outline of [OBJECT / reference image subject] onto the side.4. Sharp craft knives shave down, carve out, and shape the styrofoam to reveal the 3D form.5. Fine detailing using scalpels for precise textures, followed by sandpaper smoothing, adding glass eyes, and brushing off styrofoam dust.Visual Style: High-definition 4K, crisp top-down and macro close-up camera angles, natural warm workshop lighting, realistic material textures, and crisp ASMR tactile audio focus. `
+    },
+  ],
+
+  "photoBtnText": "Create Your ASMR Sculpting Video",
+  "photoBtnLink": "https://labs.google/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "Flow AI use kar rahe ho toh reference image upload karo for exact subject accuracy.",
+    "OBJECT ki jagah specific breed likho — 'German Shepherd', 'Persian Cat' — for better detailing.",
+    "Crafting steps ko explicit mention karo — cutting, gluing, outline, carving, sanding — every step.",
+    "Camera angles specify karo — 'top-down', 'macro close-up', 'side angle' — for cinematic variety.",
+    "Lighting mention karo — 'warm workshop light', 'natural daylight' — mood set hota hai.",
+    "ASMR sound quality ke liye 'crisp tactile audio' add karo prompt mein.",
+    "Background clean rakho — 'white background' ya 'minimal workshop' — focus subject pe rahega.",
+    "4K UHD mention karo for maximum video resolution.",
+    "Hand actions ko detailed describe karo — 'hands measure with ruler', 'hands apply glue'.",
+    "Styrofoam texture mention karo — 'white styrofoam', 'smooth surface' — realism badhega."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "OBJECT ko blank chhod dena — 'DOG' ya 'CAT' likhna mandatory hai.",
+    "Reference image upload karna bhool jana Flow AI mein.",
+    "Crafting steps ko sequence mein nahi likhna — step 1,2,3,4,5 zaroor mention karo.",
+    "Camera angles specify nahi karna — video flat aur boring lagti hai.",
+    "ASMR audio mention nahi karna — audio quality video ka game-changer hai.",
+    "Lighting ka description nahi dena — shadows aur highlights miss ho jaate hain.",
+    "Styrofoam color mention nahi karna — white default hai but agar color chahiye toh mention karo.",
+    "Resolution 4K mention nahi karna — quality low aati hai.",
+    "Background clean nahi rakhna — subject distract ho jaata hai.",
+    "Hand actions detailed nahi likhna — AI vagueness mein generate karta hai."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh ASMR Styrofoam Sculpture AI prompt kya hai?",
+      "answer": "Dekho yeh ek AI video generation prompt hai jo styrofoam carving ka realistic ASMR video create karta hai. Step-by-step crafting process — cutting, gluing, outlining, carving, detailing — sab kuch 4K resolution mein capture hota hai. Crisp ASMR audio aur warm workshop lighting isko ek premium cinematic experience dete hain."
+    },
+    {
+      "id": "faq2",
+      "question": "Main kaunse AI tools mein yeh prompt use kar sakta hoon?",
+      "answer": "Yeh prompt Flow AI, Runway Gen-2, Pika Labs, aur Kaiber AI mein best kaam karta hai. Flow AI sabse recommended hai kyunki woh reference image upload karne ka option deta hai aur step-by-step process ko accurately render karta hai."
+    },
+    {
+      "id": "faq3",
+      "question": "Kya main OBJECT ki jagah apna reference image use kar sakta hoon?",
+      "answer": "Haan bilkul. Flow AI mein aap apna reference image upload kar sakte ho aur prompt mein OBJECT ki jagah uska naam likh sakte ho. AI automatically usi shape ka sculpting video generate kar dega."
+    },
+    {
+      "id": "faq4",
+      "question": "Kya yeh prompt sirf styrofoam ke liye hai?",
+      "answer": "Nahi yaar. Aap 'styrofoam' ki jagah 'wood', 'clay', 'soapstone', ya 'wax' likh kar bhi generate kar sakte ho. Har material different ASMR experience deta hai."
+    },
+    {
+      "id": "faq5",
+      "question": "Kya generated video mein ASMR audio bhi aata hai?",
+      "answer": "Haan. Agar aap prompt mein 'crisp ASMR tactile audio' mention karte ho toh AI synthetic ASMR sound effects generate karta hai — cutting, carving, sanding ki sounds. Kai tools like Runway aur Flow AI audio support karte hain."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya in videos ko commercially use kar sakta hoon?",
+      "answer": "Commercial usage tool ki licensing policy par depend karta hai. Flow AI aur Runway ke paid plans commercial use allow karte hain. Terms & conditions zaroor check kar lena."
+    },
+    {
+      "id": "faq7",
+      "question": "Yeh ASMR sculpting videos YouTube par viral kyun ho rahe hain?",
+      "answer": "Bhai yeh videos relaxing, satisfying, aur visually pleasing hain. Log stress relief ke liye ASMR content dekhte hain. Styrofoam carving ki unique texture aur sound ek immersive experience deta hai. Isliye YouTube Shorts, Instagram Reels, aur TikTok par yeh bohot fast grow kar raha hai."
+    },
+    {
+      "id": "faq8",
+      "question": "Kya main sculpture ki size ya complexity change kar sakta hoon?",
+      "answer": "Haan. Aap prompt mein 'small detailed sculpture' ya 'large life-size sculpture' likh kar size specify kar sakte ho. Complexity ke liye 'intricate details', 'fur texture', 'muscle definition' jaise keywords add karo."
+    }
+  ],
+
+  "conclusion": "ASMR Styrofoam Sculpture Crafting Prompt aapko ek realistic, cinematic, aur deeply satisfying video create karne ka mauka deta hai jo art lovers aur ASMR fans dono ko attract karega. Step-by-step crafting process, 4K resolution, warm workshop lighting, aur crisp tactile audio ke saath, yeh prompt aapki vision ko viral-worthy content mein badal deta hai. Bas Flow AI mein jaao, OBJECT ki jagah apna subject likho, aur seconds mein apna premium ASMR video generate karo.",
+  
+  "tags": [
+    "ASMR Sculpting",
+    "Styrofoam Carving",
+    "ASMR Video Prompt",
+    "AI Video Generation",
+    "Flow AI Prompt",
+    "4K ASMR Video",
+    "Crafting ASMR",
+    "Realistic Sculpture",
+    "DIY Sculpting Tutorial",
+    "Runway Gen-2 Prompt",
+    "Relaxing ASMR",
+    "Carving ASMR",
+    "ASMR Crafting",
+    "Sculpture Making"
+  ],
+
+  "isTrending": true,
+  "comments": []
+},
+ {
   "id": "post-23",
   "title": "Epic Earth-to-Ground Dolly Zoom Prompt - Space Se Selfie Tak Ka Cinematic Journey",
   "categoryId": "cat-2",
