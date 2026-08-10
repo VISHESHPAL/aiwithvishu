@@ -3,7 +3,7 @@ import fs from 'fs';
 import { create } from 'xmlbuilder';
 import { INITIAL_POSTS, INITIAL_CATEGORIES, INITIAL_PAGES } from './src/data.js';
 
-const BASE_URL = 'https://aiwithvishu.in';
+const BASE_URL = 'https://www.aiwithvishu.in';
 
 // 📌 Static Pages (jo sitemap mein already hain)
 const staticPages = [
