@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.1"; // ← Change this number
+export const DATA_VERSION = "1.0.0"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -380,6 +380,134 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  "id": "post-25",
+  "title": "Cinematic Silhouette Portrait with Glowing Eye Window - AI Image Prompt",
+  "categoryId": "cat-2",
+  "image": "/images/post25/cinematic-silhouette-portrait1.avif",
+  "date": "August 11, 2026",
+  "author": "Vishu",
+
+  "introduction": "Bhai yeh prompt ek premium cinematic silhouette portrait generate karta hai jisme ek young South Asian man deep navy-blue studio mein relaxed pose mein baitha hai. Uska body pure black silhouette hai, lekin peeche ek glowing rectangular window floating hai jisme ek woman ki realistic eyes aur red rose visible hai. Yeh aesthetic editorial fashion shoots aur cinematic art ke liye perfect hai. AI tools jaise Midjourney, Stable Diffusion, aur DALL-E 3 is prompt ko beautifully execute karte hain.",
+
+  "whyTrending": "Cinematic silhouette portraits ka trend social media aur fashion photography mein bohot fast grow kar raha hai. Minimalist composition, moody lighting, aur surreal elements jaise floating glowing window — yeh sab ek premium editorial aesthetic deta hai. Log ab AI-generated cinematic art ko prints, posters, aur social media banners ke liye use kar rahe hain.",
+
+  "creationIntro": "Apna cinematic silhouette portrait generate karna bohot easy hai:\n\n1. Apna AI image generation platform open karein (Midjourney, Stable Diffusion, DALL-E 3, ya Flow AI).\n2. Neeche diye gaye prompt ko copy karein.\n3. Prompt mein 'uploaded portrait' aur 'uploaded woman's eyes' ki jagah apni reference images upload karein.\n4. 4:5 aspect ratio set karein.\n5. Generate button click karein aur seconds mein apna 8K cinematic portrait ready hai!",
+
+  "photoStepTitle": "Steps to Generate Your Cinematic Silhouette Portrait",
+
+  "photoItems": [
+    {
+      "image": "/images/post25/cinematic-silhouette-portrait2.avif",
+      "title": "Silhouette Portrait with Glowing Eye Window",
+      "prompt": `Use the uploaded portrait of the young South Asian man as the ONLY identity reference. Preserve his face with extremely high identity fidelity (99–100%). Match the exact facial structure, jawline, forehead, eyebrows, eye shape, iris size, nose, lips, beard, moustache, skin tone, hairline, hairstyle, facial proportions, and natural expression exactly. Do not beautify, reshape, smooth, age, feminize, masculinize, or regenerate the face. Keep the identity unmistakably identical to the uploaded photo.Use the second image ONLY as the composition, lighting, and framing reference. Camera locked in a front-side profile view, subject positioned in the lower-right third of the frame, identical framing, identical perspective, identical scale, minimalistic studio compositionCreate an ultra-realistic cinematic silhouette portrait of the same man sitting on a simple modern chair, leaning backward in a relaxed pose with legs extended forward. The body is a pure black silhouette with no visible clothing texture or facial details. The studio is filled with deep navy-blue ambient light, soft volumetric fog, subtle bloom, and a dreamy cinematic atmosphere.Behind the subject is a long, narrow horizontal glowing rectangular window floating in mid-air. Inside the glowing window appears only the realistic close-up of the uploaded woman's eyes, matching her eyes, eyebrows, skin tone, gaze direction, bindi position, and natural details 100% exactly, with a single fresh red rose beside her left eye. The eyes must look identical to the uploaded eye reference, without stylization or alteration.The glowing window emits a soft white-blue light into the surrounding mist while the seated subject remains completely silhouetted. Premium editorial aesthetic, ultra-clean background, smooth gradients, realistic fog, moody lighting, high contrast, cinematic color grading, masterpiece, ultra-detailed, photorealistic, 8K. --ar 4:5`
+    }
+  ],
+
+  "photoBtnText": "Create Your Portrait",
+  "photoBtnLink": "https://chatgpt.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "Reference images high-resolution upload karein for exact identity match.",
+    "Prompt mein '4:5' aspect ratio mention karna na bhoolen.",
+    "Deep navy-blue ambient light aur fog ke liye 'volumetric fog' aur 'bloom' keywords add karein.",
+    "Silhouette effect ke liye 'pure black silhouette' aur 'no visible clothing texture' mention karein.",
+    "Glowing window ke liye 'floating in mid-air' aur 'soft white-blue light' specify karein.",
+    "Woman's eyes realistic render ke liye 'bindi position' aur 'gaze direction' mention karein.",
+    "Cinematic feel ke liye 'cinematic color grading' aur 'high contrast' add karein.",
+    "8K UHD mention karein for maximum resolution.",
+    "Minimalistic studio composition ke liye 'ultra-clean background' mention karein.",
+    "Midjourney use kar rahe ho toh '--ar 4:5' aur '--style raw' add karein for better realism."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Reference images upload karna bhool jana.",
+    "4:5 aspect ratio mention nahi karna — output crop ho sakta hai.",
+    "Silhouette ke liye 'pure black' mention nahi karna — body visible aa sakti hai.",
+    "Woman's eyes ko 'close-up' mention nahi karna — blurry aa sakti hain.",
+    "Floating window ka position specify nahi karna — galat jagah aa sakta hai.",
+    "Deep navy-blue light ki jagah koi aur color mention kar dena.",
+    "Fog aur bloom keywords hatana — atmosphere flat ho jaata hai.",
+    "Cinematic color grading mention nahi karna — colors dull aa sakte hain.",
+    "Resolution 8K mention nahi karna — quality low aati hai.",
+    "Premium editorial aesthetic mention nahi karna — generic look aa sakta hai."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh cinematic silhouette portrait AI prompt kya hai?",
+      "answer": "Yeh ek AI image generation prompt hai jo ek young South Asian man ka cinematic silhouette portrait create karta hai. Deep navy-blue studio, floating glowing window jisme woman ki realistic eyes aur red rose visible hai — sab kuch 8K resolution mein capture hota hai. Premium editorial aesthetic aur moody lighting isko ek masterpiece banata hai."
+    },
+    {
+      "id": "faq2",
+      "question": "Main kaunse AI tools mein yeh prompt use kar sakta hoon?",
+      "answer": "Yeh prompt Midjourney, Stable Diffusion, DALL-E 3, aur Flow AI mein best kaam karta hai. Midjourney sabse recommended hai kyunki woh cinematic composition aur lighting ko beautifully render karta hai."
+    },
+    {
+      "id": "faq3",
+      "question": "Kya main apni own reference images use kar sakta hoon?",
+      "answer": "Haan bilkul. Aap apni portrait aur woman's eyes ki reference images upload kar sakte ho. Prompt mein 'uploaded portrait' aur 'uploaded woman's eyes' ki jagah apni images ka reference de sakte ho."
+    },
+    {
+      "id": "faq4",
+      "question": "Yeh portrait kis aspect ratio mein generate hona chahiye?",
+      "answer": "4:5 aspect ratio recommended hai. Midjourney mein '--ar 4:5' add karein. Stable Diffusion mein '--ar 4:5' ya custom settings use karein."
+    },
+    {
+      "id": "faq5",
+      "question": "Kya generated image mein face visible hoga?",
+      "answer": "Nahi. Is prompt mein subject ka body 'pure black silhouette' hai. Face details visible nahi hain. Face sirf reference image ke liye identity fidelity maintain karne ke liye use hota hai."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya in images ko commercially use kar sakta hoon?",
+      "answer": "Commercial usage tool ki licensing policy par depend karta hai. Midjourney aur DALL-E 3 ke paid plans commercial use allow karte hain. Terms & conditions zaroor check kar lena."
+    },
+    {
+      "id": "faq7",
+      "question": "Yeh cinematic portraits viral kyun ho rahe hain?",
+      "answer": "Minimalist composition, moody lighting, aur surreal elements jaise floating glowing window — yeh sab ek premium editorial aesthetic deta hai. Log inhe prints, posters, aur social media banners ke liye use kar rahe hain. Fashion aur art lovers inhe bohot pasand kar rahe hain."
+    },
+    {
+      "id": "faq8",
+      "question": "Kya main background color ya lighting change kar sakta hoon?",
+      "answer": "Haan. Aap 'deep navy-blue' ki jagah 'dark teal' ya 'charcoal black' likh sakte ho. Lighting ke liye 'soft white-blue' ki jagah 'warm amber' ya 'cool cyan' use kar sakte ho."
+    }
+  ],
+
+  "conclusion": "Yeh Cinematic Silhouette Portrait with Glowing Eye Window prompt aapko ek premium editorial masterpiece generate karne ka mauka deta hai. Deep navy-blue studio, floating glowing window, aur pure black silhouette — sab kuch 8K resolution mein capture hota hai. Bas apni reference images upload karein, 4:5 aspect ratio set karein, aur seconds mein apna cinematic portrait ready hai!",
+
+  "tags": [
+    "Cinematic Portrait",
+    "Silhouette Photography",
+    "AI Image Prompt",
+    "Midjourney Prompt",
+    "Editorial Photography",
+    "Moody Lighting",
+    "Glowing Window",
+    "8K Photorealistic",
+    "Cinematic Color Grading",
+    "AI Art Generation",
+    "Portrait Photography",
+    "Minimalist Composition",
+    "Surreal Art",
+    "Fashion Editorial"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
+ {
   "id": "post-24",
   "title": "ASMR Styrofoam Sculpture Crafting Prompt - Realistic Close-Up Video",
   "categoryId": "cat-2",
@@ -506,7 +634,7 @@ export const INITIAL_POSTS = [
 
   "isTrending": true,
   "comments": []
-},
+ },
  {
   "id": "post-23",
   "title": "Epic Earth-to-Ground Dolly Zoom Prompt - Space Se Selfie Tak Ka Cinematic Journey",
