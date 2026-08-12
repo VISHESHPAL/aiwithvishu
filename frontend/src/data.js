@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.0"; // ← Change this number
+export const DATA_VERSION = "1.0.1"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -380,6 +380,134 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  "id": "post-26",
+  "title": "Cinematic Triple Portrait Prompt - AI Image Prompt",
+  "categoryId": "cat-1",
+  "image": "/images/post26/triple-portrait-collage1.avif",
+  "date": "August 12, 2026",
+  "author": "Vishu",
+
+  "introduction": "Bhai yeh prompt ek ultra-cinematic triptych portrait collage generate karta hai jisme ek hi person teen different panels mein capture hota hai. Deep crimson-red background, dramatic black shadows, aur extreme chiaroscuro contrast isko ek noir masterpiece banata hai. Top aur bottom panels mein downward-gazing side-profile silhouette hai, aur center panel mein partially obscured face intense molten red light se illuminate hota hai. Yeh fine-art cinematic photography ka perfect example hai jo editorial fashion shoots aur art prints ke liye bohot popular ho raha hai.\n\nIs prompt ki sabse khaas baat hai ki ek hi person ki exact facial identity, features, aur hairstyle teenon panels mein preserve rehti hai. AI models jaise Midjourney, Stable Diffusion, aur DALL-E 3 is prompt ko beautifully execute karte hain. Moody, mysterious, noir atmosphere aur volumetric dramatic lighting isko ek premium aesthetic deta hai.",
+
+  "whyTrending": "Triptych portrait collages art galleries, fashion magazines, aur social media par bohot viral ho rahe hain. Ek hi subject ko teen different angles mein capture karna ek narrative storytelling technique hai jo viewer ka attention instantly grab karti hai.\n\nIs trend ki growth ka reason hai dramatic lighting aur chiaroscuro technique ka rise. Log ab flat, boring portraits ki jagah moody, cinematic compositions prefer kar rahe hain. Crimson-red background aur extreme contrast ek bold statement deta hai.\n\nAI technology ne is trend ko aur accessible banaya hai. Ab koi bhi, bina expensive photoshoot ke, high-end fine-art triptych portraits generate kar sakta hai. Fashion brands, artists, aur photographers is style ko adopt kar rahe hain.",
+
+  "creationIntro": "Apna cinematic triptych portrait collage generate karna bohot easy hai:\n\n1. Apna AI image generation platform open karein (Midjourney recommended).\n2. Neeche diye gaye prompt ko copy karein.\n3. Prompt mein apni reference image upload karein.\n4. 4:5 aspect ratio set karein.\n5. Generate button click karein aur seconds mein apna 8K fine-art portrait ready hai!",
+
+  "photoStepTitle": "Steps to Generate Your Cinematic Triptych Portrait",
+
+  "photoItems": [
+    {
+      "image": "/images/post26/triple-portrait-collage2.avif",
+      "title": "Cinematic Triptych Portrait Collage",
+      "prompt": `Ultra-cinematic triptych portrait collage of one person, exact facial identity, features, and hairstyle preserved across all panels. Deep crimson-red background with dramatic black shadows and extreme chiaroscuro contrast. Top and bottom panels: downward-gazing side-profile silhouette. Center panel: partially obscured face illuminated by intense molten red light. Moody, mysterious, noir atmosphere. Sharp silhouettes, volumetric dramatic lighting, subtle film grain, fine-art cinematic photography, hyperrealistic details, editorial composition, 4:5 aspect ratio. No text, no watermark, no borders. Negative: blurry, low-res, extra limbs, duplicates, deformed face, watermark, logo, text, CGI, cartoon, oversaturated, harsh highlights, underexposed, anatomical errors, plastic/waxy skin, airbrushed, 3D render, illustration, painting, distorted fingers, mutated hands, unnatural skin tones, flat lighting, muddy contrast, pixelated, oversharpened, stiff posture, cluttered background, busy composition. --ar 4:5 --style raw --v 6.0`
+    }
+  ],
+
+  "photoBtnText": "Create Your Triple Portrait",
+  "photoBtnLink": "https://chatgpt.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "Reference image high-resolution upload karein for exact identity match across all panels.",
+    "Midjourney use kar rahe ho toh --ar 4:5, --style raw, --v 6.0 add karein.",
+    "Crimson-red background ke liye 'deep crimson-red' mention karein.",
+    "Chiaroscuro effect ke liye 'dramatic black shadows' aur 'extreme contrast' add karein.",
+    "Silhouette panels ke liye 'downward-gazing side-profile' specify karein.",
+    "Center panel ke liye 'partially obscured face' aur 'molten red light' mention karein.",
+    "Noir atmosphere ke liye 'moody, mysterious' keywords add karein.",
+    "Fine-art feel ke liye 'subtle film grain' aur 'hyperrealistic details' mention karein.",
+    "Negative prompt use karein to avoid common AI artifacts.",
+    "Multiple variations generate karein aur best composition select karein."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Reference image upload karna bhool jana — identity match nahi hogi.",
+    "4:5 aspect ratio mention nahi karna — output crop ho sakta hai.",
+    "Crimson-red background ki jagah koi aur color mention kar dena.",
+    "Chiaroscuro effect ke liye 'extreme contrast' mention nahi karna.",
+    "Silhouette panels mein 'downward-gazing' mention nahi karna — expression galat aa sakti hai.",
+    "Center panel mein 'partially obscured face' mention nahi karna — poora face aa sakta hai.",
+    "Negative prompt use nahi karna — extra limbs, deformed face jaise errors aa sakte hain.",
+    "Cinematic lighting ke liye 'volumetric dramatic lighting' mention nahi karna.",
+    "Fine-art feel ke liye 'subtle film grain' hatana — image flat lagti hai.",
+    "Editorial composition mention nahi karna — generic look aa sakta hai."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh cinematic triptych portrait AI prompt kya hai?",
+      "answer": "Yeh ek AI image generation prompt hai jo ek hi person ka teen different panels mein cinematic triptych collage create karta hai. Deep crimson-red background, dramatic black shadows, extreme chiaroscuro contrast, aur noir atmosphere isko ek fine-art masterpiece banata hai. Top aur bottom panels mein side-profile silhouette hai, center panel mein molten red light se illuminated face hai."
+    },
+    {
+      "id": "faq2",
+      "question": "Main kaunse AI tools mein yeh prompt use kar sakta hoon?",
+      "answer": "Yeh prompt Midjourney, Stable Diffusion, aur DALL-E 3 mein best kaam karta hai. Midjourney sabse recommended hai kyunki woh cinematic composition aur lighting ko beautifully render karta hai. --style raw --v 6.0 use karein for better results."
+    },
+    {
+      "id": "faq3",
+      "question": "Kya meri exact facial identity teenon panels mein preserve rahegi?",
+      "answer": "Haan. Prompt specifically instruct karta hai ki 'exact facial identity, features, and hairstyle preserved across all panels.' Reference image upload karein aur AI identity match kar lega. Face shape, bone structure, skin tone, aur hairstyle bilkul same rahenge."
+    },
+    {
+      "id": "faq4",
+      "question": "Yeh portrait kis aspect ratio mein generate hona chahiye?",
+      "answer": "4:5 aspect ratio recommended hai. Midjourney mein '--ar 4:5' add karein. Stable Diffusion mein custom settings use karein."
+    },
+    {
+      "id": "faq5",
+      "question": "Negative prompt kya hai aur kyun use karna chahiye?",
+      "answer": "Negative prompt woh instructions hain jo AI ko batati hain ki image mein kya nahi hona chahiye. Jaise 'blurry, low-res, deformed face, watermark, extra limbs' — yeh common AI artifacts ko avoid karne mein help karta hai. Is prompt mein detailed negative prompt already included hai."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya in images ko commercially use kar sakta hoon?",
+      "answer": "Commercial usage tool ki licensing policy par depend karta hai. Midjourney aur DALL-E 3 ke paid plans commercial use allow karte hain. Terms & conditions zaroor check kar lena."
+    },
+    {
+      "id": "faq7",
+      "question": "Yeh triptych portraits viral kyun ho rahe hain?",
+      "answer": "Teen different panels mein ek hi subject ko capture karna ek narrative storytelling technique hai. Dramatic lighting, crimson-red background, aur extreme contrast ek bold, premium aesthetic deta hai. Art lovers, fashion brands, aur photographers is style ko bohot pasand kar rahe hain."
+    },
+    {
+      "id": "faq8",
+      "question": "Kya main background color ya lighting change kar sakta hoon?",
+      "answer": "Haan. Aap 'deep crimson-red' ki jagah 'deep navy-blue' ya 'charcoal black' likh sakte ho. Lighting ke liye 'molten red' ki jagah 'molten gold' ya 'cool cyan' use kar sakte ho. But ensure karo ki dramatic contrast aur noir atmosphere maintain rahe."
+    }
+  ],
+
+  "conclusion": "Yeh Cinematic Triptych Portrait Collage prompt aapko ek premium fine-art masterpiece generate karne ka mauka deta hai. Deep crimson-red background, dramatic chiaroscuro contrast, aur teen panels mein ek hi person ka silhouette aur illuminated face — sab kuch 8K resolution mein capture hota hai. Bas apni reference image upload karein, 4:5 aspect ratio set karein, aur seconds mein apna cinematic portrait ready hai!",
+
+  "tags": [
+    "Cinematic Portrait",
+    "Triptych Collage",
+    "AI Image Prompt",
+    "Midjourney Prompt",
+    "Fine Art Photography",
+    "Chiaroscuro",
+    "Noir Aesthetic",
+    "8K Photorealistic",
+    "Cinematic Color Grading",
+    "AI Art Generation",
+    "Portrait Photography",
+    "Editorial Composition",
+    "Dramatic Lighting",
+    "Crimson Red Background"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
+ {
   "id": "post-25",
   "title": "Cinematic Silhouette Portrait with Glowing Eye Window - AI Image Prompt",
   "categoryId": "cat-2",
