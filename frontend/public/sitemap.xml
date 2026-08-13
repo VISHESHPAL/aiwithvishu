@@ -8,7 +8,7 @@
   <url>
     <loc>https://aiwithvishu.in/about</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://aiwithvishu.in/contact</loc>
@@ -54,6 +54,12 @@
     <loc>https://aiwithvishu.in/lightroom-photo-edit-preset</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aiwithvishu.in/ai-photo-editing/ultra-realistic-8k-cinematic-portrait-with-indian-flag-ai-image-prompt</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-08-12</lastmod>
   </url>
   <url>
     <loc>https://aiwithvishu.in/ai-photo-editing/cinematic-triple-portrait-prompt-ai-image-prompt</loc>

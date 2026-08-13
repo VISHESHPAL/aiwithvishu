@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.1"; // ← Change this number
+export const DATA_VERSION = "1.0.0"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -380,6 +380,140 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  "id": "post-27",
+  "title": "Ultra-Realistic 8K Cinematic Portrait with Indian Flag - AI Image Prompt",
+  "categoryId": "cat-1",
+  "image": "/images/post27/patriotic-portrait-collage1.avif",
+  "date": "August 13, 2026",
+  "author": "Vishu",
+
+  "introduction": "Bhai yeh prompt ek ultra-realistic 8K cinematic portrait generate karta hai jisme ek young Indian man Indian tricolor flag ko gently kiss kar raha hai. Vertical 4:5 composition, crisp white traditional kurta, aur flag ka natural wind flow isko ek powerful aur emotional visual banata hai. Soft natural daylight, warm golden tones, aur realistic skin texture is portrait ko next-level photorealistic banate hain.\n\nIs prompt ki sabse khaas baat hai ki yeh pure photorealistic style mein generate hota hai — no cartoon, no anime, no CGI look. Flag ka saffron-white-green color combination aur Ashoka Chakra clearly visible hai. Shallow depth of field aur 85mm lens simulation give karta hai professional DSLR quality. Mood calm, respectful, aur deeply patriotic hai.",
+
+  "whyTrending": "Patriotic portraits with Indian tricolor flag social media par bohot viral ho rahe hain. Independence Day aur Republic Day ke around yeh trend peak par hota hai. Log apni patriotism ko expressive aur artistic way mein showcase karna chahte hain.\n\nIs trend ki growth ka reason hai hyper-realistic AI portraits ka rise. Log ab generic AI art ki jagah photorealistic, DSLR-quality images prefer kar rahe hain. Flag ke natural flow, fabric textures, aur cinematic lighting isko premium banate hain.\n\nAI technology ne is trend ko accessible banaya hai. Bina expensive photoshoot ke koi bhi apna cinematic patriotic portrait generate kar sakta hai. Content creators, influencers, aur brands is style ko adopt kar rahe hain.",
+
+  "creationIntro": "Apna cinematic patriotic portrait generate karna bohot easy hai:\n\n1. Apna AI image generation platform open karein (Midjourney recommended).\n2. Neeche diye gaye prompt ko copy karein.\n3. Prompt mein apni reference image upload karein (optional).\n4. 4:5 aspect ratio set karein.\n5. Generate button click karein aur seconds mein apna 8K photorealistic portrait ready hai!",
+
+  "photoStepTitle": "Steps to Generate Your Cinematic Patriotic Portrait",
+
+  "photoItems": [
+    {
+      "image": "/images/post27/patriotic-portrait-collage2.avif",
+      "title": "Ultra-Realistic 8K Cinematic Portrait with Tricolor Flag",
+      "prompt": `Ultra-realistic 8K cinematic portrait, vertical 4:5 composition, a young Indian man with a calm and respectful expression, eyes closed, wearing a crisp white traditional kurta, standing outdoors while gently kissing the Indian tricolor flag, the saffron-white-green flag flowing naturally in the wind and partially wrapping around the foreground, Ashoka Chakra clearly visible, soft natural daylight, subtle warm golden tones, realistic skin texture with natural pores and subtle imperfections, a modern smartwatch visible on his wrist, shallow depth of field with a softly blurred outdoor background (trees and sky), authentic photography style, DSLR quality, shot on 85mm lens at f/1.8, cinematic depth, HDR, highly detailed, photorealistic, natural colors, realistic fabric folds and wind movement in the flag and kurta, no cartoon, no anime, no illustration, no painting, no artificial face enhancement, no CGI look. `
+    },
+    {
+      "image": "/images/post27/patriotic-portrait-collage3.avif",
+      "title": "Ultra-Realistic 8K Cinematic Portrait with Tricolor Flag",
+      "prompt": `Ultra-realistic 8K cinematic portrait, vertical 4:5 composition, a young Indian man standing outdoors beside a calm lake, wearing a crisp white short-sleeve button-down shirt, looking slightly upward with a soft, peaceful and hopeful expression, realistic skin texture with natural pores and subtle facial details, an Indian national tricolor flag flowing dramatically in the wind behind him with vibrant saffron, white and green colors and the Ashoka Chakra clearly visible, flag occupying the upper-left background as a bold compositional element, soft bright natural daylight, pale blue sky with gentle clouds, distant dark green rolling hills across the still water, shallow depth of field with the man sharply in focus, realistic atmospheric perspective adding depth to the landscape, cinematic composition with balanced foreground and background, DSLR photography quality, shot on 85mm lens at f/1.8, high dynamic range, natural true-to-life colors, authentic fabric texture with realistic folds and movement in the shirt and flag, photorealistic rendering, sharp subject focus with a soft cinematic background blur, no cartoon, no anime, no illustration, no painting, no CGI or artificial enhancement. `
+    }
+  ],
+
+  "photoBtnText": "Create Your Patriotic Portrait",
+  "photoBtnLink": "https://chatgpt.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "Reference image high-resolution upload karein for better facial accuracy.",
+    "Midjourney use kar rahe ho toh --ar 4:5, --style raw, --v 6.0 add karein.",
+    "Flag ke natural flow ke liye 'flowing naturally in the wind' mention karein.",
+    "Photorealistic texture ke liye 'realistic skin texture with natural pores' add karein.",
+    "Warm golden tones ke liye 'subtle warm golden tones' specify karein.",
+    "Shallow depth of field ke liye 'shot on 85mm lens at f/1.8' mention karein.",
+    "Ashoka Chakra clearly visible hone ke liye explicitly mention karein.",
+    "No cartoon, no anime, no illustration use karein for photorealistic output.",
+    "Flag aur kurta ke fabric folds ke liye 'realistic fabric folds and wind movement' add karein.",
+    "Multiple variations generate karein aur best composition select karein."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "4:5 aspect ratio mention nahi karna — output crop ho sakta hai.",
+    "Ashoka Chakra mention nahi karna — flag incomplete aa sakta hai.",
+    "'No cartoon, no anime' mention nahi karna — illustrated style aa sakti hai.",
+    "Flag ka wind flow mention nahi karna — static flag aa sakta hai.",
+    "85mm lens aur f/1.8 mention nahi karna — depth of field proper nahi aayegi.",
+    "Natural pores aur skin texture mention nahi karna — plastic skin aa sakti hai.",
+    "'Photorealistic' keyword hatana — image artificial lagti hai.",
+    "Warm golden tones mention nahi karna — lighting flat aa sakti hai.",
+    "Background detail mention nahi karna — empty background aa sakta hai.",
+    "Smartwatch mention nahi karna — modern element missing ho sakta hai."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh patriotic AI portrait prompt kya generate karta hai?",
+      "answer": "Yeh prompt ultra-realistic 8K cinematic portrait generate karta hai jisme ek young Indian man Indian tricolor flag ko gently kiss kar raha hai. Vertical 4:5 composition, crisp white kurta, flag natural wind flow, shallow depth of field, aur photorealistic skin texture isko ek premium patriotic portrait banata hai."
+    },
+    {
+      "id": "faq2",
+      "question": "Main kaunse AI tools mein yeh prompt use kar sakta hoon?",
+      "answer": "Yeh prompt Midjourney, Stable Diffusion, aur DALL-E 3 mein best kaam karta hai. Midjourney sabse recommended hai kyunki woh photorealistic textures aur cinematic lighting beautifully render karta hai. --style raw --v 6.0 use karein for better results."
+    },
+    {
+      "id": "faq3",
+      "question": "Kya flag ka Ashoka Chakra clearly visible aayega?",
+      "answer": "Haan. Prompt specifically 'Ashoka Chakra clearly visible' instruct karta hai. Ensure karein ki aapne yeh mention kiya hai. AI flag ke center mein Ashoka Chakra render karega with proper details."
+    },
+    {
+      "id": "faq4",
+      "question": "Yeh portrait kis aspect ratio mein generate hona chahiye?",
+      "answer": "4:5 aspect ratio recommended hai — yeh vertical portrait composition ke liye best hai. Midjourney mein '--ar 4:5' add karein."
+    },
+    {
+      "id": "faq5",
+      "question": "Kya yeh pure photorealistic aayega ya illustrated style mein?",
+      "answer": "Pure photorealistic aayega. Prompt mein specifically 'no cartoon, no anime, no illustration, no painting, no CGI look' mention kiya gaya hai. 85mm lens, f/1.8, DSLR quality, aur natural skin texture realistic output ensure karte hain."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya in images ko commercially use kar sakta hoon?",
+      "answer": "Commercial usage tool ki licensing policy par depend karta hai. Midjourney aur DALL-E 3 ke paid plans commercial use allow karte hain. Terms & conditions zaroor check kar lena. Flag ke commercial use ke liye Indian flag code bhi check karein."
+    },
+    {
+      "id": "faq7",
+      "question": "Yeh patriotic portraits viral kyun ho rahe hain?",
+      "answer": "Patriotic portraits Indian national festivals ke around bohot viral ho rahe hain. Flag ke saath emotional connection, cinematic quality, aur hyper-realistic AI art ka combination logon ko bohot pasand aa raha hai. Content creators aur influencers bhi is style ko adopt kar rahe hain."
+    },
+    {
+      "id": "faq8",
+      "question": "Kya main kurta ki jagah koi aur outfit use kar sakta hoon?",
+      "answer": "Haan. Aap 'white traditional kurta' ki jagah 'white sherwani', 'navy blue bandhgala', ya 'casual white shirt' likh sakte ho. But ensure karo ki outfit crisp aur photorealistic rahe. Flag ke saath contrast acha ho isliye light colors recommend kiye jaate hain."
+    }
+  ],
+
+  "conclusion": "Yeh Ultra-Realistic 8K Cinematic Portrait prompt aapko ek emotionally powerful aur premium patriotic masterpiece generate karne ka mauka deta hai. Indian tricolor flag ka natural wind flow, Ashoka Chakra, crisp white kurta, aur photorealistic skin texture — sab kuch 8K resolution mein capture hota hai. Bas 4:5 aspect ratio set karein, 'no cartoon, no anime' mention karein, aur seconds mein apna DSLR-quality patriotic portrait ready hai!",
+
+  "tags": [
+    "Cinematic Portrait",
+    "Patriotic Portrait",
+    "Indian Tricolor Flag",
+    "AI Image Prompt",
+    "Midjourney Prompt",
+    "Photorealistic AI",
+    "8K Portrait",
+    "DSLR Quality",
+    "85mm Lens",
+    "Ashoka Chakra",
+    "Patriotic AI Art",
+    "Independence Day",
+    "Republic Day",
+    "Realistic Skin Texture",
+    "Cinematic Photography"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
+ {
   "id": "post-26",
   "title": "Cinematic Triple Portrait Prompt - AI Image Prompt",
   "categoryId": "cat-1",

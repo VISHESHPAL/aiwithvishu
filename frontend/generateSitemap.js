@@ -8,7 +8,7 @@ const BASE_URL = 'https://aiwithvishu.in';
 // 📌 Static Pages (jo sitemap mein already hain)
 const staticPages = [
   { loc: '/', changefreq: 'daily', priority: 1.0 },
-  { loc: '/about', changefreq: 'monthly', priority: 0.8 },
+  { loc: '/about', changefreq: 'monthly', priority: 0.9 },
   { loc: '/contact', changefreq: 'monthly', priority: 0.7 },
   { loc: '/privacy-policy', changefreq: 'yearly', priority: 0.5 },
   { loc: '/terms-and-condition', changefreq: 'yearly', priority: 0.5 },
