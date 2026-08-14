@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.0"; // ← Change this number
+export const DATA_VERSION = "1.0.1"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -380,6 +380,145 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  "id": "post-28",
+  "title": "AI Image Editing Prompts: Background, Object Replacement & Removal",
+  "categoryId": "cat-1",
+  "image": "/images/post28/ai-editing-collage1.avif",
+  "date": "August 14, 2026",
+  "author": "Vishu",
+
+  "introduction": "AI image editing has become incredibly powerful. With the right prompts, you can seamlessly replace backgrounds, add or remove objects, and swap out items, all while maintaining a photorealistic, natural look. Whether you are a content creator, photographer, or just someone who wants to perfect their photos, these prompts will help you achieve professional-grade results in seconds.\n\nThese prompts are designed to work with advanced AI models like Midjourney, Stable Diffusion, and DALL-E 3. They focus on preserving the original subject, lighting, and style while making precise edits to a scene. The key to success is using descriptive language that guides the AI to blend new elements naturally, match textures, and reconstruct backgrounds without leaving any traces of manipulation. No cartoon, no anime, no CGI look—just pure photorealistic editing.",
+
+  "whyTrending": "AI-powered image editing is one of the fastest-growing trends in digital content creation. The ability to modify images with simple text prompts has democratized professional-grade editing, making it accessible to everyone.\n\nThis trend is fueled by the rise of generative AI and inpainting models that can understand context, lighting, and textures. People are using these tools for e-commerce product photos, social media content, creative storytelling, and even architectural visualization. The demand for seamless, photorealistic edits is higher than ever, and these prompts are designed to meet that demand.\n\nAI technology has transformed the editing workflow. You no longer need expensive software or advanced skills. A simple text prompt can achieve what used to take hours in Photoshop. This is the future of image editing—fast, intuitive, and incredibly realistic.",
+
+  "creationIntro": "Using these AI editing prompts is extremely easy:\n\n1. Open your preferred AI image generation or editing platform (Midjourney or DALL-E recommended).\n2. Upload your reference image (or start from scratch).\n3. Copy and paste the prompt that fits your editing need.\n4. Adjust any placeholders like {NEW_BACKGROUND} or {OBJECT_TO_ADD}.\n5. Click generate and your professionally edited image is ready in seconds!",
+
+  "photoStepTitle": "Best AI Image Editing Prompts",
+
+  "photoItems": [
+    {
+      "image": "/images/post28/background-replacement.avif",
+      "title": "Prompt 1: Background Replacement",
+      "prompt": "Replace the current background with {NEW_BACKGROUND} while preserving the subject's pose, expression, lighting, and camera angle. Blend the subject naturally into the new environment with realistic details, matching shadows, and depth. Ensure the edges of the subject are crisp and seamless, with no halos or artifacts. The subject's hair, clothing, and skin should maintain their original sharpness and texture. The final image must be a seamless, photorealistic composition. No cartoon, no anime, no illustration, no painting, no CGI look. DSLR quality, natural colors, HDR."
+    },
+    {
+      "image": "/images/post28/object-replacement.avif",
+      "title": "Prompt 2: Object Replacement",
+      "prompt": "Replace the {CURRENT_OBJECT} with {NEW_OBJECT}, placing it naturally into the scene as if it originally belonged there. Ensure the new object is perfectly scaled, angled, and lit to match the original scene's shadows and highlights. Replicate the texture, material, and color of the surrounding environment for a seamless integration. Keep everything else in the image unchanged, including the subject, background, and overall composition. The result must be a seamless, realistic, and photorealistic edit. No cartoon, no anime, no illustration, no painting, no CGI look. DSLR quality, natural colors, HDR."
+    },
+    {
+      "image": "/images/post28/object-removal.avif",
+      "title": "Prompt 3: Object Removal",
+      "prompt": "Remove the {OBJECT_TO_REMOVE} completely and naturally reconstruct the hidden background. Intelligently fill the empty space with the appropriate surroundings—whether it's a wall, a landscape, or a studio backdrop—matching the original texture, lighting, and patterns perfectly. The final image should show no traces, ghosts, or artifacts of the removed object. The reconstruction should be so natural that it's impossible to tell anything was ever there. Keep everything else unchanged and ensure a photorealistic result. No cartoon, no anime, no illustration, no painting, no CGI look. DSLR quality, natural colors, HDR."
+    },
+    {
+      "image": "/images/post28/object-addition.avif",
+      "title": "Prompt 4: Object Addition",
+      "prompt": "Add a {OBJECT_TO_ADD} at {LOCATION}, placing it naturally into the scene as if it was always there. The new object must match the overall style of the image, including its lighting, perspective, color grading, and depth of field. Ensure its shadows cast in the correct direction and its materials reflect the environment's colors. The integration must be seamless and realistic, blending perfectly with the existing elements. Ensure a seamless, realistic, photorealistic result. No cartoon, no anime, no illustration, no painting, no CGI look. DSLR quality, natural colors, HDR."
+    }
+  ],
+
+  "photoBtnText": "Try These Editing Prompts",
+  "photoBtnLink": "https://chatgpt.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "Use high-resolution reference images for better accuracy and detail.",
+    "Be specific in your placeholders. Instead of 'beach', use 'a pristine white sand beach in the Maldives'.",
+    "For object replacement, mention the material and color of the new object.",
+    "To ensure proper lighting, state the time of day or type of light source in the scene.",
+    "When adding objects, include perspective details like 'in the foreground' or 'on the table'.",
+    "For object removal, the complexity of the background matters. Simple patterns are easier to reconstruct.",
+    "Always include 'photorealistic' and 'no cartoon, no anime' to maintain a realistic output.",
+    "Experiment with multiple iterations to get the perfect seamless blend.",
+    "Use tools with inpainting capabilities (like DALL-E or Photoshop AI) for the best results.",
+    "Study the original image's lighting and shadows to write better prompts."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Not specifying the lighting direction for the new element.",
+    "Forgetting to mention the scale or size of the new object.",
+    "Ignoring perspective and camera angle.",
+    "Not defining the material or texture of the new object.",
+    "Using vague placeholders like 'a mountain' without specifying the weather or season.",
+    "Not mentioning the type of lens or focal length.",
+    "Overlooking the need to match the depth of field.",
+    "Forgetting to reconstruct shadows for added objects.",
+    "Using low-quality reference images which lower the final output quality.",
+    "Not specifying the style (e.g., 'photorealistic') which may result in an artistic interpretation."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "What is the best AI tool for background replacement?",
+      "answer": "For background replacement, Midjourney (using '--iw' parameter for image weight) and DALL-E 3 are excellent. Photoshop's 'Generative Fill' is also incredibly powerful for this task. The key is using a detailed prompt like the one provided above."
+    },
+    {
+      "id": "faq2",
+      "question": "Can I replace an object and keep the subject's pose unchanged?",
+      "answer": "Yes, the prompts are designed to preserve everything else in the image. The 'Object Replacement' prompt specifically instructs the AI to keep the subject, background, and composition unchanged while swapping out a specific item."
+    },
+    {
+      "id": "faq3",
+      "question": "How realistic will the object addition look?",
+      "answer": "If you specify details like material, color, scale, and lighting, the addition can be completely photorealistic. The AI will analyze the environment and match the shadows, textures, and reflections to make it look like it was always there."
+    },
+    {
+      "id": "faq4",
+      "question": "Will object removal work on complex backgrounds?",
+      "answer": "Yes, but it might require multiple attempts. For complex backgrounds (e.g., a jungle with many overlapping elements), the AI might need more guidance. You can add details like 'reconstruct the tree trunk and the bushes behind' to improve the result."
+    },
+    {
+      "id": "faq5",
+      "question": "Are these prompts suitable for professional use?",
+      "answer": "Absolutely. These prompts are designed to produce high-quality, DSLR-level results suitable for e-commerce, advertising, and professional portfolios. The emphasis on 'photorealistic' and 'no cartoon' ensures a premium output."
+    },
+    {
+      "id": "faq6",
+      "question": "Can I use these prompts in Stable Diffusion?",
+      "answer": "Yes, these prompts work well in Stable Diffusion, especially when combined with an inpainting model. Make sure to set the 'Denoising Strength' appropriately (e.g., 0.5-0.7) to allow the AI to blend the new elements naturally."
+    },
+    {
+      "id": "faq7",
+      "question": "What if the AI doesn't understand the placeholder?",
+      "answer": "Be very specific. Instead of just '{NEW_BACKGROUND}', write 'a serene mountain lake in the Swiss Alps with snow-capped peaks'. The more descriptive you are, the better the AI will understand your vision."
+    }
+  ],
+
+  "conclusion": "These four AI image editing prompts cover the most essential tasks: replacing backgrounds, swapping objects, removing unwanted items, and adding new elements. With precise language and attention to detail, you can achieve seamless, photorealistic edits that were once only possible with complex software. Whether you're perfecting a professional photo or just having fun with creative edits, these prompts will empower you to take full control of your images using the power of AI.",
+
+  "tags": [
+    "AI Image Editing",
+    "Background Replacement",
+    "Object Replacement",
+    "Object Removal",
+    "Object Addition",
+    "AI Prompt",
+    "Midjourney Prompt",
+    "Stable Diffusion",
+    "DALL-E Prompt",
+    "Photorealistic AI",
+    "Seamless Edits",
+    "Inpainting",
+    "DSLR Quality",
+    "Generative Fill",
+    "Photo Editing AI"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
+ {
   "id": "post-27",
   "title": "Ultra-Realistic 8K Cinematic Portrait with Indian Flag - AI Image Prompt",
   "categoryId": "cat-1",
