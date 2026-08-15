@@ -379,7 +379,7 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
-  {
+ {
   "id": "post-28",
   "title": "AI Image Editing Prompts: Background, Object Replacement & Removal",
   "categoryId": "cat-1",
