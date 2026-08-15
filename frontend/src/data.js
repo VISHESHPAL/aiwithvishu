@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.1"; // ← Change this number
+export const DATA_VERSION = "1.0.0"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -379,6 +379,150 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
+  {
+  "id": "post-30",
+  "title": "Cinematic Anime Fusion Prompts: Photorealistic Human + Supernatural Guardians",
+  "categoryId": "cat-1",
+  "image": "/images/post30/anime-fusion-collage1.avif",
+  "date": "August 16, 2026",
+  "author": "Vishu",
+
+  "introduction": "AI image generation mein ek naya trend aa raha hai — photorealistic human subjects ko anime-style supernatural elements ke saath fuse karna. Yeh fusion technique cinematic masterpieces create karti hai jo realistic aur fantasy dono duniya ko ek saath laati hai. Chahe aap ek anime-style water warrior spirit, soccer guardian, ya crystalline dark knight create karna chahein — in prompts ki madad se aap professional-grade fantasy art generate kar sakte hain.\n\nThese prompts are designed to work with advanced AI models like Midjourney, Stable Diffusion, and DALL-E 3. The key is maintaining photorealistic human details while allowing the background and supernatural elements to embrace anime/fantasy aesthetics. The result is a seamless blend of reality and imagination that looks like a high-budget movie poster or AAA game cinematic. No flat illustrations, no amateur CGI — just pure cinematic quality with dramatic scale contrast and epic storytelling.",
+
+  "whyTrending": "Photorealistic + anime fusion AI art ek rapidly growing trend hai digital content creation mein. Social media platforms par yeh cinematic hybrid visuals bohot viral ho rahe hain kyunki yeh unique aesthetic offer karte hain jo traditional AI art se alag hai.\n\nThis trend is fueled by advancements in AI models that can now handle complex composition, lighting consistency, and style mixing. Content creators, anime fans, and fantasy artists are using these prompts to create eye-catching thumbnails, posters, and social media content. The demand for high-quality, cinematic anime fusion art is at an all-time high, and these prompts are crafted to meet that demand.\n\nAI technology has made it possible to combine photorealistic human subjects with elaborate anime/fantasy backgrounds seamlessly. You no longer need expensive 3D software or animation skills. A simple text prompt can achieve what used to require a full VFX team. This is the future of fantasy art — fast, accessible, and incredibly cinematic.",
+
+  "creationIntro": "Using these cinematic anime fusion prompts is extremely easy:\n\n1. Open your preferred AI image generation platform (Midjourney recommended for best results).\n2. Copy and paste the prompt that fits your creative vision.\n3. Set aspect ratio to 4:5 (vertical) for optimal composition.\n4. For Midjourney, add style parameters like --style raw --v 6.0 --stylize 750.\n5. Click generate and your epic cinematic fusion artwork is ready in seconds!",
+
+  "photoStepTitle": "Best Cinematic Anime Fusion Prompts",
+
+  "photoItems": [
+    {
+      "image": "/images/post30/guardian-awakening.avif",
+      "title": "The Guardian's Awakening – Water Warrior Spirit",    
+      "prompt": `Subject (Foreground – Photorealistic):Low-angle full-body hero shot of a realistic teenage boy standing alone on dark, wet ground. He wears a black oversized hoodie, loose white cargo pants, and white Nike-style sneakers, with hands tucked into his hoodie pockets. His head is slightly lowered, face mostly hidden beneath a white baseball cap, exuding a calm, mysterious, and grounded presence. Hyper-detailed clothing folds, photorealistic skin texture, and natural human proportions.Background / Supernatural Element (Anime Style)Towering behind him, filling most of the sky, is a gigantic anime water warrior spirit—a supernatural guardian inspired by a water swordsman. This ethereal figure has intense glowing blue eyes, dark burgundy hair, and a checkered green-and-black haori. It wields a katana overhead in a powerful attack stance, appearing semi-divine, protective, and overwhelmingly colossal.Environmental Effects (Water & AtmosphereA massive swirling ocean-blue water dragon vortex surrounds both figures, with explosive splash effects, transparent liquid arcs, flying droplets, and dynamic spiral motion. Water bends around the characters like a magical cyclone, forming a giant circular energy wave that reaches into the storm clouds above.Sky & LightinEpic realistic daytime sky with dramatic storm clouds, contrasted by bright glowing sunset light breaking through the horizon. Deep blue color grading, atmospheric volumetric lighting, cinematic contrast, and ultra-detailed cloud formations create a powerful fantasy atmosphere.Foreground Details:Small palm trees and dark landscape silhouettes frame the edges, grounding the scene in a coastal or island setting.Style & Quality:Photorealistic foreground + anime-inspired background fusion. Perfect scale contrast between the boy and the spirit. Unreal Engine 5 aesthetics, hyper-detailed, HDR, 8K, masterpiece-level fantasy realism. Dramatic perspective, sharp focus, depth of field, dynamic composition, and cinematic lighting. Evokes a legendary anime awakening scene with blue energy aura and water-breathing power effects.Aspect Ratio: 4:5 (vertical) `
+    },
+    {
+      "image": "/images/post30/spirit-pitch.avif",
+      "title": "The Spirit of the Pitch – Soccer Guardian",
+      "prompt": `Subject (Foreground – Photorealistic):Full-body shot of a teenage boy in a light gray oversized hoodie, black pants, and white sneakers, standing on an empty urban bridge during an overcast daytime scene. His face is partially hidden by his raised arm and hood, creating a mysterious, focused expression. One foot controls a realistic soccer ball in the foreground, frozen in a dynamic football pose. Photorealistic skin, fabric folds, and natural athletic proportions.Supernatural Element (Background – Anime Style):Towering behind him is a gigantic anime-inspired soccer spirit warrior—a supernatural guardian formed from swirling black smoke, deep blue energy, ink-like shadows, and glowing blue particles. The spirit has messy dark blue-black hair, glowing electric blue eyes, and an intense expression, wearing a dark blue football jersey with subtle white details.Energy & Effects:Dark energy vortex and smoke tendrils wrap around the boy's body and the soccer ball, merging realism with fantasy. Glowing blue particles and electric sparks radiate from the spirit, creating a powerful aura effect. Motion effects suggest latent power about to erupt.Environment:Wet asphalt road with visible bridge railings on both sides, leading into a cloudy, overcast sky. High-contrast natural daylight, volumetric fog, and shallow depth of field enhance the dramatic atmosphere.Style & Quality:Photorealistic human foreground + anime-inspired energy background. Epic sports anime poster aesthetic, inspired by Blue Lock energy and intensity. Masterpiece quality, 4K, HDR, hyper-detailed textures, realistic lighting, professional photography look (85mm lens, f/2.8, ultra sharp).Composition: Vertical, center-focused, shallow depth of field.Aspect Ratio: 4:5`
+    }, 
+    {
+      "image": "/images/post30/crystalline-guardian.avif",
+      "title": "The Crystalline Guardian – Dark Knight",
+      "prompt": `Subject (Foreground – Photorealistic):Low-angle full-body hero shot of a young man standing on a dark rugged rock. He wears an oversized white T-shirt, loose white/beige cargo pants, white high-top sneakers, and a white baseball cap that partially hides his face. His head is slightly lowered, with his right hand near his chin and his left arm folded across his chest—a calm, confident, and grounded pose. Photorealistic skin, natural fabric folds, and realistic human proportions.Supernatural Element (Background – High-End Fantasy CGI):Towering behind him is a massive dark guardian covered in black and gunmetal crystalline armor, adorned with sharp spikes, huge shoulders, and a crown-like helmet. Its glowing electric-blue eyes and intense blue energy cracks across its body radiate power and protection. Giant armored arms and clawed hands frame the young man, creating an imposing yet guardian-like presence.Energy & Effects:Translucent blue energy ribbons, water-like magical arcs, glowing particles, sparks, mist, and droplets swirl around both characters, merging the physical and ethereal. Blue rim light highlights their silhouettes against the bright sky.Environment:Bright blue sky with soft clouds, warm sunlight, distant mountains, and subtle palm trees in the background—creating a serene yet epic contrast to the dark guardian.Style & Quality:Seamless fusion of photorealistic human + high-end anime/fantasy CGI. Realistic metallic reflections, cinematic volumetric lighting, atmospheric depth, HDR, 8K, Unreal Engine 5 quality. Epic movie-poster composition with dramatic scale contrast, sharp details, depth of field, and vertical 4:5 aspect ratio. `
+    },
+  ],
+
+  "photoBtnText": "Try These Fusion Prompts",
+  "photoBtnLink": "https://chatgpt.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "Use high-resolution reference images if you want specific facial features or poses.",
+    "For Midjourney, add '--style raw --v 6.0 --stylize 750' for the best quality.",
+    "Always specify the aspect ratio '--ar 4:5' for vertical cinematic compositions.",
+    "Be specific about the supernatural element — mention materials, colors, and pose.",
+    "Detail the energy effects — sparks, vortex, particles, ribbons, etc.",
+    "For photorealistic humans, always include 'realistic skin texture with natural pores'.",
+    "Mention the scale contrast between human and spirit for dramatic effect.",
+    "Include camera details like '85mm lens, f/1.8' for DSLR-quality depth of field.",
+    "Add 'no cartoon, no flat illustration' to maintain photorealistic human details.",
+    "Experiment with multiple iterations and combine elements from different prompts."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Not specifying the aspect ratio (4:5) — composition may be horizontal.",
+    "Forgetting to mention the photorealistic human skin texture.",
+    "Not detailing the supernatural element's appearance and pose.",
+    "Ignoring the energy effects which add the 'cinematic' feel.",
+    "Not mentioning the lighting conditions (sunset, overcast, storm clouds).",
+    "Forgetting to include camera/lens specifications for depth of field.",
+    "Using vague placeholders instead of specific descriptive language.",
+    "Not specifying 'no cartoon' for the human subject.",
+    "Overlooking the foreground details that ground the scene.",
+    "Not mentioning the style quality (Unreal Engine 5, 8K, HDR, etc.)."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh cinematic anime fusion prompts kya generate karte hain?",
+      "answer": "Yeh prompts photorealistic human subjects ko anime-style supernatural guardians ke saath fuse karte hain. Result ek cinematic masterpiece hota hai jisme realistic human details, dramatic scale contrast, aur epic fantasy elements ek saath hote hain. Perfect for movie posters, game art, aur social media content."
+    },
+    {
+      "id": "faq2",
+      "question": "Kaunse AI tools in prompts ke liye best hain?",
+      "answer": "Midjourney sabse recommended hai — iska --stylize parameter aur version 6.0 realism aur creativity dono ko balance karta hai. Stable Diffusion aur DALL-E 3 bhi kaam karte hain. Photoshop's Generative Fill additional editing ke liye useful hai."
+    },
+    {
+      "id": "faq3",
+      "question": "Kya photorealistic human aur anime background natural lagta hai?",
+      "answer": "Haan! Agar aap proper prompts follow karein toh blend seamless ho jata hai. Key hai lighting consistency, energy effects, aur scale contrast. AI automatic lighting match kar leta hai aur human details preserve karta hai while allowing background to be stylized."
+    },
+    {
+      "id": "faq4",
+      "question": "Yeh prompts commercial use ke liye suitable hain?",
+      "answer": "Absolutely. These prompts generate masterpiece-quality, DSLR-level results that are perfect for commercial projects like posters, game art, album covers, merchandise, aur marketing materials. Check your AI tool's licensing policy for commercial rights."
+    },
+    {
+      "id": "faq5",
+      "question": "Kya main in prompts mein human subject change kar sakta hoon?",
+      "answer": "Haan. Aap outfit, pose, age, gender, ya hairstyle describe kar ke customize kar sakte ho. Bas photorealistic details maintain karein — skin texture, fabric folds, natural proportions. Multiple variations generate karke best composition select karein."
+    },
+    {
+      "id": "faq6",
+      "question": "In prompts mein 'stylize 750' ka kya matlab hai?",
+      "answer": "Midjourney mein 'stylize' parameter control karta hai ki AI kitna creative/artistic interpretation apply karega. 750 a medium-high value hai jo realism aur artistic style dono ko balance karta hai. Higher values (800-1000) more stylized output dete hain."
+    },
+    {
+      "id": "faq7",
+      "question": "Kya in prompts ko combine kar ke naya fusion create kar sakte hain?",
+      "answer": "Haan! Aap water warrior, soccer spirit, aur crystalline guardian ke elements combine kar ke unique hybrid spirits create kar sakte ho. Bonus prompt mein yehi demonstrate kiya gaya hai. Elements mix karke apna custom fusion design karein."
+    },
+    {
+      "id": "faq8",
+      "question": "Yeh trend viral kyun ho raha hai?",
+      "answer": "Yeh trend viral ho raha hai kyunki yeh unique visual aesthetic offer karta hai — photorealistic humans in anime/fantasy worlds. Anime fans, content creators, aur gamers yeh style pasand kar rahe hain. Social media par yeh thumbnails aur posters bohot attention grab karte hain."
+    }
+  ],
+
+  "conclusion": "Yeh teen cinematic anime fusion prompts aapko powerful fantasy visuals create karne ka mauka dete hain — water warrior guardian, soccer spirit, aur crystalline dark knight. Har prompt photorealistic human subject ko anime/fantasy background ke saath seamlessly blend karta hai. Unreal Engine 5 quality, 8K resolution, cinematic lighting, aur dramatic scale contrast — sab kuch in prompts mein included hai. Bas 4:5 aspect ratio set karein, style parameters adjust karein, aur seconds mein apna epic cinematic masterpiece ready hai!",
+
+  "tags": [
+    "Cinematic Anime Fusion",
+    "Photorealistic Human",
+    "Anime Background",
+    "AI Image Prompt",
+    "Midjourney Prompt",
+    "Stable Diffusion",
+    "DALL-E Prompt",
+    "Unreal Engine 5",
+    "8K Quality",
+    "Fantasy Art",
+    "Movie Poster",
+    "Water Warrior",
+    "Soccer Spirit",
+    "Crystalline Guardian",
+    "Scale Contrast",
+    "Cinematic Lighting",
+    "DSLR Quality",
+    "Anime Fusion Art",
+    "Blue Lock",
+    "Guardian Awakening"
+  ],
+
+  "isTrending": true,
+  "comments": []
+},
  {
   "id": "post-28",
   "title": "AI Image Editing Prompts: Background, Object Replacement & Removal",
