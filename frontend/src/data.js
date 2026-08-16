@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.0"; // ← Change this number
+export const DATA_VERSION = "1.0.1"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -380,6 +380,145 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  "id": "post-31",
+  "title": "Cinamatic Style Anime  Scene + Cinematic Video Animation",
+  "categoryId": "cat-2",
+  "image": "/images/post31/anime-night-collage.avif",
+  "date": "August 16, 2026",
+  "author": "Vishu",
+
+  "introduction": "AI image generation mein Makoto Shinkai style anime night scenes ka trend tezi se badh raha hai. Unki films — 'Weathering With You', 'Your Name', 'Garden of Words' — ki tarah yeh prompts ek cinematic, dreamy, aur ultra-detailed night environment create karte hain. Is prompt mein aap ek real photo ko Japanese anime illustration mein transform kar sakte hain, jisme Milky Way galaxy, glowing clouds, moonlight illumination, aur detailed foreground elements hain.\n\nLekin sirf image nahi — aap is image ko realistic cinematic video mein bhi animate kar sakte hain. AI technology ab itni advanced ho chuki hai ke aap ek single image se full motion video generate kar sakte hain, jisme natural environmental movements hain — hawa mein hilte patte, baal, kapde, cloudy sky, aur moving train. Sab kuch realistic aur cinematic quality mein.\n\nYeh do-step process (Image Generation → Video Animation) aapko ek complete cinematic asset deta hai jo social media, YouTube thumbnails, posters, aur creative projects ke liye perfect hai. No expensive software, no complex animation skills — sirf do prompts aur aapka kaam ho gaya!",
+
+  "whyTrending": "Makoto Shinkai style anime art aur AI video animation dono alag-alag trending hain, lekin in dono ko combine karna ek naya level ki creativity hai. Log ab sirf still images nahi, balki unhe animate karke cinematic video clips bana rahe hain.\n\nYeh trend viral ho raha hai kyunki:\n- Social media platforms (Instagram Reels, TikTok, YouTube Shorts) par animated content zyada engage karta hai.\n- AI video generation tools like Runway Gen-2, Pika, Kling AI, aur Flow AI ab accessible aur affordable ho gaye hain.\n- Makoto Shinkai ka aesthetic — dreamy skies, soft lighting, detailed environments — audience ko visually attract karta hai.\n- Content creators is technique ka use kar ke eye-catching thumbnails, intro clips, aur cinematic B-roll bana rahe hain.\n\nAI models ab itne powerful ho gaye hain ke woh photorealistic images ko consistent lighting aur motion ke saath animate kar sakte hain. Yeh future of content creation hai — fast, high-quality, aur incredibly cinematic.",
+
+  "creationIntro": "Is technique ko use karna bohot easy hai. Do simple steps follow karein:\n\n**Step 1: Image Generate Karein**\n1. Apni favorite AI image generation platform kholen (Midjourney, Stable Diffusion, ya DALL-E 3 recommended).\n2. Neeche diya gaya **Image Prompt** copy karein aur paste karein.\n3. Aspect ratio 4:5 (vertical) ya 16:9 (Horizontal) set karein.\n4. Generate button click karein aur apni anime night scene image ready ho jayegi.\n\n**Step 2: Image se Video Banayein**\n1. Generated image download karein.\n2. Kisi bhi AI video generation tool par jayen — Flow AI (recommended), Runway Gen-2, Pika, ya Kling AI.\n3. Image upload karein.\n4. Neeche diya gaya **Video Prompt** copy karein aur paste karein.\n5. Generate click karein — aur aapka cinematic animated video ready hai seconds mein!",
+
+  "photoStepTitle": "Step 1: Makoto Shinkai Style Anime Night Scene Image Prompt",
+
+  "photoItems": [
+    {
+      "image": "/images/post31/anime-night-scene.avif",
+      "title": "Anime Night Scene – Makoto Shinkai Style",
+      "prompt": `Convert this image into a high-quality Japanese anime-style illustration. Transform the face into a clean anime style while preserving the original identity, hairstyle, expression, and proportions. Make the face smooth, with sharp anime eyes, soft skin shading, and detailed hair strands in anime style.Set the scene at night in a cinematic style inspired by Makoto Shinkai. Create a highly detailed sky with a visible Milky Way galaxy, dense bright stars, and dramatic soft clouds spread across the sky. The clouds must be clearly visible, softly glowing, and layered with depth. Add strong moonlight illumination from above, casting soft blue highlights and realistic shadows.Enhance the environment with ultra-detailed elements: trees with individually visible leaves, grass, stones, and realistic ground texture. Include a railway track in the background and a moving train with warm glowing lights, slightly motion-blurred. Add a realistic black bike with reflections and soft highlights, as well as a wooden bench with detailed texture.Use a color grading of deep blue, cyan, and slight purple tones, with high contrast but soft gradients. Apply depth of field with the background slightly blurred. The image should be ultra-detailed, 4K, with sharp focus and cinematic composition. Style: anime, Makoto Shinkai, ultra-detailed, cinematic lighting, volumetric light, glowing atmosphere, masterpiece.`
+    }
+  ],
+
+  "photoBtnText": "Image Generate Karein (Copy Prompt)",
+  "photoBtnLink": "https://chatgpt.com/",
+
+  "videoStepTitle": "Step 2: Image ko Cinematic Video Mein Animate Karein",
+
+  "videoStepImage": "/images/post31/video-animation-preview.avif",
+
+  "videoPrompt": `Animate this image into a realistic cinematic video while keeping everything exactly the same. Do not change the subject's face, body, pose, expression, clothing, or composition in any way. The person must remain completely still, like a real photograph. No movement in body or face.Add only natural environmental motion: gentle wind blowing through tree leaves and small branches with soft realistic movement. Hair should have very slight natural movement from wind, minimal and soft. Clothes should barely move — very subtle motion. Clouds in the sky should slowly drift from one side to another smoothly. Stars should have very subtle natural twinkle. Add a train moving smoothly along the track in the background with soft motion blur and warm lights.Keep lighting exactly the same: cinematic night blue tone with soft moonlight glow. No flickering or lighting change. Camera must be completely stable, no shake. No zoom, or only extremely subtle cinematic micro-movement.Realistic motion, physics-based animation, smooth, clean, no distortion, no morphing, no changes.`,
+
+  "videoBtnText": "Video Generate Karein (Copy Prompt)",
+  "videoBtnLink": "https://labs.google/",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "Image generate karte waqt high-resolution reference image use karein for best facial detail preservation.",
+    "Midjourney mein '--style raw --v 6.0 --stylize 750' add karein for best quality.",
+    "Always specify '--ar 4:5' for vertical cinematic composition.",
+    "Video animation ke liye Flow AI ya Runway Gen-2 sabse recommended hain.",
+    "Video prompt mein 'no distortion, no morphing, no changes' zaroor include karein — yeh subject stability ensure karta hai.",
+    "Video duration 5-10 seconds rakhein — zyada lamba animation quality compromise kar sakta hai.",
+    "Generated video mein lighting consistency check karein — no flickering hona chahiye.",
+    "Agar video mein koi unwanted movement ho toh prompt mein 'static subject' emphasize karein.",
+    "Multiple video variations generate karein aur best version select karein.",
+    "Final output ko DaVinci Resolve ya Premiere Pro mein color grade kar ke aur enhance karein."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Image generation mein aspect ratio (4:5) specify na karna — composition vertical nahi aata.",
+    "Video prompt mein 'no movement in body or face' nahi likhna — subject animate ho jata hai.",
+    "Video tool mein image upload karna bhool jana — blank generate karna.",
+    "Lighting changes allow karna — video mein flickering aati hai.",
+    "Camera shake mention na karna — video shaky aati hai.",
+    "Background motion ko over-do karna — unrealistic lagta hai.",
+    "Video duration zyada rakhna (20+ seconds) — quality aur consistency dono gir jati hai.",
+    "Clouds aur stars ki movement speed specify na karna — unnatural lagti hai.",
+    "Generated video ko directly upload karna bina review ke — errors miss ho sakte hain.",
+    "Different video tools mein same prompt alag result deti hai — tool-specific adjustments karein."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Pehle image generate karna zaroori hai? Kya direct video generate kar sakte hain?",
+      "answer": "Haan, pehle image generate karna zaroori hai. Video prompt sirf existing image ko animate karta hai. Direct text-to-video tools bhi hain, lekin unme control aur quality dono kam hoti hai. Isliye image+video ka two-step approach best hai."
+    },
+    {
+      "id": "faq2",
+      "question": "Kaunsi AI tool image generation ke liye best hai?",
+      "answer": "Midjourney sabse recommended hai for anime style images — iska artistic quality aur style control best hai. Stable Diffusion (with anime models) aur DALL-E 3 bhi kaam karte hain. Midjourney ka --stylize parameter aapko creativity ka control deta hai."
+    },
+    {
+      "id": "faq3",
+      "question": "Video generation ke liye kaunsi tool best hai?",
+      "answer": "Flow AI aur Runway Gen-2 dono excellent hain. Flow AI better hai image-to-video consistency ke liye. Kling AI aur Pika bhi achi options hain. Har tool ka free trial hota hai — try karke dekhein kaunsa aapke liye best kaam karta hai."
+    },
+    {
+      "id": "faq4",
+      "question": "Kya generated video commercial use ke liye suitable hai?",
+      "answer": "Yes, lekin apne AI tool ki licensing policy check karein. Midjourney paid plans commercial use allow karte hain. Runway aur Flow AI ke paid plans bhi commercial rights dete hain. Free versions usually non-commercial hote hain."
+    },
+    {
+      "id": "faq5",
+      "question": "Video mein subject hila kyun jaata hai despite 'no movement' prompt?",
+      "answer": "Yeh common issue hai. 'no movement in body or face' ke saath 'subject must remain completely still, like a real photograph' add karein. Agar phir bhi movement ho toh 'zero motion, frozen pose, static character' jaise stronger keywords use karein."
+    },
+    {
+      "id": "faq6",
+      "question": "Video ka resolution aur duration kya set karein?",
+      "answer": "Resolution: 4K (3840x2160) recommended for cinematic quality. Duration: 5-10 seconds best hai — zyada duration mein consistency issues aati hain. Agar zyada lamba chahiye toh short clips generate karke edit kar lein."
+    },
+    {
+      "id": "faq7",
+      "question": "Kya multiple images se ek continuous video bana sakte hain?",
+      "answer": "Haan, lekin yeh advanced technique hai. Aap alag-alag images generate karein, unhe animate karein, phir video editing software mein sequence arrange karein. Smooth transitions ke liye prompts mein consistent style aur lighting maintain karein."
+    },
+    {
+      "id": "faq8",
+      "question": "Yeh trend viral kyun ho raha hai?",
+      "answer": "Teen reasons: (1) Makoto Shinkai aesthetic ki worldwide popularity, (2) AI video tools ab accessible aur affordable ho gaye hain, (3) Social media par animated content ka engagement static images se zyada hai. Content creators is technique se high-quality cinematic clips seconds mein bana rahe hain."
+    }
+  ],
+
+  "conclusion": "Is do-step process (Image Generation + Video Animation) ke saath aap kisi bhi photo ko Makoto Shinkai style anime illustration mein transform kar sakte hain, aur phir usse realistic cinematic video mein animate kar sakte hain. Milky Way galaxy, glowing clouds, moonlight illumination, aur detailed foreground elements — sab kuch included hai. Aur video mein natural environmental motion — wind, moving clouds, twinkling stars, aur moving train — ek professional cinematic feel deta hai.\n\nBas do prompts copy karein, do tools use karein, aur seconds mein apna epic anime cinematic masterpiece ready hai! Social media, YouTube thumbnails, posters, ya creative projects — yeh technique har jagah kaam aati hai. AI technology ne content creation ko itna accessible bana diya hai ke ab koi bhi professional-grade cinematic art bana sakta hai — no expensive software, no complex skills. Bus ek vision aur sahi prompts!",
+  "tags": [
+    "Makoto Shinkai",
+    "Anime Night Scene",
+    "AI Image Prompt",
+    "AI Video Prompt",
+    "Midjourney Prompt",
+    "Stable Diffusion",
+    "DALL-E Prompt",
+    "Runway Gen-2",
+    "Flow AI",
+    "Kling AI",
+    "Pika",
+    "Image to Video",
+    "Cinematic Animation",
+    "Anime Illustration",
+    "Milky Way",
+    "Moonlight",
+    "4K Quality",
+    "Cinematic Lighting",
+    "Your Name Style",
+    "Weathering With You",
+    "Garden of Words",
+    "AI Content Creation",
+    "Anime Fusion"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
+ {
   "id": "post-30",
   "title": "Cinematic Anime Fusion Prompts: Photorealistic Human + Supernatural Guardians",
   "categoryId": "cat-1",
@@ -522,7 +661,7 @@ export const INITIAL_POSTS = [
 
   "isTrending": true,
   "comments": []
-},
+ },
  {
   "id": "post-28",
   "title": "AI Image Editing Prompts: Background, Object Replacement & Removal",
