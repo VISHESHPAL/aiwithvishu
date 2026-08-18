@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.1"; // ← Change this number
+export const DATA_VERSION = "1.0.0"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -380,6 +380,157 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  "id": "post-32",
+  "title": "Editorial Vector Art + Flat Design Portraits – AI Prompt Guide",
+  "categoryId": "cat-2",
+  "image": "/images/post32/vector-collage.avif",
+  "date": "August 18, 2026",
+  "author": "Vishu",
+
+  "introduction": "AI image generation mein editorial-style vector art ka trend tezi se badh raha hai. Log ab photorealistic images ki jagah flat vector illustrations, graphic poster art, aur minimalist portraits prefer kar rahe hain — especially for social media, album covers, merchandise, aur branding projects. Yeh prompts aapko ek photo ko clean, flat, aur high-contrast vector illustration mein transform karne ka complete guide dete hain.\n\nIs post mein aapko teen alag-alag vector styles milenge — ek extreme graphic editorial poster, ek minimalist flat portrait, aur ek cool aviator vector art. Har prompt specific style, color palette, aur composition ke saath design kiya gaya hai. Chahe aapko bold typography wala editorial poster chahiye, ya simple elegant portrait, ya urban streetwear vibe — sab kuch included hai.\n\nBest part? Yeh saare prompts flat vector art generate karte hain — no gradients, no photorealistic textures, sirf crisp shapes, clean lines, aur vibrant colors. Social media influencers, graphic designers, aur content creators is style ka use kar ke eye-catching visuals seconds mein bana rahe hain. No complex software, no illustration skills — sirf ek prompt aur aapka kaam ho gaya!",
+
+  "whyTrending": "Vector art aur flat illustration dono alag-alag trending hain, lekin AI-generated vector art ek naya level ki accessibility la raha hai. Pehle professional vector illustration ke liye Adobe Illustrator ya years of practice chahiye thi — ab AI se seconds mein high-quality vector portraits generate ho rahe hain.\n\nYeh trend viral ho raha hai kyunki:\n- Social media platforms par minimalist aur graphic content zyada scroll-stopping hai.\n- Brands aur creators is style ka use kar rahe hain for merchandise, posters, aur thumbnails.\n- Flat vector art scalable hai — quality lose kiye bina kisi bhi size mein use kar sakte hain.\n- AI tools ab specific art styles (screen-print, halftone, retro, modern) ko accurately replicate kar sakte hain.\n- Generative AI ne graphic design ko democratize kar diya hai — ab koi bhi professional-looking vector art bana sakta hai.\n\nAI models like Midjourney v6, DALL-E 3, aur Stable Diffusion ab itne precise ho gaye hain ke woh exact color palettes, compositional rules, aur stylistic details follow kar sakte hain. Yeh future of graphic design hai — fast, accessible, aur incredibly stylish.",
+
+  "creationIntro": "Is technique ko use karna bohot easy hai. Bas teen simple steps follow karein:\n\n**Step 1: Reference Image Select Karein**\n- Apni favorite photo choose karein (portrait recommended).\n- Clear lighting aur good quality image use karein for best results.\n- Image aspect ratio 4:5 (vertical) ya 1:1 (square) set karein.\n\n**Step 2: Prompt Copy-Paste Karein**\n- Neeche diye gaye teen prompts mein se apne style ke hisaab se koi ek choose karein.\n- Prompt mein '[Attach your photo reference here]' ki jagah apni image upload karein.\n- Generate button click karein aur apna vector art ready hai!\n\n**Step 3: Refine Aur Export Karein**\n- Agar result perfect na ho toh seed (random variations) generate karein.\n- Best version select karein aur high-resolution (4K) mein download karein.\n- Use karein: social media post, thumbnail, poster, ya merchandise design ke liye.",
+
+  "photoStepTitle": "Prompt 1: Editorial Vector Poster – Extreme Graphic Style",
+
+  "photoItems": [
+    {
+      "image": "/images/post32/editorial-poster.avif",
+      "title": "Editorial Poster – Flat Vector + Typography",
+      "prompt": "Editorial poster featuring a young man in strict left-facing profile, cropped from mid-torso, with messy medium-length black hair forming a dominant graphic silhouette and red hoodie with dark green jacket. Place one large flat circular disk directly behind the head. Render crisp flat vector shapes, angular facial features, controlled black contour lines, screen-print grain, halftone dots, and woven grid texture. Construct the background from layered abstract geometric shapes and urban poster textures while keeping the composition clean and the subject dominant. Limit the entire artwork to exactly four high-contrast colors: deep red, dark green, cream, and black. Add the minimalist title 'YourName' at the upper left in bold condensed uppercase sans serif, with the smaller headline 'THE NEW ERA' directly beneath it; clear hierarchy, generous negative space. Vertical 4:5 AR."
+    },
+    {
+      "image": "/images/post32/vector-portrait.avif",
+      "title": "Minimalist Vector Portrait – Elegant & Graphic",
+      "prompt": "Create an editorial-style flat vector portrait based on the attached photo. Render the face, hair, clothing, and accessories as distinct, interlocking colored shapes with crisp geometric edges, sharp shadows, minimal linework, and no gradients. Limit the color palette to three vibrant, complementary accent colors that best suit the subject. Place a background shape that complements the image, using a single simple rectangular shadow form to frame the head without clutter. Maintain a calm and confident facial expression, a bold silhouette, and a composition that is elegant, stylish, and graphic; use a 4:5 vertical aspect ratio."
+    },
+    {
+      "image": "/images/post32/aviator-vector.avif",
+      "title": "Aviator Vector Art – Cool Streetwear Vibe",
+      "prompt": "Vector art portrait of an Indian man with medium curly black hair and short stubble beard, wearing dark aviator sunglasses. Black bomber jacket zipped over a white crewneck t-shirt, with a thin silver chain necklace. Solid gold flat background. Side-profile pose, chin slightly tilted, looking off-frame. Digital vector illustration style, bold clean linework, flat cel-shading, minimal color palette, clean poster look. 4:5 aspect ratio."
+    }
+  ],
+
+  "photoBtnText": "",
+  "photoBtnLink": "",
+
+  "videoStepTitle": "",
+
+  "videoStepImage": "",
+
+  "videoPrompt": "",
+
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Vector Results Ke Liye Tips",
+
+  "tips": [
+    "Hamesha high-resolution reference image use karein — facial features clear honi chahiye.",
+    "Midjourney mein '--style raw --v 6.0 --stylize 250' use karein for clean vector output.",
+    "Aspect ratio hamesha '--ar 4:5' specify karein for vertical poster composition.",
+    "Color palette limit karein — zyada colors se flat vector effect kharab ho jata hai.",
+    "'No gradients, no photorealistic textures' prompt mein zaroor include karein.",
+    "Background shapes aur foreground subject ke beech contrast maintain karein.",
+    "Typography add karte waqt 'bold condensed sans serif' specify karein for editorial look.",
+    "Screen-print grain aur halftone dots effect ke liye 'vintage print texture' add karein.",
+    "Multiple seed variations generate karein aur best composition select karein.",
+    "Final output ko vector editing software (Illustrator ya Inkscape) mein refine kar sakte hain."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Prompt mein 'flat vector' specify na karna — AI photorealistic render kar deta hai.",
+    "Color palette define na karna — AI random colors use kar leta hai.",
+    "Background clutter zyada hona — subject dominate nahi karta.",
+    "Typography style specify na karna — inconsistent fonts aati hain.",
+    "Aspect ratio 4:5 mention na karna — square ya horizontal composition aati hai.",
+    "'No gradients' nahi likhna — AI shading aur gradients add kar deta hai.",
+    "Screen-print grain aur halftone texture specify na karna — plain flat lagta hai.",
+    "Contour lines aur linework detail mention na karna — edges blurry ho jati hain.",
+    "Background shapes aur subject alignment ka dhyan na rakhna — composition weak hoti hai.",
+    "Vector art ko raster format mein export karna — scalability lose ho jati hai."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Vector art prompt mein reference image kaise attach karein?",
+      "answer": "Midjourney mein image URL use karein ya direct image upload karein. DALL-E aur Stable Diffusion mein image attachment option hota hai. Prompt mein '[Attach photo]' ki jagah apni image attach karein aur baaki prompt same rakhein."
+    },
+    {
+      "id": "faq2",
+      "question": "Kaunsi AI tool vector art ke liye best hai?",
+      "answer": "Midjourney v6 sabse best hai for artistic vector styles — iska stylistic control aur composition understanding top-notch hai. DALL-E 3 bhi acha hai for clean flat illustrations. Stable Diffusion with vector-focused models (like Vector Diffusion) bhi kaam karta hai."
+    },
+    {
+      "id": "faq3",
+      "question": "Kya AI-generated vector art scalable hai?",
+      "answer": "AI generated image raster format (PNG/JPG) mein aati hai, jo technically scalable nahi hai. Lekin high-resolution (4K) mein generate karein toh itni quality hoti hai ke kisi bhi size mein use kar sakte hain. Agar true vector chahiye toh output ko Adobe Illustrator mein image trace kar lein."
+    },
+    {
+      "id": "faq4",
+      "question": "Typography add karne ka best tareeka kya hai?",
+      "answer": "Prompt mein typography style, placement, aur hierarchy clearly define karein. Example: 'Add minimalist title at upper left in bold condensed sans serif, with smaller subtitle beneath'. AI text generation perfect nahi hoti toh later Photoshop ya Canva mein text add karna better hai."
+    },
+    {
+      "id": "faq5",
+      "question": "Kya commercial projects ke liye vector art use kar sakte hain?",
+      "answer": "Haan, lekin AI tool ki licensing policy check karein. Midjourney paid plans commercial use allow karte hain. DALL-E aur Stable Diffusion ke paid plans bhi commercial rights dete hain. Free versions usually non-commercial hote hain."
+    },
+    {
+      "id": "faq6",
+      "question": "Screen-print grain aur halftone dots kaise add karein?",
+      "answer": "Prompt mein 'screen-print grain, halftone dots, vintage print texture' specify karein. Midjourney mein '--stylize 300' use karein for more texture. Output mein texture na aaye toh 'retro print effect' ya 'risograph style' add karein."
+    },
+    {
+      "id": "faq7",
+      "question": "Vector art mein multiple colors kaise control karein?",
+      "answer": "Exact color palette define karein jaise 'Limit artwork to deep red, cream, and black' — AI ko specific hex codes bhi de sakte hain. 'No gradients' zaroor add karein warna AI shading add kar deta hai. Simpler palette = cleaner vector look."
+    },
+    {
+      "id": "faq8",
+      "question": "Yeh trend viral kyun ho raha hai?",
+      "answer": "Teen reasons: (1) Minimalist aur graphic content social media par zyada engage karta hai, (2) AI ne vector art ko accessible bana diya hai — no software skills needed, (3) Brands, influencers, aur designers is style ka use kar rahe hain for merchandise, posters, aur thumbnails. Fast, stylish, aur professional."
+    }
+  ],
+
+  "conclusion": "Teen powerful vector art prompts ke saath aap kisi bhi photo ko professional-grade editorial illustration, minimalist portrait, ya cool streetwear vector art mein transform kar sakte hain. Bold typography, flat shapes, high-contrast color palettes, aur unique textures — sab kuch included hai.\n\nBas prompts copy karein, apni image attach karein, aur seconds mein apna vector masterpiece ready hai! Social media posts, YouTube thumbnails, merchandise design, album covers, posters — yeh technique har jagah kaam aati hai. AI technology ne graphic design ko itna accessible bana diya hai ke ab koi bhi professional-quality vector art bana sakta hai — no Adobe Illustrator, no complex skills. Bus ek clear vision aur sahi prompts!",
+
+  "tags": [
+    "Vector Art",
+    "Flat Illustration",
+    "Editorial Poster",
+    "Graphic Design",
+    "Minimalist Portrait",
+    "AI Vector Prompt",
+    "Midjourney Vector",
+    "DALL-E Illustration",
+    "Stable Diffusion",
+    "Flat Vector Style",
+    "Screen-Print Effect",
+    "Halftone Dots",
+    "Typography Poster",
+    "Urban Streetwear",
+    "Aviator Vector",
+    "4K Quality",
+    "Bold Silhouette",
+    "Minimal Color Palette",
+    "Graphic Portrait",
+    "AI Art Generation",
+    "Vector Illustration",
+    "Content Creation",
+    "Poster Design",
+    "Merchandise Art"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
+ {
   "id": "post-31",
   "title": "Cinamatic Style Anime  Scene + Cinematic Video Animation",
   "categoryId": "cat-2",
