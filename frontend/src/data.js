@@ -379,7 +379,192 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
+
   {
+  "id": "post-33",
+  "title": "Raksha Bandhan: Black & White Studio Portrait Prompt",
+  "categoryId": "cat-1",
+  "image": "/images/post33/raksha-bandhan-portrait1.avif",
+  "date": "August 19, 2026",
+  "author": "Vishu",
+
+  "introduction": "Raksha Bandhan 2026 mein ek emotional aur timeless trend ban chuka hai - Black & White Studio Portrait of Indian Siblings. Yeh prompt ek stunning monochrome photograph create karta hai jisme ek bhai-behan ka pyaar, bond, aur traditional values ko elegant studio portrait mein capture kiya gaya hai. Chahe aap apni personal gallery ke liye ek masterpiece chahte hain, ya social media par apne sibling bond ko showcase karna chahte hain, yeh prompt aapki natural expressions aur cultural identity ko preserve karte hue ek premium fine art portrait provide karta hai.\n\nIs prompt ki sabse badi khaasiyat hai iska ultra-realistic studio photography style. AI professional photography techniques - 85mm lens, f/1.8 aperture, shallow depth of field, aur cinematic lighting ko replicate karta hai. Har detail itni precise aur realistic hoti hai ki final image kisi high-end photography studio mein capture ki gayi ho, aisa lagta hai.\n\nSabse important baat yeh hai ki AI aapke original facial features, expressions, skin texture, aur natural smile ko bilkul unchanged rakhta hai. Yeh sirf aapko ek premium studio environment mein place karta hai, aapki identity ko modify nahi karta. Isliye final result aapka hi ek emotional, cinematic, aur timeless portrait hota hai.\n\nModern AI models jaise GPT Image, Flux Kontext, Midjourney ki madad se ab koi bhi is professional-level studio portrait ko kuch seconds mein generate kar sakta hai. Isme kisi expensive photographer, studio setup, ya complex editing software ki zaroorat nahi. Bas ek high-quality photo upload karein, prompt paste karein, aur apna custom Raksha Bandhan portrait create karein.\n\nYeh style un sabhi ke liye perfect hai jo apne sibling bond ko ek emotional, elegant, aur premium way mein showcase karna chahte hain. Results hamesha stunning aate hain jo Instagram, family photo albums, aur personal branding ke liye perfect hain.",
+
+  "whyTrending": "Black & White Studio Sibling Portraits Instagram, Pinterest, aur luxury photography pages par kaafi viral ho rahe hain. Images mein traditional Indian values ko modern monochrome aesthetics ke saath combine kiya jaata hai, jo instantly emotional connection create karta hai. Families aur creators is style ko pasand karte hain kyunki yeh unke Raksha Bandhan memories ko ek timeless, artistic way mein preserve karta hai.\n\nInfluencers aur photographers is style ko adopt kar rahe hain kyunki yeh unki portfolio ko ek unique, emotional edge deta hai. Ek simple sibling photo ko museum-quality fine art print mein badalna aaj ke digital world mein ek powerful statement ban gaya hai.\n\nIs trend ki growth ka ek aur reason hai AI technology ka improvement. Modern models ab professional photography techniques - shallow depth of field, bokeh effect, studio lighting, aur skin texture - ko pehle se kahin better samajhte hain. Isliye ab koi bhi, bina kisi photography training ke, high-end studio portraits generate kar sakta hai.\n\nYeh style kaamyaab hai kyunki yeh traditional Indian culture (Raksha Bandhan, ethnic attire, bangles, jewellery) ko modern editorial photography (monochrome, shallow DOF, cinematic lighting) ke saath combine karta hai. Results hamesha stunning aur emotionally impactful aate hain, isliye yeh trend continuously grow kar raha hai.",
+
+  "creationIntro": "Apna premium Raksha Bandhan Black & White Studio Portrait create karna bahut easy hai aur sirf kuch minutes ka kaam hai.\n\nStep 1: ChatGPT ya apne pasandida AI image generation platform ko open karein.\n\nStep 2: Ek high-quality photo upload karein jisme bhai aur behan dono ka face clear dikhe. Preferably aisi photo jisme dono natural smile kar rahe hon aur ek dusre ke close hon.\n\nStep 3: Neeche diye gaye prompt ko copy karein. Agar aap bhai-behan ka naam change karna chahte hain toh us hisaab se modify karein.\n\nStep 4: Prompt ko AI image generator mein paste karein.\n\nStep 5: Multiple variations generate karein aur best result select karein.\n\nBus! Seconds mein AI aapki ordinary family photo ko ek award-winning luxury studio portrait mein badal dega, aapka original face, expression, aur natural features bilkul same rakhte hue.",
+
+  "photoStepTitle": "Steps to Generate Your Raksha Bandhan Studio Portrait",
+
+  "photoItems": [
+    {
+      "image": "/images/post33/raksha-bandhan-portrait3.avif",
+      "title": "Classic Raksha Bandhan Portrait (Bhai-Behan)",
+      "prompt": "A professional black and white studio portrait of a smiling Indian couple, woman standing behind the man with her arms wrapped around his shoulders, both looking directly at the camera, natural genuine smiles, elegant traditional Indian attire, bangles and earrings, soft cinematic lighting, dark seamless background, ultra-realistic skin texture, sharp eyes, detailed hair strands, high contrast monochrome photography, shallow depth of field, premium portrait photography, 85mm lens, f/1.8, studio quality, perfectly focused faces, timeless and emotional composition, masterpiece, ultra HD, photorealistic --ar 4:5 --style raw --v 6.0 --no face morphing, distortion, identity change, plastic skin, blurry, unrealistic face, different person"
+    },
+    {
+      "image": "/images/post33/raksha-bandhan-portrait2.avif",
+      "title": "Premium Editorial Style Portrait",
+      "prompt": "A premium editorial black and white studio portrait of a smiling Indian brother and sister, sister standing behind her brother with her arms wrapped around his shoulders in a loving embrace, both looking directly at the camera with genuine warm smiles, dressed in elegant traditional Indian festive attire, sister wearing heavy traditional gold bangles and jhumka earrings, dramatic yet soft cinematic lighting with strong highlights and deep shadows, completely dark seamless studio background, ultra-realistic skin texture with visible natural pores and fine facial details, razor-sharp eyes with natural studio light reflections, detailed hair strands with individual texture and movement, high contrast monochrome photography with rich tonal range, extremely shallow depth of field creating beautiful background compression, premium luxury portrait photography style, 85mm lens at f/1.8, professional studio lighting, perfectly focused faces with surgical sharpness, timeless and emotional composition, fine art masterpiece, 8K ultra HD, photorealistic quality --ar 4:5 --style raw --v 6.0 --no face morphing, distortion, identity change, plastic skin, blurry, unrealistic face, different person"
+    }
+  ],
+
+  "photoBtnText": "Create Your Raksha Bandhan Portrait",
+  "photoBtnLink": "https://chat.openai.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "High-resolution photo upload karein jisme bhai aur behan dono ka face clear aur lighting achhi ho.",
+    "Both faces fully visible ho, koi obstruction (like hands covering face) na ho.",
+    "Natural lighting wali photo use karein for best skin texture and natural expressions.",
+    "Beauty filters ya AI-enhanced selfies use na karein, isse skin texture kam realistic hoti hai.",
+    "Photo mein dono siblings ka face clearly visible ho with natural smiles.",
+    "Shoulders aur upper body visible ho for best composition.",
+    "Traditional attire wali photo use karein for authentic Raksha Bandhan feel.",
+    "Sister's bangles aur earrings clearly visible ho for cultural authenticity.",
+    "Multiple variations generate karein for best studio portrait result.",
+    "GPT Image, Flux Kontext, ya Midjourney (with --style raw) jaise premium AI models use karein.",
+    "Final image hamesha maximum resolution mein export karein.",
+    "Natural expressions wali photo use karein (genuine smile, not posed).",
+    "Both looking at camera wali photo prefer karein for direct emotional connection.",
+    "Proper framing - dono faces centered and well-positioned.",
+    "Avoid group photos with more than 2 people."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Blurry ya compressed images upload karna.",
+    "Cropped faces ya subjects use karna.",
+    "Group photos with extra people upload karna.",
+    "Extreme camera angles jo integration ko mushkil bana dein.",
+    "Heavy beauty filters jo realism aur skin texture ko kharab karein.",
+    "Low-resolution reference photos use karna.",
+    "Prompt se important details jaise 'studio portrait' ya '85mm lens' hata dena.",
+    "Forced expressions use karna (natural smile required).",
+    "Final generated image ko over-edit karna.",
+    "Aisi photo use karna jisme harsh lighting ya deep shadows face ko cover karein.",
+    "Sister standing behind brother ki position change karna.",
+    "Traditional attire ki jagah casual clothes use karna.",
+    "Bangles aur earrings visible na hona.",
+    "Color photo use karna (black & white prompt hai).",
+    "Different people ki photo upload karna (identity change hoti hai)."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Raksha Bandhan Studio Portrait prompt kya hai?",
+      "answer": "Yeh ek professional AI image prompt hai jo aapki sibling photo ko premium black and white studio portrait mein badalta hai. Yeh 85mm lens, f/1.8 aperture, cinematic lighting, aur shallow depth of field use karta hai, jo luxury magazine cover aur fine art print jaisa look deta hai."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya mere bhai aur meri face unchanged rahegi?",
+      "answer": "Haan. Prompt specifically instruct karta hai ki aapki exact facial identity, face shape, bone structure, skin tone, eyes, eyebrows, nose, lips, jawline, skin texture, aur hairstyle ko 100% preserve kare. Identity bilkul same rahti hai."
+    },
+    {
+      "id": "faq3",
+      "question": "Kya mujhe Photoshop ya editing skills chahiye?",
+      "answer": "Bilkul nahi. Bas apna sibling photo upload karein, prompt paste karein, aur AI image generator mein generate karein. Koi editing skills nahi chahiye."
+    },
+    {
+      "id": "faq4",
+      "question": "Kya main typography ya composition change kar sakta hoon?",
+      "answer": "Haan. Aap prompt mein lighting style, background, ya composition modify kar sakte hain. Jaise 'Rembrandt lighting' ki jagah 'butterfly lighting' likh sakte hain."
+    },
+    {
+      "id": "faq5",
+      "question": "Kaunse AI models best results dete hain?",
+      "answer": "GPT Image, Flux Kontext, Midjourney (with --style raw command), Ideogram, aur doosre advanced photorealistic AI models is prompt ke liye bahut achha kaam karte hain."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya main in images ko commercially use kar sakta hoon?",
+      "answer": "Commercial usage us AI image generation platform ki licensing policy par depend karta hai jise aap use kar rahe hain. Kuch platforms commercial use allow karte hain, kuch nahi."
+    },
+    {
+      "id": "faq7",
+      "question": "Kya beginners yeh prompt use kar sakte hain?",
+      "answer": "Bilkul. Bas photo upload karein, prompt paste karein, aur generate karein. Multiple variations try karein best result ke liye."
+    },
+    {
+      "id": "faq8",
+      "question": "Mujhe specific studio lighting kaise milega?",
+      "answer": "Prompt mein keywords jaise 'cinematic lighting', 'Rembrandt lighting', 'soft studio lighting' already included hain. Inhe remove na karein agar aapko wahi lighting chahiye."
+    },
+    {
+      "id": "faq9",
+      "question": "Kya main brother-sister ki jagah doosre relationship ke liye use kar sakta hoon?",
+      "answer": "Haan. Aap prompt mein 'brother and sister' ki jagah 'mother and daughter', 'father and son', ya koi doosra relationship likh sakte hain."
+    },
+    {
+      "id": "faq10",
+      "question": "Kya traditional attire zaroori hai?",
+      "answer": "Prompt traditional Indian attire ke liye design kiya gaya hai, lekin aap casual ya formal attire bhi specify kar sakte hain. Bas clarity ke liye prompt mein mention karein."
+    },
+    {
+      "id": "faq11",
+      "question": "Kya main color version bana sakta hoon?",
+      "answer": "Yeh prompt specifically black and white ke liye hai. Color version ke liye aap 'black and white' ki jagah 'color' mention kar sakte hain, lekin results different ho sakte hain."
+    },
+    {
+      "id": "faq12",
+      "question": "Kya sister ko hamesha behind stand karna zaroori hai?",
+      "answer": "Prompt mein sister behind brother ki position specified hai for best composition. Aap chahein toh positions swap kar sakte hain, lekin prompt mein modify karna hoga."
+    },
+    {
+      "id": "faq13",
+      "question": "Kya bangles aur earrings visible hona zaroori hai?",
+      "answer": "Raksha Bandhan theme ke liye bangles aur earrings cultural authenticity add karte hain. Agar aapke paas photo mein nahi hain, toh aap prompt se hata sakte hain."
+    },
+    {
+      "id": "faq14",
+      "question": "Kya multiple faces generate ho sakti hain?",
+      "answer": "Prompt specifically 2 faces (bhai-behan) ke liye design kiya gaya hai. Extra faces generate ho sakti hain agar photo mein extra log ho."
+    },
+    {
+      "id": "faq15",
+      "question": "Best aspect ratio kya hai?",
+      "answer": "4:5 aspect ratio recommended hai for studio portraits. Yeh Instagram, LinkedIn, aur print ke liye perfect hai."
+    }
+  ],
+
+  "conclusion": "Raksha Bandhan Black & White Studio Portrait Prompt aapko ek stunning, museum-quality fine art portrait create karne ka mauka deta hai jo aapki natural identity ko preserve karte hue aapke sibling bond ko emotional, timeless, aur premium way mein showcase karta hai. Bas ek high-quality sibling photo aur professionally crafted prompt ke saath, aap seconds mein breathtaking images generate kar sakte hain jo Instagram, family photo albums, LinkedIn, aur personal branding ke liye perfect hain.\n\nYeh prompt traditional Indian values (Raksha Bandhan, ethnic attire, bangles, jewellery) ko modern editorial photography (monochrome, cinematic lighting, shallow DOF) ke saath combine karta hai - result hamesha stunning aur emotionally impactful aata hai.\n\nAaj hi apna Raksha Bandhan portrait create karein aur apne sibling bond ko ek timeless masterpiece mein transform karein!",
+
+  "tags": [
+    "Raksha Bandhan AI Portrait",
+    "Black And White Studio Portrait",
+    "Sibling Bond Photography",
+    "Indian Traditional Attire AI",
+    "Monochrome Studio Photography",
+    "85mm Lens Portrait",
+    "Cinematic Lighting AI",
+    "Shallow Depth Of Field",
+    "Fine Art AI Portrait",
+    "Brother Sister Portrait",
+    "Rakhi Special AI Prompt",
+    "Premium Portrait Photography",
+    "8K AI Studio Portrait",
+    "Emotional Family Portrait",
+    "GPT Image Prompt",
+    "Midjourney Portrait Prompt",
+    "Flux Kontext Portrait",
+    "Indian Festival Photography",
+    "Timeless Monochrome Portrait",
+    "Luxury Studio Portrait"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
+ {
   "id": "post-32",
   "title": "Editorial Vector Art + Flat Design Portraits – AI Prompt Guide",
   "categoryId": "cat-2",
@@ -2269,7 +2454,6 @@ export const INITIAL_POSTS = [
   "isTrending": true,
   "comments": []
  },
-
   {
   "id": "post-17",
   "title": "Cinematic Urban Street Style AI Photo Editing Prompt",
