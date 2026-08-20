@@ -379,8 +379,191 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
+{
+  "id": "post-34",
+  "title": "Couple Night Portrait: Smartphone Photography Prompt",
+  "categoryId": "cat-1",
+  "image": "/images/post34/candid-couple-night1.avif",
+  "date": "August 20, 2026",
+  "author": "Vishu",
 
-  {
+  "introduction": "2026 mein candid aur realistic smartphone photography ka ek naya trend ban chuka hai - The Night Portrait of a Couple in Love. Yeh prompt ek stunning, ultra-realistic photograph create karta hai jisme ek couple ko outdoor nighttime setting mein capture kiya gaya hai. Isme raw emotions, natural poses, aur low-light aesthetics ko combine kiya gaya hai, jo ek authentic smartphone-clicked photo jaisa lagta hai.\n\nIs prompt ki special baat hai ki yeh AI ko instruct karta hai ki woh aapki original facial features, hairstyle, skin tone, aur natural expressions ko bilkul unchanged rakhe, sirf ek cinematic environment mein place kare. Iska result ek aisi photo hoti hai jo kisi real-life romantic moment ki tarah lagti hai, na ki kisi AI-generated illustration ki tarah.\n\nThis prompt uses the **two uploaded images as identity references** — Image 1 for the boy and Image 2 for the girl. It creates a **photorealistic candid couple photograph** featuring the same boy and girl, preserving their exact facial identity.\n\nThe **boy stands on the left** and the **girl stands very close on his right**, exactly matching the reference pose. The boy gently tilts his head down toward the girl, while the girl looks directly at the camera with a soft, natural expression. The girl gently holds the boy's **left arm with both hands**, keeping the **same hand placement, body positioning, gesture, distance, and intimate pose** as the reference image. Do not alter the pose or gesture.\n\nYeh style un sabhi ke liye perfect hai jo apni relationship ko ek emotional, realistic, aur non-posed way mein showcase karna chahte hain. Results hamesha breathtaking aate hain jo Instagram, Facebook, aur personal photo albums ke liye perfect hain.",
+
+  "whyTrending": "Candid Night Portraits Instagram, Pinterest, aur photography pages par kaafi viral ho rahe hain. Images mein raw emotions ko modern low-light aesthetics ke saath combine kiya jaata hai, jo instantly relatable aur emotional connection create karta hai. Influencers aur couples is style ko pasand karte hain kyunki yeh unki memories ko ek realistic, non-posed, aur natural way mein preserve karta hai.\n\nIs trend ki growth ka ek aur reason hai AI technology ka improvement. Modern models ab professional photography techniques - low-light handling, motion blur, bokeh, aur skin texture - ko pehle se kahin better samajhte hain. Isliye ab koi bhi, bina kisi photography training ke, high-end candid portraits generate kar sakta hai.\n\nYeh style kaamyaab hai kyunki yeh modern aesthetics (smartphone flash, foliage background, night setting) ko emotional connection (couple intimacy, holding hands) ke saath combine karta hai. Results hamesha stunning aur emotionally impactful aate hain, isliye yeh trend continuously grow kar raha hai.",
+
+  "creationIntro": "Apna premium Candid Couple Night Portrait create karna bahut easy hai aur sirf kuch minutes ka kaam hai.\n\nStep 1: Midjourney (Discord) ya apne pasandida AI image generation platform ko open karein.\n\nStep 2: Upload your original image to Discord, copy its URL, type /imagine, paste the prompt, and add --cref [YOUR IMAGE URL] --cw 20 --ar 4:5 at the end.\n\nStep 3: Agar Leonardo AI use kar rahe hain, paste the prompt, upload your photo in the 'Image Guidance' box, set Image Strength/ControlNet to 95%-100%, and set output ratio to 4:5.\n\nStep 4: Multiple variations generate karein aur best result select karein.\n\nBus! Seconds mein AI aapki ordinary photo ko ek award-winning night portrait mein badal dega, aapka original face, expression, aur natural features bilkul same rakhte hue.",
+
+  "photoStepTitle": "Steps to Generate Your Candid Night Portrait",
+
+  "photoItems": [
+    {
+      "image": "/images/post34/candid-couple-night2.avif",
+      "title": "Candid Couple Night Portrait (Boy & Girl)",
+      "prompt": `Use the **two uploaded images as identity references** — Image 1 for the boy and Image 2 for the girl. Create a **photorealistic candid couple photograph** featuring the same boy and girl from the reference images, preserving their facial identity, hairstyle, skin tone, and natural appearance.The **boy stands on the left** and the **girl stands very close on his right**, exactly matching the reference pose. The boy gently tilts his head down toward the girl, while the girl looks directly at the camera with a soft, natural expression. The girl gently holds the boy's **left arm with both hands**, keeping the **same hand placement, body positioning, gesture, distance, and intimate pose** as the reference image. Do not alter the pose or gesture.Outdoor nighttime setting, dark green leafy foliage in the background, soft smartphone flash lighting, subtle motion blur, slightly blurred background, realistic low-light photography, natural shadows, authentic skin texture, detailed hair, realistic hands and fingers, candid smartphone photo aesthetic.Boy wearing a **light blue and white vertically striped button-down shirt**. Girl wearing a **light-colored floral sleeveless dress**. Add a small subtle **red heart emoji above them**.**Ultra-realistic photography, natural facial features, realistic proportions, authentic candid moment, no beauty filter, no plastic skin, no illustration, no cartoon, no artificial-looking faces.****Vertical 4:5 aspect ratio, medium close-up composition, same camera angle and framing as the reference image, couple centered in frame, highly realistic smartphone photograph, 8K detailed quality.** `
+    },
+    {
+      "image": "/images/post34/candid-couple-night3.avif",
+      "title": "Premium Editorial Night Portrait",
+      "prompt": `Prompt: A romantic night portrait of a young Indian couple outdoors, exactly matching this pose. The boy is in a blue and white striped button-down shirt looking down. The girl is in a white floral slip dress with long dark wavy hair, looking straight at the camera, gently holding his left arm with both hands. Dark green foliage background, soft night lighting, slight motion blur aesthetic, candid smartphone photography, real people, 4:5 aspect ratio. To use this: Upload your original image to Discord, copy its URL, type /imagine, paste this prompt, and add --cref [YOUR IMAGE URL] --cw 20 --ar 4:5 at the end (for Midjourney). If using Leonardo AI, paste this prompt, upload your photo in the "Image Guidance" box, set Image Strength/ControlNet to 95%-100%, and set output ratio to 4:5. `
+    }
+  ],
+
+  "photoBtnText": "Create Your Night Portrait",
+  "photoBtnLink": "https://chatgpt.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "High-resolution photo upload karein jisme boy aur girl dono ka face clear aur lighting achhi ho.",
+    "Both faces fully visible ho, koi obstruction (like hands covering face) na ho.",
+    "Natural lighting wali photo use karein for best skin texture and natural expressions.",
+    "Beauty filters ya AI-enhanced selfies use na karein, isse skin texture kam realistic hoti hai.",
+    "Photo mein dono individuals ka face clearly visible ho with natural expressions.",
+    "Shoulders aur upper body visible ho for best composition.",
+    "Boy ki shirt aur girl ki dress wali photo use karein for authentic feel.",
+    "Girl's hands visible ho for holding arm gesture.",
+    "Multiple variations generate karein for best studio portrait result.",
+    "Midjourney (with --cref and --cw 20) ya Leonardo AI (with Image Guidance at 95%) use karein.",
+    "Final image hamesha maximum resolution mein export karein.",
+    "Natural expressions wali photo use karein (genuine smile, not posed).",
+    "Both looking at camera wali photo prefer karein for direct emotional connection.",
+    "Proper framing - dono faces centered and well-positioned.",
+    "Avoid group photos with more than 2 people."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Blurry ya compressed images upload karna.",
+    "Cropped faces ya subjects use karna.",
+    "Group photos with extra people upload karna.",
+    "Extreme camera angles jo integration ko mushkil bana dein.",
+    "Heavy beauty filters jo realism aur skin texture ko kharab karein.",
+    "Low-resolution reference photos use karna.",
+    "Prompt se important details jaise 'candid' ya 'smartphone photography' hata dena.",
+    "Forced expressions use karna (natural smile required).",
+    "Final generated image ko over-edit karna.",
+    "Aisi photo use karna jisme harsh lighting ya deep shadows face ko cover karein.",
+    "Boy aur girl ki position change karna.",
+    "Casual clothes ki jagah formal attire use karna.",
+    "Red heart emoji add karna bhool jana.",
+    "Daylight photo use karna (night prompt hai).",
+    "Different people ki photo upload karna (identity change hoti hai)."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Candid Couple Night Portrait prompt kya hai?",
+      "answer": "Yeh ek professional AI image prompt hai jo aapki photo ko premium night-time candid couple portrait mein badalta hai. Yeh outdoor setting, smartphone flash, aur motion blur aesthetics use karta hai, jo realistic aur emotionally impactful look deta hai."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya mere aur mere partner ki face unchanged rahegi?",
+      "answer": "Haan. Prompt specifically instruct karta hai ki aapki exact facial identity, face shape, bone structure, skin tone, eyes, eyebrows, nose, lips, jawline, skin texture, aur hairstyle ko 100% preserve kare. Identity bilkul same rahti hai."
+    },
+    {
+      "id": "faq3",
+      "question": "Kya mujhe Photoshop ya editing skills chahiye?",
+      "answer": "Bilkul nahi. Bas apni photo upload karein, prompt paste karein, aur AI image generator mein generate karein. Koi editing skills nahi chahiye."
+    },
+    {
+      "id": "faq4",
+      "question": "Kya main typography ya composition change kar sakta hoon?",
+      "answer": "Haan. Aap prompt mein lighting style, background, ya composition modify kar sakte hain. Jaise 'dark green foliage' ki jagah 'city lights' likh sakte hain."
+    },
+    {
+      "id": "faq5",
+      "question": "Kaunse AI models best results dete hain?",
+      "answer": "Midjourney (with --cref and --cw 20), Leonardo AI (with Image Guidance at 95%), aur doosre advanced photorealistic AI models is prompt ke liye bahut achha kaam karte hain."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya main in images ko commercially use kar sakta hoon?",
+      "answer": "Commercial usage us AI image generation platform ki licensing policy par depend karta hai jise aap use kar rahe hain. Kuch platforms commercial use allow karte hain, kuch nahi."
+    },
+    {
+      "id": "faq7",
+      "question": "Kya beginners yeh prompt use kar sakte hain?",
+      "answer": "Bilkul. Bas photo upload karein, prompt paste karein, aur generate karein. Multiple variations try karein best result ke liye."
+    },
+    {
+      "id": "faq8",
+      "question": "Mujhe specific night lighting kaise milega?",
+      "answer": "Prompt mein keywords jaise 'soft night lighting', 'smartphone flash', aur 'low-light photography' already included hain. Inhe remove na karein agar aapko wahi lighting chahiye."
+    },
+    {
+      "id": "faq9",
+      "question": "Kya main boy-girl ki jagah doosre relationship ke liye use kar sakta hoon?",
+      "answer": "Haan. Aap prompt mein 'boy and girl' ki jagah 'mother and daughter', 'father and son', ya koi doosra relationship likh sakte hain."
+    },
+    {
+      "id": "faq10",
+      "question": "Kya specific attire zaroori hai?",
+      "answer": "Prompt striped shirt aur floral dress ke liye design kiya gaya hai, lekin aap casual ya formal attire bhi specify kar sakte hain. Bas clarity ke liye prompt mein mention karein."
+    },
+    {
+      "id": "faq11",
+      "question": "Kya main day version bana sakta hoon?",
+      "answer": "Yeh prompt specifically night-time ke liye hai. Day version ke liye aap 'night' ki jagah 'day' mention kar sakte hain, lekin results different ho sakte hain."
+    },
+    {
+      "id": "faq12",
+      "question": "Kya girl ko hamesha right side stand karna zaroori hai?",
+      "answer": "Prompt mein boy left aur girl right ki position specified hai for best composition. Aap chahein toh positions swap kar sakte hain, lekin prompt mein modify karna hoga."
+    },
+    {
+      "id": "faq13",
+      "question": "Kya red heart emoji add karna zaroori hai?",
+      "answer": "Red heart emoji romantic feel add karta hai. Agar aapko nahi chahiye, toh aap prompt se hata sakte hain."
+    },
+    {
+      "id": "faq14",
+      "question": "Kya multiple faces generate ho sakti hain?",
+      "answer": "Prompt specifically 2 faces (boy aur girl) ke liye design kiya gaya hai. Extra faces generate ho sakti hain agar photo mein extra log ho."
+    },
+    {
+      "id": "faq15",
+      "question": "Best aspect ratio kya hai?",
+      "answer": "4:5 aspect ratio recommended hai for vertical portraits. Yeh Instagram, Facebook, aur print ke liye perfect hai."
+    }
+  ],
+
+  "conclusion": "Candid Couple Night Portrait Prompt aapko ek stunning, ultra-realistic portrait create karne ka mauka deta hai jo aapki natural identity ko preserve karte hue aapke relationship ko emotional, raw, aur realistic way mein showcase karta hai. Bas ek high-quality photo aur professionally crafted prompt ke saath, aap seconds mein breathtaking images generate kar sakte hain jo Instagram, Facebook, personal photo albums, aur social media branding ke liye perfect hain.\n\nYeh prompt modern aesthetics (night setting, smartphone flash, foliage background) ko emotional connection (couple intimacy, candid pose) ke saath combine karta hai - result hamesha stunning aur emotionally impactful aata hai.\n\nAaj hi apna Candid Night Portrait create karein aur apni memories ko ek timeless masterpiece mein transform karein!",
+
+  "tags": [
+    "Candid Couple Portrait",
+    "Night Time Photography AI",
+    "Smartphone Photography Aesthetic",
+    "Realistic AI Portrait",
+    "Couple Night Portrait",
+    "Low-Light Photography AI",
+    "Outdoor Night Portrait",
+    "Romantic Couple AI",
+    "AI Photo Generation",
+    "Midjourney Cref Prompt",
+    "Leonardo AI Image Guidance",
+    "Candid Smartphone Photo",
+    "Relationship Goals AI",
+    "Night Portrait Prompt",
+    "Authentic AI Photography",
+    "Motion Blur Aesthetic",
+    "Couple Goals AI",
+    "Indian Couple Portrait",
+    "Realistic AI Photography",
+    "Emotional Couple Portrait"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
+ {
   "id": "post-33",
   "title": "Raksha Bandhan: Black & White Studio Portrait Prompt",
   "categoryId": "cat-1",
