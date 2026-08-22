@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.0"; // ← Change this number
+export const DATA_VERSION = "1.0.1"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -379,7 +379,214 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
+  {
+  "id": "post-35",
+  "title": "Nostalgic Birthday Self-Meet: Child Meets Adult Version - AI Video Prompt",
+  "categoryId": "cat-2",
+  "image": "/images/post35/self-meet-birthday1.avif",
+  "date": "August 22, 2026",
+  "author": "Vishu",
+
+  "introduction": "Yeh ek emotional aur nostalgic AI video prompt hai jisme aapki childhood version aur adult version ek saath ek birthday moment share karte hain. Is prompt ki sabse special baat yeh hai ki yeh dono references ki identity ko bilkul unchanged rakhta hai - koi face morphing, blending, ya identity drift nahi hogi.\n\nIs video mein child version (reference image 1) aur adult version (reference image 2) ek wooden chair par baithkar cake blow karte hain, candle jalate hain, aur ek warm, intimate moment create karte hain. Poora video ek single continuous shot mein capture kiya gaya hai with subtle human movements, vintage black-and-white aesthetic, aur old analog family photograph jaisa feel.\n\nYeh prompt un sabhi ke liye perfect hai jo apni childhood memories ko ek unique, emotional, aur cinematic way mein showcase karna chahte hain.",
+
+  "whyTrending": "Self-Meet videos social media par kaafi viral ho rahe hain. Log apni childhood photos ko adult photos ke saath merge karke emotional reels aur short films bana rahe hain. Is trend ki popularity ka main reason hai nostalgia factor aur AI technology ka advancement jo ab realistic human movements aur identity preservation ko possible banata hai.\n\nInfluencers, content creators, aur common log is trend ko apna rahe hain kyunki yeh unki personal journey ko ek beautiful, cinematic, aur emotionally impactful way mein present karta hai. Black-and-white vintage aesthetic aur old film camera feel isko aur bhi special banata hai.",
+
+  "creationIntro": "Apna emotional Self-Meet Birthday Video create karna bahut easy hai:\n\nStep 1: Koi bhi AI video generation platform open karein (Runway, Pika, Kling, ya Luma AI).\n\nStep 2: Upload karein - Image 1 (childhood photo) aur Image 2 (adult photo).\n\nStep 3: Prompt ko paste karein aur generate karein.\n\nStep 4: Multiple variations generate karein aur best result select karein.\n\nBas! Seconds mein AI aapki do photos ko ek emotional, cinematic video mein badal dega.",
+
+  "photoStepTitle": "Video Prompts for Self-Meet Birthday Scene",
+
+  "photoItems": [
+    {
+      "image": "/images/post35/self-meet-birthday2.avif",
+      "title": "Self-Meet Birthday Video Prompt (Child & Adult)",
+      "prompt": `Use the two reference images: **@[Image 1] is my childhood version** and **@[Image 2] is my adult version**. They are the same person at two different ages. Preserve the identity of both references with maximum fidelity, including their faces, age, hairstyle, facial features, skin tone, body proportions, clothing, and overall natural appearance. **Do not blend, morph, or merge their faces.** Each person must remain clearly recognizable as the corresponding reference throughout the entire video.
+
+Create an intimate, nostalgic **black-and-white photorealistic scene** with the aesthetic of an authentic old analog family photograph. Both versions of the same person are sitting on wooden chairs, facing each other at a slight diagonal angle. Between them is a small wooden table with a birthday cake and a **single lit candle**.
+
+The child is seated with their legs and feet hanging naturally above the floor, **not touching the ground**. Behind both subjects is a large neutral-colored studio fabric backdrop with clearly visible folds, wrinkles, texture, and a naturally uneven drape, resembling an old homemade photography setup. **Do not show any walls, windows, furniture, decorations, or additional background elements.**
+
+Use soft, natural lighting with gentle shadows, subtle film grain, realistic tonal range, slight imperfections, and the authentic texture of vintage analog photography. The image should feel warm, emotional, intimate, imperfect, and genuinely captured on an old film camera.
+
+### ACTION — ONE CONTINUOUS TAKE
+
+Everything happens in a **single uninterrupted continuous shot** with extremely subtle and realistic human movement.
+
+At the beginning, the adult and the child briefly look into each other's eyes.
+
+The child makes only **one or two extremely slow and very small unconscious swings with their feet**. The movement must be subtle and occasional — no kicking, bouncing, or continuous leg movement.
+
+Afterward, both naturally shift their gaze toward the candle. They pause briefly, then lean slightly forward in a natural way and blow toward the candle together, with a **tiny difference in timing** between their breaths so the action does not look artificially synchronized.
+
+The candle flame flickers naturally, goes out, and produces a thin, delicate trail of smoke.
+
+After a short pause, both gradually return to their previous posture. The adult looks at the child, smiles warmly, and gently ruffles the child's hair **once** with one hand.
+
+The child slightly moves their head away with a small, playful expression of annoyance at having their hair messed up. A moment later, both naturally smile.
+
+All movements must feel physically authentic and spontaneous: subtle breathing, occasional blinking, tiny eye movements, natural head motion, realistic anticipation, inertia, pauses, and weight shifts. **Nothing should look robotic, repetitive, exaggerated, perfectly synchronized, or mechanically animated.**
+
+### CAMERA
+
+Use an **extremely slow and almost imperceptible physical dolly-in** throughout the entire shot.
+
+The camera must remain stable and cinematic.
+
+* No cuts
+* No zoom
+* No pan
+* No tilt
+* No lateral camera movement
+* No angle changes
+* No camera shake
+* No transitions
+
+Maintain absolute consistency of **identity, facial features, anatomy, hands, fingers, clothing, hairstyle, lighting, background, cake, candle, chairs, and all objects** throughout the entire video.
+
+Do not add or remove any person or object. Do not alter the environment or composition.
+
+### FINAL RESULT
+
+Create an **8–10 second photorealistic video** that looks like an authentic, emotionally meaningful moment captured from an old family film: an adult sharing a birthday moment with their own childhood self.
+
+The result should feel **nostalgic, intimate, warm, emotional, imperfect, natural, and deeply human**, with realistic physical motion and authentic analog-film characteristics.
+
+**Absolutely no AI-generated appearance, animation look, face morphing, identity drift, unnatural movements, plastic skin, excessive smoothness, artificial synchronization, or surreal elements.**
+ `
+    }
+  ],
+
+  "photoBtnText": "Create Your Self-Meet Video",
+  "photoBtnLink": "https://www.runwayml.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "High-resolution childhood aur adult photo use karein.",
+    "Dono photos mein face clearly visible ho.",
+    "Natural lighting wali photos use karein.",
+    "Same person ki photos honi chahiye (identity match kare).",
+    "Photos mein expression natural ho.",
+    "Shoulders aur upper body visible ho.",
+    "Background simple ho (AI better integrate karega).",
+    "Beauty filters ya heavy editing wali photos avoid karein.",
+    "Multiple video variations generate karein.",
+    "Runway, Pika, Kling, ya Luma AI use karein.",
+    "Final video ko high quality mein export karein.",
+    "Prompt se important keywords remove na karein.",
+    "Black-and-white vintage aesthetic ke liye prompt exactly paste karein.",
+    "Child photo - legs visible ho for hanging effect.",
+    "Adult photo - sitting pose preferred."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Blurry ya low-resolution photos upload karna.",
+    "Different person ki photos upload karna.",
+    "Cropped faces use karna.",
+    "Heavy filters jo realism ko kharab karein.",
+    "Group photos use karna (sirf ek person hona chahiye).",
+    "Prompt se 'no face morphing' hata dena.",
+    "Video mein cuts ya transitions add karna.",
+    "Camera shake ya zoom use karna.",
+    "Too much movement - prompt sirf subtle movement ke liye hai.",
+    "Artificial synchronization - dono ko same time blow nahi karna.",
+    "Background mein extra objects add karna.",
+    "Color video generate karna (black-and-white chahiye).",
+    "Child ko floor touch karwana (prompt mein hanging hai).",
+    "Adult ko child ki taraf wrong angle mein baithana.",
+    "Candle flame ko ignore karna."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Self-Meet Birthday Video prompt kya hai?",
+      "answer": "Yeh ek AI video prompt hai jo aapki childhood aur adult photo ko ek emotional vintage-style video mein badalta hai jisme aap apni childhood self ke saath birthday cake blow karte hain."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya mere childhood aur adult face unchanged rahenge?",
+      "answer": "Haan. Prompt specifically instruct karta hai ki dono references ki identity, face, age, hairstyle, aur skin tone 100% preserve ho. Koi morphing ya blending nahi hogi."
+    },
+    {
+      "id": "faq3",
+      "question": "Kya mujhe video editing skills chahiye?",
+      "answer": "Bilkul nahi. Bas photos upload karein, prompt paste karein, aur AI generate karega. Koi editing skills nahi chahiye."
+    },
+    {
+      "id": "faq4",
+      "question": "Kaunse AI platforms best results dete hain?",
+      "answer": "Runway Gen-2/Gen-3, Pika, Kling AI, aur Luma AI is prompt ke liye best results dete hain."
+    },
+    {
+      "id": "faq5",
+      "question": "Video kitne seconds ka hoga?",
+      "answer": "Prompt 8-10 seconds ke liye design kiya gaya hai, lekin platform ke hisaab se aap duration adjust kar sakte hain."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya main color version bana sakta hoon?",
+      "answer": "Yeh prompt specifically black-and-white vintage aesthetic ke liye hai. Color version ke liye aap 'black-and-white' hata kar 'color' likh sakte hain."
+    },
+    {
+      "id": "faq7",
+      "question": "Kya dono photos mein same background hona zaroori hai?",
+      "answer": "Nahi. AI background automatically create kar lega. Simple background wali photos better integrate hoti hain."
+    },
+    {
+      "id": "faq8",
+      "question": "Child ko floor touch kyun nahi karna?",
+      "answer": "Prompt mein specifically 'legs hanging above floor' likha hai for authentic child sitting pose. Isko change mat karein."
+    },
+    {
+      "id": "faq9",
+      "question": "Kya main is video ko commercially use kar sakta hoon?",
+      "answer": "Commercial usage AI platform ki licensing policy par depend karta hai. Kuch platforms allow karte hain, kuch nahi."
+    },
+    {
+      "id": "faq10",
+      "question": "Face morphing se kaise bachun?",
+      "answer": "Prompt mein 'no face morphing, no blending, no identity drift' already included hai. Inhe remove na karein."
+    }
+  ],
+
+  "conclusion": "Self-Meet Birthday Video Prompt aapko ek emotional, nostalgic, aur cinematic video create karne ka mauka deta hai jo aapki childhood journey ko beautifully showcase karta hai. Bas do photos aur professionally crafted prompt ke saath, aap seconds mein breathtaking vintage-style videos generate kar sakte hain jo Instagram, YouTube, aur personal memories ke liye perfect hain.\n\nYeh prompt modern AI technology ko vintage analog aesthetics ke saath combine karta hai - result hamesha emotional aur visually stunning aata hai.\n\nAaj hi apna Self-Meet Birthday Video create karein aur apni memories ko ek timeless cinematic moment mein transform karein!",
+
+  "tags": [
+    "Self-Meet Video",
+    "Childhood Meets Adult",
+    "Vintage Birthday Video",
+    "Nostalgic AI Video",
+    "AI Video Generation",
+    "Birthday Cake Video",
+    "Black and White AI",
+    "Old Film Aesthetic",
+    "Emotional AI Video",
+    "Runway AI Prompt",
+    "Pika AI Video",
+    "Kling AI",
+    "Luma AI",
+    "Childhood Memory AI",
+    "Self Portrait Video",
+    "Analog Film Look",
+    "Cinematic AI Video",
+    "Birthday Nostalgia",
+    "AI Video Prompt",
+    "Vintage Family Photo"
+  ],
+
+  "isTrending": true,
+  "comments": []
+},
 {
+
   "id": "post-34",
   "title": "Couple Night Portrait: Smartphone Photography Prompt",
   "categoryId": "cat-1",
