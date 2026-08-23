@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.1"; // ← Change this number
+export const DATA_VERSION = "1.0.0"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -380,6 +380,194 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  "id": "post-36",
+  "title": "Cinematic Plant Life Cycle Timelapse - Seed to Harvest AI Video Prompt",
+  "categoryId": "cat-2",
+  "image": "/images/post36/plant-lifecycle-timelapse1.avif",
+  "date": "August 23, 2026",
+  "author": "Vishu",
+
+  "introduction": "Yeh ek stunning cinematic timelapse AI video prompt hai jo kisi bhi plant ke complete life cycle ko seed se mature harvest-ready plant tak dikhata hai. Is prompt ki sabse special baat yeh hai ki yeh ek human hand interaction se start hota hai aur phir seamlessly continuous timelapse mein transform ho jata hai - without any cuts.\n\nIs video mein aap dekhenge ki ek human hand rich soil mein seed plant karta hai, phir timelapse start hota hai jisme seed absorb water karta hai, roots develop hoti hain, sprout emerge hota hai, plant grow karta hai, aur akhir mein multiple fruits/vegetables/flowers ke saath mature ho jata hai.\n\nPoora video macro cinematography style mein capture kiya gaya hai with National Geographic quality, 8K HDR, aur warm morning sunlight. Yeh prompt un sabhi ke liye perfect hai jo gardening, nature documentaries, educational content, ya cinematic plant growth videos create karna chahte hain.",
+
+  "whyTrending": "Plant growth timelapse videos social media par kaafi viral ho rahe hain. Log gardening videos, educational content, aur cinematic nature documentaries dekhna pasand kar rahe hain. Is trend ki popularity ka main reason hai visual appeal aur AI technology ka advancement jo ab realistic plant growth ko seamless timelapse mein capture kar sakta hai.\n\nContent creators, educators, gardeners, aur nature lovers is trend ko apna rahe hain kyunki yeh plant life cycle ko ek beautiful, cinematic, aur scientifically believable way mein present karta hai. Macro photography aur National Geographic style isko aur bhi special banata hai.",
+
+  "creationIntro": "Apna cinematic Plant Life Cycle Timelapse Video create karna bahut easy hai:\n\nStep 1: Koi bhi AI video generation platform open karein (Runway, Pika, Kling, ya Luma AI).\n\nStep 2: Prompt ko paste karein aur {{PLANT_NAME}} ko apni preferred plant se replace karein (e.g., Tomato, Cucumber, Strawberry, Rose, Wheat, etc.).\n\nStep 3: Generate karein aur multiple variations dekhein.\n\nStep 4: Best result select karein aur export karein.\n\nBas! Seconds mein AI aapka cinematic plant growth timelapse video create kar dega.",
+
+  "photoStepTitle": "Video Prompts for Plant Life Cycle Timelapse",
+
+  "photoItems": [
+    {
+      "image": "/images/post36/plant-lifecycle-timelapse2.avif",
+      "title": "Plant Life Cycle Timelapse Video Prompt (Seed to Harvest)",
+      "prompt": `Plant Name: {{PLANT_NAME}}
+
+Create a 10-second ultra-realistic cinematic macro timelapse showing the complete life cycle of the plant specified above, starting from a tiny seed and ending as a fully mature, harvest-ready plant.
+
+The video begins with a human hand digging a small hole in rich, fertile soil and gently placing the seed into the ground. The hand carefully covers the seed with loose soil and lightly presses it down.
+
+Without any cuts, transition into a smooth, continuous timelapse. Show the seed absorbing water, swelling, cracking open, and developing healthy white roots beneath the soil. A fresh green sprout emerges through the surface and grows rapidly. Leaves unfold naturally one by one, the stem thickens, branches or vines develop (when appropriate), and the plant continues growing until it reaches full maturity.
+
+At the final stage, the mature plant must be lush, healthy, and naturally covered with multiple fully grown fruits, vegetables, flowers, or produce (depending on the specified plant). The produce should be distributed across different branches or vines, creating the appearance of a realistic, high-yield, harvest-ready plant. Do not show only a single fruit or vegetable. If the plant naturally produces many fruits (such as tomato, cucumber, strawberry, chili, eggplant, grapes, etc.), show numerous ripe ones. If it is a flowering plant, show abundant blossoms. If it is a grain or crop, show a dense, fully mature harvest.
+
+The entire transformation should feel magical yet scientifically believable, with seamless growth from seed to full maturity in one continuous shot.
+
+### STYLE
+
+Ultra photorealistic, cinematic nature documentary, macro photography, 8K HDR, hyper-detailed textures, realistic soil particles, natural plant movement, volumetric lighting, National Geographic quality.
+
+### CAMERA
+
+Macro close-up with a smooth cinematic push-in, shallow depth of field, stable camera, seamless transitions, no cuts.
+
+### LIGHTING
+
+Warm golden morning sunlight with soft rays, realistic shadows, and natural outdoor lighting.
+
+### ENVIRONMENT
+
+Rich fertile garden soil with realistic moisture, clean natural background, gentle breeze.
+
+### MOTION
+
+Smooth continuous timelapse with physically believable plant growth, realistic leaf movement, and natural development from seed to mature plant.
+
+### NEGATIVE PROMPT
+
+No text, captions, subtitles, logos, watermark, extra people after planting, extra unrelated plants, blurry frames, glitches, flickering, camera shake, unrealistic colors, cartoon style, low quality, deformed plants, mutated fruits, or a single fruit on the mature plant.`
+    }
+  ],
+
+  "photoBtnText": "Create Your Plant Timelapse Video",
+  "photoBtnLink": "https://labs.google/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "{{PLANT_NAME}} ko specific plant name se replace karein (e.g., Tomato, Cucumber, Rose).",
+    "Plant ki natural growth pattern ke according prompt customize karein.",
+    "High-quality AI video platform use karein (Runway Gen-2/Gen-3, Pika, Kling, Luma).",
+    "Multiple variations generate karein aur best select karein.",
+    "Plant ki specific characteristics mention karein (color, size, leaf shape).",
+    "Fruits/vegetables ki maturity stage clearly define karein.",
+    "Natural lighting aur environment ke liye 'warm morning sunlight' use karein.",
+    "Macro close-up shots ke liye high resolution maintain karein.",
+    "Soil texture aur moisture realistic rakhne ke liye prompt exactly paste karein.",
+    "Negative prompt se important keywords remove na karein.",
+    "Timelapse duration adjust kar sakte hain (10 seconds recommended).",
+    "Plant growth stages clearly visible honi chahiye.",
+    "Fruits/vegetables multiple hone chahiye - ek nahi.",
+    "Hand interaction realistic hona chahiye.",
+    "Final video ko high quality mein export karein."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "{{PLANT_NAME}} ko replace karna bhool jana.",
+    "Single fruit/vegetation dikhana (prompt multiple produce ke liye hai).",
+    "Unrealistic plant growth speed.",
+    "Cuts ya transitions add karna (continuous shot chahiye).",
+    "Camera shake ya unstable footage.",
+    "Low resolution ya blurry output.",
+    "Unnatural colors ya cartoonish style.",
+    "Soil unrealistic ya dry dikhana.",
+    "Hand interaction missing ya unrealistic.",
+    "Plant deformed ya mutated dikhana.",
+    "Watermark ya text add karna.",
+    "Background cluttered ya unrealistic.",
+    "Lighting harsh ya unnatural.",
+    "Plant growth scientifically incorrect.",
+    "Fruits/vegetables under-ripe ya over-ripe na dikhana."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Plant Life Cycle Timelapse prompt kya hai?",
+      "answer": "Yeh ek AI video prompt hai jo kisi bhi plant ka complete life cycle seed se mature harvest-ready plant tak dikhata hai. Human hand interaction aur seamless timelapse combination iski speciality hai."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya main kisi bhi plant ke liye use kar sakta hoon?",
+      "answer": "Haan. Bas {{PLANT_NAME}} ko apni preferred plant se replace karein - Tomato, Cucumber, Strawberry, Rose, Wheat, ya koi bhi plant."
+    },
+    {
+      "id": "faq3",
+      "question": "Kya video mein human hand visible rahega?",
+      "answer": "Haan. Video human hand planting action se start hota hai, phir timelapse mein transition hota hai. Hand sirf beginning mein visible hai."
+    },
+    {
+      "id": "faq4",
+      "question": "Kitne fruits/vegetables dikhane chahiye?",
+      "answer": "Multiple fruits/vegetables hone chahiye. Agar plant naturally many produce karta hai toh numerous ripe produce dikhayein. Ek single fruit nahi dikhana."
+    },
+    {
+      "id": "faq5",
+      "question": "Kaunse AI platforms best results dete hain?",
+      "answer": "Runway Gen-2/Gen-3, Pika, Kling AI, aur Luma AI is prompt ke liye best results dete hain."
+    },
+    {
+      "id": "faq6",
+      "question": "Video kitne seconds ka hoga?",
+      "answer": "Prompt 10 seconds ke liye design kiya gaya hai, lekin platform ke hisaab se aap duration adjust kar sakte hain."
+    },
+    {
+      "id": "faq7",
+      "question": "Kya main indoor plants ke liye use kar sakta hoon?",
+      "answer": "Haan, lekin lighting aur environment ko indoor ke hisaab customize karein. Morning sunlight outdoor ke liye best hai."
+    },
+    {
+      "id": "faq8",
+      "question": "Kya plant growth scientifically accurate hona chahiye?",
+      "answer": "Haan. Prompt specifically 'scientifically believable' growth ke liye design kiya gaya hai. Unrealistic growth avoid karein."
+    },
+    {
+      "id": "faq9",
+      "question": "Kya main is video ko commercially use kar sakta hoon?",
+      "answer": "Commercial usage AI platform ki licensing policy par depend karta hai. Kuch platforms allow karte hain, kuch nahi."
+    },
+    {
+      "id": "faq10",
+      "question": "Flowering plants ke liye kya customize karein?",
+      "answer": "Fruits/vegetables ki jagah abundant blossoms show karein. Prompt mein 'flowers' ya 'blossoms' mention karein."
+    }
+  ],
+
+  "conclusion": "Plant Life Cycle Timelapse Video Prompt aapko ek stunning cinematic, educational, aur visually captivating video create karne ka mauka deta hai jo plant growth journey ko beautifully showcase karta hai. Bas ek prompt aur {{PLANT_NAME}} replace karke, aap seconds mein breathtaking National Geographic quality timelapse videos generate kar sakte hain jo social media, education, aur nature documentaries ke liye perfect hain.\n\nYeh prompt modern AI technology ko cinematic nature documentary aesthetics ke saath combine karta hai - result hamesha magical aur scientifically believable aata hai.\n\nAaj hi apna Plant Life Cycle Timelapse Video create karein aur nature ki beauty ko ek timeless cinematic moment mein transform karein!",
+
+  "tags": [
+    "Plant Life Cycle",
+    "Seed to Harvest",
+    "Timelapse Video",
+    "Cinematic Plant Growth",
+    "AI Video Generation",
+    "Nature Documentary",
+    "Macro Photography",
+    "National Geographic Style",
+    "Gardening Video",
+    "Educational AI Video",
+    "Runway AI Prompt",
+    "Pika AI Video",
+    "Kling AI",
+    "Luma AI",
+    "Plant Growth Timelapse",
+    "8K HDR Video",
+    "Cinematic AI Video",
+    "Seed Germination",
+    "AI Video Prompt",
+    "Harvest Ready Plant"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
+ {
   "id": "post-35",
   "title": "Nostalgic Birthday Self-Meet: Child Meets Adult Version - AI Video Prompt",
   "categoryId": "cat-2",
@@ -584,7 +772,7 @@ The result should feel **nostalgic, intimate, warm, emotional, imperfect, natura
 
   "isTrending": true,
   "comments": []
-},
+ },
 {
 
   "id": "post-34",
