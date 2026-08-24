@@ -380,6 +380,213 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  "id": "post-37",
+  "title": "Miniature Construction Timelapse - Zero to Completion AI Video Prompt",
+  "categoryId": "cat-2",
+  "image": "/images/post37/miniature-construction-timelapse1.avif",
+  "date": "August 24, 2026",
+  "author": "Vishu",
+
+  "introduction": "Yeh ek mind-blowing cinematic miniature construction timelapse AI video prompt hai jo kisi bhi building ya structure ko absolute zero level se fully completed final form tak dikhata hai. Is prompt ki sabse special baat yeh hai ki yeh ek highly detailed miniature construction site jaisa dikhta hai, jismein hundreds of tiny realistic construction workers actively kaam karte hain, aur poori construction process ek satisfying accelerated timelapse mein capture hoti hai.\n\nIs video mein aap dekhenge ki empty piece of land se foundation, underground structures, steel reinforcement, multiple floors, exterior finishing, aur akhir mein beautifully illuminated completed structure kaise banta hai. Saath mein tiny excavators, cranes, dump trucks, concrete mixers aur dozens of workers continuously kaam karte hain.\n\nPoora video photorealistic miniature diorama style mein capture kiya gaya hai, jismein cinematic elevated 3/4 perspective, day-to-night construction progression, aur incredibly detailed textures hain. Yeh prompt un sabhi ke liye perfect hai jo construction timelapse, architectural visualization, engineering content, ya viral miniature diorama videos create karna chahte hain.",
+
+  "whyTrending": "Miniature construction timelapse videos social media par kaafi viral ho rahe hain. Log satisfying construction videos, architectural content, aur engineering documentaries dekhna pasand kar rahe hain. Is trend ki popularity ka main reason hai 'satisfying' visual progression aur AI technology ka advancement jo ab realistic miniature construction ko seamless timelapse mein capture kar sakta hai.\n\nContent creators, architects, engineers, educators, aur construction lovers is trend ko apna rahe hain kyunki yeh building process ko ek beautiful, cinematic, aur visually satisfying way mein present karta hai. Day-to-night transition aur miniature scale consistency isko aur bhi special banata hai.",
+
+  "creationIntro": "Apna cinematic Miniature Construction Timelapse Video create karna bahut easy hai:\n\nStep 1: Koi bhi AI video generation platform open karein (Runway, Pika, Kling, ya Luma AI).\n\nStep 2: Prompt ko paste karein aur {{CONSTRUCTION_NAME}} ko apni preferred structure se replace karein (e.g., Skyscraper, Bridge, Stadium, House, Shopping Mall, Dam, etc.).\n\nStep 3: Generate karein aur multiple variations dekhein.\n\nStep 4: Best result select karein aur export karein.\n\nBas! Seconds mein AI aapka cinematic miniature construction timelapse video create kar dega.",
+
+  "photoStepTitle": "Video Prompts for Miniature Construction Timelapse",
+
+  "photoItems": [
+    {
+      "image": "/images/post37/miniature-construction-timelapse2.avif",
+      "title": "Miniature Construction Timelapse Video Prompt (Zero to Completion)",
+      "prompt": `Construction Name: {{CONSTRUCTION_NAME}}
+
+Create an ultra-realistic cinematic miniature construction timelapse of the structure specified above, showing the entire structure being built from absolute zero level to fully completed final form.
+
+The scene should look like a highly detailed miniature construction site, with hundreds of tiny realistic construction workers actively working throughout the process. Start with an empty piece of land and raw ground at the foundation level.
+
+Show the complete construction process step-by-step in a satisfying accelerated timelapse:
+1. Workers arrive and prepare the ground.
+2. Tiny excavators, cranes, dump trucks and concrete mixers begin digging and moving soil.
+3. Workers create the foundation, underground structures and base columns.
+4. Steel reinforcement, concrete foundations and structural frames are installed.
+5. Workers gradually build walls, floors, pillars and major structural elements.
+6. Cranes continuously lift heavy materials to higher levels.
+7. The building/structure grows upward floor-by-floor from the ground to the top level.
+8. Workers install roofs, glass, doors, windows, exterior panels, roads and surrounding infrastructure.
+9. Add realistic construction lights, machinery movement, dust, concrete pouring and material transportation.
+10. Finish with landscaping, road construction, lighting and final detailing.
+11. End with a spectacular fully completed {{CONSTRUCTION_NAME}}, beautifully illuminated and looking like a real miniature architectural model.
+
+Make the construction progression extremely clear: empty land → foundation → base structure → multiple levels → top level → exterior finishing → completed masterpiece.
+
+Use dozens of tiny workers visible at all times, each performing believable construction activities such as carrying materials, operating machinery, welding, installing steel, pouring concrete and working on different floors.
+
+### STYLE
+
+Photorealistic miniature diorama, incredibly detailed tiny humans and construction machinery, realistic materials, realistic shadows, cinematic depth of field, natural atmospheric lighting, subtle dust particles, highly detailed textures, realistic scale and proportions.
+
+### CAMERA
+
+Cinematic elevated 3/4 perspective, slightly top-down view, smooth slow camera movement, occasional close-up details, consistent framing throughout the timelapse.
+
+### LIGHTING
+
+Create a satisfying day-to-night construction progression with changing sunlight, sunset and nighttime construction lights where appropriate. Natural atmospheric lighting throughout.
+
+### ENVIRONMENT
+
+Empty construction site with raw ground, progressing to a fully built structure with surrounding infrastructure, roads, landscaping, and realistic construction site elements.
+
+### SCALE
+
+The miniature scale must remain consistent throughout the entire video. The workers, vehicles, cranes and building must clearly look physically connected to the same miniature world.
+
+### MOTION
+
+Fast but smooth construction timelapse. Smooth accelerated progression with believable construction activities, machinery movement, dust particles, and continuous workflow.
+
+### FORMAT
+
+9:16 vertical video, Duration: 10-15 seconds.
+
+### NEGATIVE PROMPT
+
+No dialogue, no narration, no subtitles, no text overlays, no logos, no watermark, no unrealistic object transformations, no sudden cuts between construction stages, no blurry frames, no glitches, no flickering, no camera shake, no unrealistic colors, no cartoon style, no low quality, no deformed structures.`
+    }
+  ],
+
+  "photoBtnText": "Create Your Construction Timelapse Video",
+  "photoBtnLink": "https://labs.google/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "{{CONSTRUCTION_NAME}} ko specific structure name se replace karein (e.g., Skyscraper, Bridge, Stadium).",
+    "Structure ki natural construction pattern ke according prompt customize karein.",
+    "High-quality AI video platform use karein (Runway Gen-2/Gen-3, Pika, Kling, Luma).",
+    "Multiple variations generate karein aur best select karein.",
+    "Structure ki specific characteristics mention karein (height, design, materials).",
+    "Construction stages clearly define karein.",
+    "Day-to-night transition ke liye lighting variations mention karein.",
+    "Miniature scale consistency maintain karne ke liye prompt exactly paste karein.",
+    "Workers ki activities realistic aur varied hone chahiye.",
+    "Negative prompt se important keywords remove na karein.",
+    "Timelapse duration adjust kar sakte hain (10-15 seconds recommended).",
+    "Construction machinery visible honi chahiye - excavators, cranes, trucks.",
+    "Dust, concrete pouring, aur material transportation show karein.",
+    "Final structure beautifully illuminated hona chahiye.",
+    "Final video ko high quality mein export karein."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "{{CONSTRUCTION_NAME}} ko replace karna bhool jana.",
+    "Scale inconsistency - workers aur building ka size mismatch.",
+    "Unrealistic construction speed.",
+    "Cuts ya transitions add karna (continuous timelapse chahiye).",
+    "Camera shake ya unstable footage.",
+    "Low resolution ya blurry output.",
+    "Unnatural colors ya cartoonish style.",
+    "Workers missing ya unrealistic movements.",
+    "Construction machinery invisible ya static.",
+    "Structure deformed ya unrealistic dikhana.",
+    "Watermark ya text add karna.",
+    "Day-to-night transition missing.",
+    "Lighting harsh ya unnatural.",
+    "Construction steps unclear ya skipped.",
+    "Final structure incomplete ya under-construction na dikhana."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Miniature Construction Timelapse prompt kya hai?",
+      "answer": "Yeh ek AI video prompt hai jo kisi bhi structure ko zero level se fully completed tak dikhata hai, with hundreds of tiny workers aur construction machinery in a miniature diorama style."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya main kisi bhi structure ke liye use kar sakta hoon?",
+      "answer": "Haan. Bas {{CONSTRUCTION_NAME}} ko apni preferred structure se replace karein - Skyscraper, Bridge, Stadium, House, Mall, Dam, ya koi bhi structure."
+    },
+    {
+      "id": "faq3",
+      "question": "Video mein kitne workers visible honge?",
+      "answer": "Dozens of tiny workers visible honge throughout the video, each performing different construction activities like carrying materials, welding, operating machinery, etc."
+    },
+    {
+      "id": "faq4",
+      "question": "Construction machinery dikhegi kya?",
+      "answer": "Haan. Tiny excavators, cranes, dump trucks, concrete mixers, aur other construction machinery clearly visible hogi throughout the timelapse."
+    },
+    {
+      "id": "faq5",
+      "question": "Kaunse AI platforms best results dete hain?",
+      "answer": "Runway Gen-2/Gen-3, Pika, Kling AI, aur Luma AI is prompt ke liye best results dete hain."
+    },
+    {
+      "id": "faq6",
+      "question": "Video kitne seconds ka hoga?",
+      "answer": "Prompt 10-15 seconds ke liye design kiya gaya hai, lekin platform ke hisaab se aap duration adjust kar sakte hain."
+    },
+    {
+      "id": "faq7",
+      "question": "Kya day-to-night transition possible hai?",
+      "answer": "Haan. Prompt specifically day-to-night construction progression ke liye design kiya gaya hai with changing sunlight, sunset, aur nighttime construction lights."
+    },
+    {
+      "id": "faq8",
+      "question": "Kya miniature scale consistent rahega?",
+      "answer": "Haan. Prompt specifically miniature scale consistency maintain karne ke liye design kiya gaya hai. Workers, vehicles, cranes, aur building ek hi miniature world mein dikhenge."
+    },
+    {
+      "id": "faq9",
+      "question": "Kya main is video ko commercially use kar sakta hoon?",
+      "answer": "Commercial usage AI platform ki licensing policy par depend karta hai. Kuch platforms allow karte hain, kuch nahi."
+    },
+    {
+      "id": "faq10",
+      "question": "Architectural structures ke liye kya customize karein?",
+      "answer": "Structure ki specific design, height, materials, aur unique architectural features mention karein. Example: 'glass curtain wall', 'steel frame', 'suspension bridge', etc."
+    }
+  ],
+
+  "conclusion": "Miniature Construction Timelapse Video Prompt aapko ek stunning cinematic, satisfying, aur visually captivating construction video create karne ka mauka deta hai jo building process ko beautifully showcase karta hai. Bas ek prompt aur {{CONSTRUCTION_NAME}} replace karke, aap seconds mein breathtaking miniature construction timelapse videos generate kar sakte hain jo social media, architecture, engineering, aur educational content ke liye perfect hain.\n\nYeh prompt modern AI technology ko cinematic miniature diorama aesthetics ke saath combine karta hai - result hamesha visually satisfying aur highly detailed aata hai.\n\nAaj hi apna Miniature Construction Timelapse Video create karein aur construction process ki beauty ko ek timeless cinematic moment mein transform karein!",
+
+  "tags": [
+    "Miniature Construction",
+    "Construction Timelapse",
+    "AI Video Generation",
+    "Cinematic Construction",
+    "Architectural Visualization",
+    "Engineering Video",
+    "Miniature Diorama",
+    "Satisfying Video",
+    "Construction Site",
+    "AI Video Prompt",
+    "Runway AI Prompt",
+    "Pika AI Video",
+    "Kling AI",
+    "Luma AI",
+    "Building Construction",
+    "Timelapse Video",
+    "Cinematic AI Video",
+    "Construction Workers",
+    "Heavy Machinery",
+    "Viral Construction Video"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
+ {
   "id": "post-36",
   "title": "Cinematic Plant Life Cycle Timelapse - Seed to Harvest AI Video Prompt",
   "categoryId": "cat-2",
