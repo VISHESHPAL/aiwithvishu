@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.0"; // ← Change this number
+export const DATA_VERSION = "1.0.1"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -380,6 +380,199 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  "id": "post-38",
+  "title": "Miniature Cooking ASMR - Hyper-Realistic Macro Cinematography AI Video Prompt",
+  "categoryId": "cat-2",
+  "image": "/images/post38/miniature-cooking-asmr1.avif",
+  "date": "August 26, 2026",
+  "author": "Vishu",
+
+  "introduction": "Yeh ek next-level cinematic miniature cooking ASMR AI video prompt hai jo kisi bhi dish ko hyper-realistic macro cinematography mein capture karta hai. Is prompt ki sabse special baat yeh hai ki yeh ek meticulously detailed 1:12 scale miniature kitchen set mein shoot hota hai, jismein sirf adult-sized human hands dikhte hain jo tiny ingredients aur utensils ke saath kaam karte hain.\n\nIs video mein aap dekhenge ki ek human hand miniature dough ko roll karta hai, spiced filling ko scoop karta hai, perfect paratha shape banata hai, miniature cast-iron skillet par sizzling cooking process, aur akhir mein beautifully plated miniature dish. Saath mein intense ASMR sounds - squish, sizzle, crackle, aur butter brush ke satisfying sounds.\n\nPoora video extreme macro photography style mein capture kiya gaya hai, jismein 8K resolution, HDR, shallow depth of field, aur warm cinematic lighting hai. Yeh prompt un sabhi ke liye perfect hai jo satisfying cooking content, food ASMR videos, miniature diorama content, ya viral food cinematography create karna chahte hain.",
+
+  "whyTrending": "Miniature cooking ASMR videos social media par tezi se viral ho rahe hain. Log satisfying food preparation videos, ASMR content, aur hyper-realistic miniature cinematography dekhna pasand kar rahe hain. Is trend ki popularity ka main reason hai 'satisfying' visual-texture combination aur AI technology ka advancement jo ab realistic miniature cooking ko cinematic macro quality mein capture kar sakta hai.\n\nContent creators, food bloggers, ASMR artists, aur miniature enthusiasts is trend ko apna rahe hain kyunki yeh cooking process ko ek beautiful, immersive, aur visually satisfying way mein present karta hai. Human hands ka interaction aur 1:12 scale consistency isko aur bhi special banata hai.",
+
+  "creationIntro": "Apna cinematic Miniature Cooking ASMR Video create karna bahut easy hai:\n\nStep 1: Koi bhi AI video generation platform open karein (Runway, Pika, Kling, ya Luma AI).\n\nStep 2: Prompt ko paste karein aur {{DISH_NAME}} ko apni preferred dish se replace karein (e.g., Aaloo Paratha, Pizza, Burger, Dosa, Pancake, etc.).\n\nStep 3: Generate karein aur multiple variations dekhein.\n\nStep 4: Best result select karein aur export karein.\n\nBas! Seconds mein AI aapka cinematic miniature cooking ASMR video create kar dega.",
+
+  "photoStepTitle": "Video Prompts for Miniature Cooking ASMR",
+
+  "photoItems": [
+    {
+      "image": "/images/post38/miniature-cooking-asmr2.avif",
+      "title": "Miniature Cooking ASMR Video Prompt (Hyper-Realistic Macro)",
+      "prompt": `You are an expert AI Video Maker specializing in hyper-realistic macro cinematography. Generate a cinematic, ASMR-focused miniature cooking video for the dish "{{DISH_NAME}}".
+
+CRITICAL SCALE & COMPOSITION:
+
+The entire dish and all ingredients must be MINIATURE (2–5 cm).
+
+The scene is a meticulously detailed miniature kitchen set built to 1:12 scale.
+
+SHOW ONLY realistic human hands and fingers (adult-sized) interacting with the tiny environment. The hands must look natural, with subtle skin textures and realistic movements.
+
+NEVER show a person's face, full body, or any miniature human figures/chefs.
+
+ACTION SEQUENCE & ASMR STEPS:
+
+Preparation: A human hand picks up a miniature rolling pin and a tiny ball of dough (2 cm). Focus on the satisfying thud and squish as the hand presses the dough onto a small floured cutting board.
+
+Filling: The hand uses a tiny spoon to scoop a miniature portion of spiced mashed potato (Aaloo filling) from a small copper bowl. Close-up on the sizzle and texture of the mixture as it is placed in the center of the dough.
+
+Sealing & Rolling: The hand carefully seals the dough around the filling (micro squish sounds) and uses the miniature rolling pin to gently flatten it into a perfect 4-cm circle, ensuring no filling spills out.
+
+Cooking: The hand places the tiny raw paratha onto a miniature cast-iron skillet or tawa (stove). Capture the intense sizzling and crackling ASMR as the bread cooks. The hand flips the paratha using a tiny spatula, revealing a golden-brown, blistered surface.
+
+Finishing: The hand brushes the hot paratha with a miniature silicone brush dipped in melted butter/ghee, amplifying the sizzle.
+
+Plating: The hand transfers the finished miniature {{DISH_NAME}} to a tiny ceramic serving plate, accompanied by a microscopic dollop of butter and a miniature side of pickle or yogurt.
+
+Final Shot: The video ends with the human hand picking up the tiny 4-cm finished {{DISH_NAME}}, holding it up to the camera for a final macro texture inspection.
+
+VISUAL STYLE (CINEMATIC MACRO):
+
+Technique: Extreme macro photography, 8K resolution, HDR, shallow depth of field (bokeh background).
+
+Lighting: Soft, natural side-lighting mimicking a cozy kitchen window, with warm highlights on the food's crispy texture.
+
+Background: Clean, blurred kitchen background (tiles or wooden counter) with miniature utensils hanging in the bokeh.
+
+Quality: Ultra-detailed, photorealistic textures (flour dust, potato grains, butter sheen), food-commercial quality, National Geographic documentary aesthetic.
+
+NEGATIVE PROMPT:
+NO miniature humans. NO tiny chefs. NO human faces or full bodies. NO giant or oversized food. NO CGI or cartoon styles. NO text, watermarks, or logos. NO unrealistic proportions. NO fast motion (maintain natural cooking speed with focused ASMR).`
+    }
+  ],
+
+  "photoBtnText": "Create Your Miniature Cooking ASMR Video",
+  "photoBtnLink": "https://labs.google/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "{{DISH_NAME}} ko specific dish name se replace karein (e.g., Aaloo Paratha, Pizza, Burger, Dosa, Pancake, Momo, etc.).",
+    "Dish ki natural cooking process ke according prompt customize karein.",
+    "High-quality AI video platform use karein (Runway Gen-2/Gen-3, Pika, Kling, Luma).",
+    "Multiple variations generate karein aur best select karein.",
+    "Dish ki specific characteristics mention karein (filling, texture, color, size).",
+    "Cooking steps clearly define karein.",
+    "ASMR sounds ke liye audio-focused platform use karein.",
+    "Miniature scale consistency maintain karne ke liye prompt exactly paste karein.",
+    "Hand movements realistic aur smooth hone chahiye.",
+    "Negative prompt se important keywords remove na karein.",
+    "Lighting natural aur warm rakhein.",
+    "Background clean aur blurred hona chahiye.",
+    "Final plating beautiful aur appetizing dikhe.",
+    "Final shot mein dish ko camera ke paas le jaayein.",
+    "Final video ko high quality mein export karein."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "{{DISH_NAME}} ko replace karna bhool jana.",
+    "Scale inconsistency - ingredients aur hands ka size mismatch.",
+    "Human face ya full body dikhana.",
+    "Miniature chefs ya figures add karna.",
+    "Fast motion use karna (ASMR ke liye natural speed chahiye).",
+    "Blurry ya low quality output.",
+    "Unnatural colors ya cartoonish style.",
+    "Hand movements robotic ya unrealistic.",
+    "Cooking steps skip karna ya unclear hona.",
+    "Final dish incomplete ya undercooked dikhana.",
+    "Watermark ya text add karna.",
+    "Lighting harsh ya unnatural.",
+    "Background messy ya distracting.",
+    "Ingredients oversized ya unrealistic.",
+    "ASMR sounds missing ya weak."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Miniature Cooking ASMR prompt kya hai?",
+      "answer": "Yeh ek AI video prompt hai jo kisi bhi dish ko hyper-realistic macro cinematography mein capture karta hai, with adult hands interacting with miniature ingredients in a 1:12 scale kitchen set."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya main kisi bhi dish ke liye use kar sakta hoon?",
+      "answer": "Haan. Bas {{DISH_NAME}} ko apni preferred dish se replace karein - Aaloo Paratha, Pizza, Burger, Dosa, Pancake, Momo, ya koi bhi dish."
+    },
+    {
+      "id": "faq3",
+      "question": "Video mein human hands kyun dikhte hain?",
+      "answer": "Human hands scale reference provide karte hain aur ASMR experience enhance karte hain. Hands realistic movements ke saath miniature environment ke saath interact karte hain."
+    },
+    {
+      "id": "faq4",
+      "question": "Miniature scale kitna chhota hai?",
+      "answer": "All ingredients 2-5 cm size mein hote hain. Entire kitchen set 1:12 scale par build hota hai, jo realistic miniature diorama jaisa dikhta hai."
+    },
+    {
+      "id": "faq5",
+      "question": "Kaunse AI platforms best results dete hain?",
+      "answer": "Runway Gen-2/Gen-3, Pika, Kling AI, aur Luma AI is prompt ke liye best results dete hain."
+    },
+    {
+      "id": "faq6",
+      "question": "Video kitne seconds ka hoga?",
+      "answer": "Prompt natural cooking speed ke saath design kiya gaya hai, generally 15-30 seconds recommended hai."
+    },
+    {
+      "id": "faq7",
+      "question": "Kya ASMR sounds capture honge?",
+      "answer": "Haan. Prompt specifically squish, sizzle, crackle, aur butter brush sounds capture karne ke liye design kiya gaya hai."
+    },
+    {
+      "id": "faq8",
+      "question": "Kya final dish beautifully plated hogi?",
+      "answer": "Haan. Prompt specifically beautiful plating ke liye design kiya gaya hai with ceramic plates, butter dollops, aur side accompaniments."
+    },
+    {
+      "id": "faq9",
+      "question": "Kya main is video ko commercially use kar sakta hoon?",
+      "answer": "Commercial usage AI platform ki licensing policy par depend karta hai. Kuch platforms allow karte hain, kuch nahi."
+    },
+    {
+      "id": "faq10",
+      "question": "Different dishes ke liye kya customize karein?",
+      "answer": "Dish ki specific ingredients, cooking steps, filling, texture, aur plating style mention karein. Example: 'cheese filling', 'crispy crust', 'chocolate drizzle', etc."
+    }
+  ],
+
+  "conclusion": "Miniature Cooking ASMR Video Prompt aapko ek stunning cinematic, satisfying, aur visually captivating cooking video create karne ka mauka deta hai jo food preparation process ko beautifully showcase karta hai. Bas ek prompt aur {{DISH_NAME}} replace karke, aap seconds mein breathtaking miniature cooking ASMR videos generate kar sakte hain jo social media, food blogs, ASMR channels, aur culinary content ke liye perfect hain.\n\nYeh prompt modern AI technology ko cinematic macro cinematography ke saath combine karta hai - result hamesha visually satisfying aur highly detailed aata hai.\n\nAaj hi apna Miniature Cooking ASMR Video create karein aur cooking ki beauty ko ek timeless cinematic moment mein transform karein!",
+
+  "tags": [
+    "Miniature Cooking",
+    "Cooking ASMR",
+    "AI Video Generation",
+    "Cinematic Cooking",
+    "Food Cinematography",
+    "ASMR Video",
+    "Miniature Diorama",
+    "Satisfying Video",
+    "Macro Photography",
+    "AI Video Prompt",
+    "Runway AI Prompt",
+    "Pika AI Video",
+    "Kling AI",
+    "Luma AI",
+    "Food Content",
+    "ASMR Cooking",
+    "Cinematic AI Video",
+    "Miniature Food",
+    "Hyper-Realistic",
+    "Viral Food Video"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
+ {
   "id": "post-37",
   "title": "Miniature Construction Timelapse - Zero to Completion AI Video Prompt",
   "categoryId": "cat-2",
