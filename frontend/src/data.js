@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.1"; // ← Change this number
+export const DATA_VERSION = "1.0.0"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -380,6 +380,165 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  "id": "post-39",
+  "title": "Beutiful look in Saree Flower Field Portrait - Ethereal AI Image Prompt",
+  "categoryId": "cat-3",
+  "image": "/images/post39/cosmos-flower-portrait1.avif",
+  "date": "August 30, 2026",
+  "author": "Vishu",
+
+  "introduction": "Yeh ek stunning dreamy aur ethereal AI image prompt hai jo cosmos flower field mein ek beautiful portrait create karta hai. Is prompt ki special baat yeh hai ki yeh soft-focused flowers ko foreground mein use karta hai, jo subject ko partially cover karte hain aur ek natural depth create karte hain.\n\nIs image mein aap dekhenge ek gently blurred subject with natural expression, surrounded by soft pink aur white cosmos flowers. Shallow depth of field, heavy bokeh, aur soft daylight isko ek romantic aur nostalgic vintage film look deta hai. Pastel tones, subtle grain, aur ethereal mood is image ko aur bhi special banata hai.\n\nYeh prompt un sabhi ke liye perfect hai jo dreamy portraits, vintage-style photography, floral backgrounds, ya ethereal aesthetic create karna chahte hain.",
+
+  "whyTrending": "Ethereal portraits aur vintage-style photography social media par tezi se popular ho rahe hain. Log dreamy, soft-focus images pasand kar rahe hain jo ek nostalgic aur romantic feel dete hain. Cosmos flower field portraits specially trendy hain kyunki yeh natural beauty aur soft pastel tones ko beautifully combine karte hain.\n\nPhotographers, content creators, aur social media influencers is trend ko apna rahe hain kyunki yeh portraits ko ek artistic, timeless, aur visually captivating way mein present karta hai. Shallow depth of field aur bokeh effect isko aur bhi professional aur cinematic banata hai.",
+
+  "creationIntro": "Apna dreamy Cosmos Flower Field Portrait create karna bahut easy hai:\n\nStep 1: Sabse pehle reference image download karein (jo is post mein di gayi hai) aur apni ek personal photo.\n\nStep 2: ChatGPT ya kisi bhi AI image generation platform (Midjourney, DALL-E, Stable Diffusion, Leonardo AI) mein dono images upload karein - reference image aur apni photo.\n\nStep 3: Neeche diya gaya prompt copy karein aur paste karein.\n\nStep 4: Generate karein aur multiple variations dekhein.\n\nStep 5: Best result select karein aur download karein.\n\nBas! Seconds mein AI aapka dreamy cosmos flower portrait create kar dega.",
+
+  "photoStepTitle": "AI Prompts for Dreamy Cosmos Flower Portraits",
+
+  "photoItems": [
+    {
+      "image": "/images/post39/cosmos-flower-portrait2.avif",
+      "title": "Dreamy Cosmos Flower Field Portrait Prompt (Ethereal & Vintage)",
+      "prompt": `Using my uploaded photo as the main reference, create a dreamy, ethereal portrait in a cosmos flower field.Soft-focused flowers in the foreground partially cover the subject, creating depth.The subject remains gently blurred with a natural expression.Shallow depth of field, heavy bokeh, soft daylight, pastel pink and white tones, vintage film look, subtle grain, romantic and nostalgic mood. `    
+    },
+    {
+      "image": "/images/post39/cosmos-flower-portrait3.avif",
+      "title": "Dreamy Cosmos Flower Field Portrait Prompt (Ethereal & Vintage)",
+      "prompt": `Using my uploaded photo as the main reference, create a dreamy, ethereal portrait in a cosmos flower field.Soft-focused flowers in the foreground partially cover the subject, creating depth.The subject remains gently blurred with a natural expression.Shallow depth of field, heavy bokeh, soft daylight, pastel pink and white tones, vintage film look, subtle grain, romantic and nostalgic mood. `
+    }
+  ],
+
+  "photoBtnText": "Create Your Dreamy Cosmos Portrait",
+  "photoBtnLink": "https://chatgpt.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "Reference image ko achhe se observe karein aur uski composition, colors, aur mood ko samjhein.",
+    "Apni personal photo upload karte waqt ensure karein ki photo high quality aur clear ho.",
+    "Subject ki expression natural aur relaxed honi chahiye.",
+    "Cosmos flowers ke colors ko reference image ke hisaab se match karein.",
+    "Multiple variations generate karein aur best select karein.",
+    "Lighting soft aur natural rakhein - golden hour best hai.",
+    "Pastel pink aur white tones ko prioritize karein.",
+    "Bokeh effect heavy aur creamy hona chahiye.",
+    "Vintage film look ke liye subtle grain add karein.",
+    "Foreground flowers ko intentionally blur rakhein for depth.",
+    "Subject ko center ya rule of thirds ke hisaab se place karein.",
+    "Background clean aur minimal rakhein.",
+    "Mood romantic aur nostalgic hona chahiye.",
+    "Final image ko high quality mein export karein.",
+    "Different AI platforms try karein for best results."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Reference image upload karna bhool jana.",
+    "Apni photo upload na karna (result generic aayega).",
+    "Sharp focus use karna (soft blur required hai).",
+    "Vibrant ya saturated colors use karna.",
+    "Artificial lighting use karna (natural light required).",
+    "Foreground flowers ko sharp rakhna.",
+    "Subject ko over-powering rakhna.",
+    "Background mein distracting elements add karna.",
+    "Modern digital sharpness keep karna.",
+    "Dark ya moody tones use karna.",
+    "Subject ki expression unnatural hona.",
+    "CGI ya cartoonish style aana.",
+    "Watermark ya text add karna.",
+    "Harsh shadows create hona.",
+    "Grain missing hona (vintage feel ke liye required)."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Dreamy Cosmos Portrait prompt kya hai?",
+      "answer": "Yeh ek AI image prompt hai jo cosmos flower field mein ek ethereal, vintage-style portrait create karta hai with soft focus, heavy bokeh, aur pastel tones."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya main apni personal photo use kar sakta hoon?",
+      "answer": "Haan. Steps mein diya gaya hai - reference image aur apni photo ChatGPT ya AI platform mein upload karein for personalized results."
+    },
+    {
+      "id": "faq3",
+      "question": "Kaunse AI platforms best results dete hain?",
+      "answer": "ChatGPT (DALL-E), Midjourney, Stable Diffusion, aur Leonardo AI is prompt ke liye best results dete hain."
+    },
+    {
+      "id": "faq4",
+      "question": "Image mein foreground flowers kyun blur hain?",
+      "answer": "Foreground flowers intentionally blur kiye gaye hain to create depth aur ek natural framing effect ke liye, jo image ko dreamy aur professional banata hai."
+    },
+    {
+      "id": "faq5",
+      "question": "Vintage film look kaise achieve karein?",
+      "answer": "Prompt mein subtle grain, soft halation, aur gentle color grading included hai. Proper lighting aur pastel tones bhi vintage look contribute karte hain."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya main commercially use kar sakta hoon?",
+      "answer": "Commercial usage AI platform ki licensing policy par depend karta hai. Kuch platforms allow karte hain, kuch nahi."
+    },
+    {
+      "id": "faq7",
+      "question": "Subject ka expression kaisa hona chahiye?",
+      "answer": "Subject ki expression natural, relaxed, aur peaceful honi chahiye - thoda side dekhte hue ya eyes closed, romantic mood ke liye."
+    },
+    {
+      "id": "faq8",
+      "question": "Colors kaunsa use karein?",
+      "answer": "Pastel pink, white, soft green, aur warm cream tones use karein. Vibrant colors avoid karein."
+    },
+    {
+      "id": "faq9",
+      "question": "Lighting kaunsa best hai?",
+      "answer": "Soft, diffused daylight - golden hour ya overcast natural light best hai for dreamy effect."
+    },
+    {
+      "id": "faq10",
+      "question": "Kya multiple variations generate kar sakte hain?",
+      "answer": "Haan. Multiple variations generate karein aur apne hisaab ka best select karein. Different platforms different results dete hain."
+    }
+  ],
+
+  "conclusion": "Dreamy Cosmos Flower Field Portrait AI Prompt aapko ek stunning, ethereal, aur vintage-style portrait create karne ka mauka deta hai jo soft-focus flowers, heavy bokeh, aur romantic nostalgia ko beautifully combine karta hai. Bas reference image download karein, apni photo upload karein, aur prompt paste karein - seconds mein AI aapka dreamy cosmos portrait create kar dega.\n\nYeh prompt modern AI technology ko vintage cinematography ke saath combine karta hai - result hamesha visually captivating aur artistically beautiful aata hai.\n\nAaj hi apna Dreamy Cosmos Portrait create karein aur apni photography ko ek timeless, romantic masterpiece mein transform karein!",
+
+  "tags": [
+    "Dreamy Portrait",
+    "Cosmos Flowers",
+    "Ethereal Photography",
+    "Vintage Portrait",
+    "AI Image Generation",
+    "Pastel Aesthetic",
+    "Bokeh Photography",
+    "Romantic Portrait",
+    "Nostalgic Photography",
+    "Flower Field",
+    "Fine Art Portrait",
+    "AI Art",
+    "ChatGPT Image",
+    "Midjourney Prompt",
+    "Stable Diffusion",
+    "Leonardo AI",
+    "Soft Focus",
+    "Dreamy Aesthetic",
+    "Editorial Portrait",
+    "Vintage Film Look"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
+ {
   "id": "post-38",
   "title": "Miniature Cooking ASMR - Hyper-Realistic Macro Cinematography AI Video Prompt",
   "categoryId": "cat-2",
