@@ -1,4 +1,4 @@
-import { useState, useEffect, lazy, Suspense, useMemo } from "react";
+import { useState, useEffect, lazy, Suspense, useMemo, useCallback } from "react";
 import { BrowserRouter, useNavigate, useLocation } from "react-router-dom";
 import { ChevronUp, ChevronLeft, ChevronRight } from "lucide-react";
 import Navbar from "./components/Navbar";
@@ -14,43 +14,138 @@ function AppContent() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // 🔥 POSTS with VERSION CHECK
+  // ============================================================
+  // 🔥 INITIALIZE DATA - Sirf ek baar load ho
+  // ============================================================
   const [posts, setPosts] = useState(() => {
-    const savedVersion = localStorage.getItem("vishu_data_version");
     const saved = localStorage.getItem("vishu_posts");
-    
-    if (savedVersion !== DATA_VERSION || !saved) {
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        if (parsed.length > 0) return parsed;
+      } catch (e) {}
+    }
+    localStorage.setItem("vishu_posts", JSON.stringify(INITIAL_POSTS));
+    return INITIAL_POSTS;
+  });
+
+  const [categories, setCategories] = useState(() => {
+    const saved = localStorage.getItem("vishu_categories");
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        if (parsed.length > 0) return parsed;
+      } catch (e) {}
+    }
+    localStorage.setItem("vishu_categories", JSON.stringify(INITIAL_CATEGORIES));
+    return INITIAL_CATEGORIES;
+  });
+
+  const [pages, setPages] = useState(() => {
+    const saved = localStorage.getItem("vishu_pages");
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        if (parsed.length > 0) return parsed;
+      } catch (e) {}
+    }
+    localStorage.setItem("vishu_pages", JSON.stringify(INITIAL_PAGES));
+    return INITIAL_PAGES;
+  });
+
+  // ============================================================
+  // 🔥 VERSION CHECK - Sirf DATA_VERSION change pe reset
+  // ============================================================
+  useEffect(() => {
+    const savedVersion = localStorage.getItem("vishu_data_version");
+    if (savedVersion !== DATA_VERSION) {
       localStorage.setItem("vishu_data_version", DATA_VERSION);
       localStorage.setItem("vishu_posts", JSON.stringify(INITIAL_POSTS));
-      return INITIAL_POSTS;
-    }
-    return JSON.parse(saved);
-  });
-
-  // 🔥 CATEGORIES with VERSION CHECK
-  const [categories, setCategories] = useState(() => {
-    const savedVersion = localStorage.getItem("vishu_data_version");
-    const saved = localStorage.getItem("vishu_categories");
-    
-    if (savedVersion !== DATA_VERSION || !saved) {
       localStorage.setItem("vishu_categories", JSON.stringify(INITIAL_CATEGORIES));
-      return INITIAL_CATEGORIES;
-    }
-    return JSON.parse(saved);
-  });
-
-  // 🔥 PAGES with VERSION CHECK
-  const [pages, setPages] = useState(() => {
-    const savedVersion = localStorage.getItem("vishu_data_version");
-    const saved = localStorage.getItem("vishu_pages");
-    
-    if (savedVersion !== DATA_VERSION || !saved) {
       localStorage.setItem("vishu_pages", JSON.stringify(INITIAL_PAGES));
-      return INITIAL_PAGES;
+      localStorage.setItem("vishu_state_version", "0");
+      
+      // Reload data
+      setPosts(INITIAL_POSTS);
+      setCategories(INITIAL_CATEGORIES);
+      setPages(INITIAL_PAGES);
     }
-    return JSON.parse(saved);
+  }, []);
+
+  // ============================================================
+  // 🔥 STATE VERSION - Force re-render
+  // ============================================================
+  const [stateVersion, setStateVersion] = useState(() => {
+    return parseInt(localStorage.getItem("vishu_state_version") || "0");
   });
 
+  const forceReRender = useCallback(() => {
+    const newVersion = stateVersion + 1;
+    setStateVersion(newVersion);
+    localStorage.setItem("vishu_state_version", String(newVersion));
+  }, [stateVersion]);
+
+  // ============================================================
+  // 🔥 SAVE FUNCTIONS - Auto-save + force re-render
+  // ============================================================
+  const savePosts = useCallback((newPosts) => {
+    setPosts(newPosts);
+    localStorage.setItem("vishu_posts", JSON.stringify(newPosts));
+    forceReRender();
+  }, [forceReRender]);
+
+  const saveCategories = useCallback((newCategories) => {
+    setCategories(newCategories);
+    localStorage.setItem("vishu_categories", JSON.stringify(newCategories));
+    forceReRender();
+  }, [forceReRender]);
+
+  const savePages = useCallback((newPages) => {
+    setPages(newPages);
+    localStorage.setItem("vishu_pages", JSON.stringify(newPages));
+    forceReRender();
+  }, [forceReRender]);
+
+  // ============================================================
+  // 🔥 STORAGE EVENT - Cross-tab updates (lightweight)
+  // ============================================================
+  useEffect(() => {
+    const handleStorageChange = (e) => {
+      if (e.key === "vishu_posts") {
+        try {
+          const newPosts = JSON.parse(e.newValue);
+          if (newPosts && newPosts.length > 0) {
+            setPosts(newPosts);
+          }
+        } catch (e) {}
+      }
+      if (e.key === "vishu_categories") {
+        try {
+          const newCategories = JSON.parse(e.newValue);
+          if (newCategories && newCategories.length > 0) {
+            setCategories(newCategories);
+          }
+        } catch (e) {}
+      }
+      if (e.key === "vishu_pages") {
+        try {
+          const newPages = JSON.parse(e.newValue);
+          if (newPages && newPages.length > 0) {
+            setPages(newPages);
+          }
+        } catch (e) {}
+      }
+      if (e.key === "vishu_state_version") {
+        setStateVersion(parseInt(e.newValue) || 0);
+      }
+    };
+    window.addEventListener("storage", handleStorageChange);
+    return () => window.removeEventListener("storage", handleStorageChange);
+  }, []);
+
+  // ============================================================
+  // 🔥 OTHER STATES
+  // ============================================================
   const [activeTab, setActiveTab] = useState(() => {
     const saved = localStorage.getItem("vishu_active_tab");
     return saved || "home";
@@ -69,7 +164,20 @@ function AppContent() {
   const [currentPage, setCurrentPage] = useState(1);
   const POSTS_PER_PAGE = 10;
 
-  // ✅ Scroll debounce
+  // ============================================================
+  // 🔥 SYNC NON-CRITICAL STATES
+  // ============================================================
+  useEffect(() => {
+    localStorage.setItem("vishu_active_tab", activeTab);
+  }, [activeTab]);
+
+  useEffect(() => {
+    localStorage.setItem("vishu_dark_mode", String(darkMode));
+  }, [darkMode]);
+
+  // ============================================================
+  // 🔥 SCROLL HANDLER
+  // ============================================================
   useEffect(() => {
     let timeoutId;
     const handleScroll = () => {
@@ -85,59 +193,43 @@ function AppContent() {
     };
   }, []);
 
-  // ✅ Reset page when category or search changes
+  // ============================================================
+  // 🔥 RESET PAGE ON FILTER CHANGE
+  // ============================================================
   useEffect(() => {
     setCurrentPage(1);
   }, [activeTab, searchQuery]);
 
-  // Sync to localStorage
-  useEffect(() => {
-    localStorage.setItem("vishu_posts", JSON.stringify(posts));
-    localStorage.setItem("vishu_data_version", DATA_VERSION);
-  }, [posts]);
-
-  useEffect(() => {
-    localStorage.setItem("vishu_categories", JSON.stringify(categories));
-  }, [categories]);
-
-  useEffect(() => {
-    localStorage.setItem("vishu_pages", JSON.stringify(pages));
-  }, [pages]);
-
-  useEffect(() => {
-    localStorage.setItem("vishu_active_tab", activeTab);
-  }, [activeTab]);
-
-  useEffect(() => {
-    localStorage.setItem("vishu_dark_mode", String(darkMode));
-  }, [darkMode]);
-
-  // Helper functions
-  const createPostSlug = (title) => {
+  // ============================================================
+  // 🔥 HELPER FUNCTIONS
+  // ============================================================
+  const createPostSlug = useCallback((title) => {
     return title
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, '-')
       .replace(/^-+|-+$/g, '');
-  };
+  }, []);
 
-  const getCategoryBySlug = (slug) => {
+  const getCategoryBySlug = useCallback((slug) => {
     return categories.find(c => c.slug === slug);
-  };
+  }, [categories]);
 
-  const getPageBySlug = (slug) => {
+  const getPageBySlug = useCallback((slug) => {
     return pages.find(p => p.id === slug);
-  };
+  }, [pages]);
 
-  const getPostBySlugs = (categorySlug, postSlug) => {
+  const getPostBySlugs = useCallback((categorySlug, postSlug) => {
     const category = getCategoryBySlug(categorySlug);
     if (!category) return null;
     return posts.find(p => 
       p.categoryId === category.id && 
       createPostSlug(p.title) === postSlug
     );
-  };
+  }, [posts, getCategoryBySlug, createPostSlug]);
 
-  // Sync URL with activeTab
+  // ============================================================
+  // 🔥 URL SYNC
+  // ============================================================
   useEffect(() => {
     const path = location.pathname;
     
@@ -147,7 +239,6 @@ function AppContent() {
     }
 
     const pathParts = path.split('/').filter(Boolean);
-    
     if (pathParts.length === 0) {
       setActiveTab("home");
       return;
@@ -177,22 +268,20 @@ function AppContent() {
     }
 
     setActiveTab("home");
-  }, [location.pathname, categories, posts, pages]);
+  }, [location.pathname, getCategoryBySlug, getPageBySlug, getPostBySlugs]);
 
-  const handleScrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
-  // Navigation functions
-  const navigateToHome = () => {
+  // ============================================================
+  // 🔥 NAVIGATION FUNCTIONS
+  // ============================================================
+  const navigateToHome = useCallback(() => {
     navigate("/");
     setActiveTab("home");
     setSearchQuery("");
     setCurrentPage(1);
     window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+  }, [navigate]);
 
-  const navigateToCategory = (catId) => {
+  const navigateToCategory = useCallback((catId) => {
     const category = categories.find(c => c.id === catId);
     if (category) {
       navigate(`/${category.slug}`);
@@ -200,9 +289,9 @@ function AppContent() {
       setCurrentPage(1);
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
-  };
+  }, [navigate, categories]);
 
-  const navigateToPost = (postId) => {
+  const navigateToPost = useCallback((postId) => {
     const post = posts.find(p => p.id === postId);
     if (post) {
       const category = categories.find(c => c.id === post.categoryId);
@@ -213,56 +302,61 @@ function AppContent() {
         window.scrollTo({ top: 0, behavior: "smooth" });
       }
     }
-  };
+  }, [navigate, posts, categories, createPostSlug]);
 
-  const navigateToPage = (pageId) => {
+  const navigateToPage = useCallback((pageId) => {
     navigate(`/${pageId}`);
     setActiveTab(`page-${pageId}`);
     setCurrentPage(1);
     window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+  }, [navigate]);
 
-  // FORCE RESET
-  const forceResetData = () => {
-    if (window.confirm('⚠️ Reset all data to default?')) {
-      localStorage.clear();
-      window.location.reload();
-    }
-  };
+  // ============================================================
+  // 🔥 SCROLL TO TOP
+  // ============================================================
+  const handleScrollToTop = useCallback(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
 
-  // CATEGORY OPERATIONS
-  const handleAddCategory = (name) => {
+  // ============================================================
+  // 🔥 CATEGORY OPERATIONS
+  // ============================================================
+  const handleAddCategory = useCallback((name) => {
     const newSlug = name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
     const newCat = {
       id: "cat-" + Date.now(),
       name,
       slug: newSlug,
     };
-    setCategories([...categories, newCat]);
-  };
+    saveCategories([...categories, newCat]);
+  }, [categories, saveCategories]);
 
-  const handleEditCategory = (id, newName) => {
+  const handleEditCategory = useCallback((id, newName) => {
     const newSlug = newName.toLowerCase().replace(/[^a-z0-9]+/g, "-");
-    setCategories(
+    saveCategories(
       categories.map((c) =>
         c.id === id ? { ...c, name: newName, slug: newSlug } : c,
       ),
     );
-  };
+  }, [categories, saveCategories]);
 
-  const handleDeleteCategory = (id) => {
-    setCategories(categories.filter((c) => c.id !== id));
-    setPosts(
-      posts.map((p) => (p.categoryId === id ? { ...p, categoryId: "" } : p)),
+  const handleDeleteCategory = useCallback((id) => {
+    saveCategories(categories.filter((c) => c.id !== id));
+    const updatedPosts = posts.map((p) => 
+      p.categoryId === id ? { ...p, categoryId: "" } : p
     );
+    savePosts(updatedPosts);
+    
     if (activeTab === `cat-${id}`) {
       navigate("/");
       setActiveTab("home");
     }
-  };
+  }, [categories, posts, saveCategories, savePosts, activeTab, navigate]);
 
-  // POST OPERATIONS
-  const handleSavePost = (savedPost) => {
+  // ============================================================
+  // 🔥 POST OPERATIONS
+  // ============================================================
+  const handleSavePost = useCallback((savedPost) => {
     const exists = posts.some((p) => p.id === savedPost.id);
     let updatedPosts;
     if (exists) {
@@ -270,7 +364,7 @@ function AppContent() {
     } else {
       updatedPosts = [savedPost, ...posts];
     }
-    setPosts(updatedPosts);
+    savePosts(updatedPosts);
     setEditingPost(null);
     setIsCreatingPost(false);
     
@@ -284,23 +378,27 @@ function AppContent() {
       setActiveTab("home");
     }
     window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+  }, [posts, categories, savePosts, navigate, createPostSlug]);
 
-  const handleDeletePost = (postId) => {
-    setPosts(posts.filter((p) => p.id !== postId));
+  const handleDeletePost = useCallback((postId) => {
+    savePosts(posts.filter((p) => p.id !== postId));
     if (activeTab === `post-${postId}`) {
       navigate("/");
       setActiveTab("home");
     }
-  };
+  }, [posts, savePosts, activeTab, navigate]);
 
-  // PAGE OPERATIONS
-  const handleSavePage = (updatedPage) => {
-    setPages(pages.map((p) => (p.id === updatedPage.id ? updatedPage : p)));
-  };
+  // ============================================================
+  // 🔥 PAGE OPERATIONS
+  // ============================================================
+  const handleSavePage = useCallback((updatedPage) => {
+    savePages(pages.map((p) => (p.id === updatedPage.id ? updatedPage : p)));
+  }, [pages, savePages]);
 
-  // ADD COMMENT
-  const handleAddComment = (postId, commentDetails) => {
+  // ============================================================
+  // 🔥 COMMENT OPERATIONS
+  // ============================================================
+  const handleAddComment = useCallback((postId, commentDetails) => {
     const newComment = {
       id: "comm-" + Date.now(),
       author: commentDetails.author,
@@ -313,7 +411,7 @@ function AppContent() {
       }),
     };
 
-    setPosts(
+    savePosts(
       posts.map((p) => {
         if (p.id === postId) {
           return {
@@ -324,10 +422,12 @@ function AppContent() {
         return p;
       }),
     );
-  };
+  }, [posts, savePosts]);
 
-  // FILTER LOGIC
-  const getFilteredPosts = () => {
+  // ============================================================
+  // 🔥 FILTER LOGIC - useMemo for performance
+  // ============================================================
+  const filteredPosts = useMemo(() => {
     let result = posts;
 
     if (activeTab.startsWith("cat-")) {
@@ -341,44 +441,70 @@ function AppContent() {
         (p) =>
           p.title.toLowerCase().includes(query) ||
           p.introduction.toLowerCase().includes(query) ||
-          p.tags.some((t) => t.toLowerCase().includes(query)),
+          (p.tags && p.tags.some((t) => t.toLowerCase().includes(query))),
       );
     }
 
     return result;
-  };
+  }, [posts, activeTab, searchQuery]);
 
-  const filteredPosts = getFilteredPosts();
-  
-  // ✅ PAGINATION CALCULATIONS
+  // ✅ PAGINATION CALCULATIONS - useMemo
   const totalPosts = filteredPosts.length;
   const totalPages = Math.ceil(totalPosts / POSTS_PER_PAGE);
   const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
   const endIndex = startIndex + POSTS_PER_PAGE;
-  const currentPosts = filteredPosts.slice(startIndex, endIndex);
+  const currentPosts = useMemo(() => {
+    return filteredPosts.slice(startIndex, endIndex);
+  }, [filteredPosts, startIndex, endIndex]);
 
-  // ✅ Pagination Handlers
-  const goToNextPage = () => {
+  // ✅ Get current data - useMemo
+  const currentCategory = useMemo(() => {
+    if (activeTab.startsWith("cat-")) {
+      const catId = activeTab.replace("cat-", "");
+      return categories.find((c) => c.id === catId);
+    }
+    return null;
+  }, [activeTab, categories]);
+
+  const currentPost = useMemo(() => {
+    if (activeTab.startsWith("post-")) {
+      const postId = activeTab.replace("post-", "");
+      return posts.find(p => p.id === postId);
+    }
+    return null;
+  }, [activeTab, posts]);
+
+  const currentPageContent = useMemo(() => {
+    if (activeTab.startsWith("page-")) {
+      const pageId = activeTab.replace("page-", "");
+      return pages.find(p => p.id === pageId);
+    }
+    return null;
+  }, [activeTab, pages]);
+
+  // ============================================================
+  // 🔥 PAGINATION HANDLERS
+  // ============================================================
+  const goToNextPage = useCallback(() => {
     if (currentPage < totalPages) {
       setCurrentPage(currentPage + 1);
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
-  };
+  }, [currentPage, totalPages]);
 
-  const goToPrevPage = () => {
+  const goToPrevPage = useCallback(() => {
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
-  };
+  }, [currentPage]);
 
-  const goToPage = (page) => {
+  const goToPage = useCallback((page) => {
     setCurrentPage(page);
     window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+  }, []);
 
-  // Get page numbers to display
-  const getPageNumbers = () => {
+  const getPageNumbers = useCallback(() => {
     const pages = [];
     const maxVisible = 5;
     let start = Math.max(1, currentPage - 2);
@@ -392,49 +518,29 @@ function AppContent() {
       pages.push(i);
     }
     return pages;
-  };
+  }, [currentPage, totalPages]);
 
-  const currentCategory = activeTab.startsWith("cat-")
-    ? categories.find((c) => c.id === activeTab.replace("cat-", ""))
-    : null;
-
-  const getCurrentPost = () => {
-    if (activeTab.startsWith("post-")) {
-      const postId = activeTab.replace("post-", "");
-      return posts.find(p => p.id === postId);
-    }
-    return null;
-  };
-
-  const currentPost = getCurrentPost();
-
-  const getCurrentPageContent = () => {
-    if (activeTab.startsWith("page-")) {
-      const pageId = activeTab.replace("page-", "");
-      return pages.find(p => p.id === pageId);
-    }
-    return null;
-  };
-
-  const currentPageContent = getCurrentPageContent();
-
-  // Loading component
-  const LoadingFallback = () => (
+  // ============================================================
+  // 🔥 LOADING FALLBACK
+  // ============================================================
+  const LoadingFallback = useMemo(() => (
     <div className="flex justify-center items-center py-12">
       <div className="animate-pulse flex flex-col items-center gap-2">
         <div className="w-12 h-12 border-4 border-sky-600 border-t-transparent rounded-full animate-spin"></div>
         <p className="text-sm text-gray-500 dark:text-gray-400">Loading...</p>
       </div>
     </div>
-  );
+  ), []);
 
-  // Render main content
-  const renderMainContent = () => {
-    // Post Detail View
+  // ============================================================
+  // 🔥 RENDER MAIN CONTENT
+  // ============================================================
+  const renderMainContent = useMemo(() => {
     if (activeTab.startsWith("post-") && currentPost) {
       return (
-        <Suspense fallback={<LoadingFallback />}>
+        <Suspense fallback={LoadingFallback}>
           <PostDetail
+            key={`post-detail-${stateVersion}`}
             post={currentPost}
             categories={categories}
             allPosts={posts}
@@ -461,7 +567,6 @@ function AppContent() {
       );
     }
 
-    // Post not found
     if (activeTab.startsWith("post-") && !currentPost) {
       return (
         <div className="p-8 text-center bg-white dark:bg-neutral-900 border dark:border-neutral-800">
@@ -476,11 +581,11 @@ function AppContent() {
       );
     }
 
-    // Page View
     if (activeTab.startsWith("page-") && currentPageContent) {
       return (
-        <Suspense fallback={<LoadingFallback />}>
+        <Suspense fallback={LoadingFallback}>
           <PageContent
+            key={`page-${currentPageContent.id}-${stateVersion}`}
             page={currentPageContent}
             darkMode={darkMode}
             onSavePage={handleSavePage}
@@ -489,7 +594,6 @@ function AppContent() {
       );
     }
 
-    // Page not found
     if (activeTab.startsWith("page-") && !currentPageContent) {
       return (
         <div className="p-8 text-center bg-white dark:bg-neutral-900 border dark:border-neutral-800">
@@ -504,9 +608,8 @@ function AppContent() {
       );
     }
 
-    // Home/Category View with Pagination
     return (
-      <div className="flex flex-col gap-4 sm:gap-6">
+      <div className="flex flex-col gap-4 sm:gap-6" key={`posts-list-${stateVersion}`}>
         {currentCategory && (
           <div className="p-4 sm:p-5 bg-slate-50 dark:bg-neutral-900 border border-slate-200 dark:border-neutral-800">
             <p className="text-[10px] font-black uppercase text-sky-600 dark:text-sky-400 tracking-widest">
@@ -561,11 +664,10 @@ function AppContent() {
           </div>
         ) : (
           <>
-            {/* Posts Grid */}
             <div className="flex flex-col gap-4 sm:gap-6">
               {currentPosts.map((post) => (
                 <PostCard
-                  key={post.id}
+                  key={`${post.id}-${stateVersion}`}
                   post={post}
                   categoryName={
                     categories.find((c) => c.id === post.categoryId)?.name ||
@@ -580,7 +682,6 @@ function AppContent() {
               ))}
             </div>
 
-            {/* ✅ PAGINATION */}
             {totalPages > 1 && (
               <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 border-t border-slate-200 dark:border-neutral-800">
                 <div className="text-xs text-gray-500 dark:text-gray-400">
@@ -588,7 +689,6 @@ function AppContent() {
                 </div>
                 
                 <div className="flex items-center gap-1 flex-wrap justify-center">
-                  {/* Previous Button */}
                   <button
                     onClick={goToPrevPage}
                     disabled={currentPage === 1}
@@ -603,7 +703,6 @@ function AppContent() {
                     <span>Prev</span>
                   </button>
 
-                  {/* Page Numbers */}
                   {getPageNumbers().map((page) => (
                     <button
                       key={page}
@@ -620,7 +719,6 @@ function AppContent() {
                     </button>
                   ))}
 
-                  {/* Next Button */}
                   <button
                     onClick={goToNextPage}
                     disabled={currentPage === totalPages}
@@ -641,8 +739,21 @@ function AppContent() {
         )}
       </div>
     );
-  };
+  }, [
+    activeTab, currentPost, currentPageContent, currentCategory,
+    categories, posts, pages, darkMode, stateVersion,
+    searchQuery, totalPosts, totalPages, currentPage,
+    currentPosts, startIndex, endIndex,
+    navigateToPost, navigateToCategory, navigateToPage,
+    handleDeletePost, handleAddComment, handleSavePage,
+    setEditingPost, setSearchQuery, setCurrentPage,
+    goToPrevPage, goToNextPage, goToPage, getPageNumbers,
+    navigate, LoadingFallback
+  ]);
 
+  // ============================================================
+  // 🔥 MAIN RETURN
+  // ============================================================
   return (
     <div
       className={
@@ -651,15 +762,6 @@ function AppContent() {
           : "bg-gray-50 text-black min-h-screen transition-all"
       }
     >
-      {/* Reset Button */}
-      <button
-        onClick={forceResetData}
-        className="fixed bottom-24 right-6 bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 text-[10px] font-bold z-50 shadow-lg rounded"
-        aria-label="Refresh Website Data"
-      >
-        🔄 Refresh Website Data
-      </button>
-
       <Navbar
         categories={categories}
         pages={pages}
@@ -678,11 +780,12 @@ function AppContent() {
       <main className="max-w-7xl mx-auto px-3 sm:px-4 py-4 sm:py-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8">
           <section className="lg:col-span-8 flex flex-col">
-            {renderMainContent()}
+            {renderMainContent}
           </section>
 
           <aside className="lg:col-span-4 flex flex-col mt-6 lg:mt-0">
             <Sidebar
+              key={`sidebar-${stateVersion}`}
               categories={categories}
               posts={posts}
               darkMode={darkMode}
@@ -759,7 +862,9 @@ function AppContent() {
   );
 }
 
-// Main App component with Router
+// ============================================================
+// 🔥 MAIN APP
+// ============================================================
 export default function App() {
   return (
     <BrowserRouter>
