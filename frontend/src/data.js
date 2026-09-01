@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.2"; // ← Change this number
+export const DATA_VERSION = "1.0.4"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -379,7 +379,175 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
-  {
+ {
+  "id": "post-40",
+  "title": "Radha-Inspired Divine Beauty Portrait - Ultra-Realistic AI Prompt",
+  "categoryId": "cat-3",
+  "image": "/images/post40/radha-divine-portrait1.avif",
+  "date": "September 1, 2026",
+  "author": "Vishu",
+
+  "introduction": "Yeh ek stunning ultra-realistic dreamy cinematic portrait prompt hai jo aapko Radha-inspired divine beauty mein transform karta hai. Is prompt ki special baat yeh hai ki yeh Indian mythological aesthetic ko modern cinematic photography ke saath perfectly blend karta hai.\n\nIs image mein aap dekhenge ek beautiful Radha-inspired figure wearing a pastel light blue lehenga heavily embroidered with silver zari work, pearl droplets, aur delicate floral motifs. Very long wavy dark hair decorated with baby blue aur white flowers, pearl chains, aur ek peacock feather. Traditional Indian jewelry jaise maang tikka, nath (nose ring), choker necklace, aur jhumkas is look ko complete karte hain.\n\nThree-quarter back pose looking over her shoulder at the camera with a soft, enchanting smile. Ancient royal palace garden setting with carved sandstone pillars, blooming flowers, glowing diyas, aur golden-hour sunlight stream through. Dreamy bokeh background, cool silver aur warm golden tones blend together, cinematic glow, shallow depth of field. Ultra-detailed, photorealistic, 8K quality, premium editorial photography, 35mm lens, soft ethereal atmosphere, Indian mythological aesthetic. Preserve my face and identity exactly as in the uploaded photo.",
+
+  "whyTrending": "Indian mythological aesthetics aur divine feminine portraits social media par tezi se popular ho rahe hain. Log Radha-Krishna inspired looks, traditional Indian jewelry, aur royal palace settings ko pasand kar rahe hain jo ek timeless aur cultural richness feel dete hain.\n\nContent creators, photographers, aur AI artists is trend ko apna rahe hain kyunki yeh portraits ko ek divine, elegant, aur visually mesmerizing way mein present karta hai. Ultra-realistic quality, cinematic lighting, aur intricate traditional details isko aur bhi special aur premium banate hain.",
+
+  "creationIntro": "Apna Radha-Inspired Divine Beauty Portrait create karna bahut easy hai:\n\nStep 1: Sabse pehle reference image download karein (jo is post mein di gayi hai) aur apni ek personal photo.\n\nStep 2: ChatGPT ya kisi bhi AI image generation platform (Midjourney, DALL-E, Stable Diffusion, Leonardo AI) mein dono images upload karein - reference image aur apni photo.\n\nStep 3: Neeche diya gaya prompt copy karein aur paste karein.\n\nStep 4: Generate karein aur multiple variations dekhein.\n\nStep 5: Best result select karein aur download karein.\n\nBas! Seconds mein AI aapka stunning Radha-inspired divine portrait create kar dega.",
+
+  "photoStepTitle": "AI Prompts for Radha-Inspired Divine Portraits",
+
+  "photoItems": [
+    {
+      "image": "/images/post40/radha-divine-portrait2.avif",
+      "title": "Radha-Inspired Divine Beauty Prompt - Pastel Blue Lehenga",
+      "prompt": "Ultra-realistic dreamy cinematic portrait of [the person in my photo], transformed into a Radha-inspired divine beauty wearing a pastel light blue lehenga heavily embroidered with silver zari work, pearl droplets, and delicate floral motifs. Very long wavy dark hair decorated with baby blue and white flowers, pearl chains, and a peacock feather. Traditional Indian jewelry including a maang tikka, nath (nose ring), choker necklace, and jhumkas. Delicate Radha-style makeup with kohl-rimmed eyes, bindi, and rose-tinted lips. Three-quarter back pose, looking over her shoulder at the camera with a soft, enchanting smile. Ancient royal palace garden setting with carved sandstone pillars, blooming flowers, glowing diyas (oil lamps), and golden-hour sunlight streaming through. Dreamy bokeh background, cool silver and warm golden tones blending together, cinematic glow, shallow depth of field. Ultra-detailed, photorealistic, 8K, premium editorial photography, 35mm lens, soft ethereal atmosphere, Indian mythological aesthetic. Preserve my face and identity exactly as in the uploaded photo. --ar 4:5"
+    },
+    {
+      "image": "/images/post40/radha-divine-portrait3.avif",
+      "title": "Radha-Inspired Divine Beauty Prompt - Royal Pink Lehenga",
+      "prompt": "Ultra-realistic dreamy cinematic portrait of [the person in my photo], transformed into a Radha-inspired divine beauty wearing a royal pink lehenga heavily embroidered with pearls, golden floral motifs, and pink roses. Very long wavy dark hair decorated with pink flowers, pearl chains, and a peacock feather. Traditional Indian jewelry including a maang tikka, nath (nose ring), choker necklace, and jhumkas. Delicate Radha-style makeup with kohl-rimmed eyes, bindi, and rose-tinted lips. Three-quarter back pose, looking over her shoulder at the camera with a soft, enchanting smile. Ancient royal palace garden setting with carved sandstone pillars, blooming flowers, glowing diyas (oil lamps), and golden-hour sunlight streaming through. Dreamy bokeh background, warm golden and pink tones, cinematic glow, shallow depth of field. Ultra-detailed, photorealistic, 8K, premium editorial photography, 35mm lens, soft ethereal atmosphere, Indian mythological aesthetic. Preserve my face and identity exactly as in the uploaded photo. --ar 4:5"
+    },
+    {
+      "image": "/images/post40/radha-divine-portrait4.avif",
+      "title": "Stylish Spiritual Figure Prompt - Beige Linen & Flute Staff",
+      "prompt": "Full-body low-angle portrait of [the person in my photo], transformed into a stylish spiritual figure wearing a beige linen shirt with rolled sleeves, top buttons undone, black trousers, a wristwatch, and a bracelet. He holds a wooden flute-like staff wrapped with a peacock feather, red sacred threads, and prayer beads. Flowing red sheer fabric swirls dramatically around him in the wind. Shot from a low angle making him appear tall and powerful, looking directly at the camera with a calm, intense expression. Golden-hour sunlight piercing through cloudy skies, casting a warm cinematic glow. The staff creates a strong diagonal line across the frame, while the red fabric adds motion and depth. Shallow depth of field blurs the background, keeping all focus on the subject. Earthy warm palette: beige, deep red, and brown. Natural textures in linen, wood, and fabric. Ultra-realistic, premium editorial photography, 35mm lens, high contrast, razor-sharp details, dramatic cinematic atmosphere, photorealistic, 8K quality. Apply this exact look, outfit, lighting, and composition to my uploaded photo while preserving my face and identity. --ar 4:5"
+    }
+  ],
+
+  "photoBtnText": "Create Your Divine Portrait",
+  "photoBtnLink": "https://chatgpt.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "Reference image ko achhe se observe karein aur uski composition, colors, aur mood ko samjhein.",
+    "Apni personal photo upload karte waqt ensure karein ki photo high quality aur clear ho.",
+    "Subject ki expression natural, calm, aur enchanting honi chahiye.",
+    "Lehenga ke colors ko reference image ke hisaab se match karein.",
+    "Traditional jewelry (maang tikka, nath, choker, jhumkas) properly visible honi chahiye.",
+    "Hair decorations (flowers, pearl chains, peacock feather) ko carefully add karein.",
+    "Lighting soft aur golden-hour type rakhein for cinematic glow.",
+    "Royal palace garden background ko detailed aur elegant rakhein.",
+    "Diyas (oil lamps) ko glowing effect ke saath add karein.",
+    "Bokeh effect heavy aur creamy hona chahiye.",
+    "Silver aur golden tones ko perfectly blend karein.",
+    "Three-quarter back pose ko correctly position karein.",
+    "Makeup delicate aur Radha-style hona chahiye (kohl eyes, bindi, rose lips).",
+    "Multiple variations generate karein aur best select karein.",
+    "Different AI platforms try karein for best results."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Reference image upload karna bhool jana.",
+    "Apni photo upload na karna (result generic aayega).",
+    "Modern ya western makeup use karna (traditional Radha-style required).",
+    "Vibrant neon colors use karna.",
+    "Artificial lighting use karna (golden-hour natural light required).",
+    "Jewelry ko properly visible na rakhna.",
+    "Hair decorations ko miss karna.",
+    "Background mein modern elements add karna.",
+    "Sharp focus use karna (soft cinematic blur required).",
+    "Dark ya moody tones use karna (warm golden tones required).",
+    "Subject ki expression unnatural hona.",
+    "CGI ya cartoonish style aana.",
+    "Watermark ya text add karna.",
+    "Lehenga ke intricate details ko overlook karna.",
+    "Flowing red fabric effect ko properly capture na karna."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Radha-Inspired Divine Portrait prompt kya hai?",
+      "answer": "Yeh ek AI image prompt hai jo aapko Radha-inspired divine beauty mein transform karta hai with traditional Indian jewelry, lehenga, aur royal palace garden setting."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya main apni personal photo use kar sakta hoon?",
+      "answer": "Haan. Steps mein diya gaya hai - reference image aur apni photo ChatGPT ya AI platform mein upload karein for personalized results."
+    },
+    {
+      "id": "faq3",
+      "question": "Kaunse AI platforms best results dete hain?",
+      "answer": "ChatGPT (DALL-E), Midjourney, Stable Diffusion, aur Leonardo AI is prompt ke liye best results dete hain."
+    },
+    {
+      "id": "faq4",
+      "question": "Lehenga ka color kaunsa best hai?",
+      "answer": "Pastel light blue, royal pink, aur soft pastel shades best hain. Vibrant colors avoid karein."
+    },
+    {
+      "id": "faq5",
+      "question": "Radha-style makeup kaise achieve karein?",
+      "answer": "Kohl-rimmed eyes, bindi, aur rose-tinted lips with delicate, natural look. Modern heavy makeup avoid karein."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya main commercially use kar sakta hoon?",
+      "answer": "Commercial usage AI platform ki licensing policy par depend karta hai. Kuch platforms allow karte hain, kuch nahi."
+    },
+    {
+      "id": "faq7",
+      "question": "Subject ki expression kaisa hona chahiye?",
+      "answer": "Subject ki expression soft, enchanting, aur calm honi chahiye - looking over shoulder with a gentle smile."
+    },
+    {
+      "id": "faq8",
+      "question": "Background kaunsa use karein?",
+      "answer": "Ancient royal palace garden with carved sandstone pillars, blooming flowers, aur glowing diyas. Modern backgrounds avoid karein."
+    },
+    {
+      "id": "faq9",
+      "question": "Lighting kaunsa best hai?",
+      "answer": "Golden-hour sunlight streaming through, warm cinematic glow with soft ethereal atmosphere."
+    },
+    {
+      "id": "faq10",
+      "question": "Kya multiple variations generate kar sakte hain?",
+      "answer": "Haan. Multiple variations generate karein aur apne hisaab ka best select karein. Different platforms different results dete hain."
+    }
+  ],
+
+  "conclusion": "Radha-Inspired Divine Beauty Portrait AI Prompt aapko ek stunning, ultra-realistic, aur culturally rich portrait create karne ka mauka deta hai jo Indian mythological aesthetics ko modern cinematic photography ke saath beautifully combine karta hai. Bas reference image download karein, apni photo upload karein, aur prompt paste karein - seconds mein AI aapka divine portrait create kar dega.\n\nYeh prompt modern AI technology ko traditional Indian beauty aur royal elegance ke saath combine karta hai - result hamesha visually captivating aur artistically magnificent aata hai.\n\nAaj hi apna Radha-Inspired Divine Portrait create karein aur apni photography ko ek timeless, culturally rich, aur divine masterpiece mein transform karein!",
+
+  "tags": [
+    "Radha Portrait",
+    "Divine Beauty",
+    "Indian Mythology",
+    "Traditional Lehenga",
+    "AI Image Generation",
+    "Cinematic Portrait",
+    "Royal Palace",
+    "Golden Hour",
+    "Ultra-Realistic",
+    "Indian Jewelry",
+    "Maang Tikka",
+    "Nath",
+    "Jhumkas",
+    "Ethereal Photography",
+    "Spiritual Portrait",
+    "AI Art",
+    "ChatGPT Image",
+    "Midjourney Prompt",
+    "Stable Diffusion",
+    "Leonardo AI",
+    "Editorial Photography",
+    "Cultural Aesthetic",
+    "8K Quality",
+    "Dreamy Portrait"
+  ],
+
+  "isTrending": true,
+  "comments": []
+ },
+ {
   "id": "post-39",
   "title": "Beutiful look in Saree Flower Field Portrait - Ethereal AI Image Prompt",
   "categoryId": "cat-3",
@@ -541,7 +709,7 @@ export const INITIAL_POSTS = [
  {
   "id": "post-38",
   "title": "Miniature Cooking ASMR - Hyper-Realistic Macro Cinematography AI Video Prompt",
-  "categoryId": "cat-2",
+  "categoryId": "cat-4",
   "image": "/images/post38/miniature-cooking-asmr1.avif",
   "date": "August 26, 2026",
   "author": "Vishu",
@@ -734,7 +902,7 @@ NO miniature humans. NO tiny chefs. NO human faces or full bodies. NO giant or o
  {
   "id": "post-37",
   "title": "Miniature Construction Timelapse - Zero to Completion AI Video Prompt",
-  "categoryId": "cat-2",
+  "categoryId": "cat-5",
   "image": "/images/post37/miniature-construction-timelapse1.avif",
   "date": "August 24, 2026",
   "author": "Vishu",
