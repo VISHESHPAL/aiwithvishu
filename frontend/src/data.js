@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.4"; // ← Change this number
+export const DATA_VERSION = "1.0.6"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -379,7 +379,173 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
- {
+  {
+  "id": "post-41",
+  "title": "Janmashtami Divine Portrait - Ultra-Realistic AI Prompt",
+  "categoryId": "cat-3",
+  "image": "/images/post41/janmashtami-divine-portrait1.avif",
+  "date": "September 2, 2026",
+  "author": "Vishu",
+
+  "introduction": "Yeh ek stunning divine cinematic Janmashtami portrait prompt hai jo aapko Radha-Krishna inspired divine beauty mein transform karta hai. Is prompt ki special baat yeh hai ki yeh Indian festival aesthetics ko modern cinematic photography ke saath perfectly blend karta hai.\n\nIs image mein aap dekhenge ek elegant royal-blue aur peacock-blue traditional outfit with intricate gold embroidery, delicate jewellery, fresh flowers, aur subtle peacock-feather details. Gently holding a beautifully crafted golden-brown wooden flute horizontally with both hands near the face, with long natural dark hair flowing around.\n\nMagical Vrindavan-inspired environment with soft golden divine light, blue-purple ambience, glowing particles, scattered flowers, aur dreamy bokeh. Three-quarter side profile, cinematic composition, soft rim lighting, warm highlights, realistic skin texture, aur ultra-realistic photography quality.",
+
+  "whyTrending": "Janmashtami celebrations aur Krishna-Radha inspired aesthetics social media par tezi se popular ho rahe hain. Log festival-themed portraits, traditional Indian outfits, aur divine Vrindavan-inspired backgrounds ko pasand kar rahe hain jo ek spiritual aur cultural richness feel dete hain.\n\nContent creators, photographers, aur AI artists is trend ko apna rahe hain kyunki yeh portraits ko ek divine, elegant, aur visually mesmerizing way mein present karta hai. Ultra-realistic quality, cinematic lighting, aur intricate traditional details isko aur bhi special aur premium banate hain.",
+
+  "creationIntro": "Apna Janmashtami Divine Portrait create karna bahut easy hai:\n\nStep 1: Sabse pehle apni ek clear, high-quality personal photo select karein.\n\nStep 2: ChatGPT ya kisi bhi AI image generation platform (Midjourney, DALL-E, Stable Diffusion, Leonardo AI) par jaayein aur apni photo upload karein.\n\nStep 3: Neeche diya gaya prompt copy karein aur ChatGPT mein paste karein.\n\nStep 4: Generate karein aur multiple variations dekhein.\n\nStep 5: Best result select karein aur download karein.\n\nBas! Bas apni image upload karein aur neeche se prompt copy karke ChatGPT se apna Radha Rani wala photo banva lo. Seconds mein AI aapka stunning Janmashtami divine portrait create kar dega!",
+  "photoStepTitle": "AI Prompts for Janmashtami Divine Portraits",
+
+  "photoItems": [
+    {
+      "image": "/images/post41/janmashtami-divine-portrait2.avif",
+      "title": "Janmashtami Divine Portrait - Royal Blue Peacock Theme",
+      "prompt": `STRICT IDENTITY PRESERVATION – CRITICAL: Use my uploaded photo as the ONLY facial identity reference. Preserve my exact face, facial features, face shape, eyes, eyebrows, nose, lips, jawline, skin tone, natural proportions, and recognizable identity with zero alterations—do NOT redesign, reshape, replace, beautify, age-change, or generate a generic AI face; facial identity preservation is the highest priority. Create an ultra-realistic 4:5 vertical portrait of an Indian traditional beauty inspired by a soft dreamy Radha/bridal aesthetic with a warm golden atmosphere—a close-up to medium-close smartphone selfie with the subject facing the camera, gentle head tilt, relaxed shoulders, soft closed-mouth smile, and natural handheld perspective, filling most of the frame with face slightly above center, shoulders and upper torso visible, and very long thick voluminous dark brown/near-black loose wavy hair cascading down both sides with realistic strands, natural texture, and subtle dimensional brown highlights, topped with a beautiful semicircular floral gajra/crown of dense fresh white jasmine flowers with tiny red accents around the back and top of the hair. Add delicate traditional pink, red, and white floral/gopi-dot designs across the forehead and around the brow center—elegant, symmetrical, intricate yet minimal so original features remain visible—with a tiny red bindi and subtle golden accent at the center. Include elegant antique-gold maang tikka with pearl drop along the hair parting, traditional jhumka earrings with handcrafted detailing, a graceful gold necklace, and an ornate gold bajuband/armlet with tiny pearl, red, and green gemstone accents—all luxurious, finely handcrafted, realistic with beads, engravings, and natural metallic reflections, but not excessively large or overcrowded. Dress the subject in a rich deep-red/maroon fitted traditional blouse with a soft pastel baby-pink sheer chiffon saree/dupatta draped gracefully over one shoulder and across the front—clearly pink, lightweight, flowing, translucent, elegant—with warm golden light creating delicate champagne-gold and peach-gold highlights along folds and edges, keeping overall styling youthful, traditional, minimal, and sophisticated. Use soft luminous Indian makeup with realistic natural skin texture and visible pores—warm rosy blush, subtle bronzed warmth, naturally defined brows, soft brown eye makeup, thin elegant eyeliner, natural voluminous lashes, glossy rosy-pink/mauve lips, and subtle champagne-gold highlights around eyes and high points of the face—while keeping original skin tone clearly recognizable, with NO excessive makeup, skin whitening, heavy filters, or artificial smoothing. Create a rich balanced dreamy golden-hour indoor atmosphere with warm late-afternoon sunlight from behind and slightly beside, producing a soft honey-golden backlight with strong but diffused golden rim light around hair, shoulders, and gajra—individual strands catching delicate golden highlights—with soft champagne-gold illumination, subtle warm golden reflections on jewelry, hair, and fabric, and flattering even facial light with gentle golden highlights on cheeks, forehead, and nose, adding subtle sun-kissed warmth WITHOUT changing natural skin tone, and realistic warm golden sparkle on jewelry without being fake or overly shiny, plus gentle golden bloom, subtle atmospheric haze, and soft nostalgic smartphone-camera glow around brightest background areas. IMPORTANT: The golden effect must remain premium, soft, and realistic—NOT strong yellow/orange color grading—do NOT make the face yellow, orange, or oversaturated; preserve natural skin color, facial details, and realistic contrast. The background should be a minimal cream/warm-beige indoor room with simple elegant architectural wall panels, bright warm golden sunlight illuminating part of the background creating a softly glowing cream-and-champagne atmosphere, slightly blurred and gently overexposed around sunlight while maintaining natural depth, with no distracting objects or clutter. Achieve ultra-realistic high-resolution smartphone portrait photography with realistic skin texture and pores, crisp detailed eyes, realistic individual hair strands, authentic gold reflections, detailed jasmine flowers, and realistic chiffon fabric texture—using shallow-to-moderate depth of field, natural smartphone computational photography characteristics, slightly dreamy exposure, and soft warm highlights, with the face remaining sharp and detailed while the background stays naturally softer, delivering a premium Pinterest/Instagram editorial beauty aesthetic in photorealistic HD/4K detail. Final aesthetic: dreamy, feminine, graceful, luxurious traditional Indian Radha/bridal aesthetic with soft baby-pink + deep maroon + antique gold color palette surrounded by an elegant champagne/honey-golden glow—warm, youthful, natural, candid luxury selfie energy, golden and luminous yet still realistic and natural—in 9:16 vertical portrait aspect ratio. NEGATIVE PROMPT: different person, changed identity, altered facial structure, face reshaping, generic AI face, beautified replacement face, skin whitening, yellow skin, orange skin, excessive golden filter, excessive yellow tint, excessive orange tint, oversaturated colors, artificial glow, excessive bloom, blown-out face, unrealistic skin, waxy skin, plastic skin, over-smoothed skin, oversized eyes, asymmetrical eyes, distorted eyes, malformed nose, distorted lips, exaggerated makeup, heavy makeup, cartoon, anime, illustration, painting, CGI, 3D render, fake hair, short hair, straight flat hair, fake flowers, excessive jewelry, oversized jewelry, duplicate jewelry, unrealistic gold, deformed anatomy, extra fingers, blurry face, low resolution, oversharpening, harsh shadows, dramatic studio lighting, western clothing, incorrect outfit colors, cluttered background. `
+    }, 
+    {
+      "image": "/images/post41/janmashtami-divine-portrait3.avif",
+      "title": "Janmashtami Divine Portrait - Golden Yellow Festive Theme",
+      "prompt": `Create a photorealistic Radha Rani-inspired traditional look using the uploaded image as the exact reference. IMPORTANT – PRESERVE THE ORIGINAL PERSON: Keep the face, facial features, identity, skin tone, expression, eyes, nose, lips, face shape, and proportions exactly the same as the original photo; keep the exact same pose, body position, hand placement, head angle, camera angle, framing, and composition; do NOT change the person's identity or facial structure; do NOT alter the original pose or crop/zoom the image. For Radha Rani styling, transform only the styling and outfit into a beautiful, elegant, and colourful Radha Rani-inspired traditional look—add a vibrant traditional lehenga in soft pastel pink, magenta, yellow, turquoise, and subtle golden tones with delicate golden embroidery and elegant traditional detailing. Use fresh floral accessories as the main jewellery theme: small flowers around the hair, floral earrings, a delicate floral necklace, floral wrist accessories, and subtle flower embellishments, along with a graceful Radha-style floral hair decoration. Add a minimal, elegant Radha Rani tilak on the forehead while keeping the original forehead and facial features completely unchanged, and include a few delicate peacock feathers as subtle decorative elements, keeping the overall look graceful rather than heavy—youthful, soft, divine, and elegant, not overly dramatic. For lighting and background, use soft cinematic lighting with a colourful dreamy atmosphere, subtle warm pink, golden, peach, and blue tones, gentle glow, and realistic shadows, keeping the background aesthetically pleasing and slightly dreamy while maintaining the original composition. Aim for ultra-realistic photography with natural skin texture, realistic hair strands, detailed fabric and embroidery, authentic flowers, realistic jewellery, high-resolution details, cinematic depth, and premium portrait photography. STRICT INSTRUCTION: Change ONLY the outfit, accessories, makeup/tilak, and styling; preserve the original face, identity, expression, pose, body proportions, camera angle, and composition exactly as they are.   `
+    }, 
+    {
+      "image": "/images/post41/janmashtami-divine-portrait4.avif",
+      "title": "Janmashtami Divine Portrait - Floral Pink Radha Theme",
+      "prompt": `Create a stunning, divine, cinematic Janmashtami portrait of the girl in the reference image, preserving her facial identity exactly—same face shape, eyes, eyebrows, nose, lips, jawline, skin tone, and natural side-profile proportions; do NOT create a generic AI face or alter her identity in any way. She wears an elegant royal-blue and peacock-blue traditional outfit with intricate gold embroidery, delicate jewellery, fresh flowers, and subtle peacock-feather details, while gently holding a beautifully crafted golden-brown wooden flute horizontally with both hands near her face, her expression serene, graceful, and subtly smiling, with long natural dark hair flowing around her. Set the scene in a magical Vrindavan-inspired environment with soft golden divine light, blue-purple ambience, glowing particles, scattered flowers, and dreamy bokeh. Use a three-quarter side profile, cinematic composition, soft rim lighting, warm highlights, realistic skin texture, natural anatomy, highly detailed eyes, shallow depth of field, and a premium editorial photography aesthetic—ultra-realistic, high-resolution, and atmospherically divine, with the original face, identity, expression, and natural proportions preserved exactly as in the reference image.   `
+    }, 
+  ],
+
+  "photoBtnText": "Create Your  Portrait",
+  "photoBtnLink": "https://chatgpt.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+
+  "tips": [
+    "Reference image ko achhe se observe karein aur uski composition, colors, aur mood ko samjhein.",
+    "Apni personal photo upload karte waqt ensure karein ki photo high quality aur clear ho.",
+    "Subject ki expression peaceful, serene, aur devotional honi chahiye.",
+    "Outfit colors ko Janmashtami theme ke hisaab se match karein - royal blue, peacock blue, golden yellow, ya soft pink.",
+    "Flute ko properly position karein - horizontally ya vertically, both hands ke saath.",
+    "Jewellery traditional aur elegant hona chahiye - not too heavy or overwhelming.",
+    "Vrindavan-inspired background ko detailed aur dreamy rakhein.",
+    "Lighting soft golden divine light honi chahiye with warm highlights.",
+    "Blue-purple ya golden-amber ambience use karein for divine effect.",
+    "Glowing particles aur scattered flowers add karein for magical touch.",
+    "Three-quarter side profile best results deta hai.",
+    "Rim lighting properly capture karein for cinematic glow.",
+    "Makeup natural aur minimal hona chahiye.",
+    "Multiple variations generate karein aur best select karein.",
+    "Different AI platforms try karein for best results."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+
+  "mistakes": [
+    "Reference image upload karna bhool jana.",
+    "Apni photo upload na karna (result generic aayega).",
+    "Generic AI face create hona (identity preservation required).",
+    "Modern ya western outfit use karna (traditional Indian outfit required).",
+    "Flute ko galat position mein rakhna.",
+    "Vibrant neon colors use karna.",
+    "Artificial lighting use karna (golden divine natural light required).",
+    "Heavy makeup use karna (natural, minimal makeup required).",
+    "Background mein modern elements add karna.",
+    "Sharp focus use karna (soft divine blur required).",
+    "Dark ya moody tones use karna (warm golden tones required).",
+    "Subject ki expression unnatural hona.",
+    "CGI ya cartoonish style aana.",
+    "Watermark ya text add karna.",
+    "Outfit ke intricate details ko overlook karna."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Janmashtami Divine Portrait prompt kya hai?",
+      "answer": "Yeh ek AI image prompt hai jo aapko Janmashtami-inspired divine portrait mein transform karta hai with traditional Indian outfit, flute, aur Vrindavan-inspired setting."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya main apni personal photo use kar sakta hoon?",
+      "answer": "Haan. Steps mein diya gaya hai - reference image aur apni photo ChatGPT ya AI platform mein upload karein for personalized results."
+    },
+    {
+      "id": "faq3",
+      "question": "Kaunse AI platforms best results dete hain?",
+      "answer": "ChatGPT (DALL-E), Midjourney, Stable Diffusion, aur Leonardo AI is prompt ke liye best results dete hain."
+    },
+    {
+      "id": "faq4",
+      "question": "Outfit ka color kaunsa best hai?",
+      "answer": "Royal blue, peacock blue, golden yellow, aur soft pink best hain. Neon colors avoid karein."
+    },
+    {
+      "id": "faq5",
+      "question": "Flute ko kaise position karein?",
+      "answer": "Flute ko horizontally ya vertically hold karein, both hands ke saath, near face ya heart ke paas."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya main commercially use kar sakta hoon?",
+      "answer": "Commercial usage AI platform ki licensing policy par depend karta hai. Kuch platforms allow karte hain, kuch nahi."
+    },
+    {
+      "id": "faq7",
+      "question": "Subject ki expression kaisa hona chahiye?",
+      "answer": "Subject ki expression serene, peaceful, devotional, aur subtly smiling honi chahiye - Radha-Krishna inspired."
+    },
+    {
+      "id": "faq8",
+      "question": "Background kaunsa use karein?",
+      "answer": "Vrindavan-inspired environment with soft golden divine light, blue-purple ambience, glowing particles, aur scattered flowers."
+    },
+    {
+      "id": "faq9",
+      "question": "Lighting kaunsa best hai?",
+      "answer": "Soft golden divine light with warm highlights, rim lighting, aur dreamy cinematic glow."
+    },
+    {
+      "id": "faq10",
+      "question": "Kya multiple variations generate kar sakte hain?",
+      "answer": "Haan. Multiple variations generate karein aur apne hisaab ka best select karein. Different platforms different results dete hain."
+    }
+  ],
+
+  "conclusion": "Janmashtami Divine Portrait AI Prompt aapko ek stunning, ultra-realistic, aur culturally rich portrait create karne ka mauka deta hai jo Indian festival aesthetics ko modern cinematic photography ke saath beautifully combine karta hai. Bas reference image download karein, apni photo upload karein, aur prompt paste karein - seconds mein AI aapka divine portrait create kar dega.\n\nYeh prompt modern AI technology ko traditional Indian festival beauty aur divine elegance ke saath combine karta hai - result hamesha visually captivating aur artistically magnificent aata hai.\n\nAaj hi apna Janmashtami Divine Portrait create karein aur apni photography ko ek timeless, culturally rich, aur divine masterpiece mein transform karein!",
+
+  "tags": [
+    "Janmashtami Portrait",
+    "Divine Beauty",
+    "Krishna Radha",
+    "Indian Festival",
+    "AI Image Generation",
+    "Cinematic Portrait",
+    "Vrindavan",
+    "Golden Hour",
+    "Ultra-Realistic",
+    "Traditional Outfit",
+    "Flute",
+    "Peacock Feather",
+    "Ethereal Photography",
+    "Spiritual Portrait",
+    "AI Art",
+    "ChatGPT Image",
+    "Midjourney Prompt",
+    "Stable Diffusion",
+    "Leonardo AI",
+    "Editorial Photography",
+    "Cultural Aesthetic",
+    "8K Quality",
+    "Dreamy Portrait"
+  ],
+
+  "isTrending": true,
+  "comments": []
+  },
+  {
   "id": "post-40",
   "title": "Radha-Inspired Divine Beauty Portrait - Ultra-Realistic AI Prompt",
   "categoryId": "cat-3",
