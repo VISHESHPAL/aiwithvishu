@@ -380,6 +380,157 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 
 export const INITIAL_POSTS = [
   {
+  "id": "post-43",
+  "title": "Couple Wallpaper Love - Romantic Couple Cinematic AI Prompts",
+  "categoryId": "cat-1",
+  "image": "/images/post43/timeless-love-main.avif",
+  "date": "September 5, 2026",
+  "author": "Vishu",
+  "introduction": "Yeh ek premium AI prompt collection hai jo modern romantic couple portraits ko cinematic storytelling aur ultra-realistic photography ke saath merge karta hai. Ismein ek young adult couple ko intense, intimate moments mein capture kiya gaya hai—unke beech ki chemistry, emotions, aur unconditional love ko ek sophisticated, contemporary, aur visually stunning way mein present kiya gaya hai.\n\nHar prompt ek different aspect ratio aur composition mein design kiya gaya hai, jisse aapko alag-alag visual experiences milti hain—from extreme close-up face-to-face portraits to medium-wide romantic sunset silhouettes. In prompts ki special baat yeh hai ki yeh raw emotions aur natural beauty ko premium fashion editorial style ke saath blend karte hain, jisse result ek high-end romantic campaign jaisa lagta hai.\n\nIs series mein aapko milega: ek intimate forehead-touching close-up with intense eye contact, ek dreamy sunset portrait near reflective water, ek cozy coffee shop indoor romance shot, aur ek passionate dance floor moment under fairy lights. Har image mein deep emotional connection, rich color palettes, aur cinematic lighting hai.",
+  "whyTrending": "Romantic couple portraits aur 'couple aesthetics' social media—especially Instagram, Pinterest, aur wedding photography platforms—par tezi se trend kar rahe hain. Log apni real-life relationships ko cinematic, premium, aur artistic way mein capture karwana pasand kar rahe hain. Yeh prompts exactly wohi offer karte hain—real emotions ko high-end editorial photography ke saath fuse karna.\n\nContent creators, photographers, couples, aur AI artists is trend ko apna rahe hain kyunki yeh portraits ko ek unique, sophisticated, aur visually striking way mein present karta hai. Ultra-realistic quality, cinematic lighting, aur intimate compositions isko aur bhi special aur premium banate hain. In prompts ka use anniversary shoots, engagement announcements, wedding albums, couple goals content, aur social media posts ke liye kiya ja sakta hai.",
+  "creationIntro": "Apna Timeless Love portrait create karna bahut easy hai:\n\nStep 1: Sabse pehle apni aur apne partner ki clear, high-quality personal photos select karein.\n\nStep 2: ChatGPT ya kisi bhi AI image generation platform (Midjourney, DALL-E, Stable Diffusion, Leonardo AI) par jaayein aur apni photos upload karein.\n\nStep 3: Neeche diya gaya prompt copy karein aur ChatGPT mein paste karein.\n\nStep 4: Generate karein aur multiple variations dekhein.\n\nStep 5: Best result select karein aur download karein.\n\nBas! Bas apni images upload karein aur neeche se prompt copy karke ChatGPT se apna stunning Timeless Love photo banva lo. Seconds mein AI aapka romantic cinematic masterpiece create kar dega!",
+  "photoStepTitle": "AI Prompts for Timeless Love - Romantic Cinematic Portraits",
+  "photoItems": [
+    {
+      "image": "/images/post43/timeless-love-1.avif",
+      "title": "Intimate Connection - Forehead to Forehead Close-Up (9:16)",
+      "prompt":`**Prompt:** An ultra-realistic, 8K resolution, vertical 9:16 extreme close-up cinematic portrait of a young adult romantic couple. **Strictly face-to-face orientation**: The man's face is positioned at the top, tilting downward, and the woman's face is positioned at the bottom, tilting upward. Their foreheads and noses are extremely close, almost touching. **Crucial detail:** Their eyes are locked directly onto each other, perfectly centered in the frame, making intense, intimate eye contact. Capture the realistic texture of their eyelashes, eyebrows, individual skin pores, subtle wrinkles, and authentic facial proportions with IMAX-level realism. Warm cinematic skin tones, soft natural lighting, shallow depth of field (f/1.2 macro lens look), with a beautiful, dreamy golden bokeh background. The composition is intimate, emotional, elegant, and romantic, with a high dynamic range and professional cinematic color grading. Ultra-sharp eye details, soft background blur, photorealistic masterpiece, professional photography, vertical smartphone wallpaper composition, 9:16 aspect ratio. No text, no watermark, no distortion, no artificial-looking skin, perfect facial symmetry. (Use uploaded reference images strictly for facial identity preservation, maintaining natural appearance, exact skin tone, and hairstyles without any beautification).**Negative Prompt:** anime, cartoon, illustration, painting, drawing, mutated hands, deformed faces, crossed eyes, mismatched eye positions, foreheads merging, distorted anatomy, extra facial features, plastic skin, overly smooth skin, artificial beauty filters, cluttered background, watermark, text, signature, bad anatomy, unnatural lighting, blurry faces, out of focus. `
+    },
+    {
+      "image": "/images/post43/timeless-love-2.avif",
+      "title": "Golden Sunset - Reflective Water Couple Portrait (9:16)",
+      "prompt":`**Prompt:** A stunning, hyper-realistic, 8k resolution cinematic photograph of a romantic couple in an intimate moment, standing very close together by a calm, reflective water surface. The man is wearing a light grey hoodie, his right hand is gently cupping the woman's face and tangling in her hair, leaning in for a kiss with his eyes softly closed. The woman has long, flowing dark brown hair, eyes closed, looking up softly, her hand gently holding his. The background is a breathtaking, warm golden-hour sunset over rippling water, featuring vibrant purple, magenta, pink, and orange light reflections creating a beautiful bokeh effect. Shot on 85mm lens, f/1.4 aperture, shallow depth of field, soft volumetric lighting, cinematic rim light on hair, extremely realistic skin texture with pores, natural glowing skin, soft shadows, romantic atmosphere, photorealistic masterpiece, professional DSLR photography, absolute face preservation, perfect anatomy, perfect hands, sharp focus on faces, 9:16 aspect ratio.  **Negative Prompt:** anime, cartoon, illustration, painting, drawing, mutated hands, extra fingers, missing fingers, deformed hands, bad anatomy, bad proportions, extra limbs, cluttered background, distorted face, plastic skin, unnatural lighting, overexposed, ugly, blurry, low quality, watermark, text, signature. `
+    },
+  ],
+  "photoBtnText": "Create Your Timeless Love Portrait",
+  "photoBtnLink": "https://chatgpt.com/",
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+  "tipsTitle": "Best Results Ke Liye Tips",
+  "tips": [
+    "Apni aur apne partner ki high-quality, clear photos upload karein—face clearly visible with good lighting.",
+    "Har prompt ka aspect ratio 9:16 (vertical smartphone wallpaper) hai—dhyan dein.",
+    "Identity preservation ke liye STRICT prompt instructions ko carefully follow karein.",
+    "Expressions natural aur genuine hone chahiye—overacting avoid karein.",
+    "Outfit colors ko prompt ke hisaab se match karein—grey hoodie, warm earth tones, dark suit, flowing dress.",
+    "Lighting soft, warm, aur romantic honi chahiye—golden hour, fairy lights, ya café ambient lighting.",
+    "Background elements (sunset, water, coffee shop, fairy lights) ko detailed aur realistic rakhein.",
+    "Facial details—eyelashes, eyebrows, skin pores, subtle wrinkles—ko ultra-realistic rakhein.",
+    "Color palettes ko strictly follow karein—warm golds, purples, magentas, earth tones, soft pinks.",
+    "Multiple variations generate karein aur best select karein—different platforms different results dete hain.",
+    "Hand anatomy par special dhyan dein—fingers, palms, aur hand positions natural hone chahiye.",
+    "Negative prompts ko copy karein—yeh unwanted elements (cartoon, mutated hands, plastic skin) ko avoid karne mein help karte hain.",
+    "Different AI platforms try karein—Midjourney, DALL-E, Stable Diffusion, Leonardo AI sab unique results dete hain.",
+    "Aspect ratio 9:16 ko maintain karein—vertical composition smartphone wallpapers aur social media ke liye best hai.",
+    "Eyes ka focus aur eye contact prompt ke hisaab se perfect hona chahiye—intense, loving, aur intimate."
+  ],
+  "mistakesTitle": "Common Mistakes to Avoid",
+  "mistakes": [
+    "Apni aur partner ki personal photos upload karna bhool jana—result generic aayega.",
+    "Identity preservation ignore karna—AI generic faces create kar dega.",
+    "Aspect ratio 9:16 ko match na karna—composition crop ho sakti hai.",
+    "Wrong outfit colors use karna—prompt ke hisaab se specific colors required hain.",
+    "Expressions ko unnatural ya overacting rakhna—natural, genuine emotions required.",
+    "Hands ki anatomy ko ignore karna—mutated hands, extra fingers, ya missing fingers aam mistakes hain.",
+    "Lighting ko ignore karna—warm, soft, romantic lighting required, harsh ya unnatural nahi.",
+    "Background ko cluttered ya distracting rakhna—dreamy, soft, romantic backgrounds required.",
+    "Skin ko plastic ya over-smooth rakhna—natural pores, texture, aur subtle imperfections required.",
+    "Fairy lights ya bokeh ko over-powering rakhna—couple focus mein rehna chahiye.",
+    "Eye contact ya expressions ko galat karna—prompt mein defined hai (eyes locked, softly closed, etc.).",
+    "CGI ya cartoonish style aana—ultra-realistic required.",
+    "Text, logos, ya watermarks add karna—strictly prohibited.",
+    "Extra people ya extra elements add karna—prompt mein defined couple ke alawa kuch nahi.",
+    "Oversaturated colors aur excessive glow use karna—natural, realistic tones required."
+  ],
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Timeless Love prompts kya hain?",
+      "answer": "Yeh ek AI prompt collection hai jo romantic couple portraits ko cinematic, ultra-realistic, aur high-end editorial style mein present karta hai. Har prompt alag mood, setting, aur aspect ratio mein hai."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya main apni aur apne partner ki personal photos use kar sakta hoon?",
+      "answer": "Haan. Har prompt mein STRICT IDENTITY PRESERVATION instructions di gayi hain—aap apni photos upload karein aur AI aapki identities preserve karte hue romantic elements add karega."
+    },
+    {
+      "id": "faq3",
+      "question": "Kaunse AI platforms best results dete hain?",
+      "answer": "ChatGPT (DALL-E), Midjourney, Stable Diffusion, aur Leonardo AI is prompt ke liye best results dete hain. Har platform unique interpretation deta hai."
+    },
+    {
+      "id": "faq4",
+      "question": "Har prompt ka aspect ratio 9:16 kyun hai?",
+      "answer": "9:16 vertical aspect ratio smartphone wallpapers aur social media (Instagram, Pinterest, TikTok) ke liye best hai. Yeh full-screen vertical viewing experience deta hai."
+    },
+    {
+      "id": "faq5",
+      "question": "Kya couple ki expressions natural honi chahiye?",
+      "answer": "Haan. Har prompt mein expressions defined hain—intense eye contact, soft closed eyes, gentle smiles, peaceful joy. Overacting ya exaggerated expressions avoid karein."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya main commercially use kar sakta hoon?",
+      "answer": "Commercial usage AI platform ki licensing policy par depend karta hai. Kuch platforms allow karte hain, kuch nahi. Personal use ke liye safe hai."
+    },
+    {
+      "id": "faq7",
+      "question": "Hands ka anatomy perfect kyun hona chahiye?",
+      "answer": "AI frequently generates mutated hands, extra fingers, ya missing fingers. Isliye prompts mein strict hand anatomy instructions di gayi hain. Multiple variations generate karein aur best select karein."
+    },
+    {
+      "id": "faq8",
+      "question": "Background kaunsa use karein?",
+      "answer": "Prompts ke hisaab se: dreamy golden bokeh, reflective water with sunset, cozy coffee shop interior, ya fairy lights canopy."
+    },
+    {
+      "id": "faq9",
+      "question": "Lighting kaunsa best hai?",
+      "answer": "Soft, warm, romantic lighting—golden hour, fairy lights, café ambient, ya soft natural window light. Harsh ya unnatural lighting avoid karein."
+    },
+    {
+      "id": "faq10",
+      "question": "Kya multiple variations generate kar sakte hain?",
+      "answer": "Haan. Multiple variations generate karein aur apne hisaab ka best select karein. Different platforms different results dete hain."
+    }
+  ],
+  "conclusion": "Timeless Love AI Prompt Collection aapko stunning, ultra-realistic, aur emotionally rich romantic couple portraits create karne ka mauka deta hai jo modern love stories ko cinematic photography ke saath beautifully combine karta hai. Har prompt ek unique romantic narrative tell karta hai—from intimate forehead-to-forehead moments to dreamy sunset kisses, from cozy coffee shop dates to passionate fairy light dances.\n\nYeh prompts modern AI technology ko real emotions, authentic connections, aur high-end fashion editorial aesthetics ke saath combine karte hain—result hamesha visually captivating aur emotionally resonant aata hai. Aaj hi apna Timeless Love portrait create karein aur apni love story ko ek timeless, cinematic, aur artistic masterpiece mein transform karein!",
+  "tags": [
+    "Timeless Love",
+    "Romantic Couple",
+    "Cinematic Portrait",
+    "Couple Photography",
+    "AI Image Generation",
+    "Romantic Couple Goals",
+    "Intimate Portrait",
+    "Golden Hour",
+    "Ultra-Realistic",
+    "Fairy Lights",
+    "Sunset Photography",
+    "Coffee Shop Romance",
+    "Dance Floor",
+    "Romantic Aesthetic",
+    "AI Art",
+    "ChatGPT Image",
+    "Midjourney Prompt",
+    "Stable Diffusion",
+    "Leonardo AI",
+    "Couple Wallpaper",
+    "9:16 Aspect Ratio",
+    "Editorial Photography",
+    "Romantic Lighting",
+    "Bokeh Effect",
+    "Engagement Shoot",
+    "Anniversary Portrait",
+    "Love Story"
+  ],
+  "isTrending": true,
+  "comments": []
+  },
+  {
   "id": "post-42",
   "title": "Vrindavan Echoes - Mythological Fashion Editorial AI Prompts",
   "categoryId": "cat-1",
