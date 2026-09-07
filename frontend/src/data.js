@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.0.9"; // ← Change this number
+export const DATA_VERSION = "1.1.0"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -379,6 +379,172 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
+{
+  "id": "post-46",
+  "title": "Ganesh Ji Forehead and Foot Toward Image - AI Prompts for Divine Portraits",
+  "categoryId": "cat-1",
+  "image": "/images/post45/ganpati-devotion-main.avif",
+  "date": "September 8, 2026",
+  "author": "Vishu",
+  "introduction": "Yeh ek unique aur emotionally resonant AI prompt collection hai jo contemporary devotional portraits ko cinematic storytelling aur ultra-realistic photography ke saath merge karta hai. Ismein young devotees ko Lord Ganesha ki divine presence mein capture kiya gaya hai—unke beech ki silent prayer, bhakti bhaav, aur intense spiritual connection ko ek sophisticated, modern, aur visually stunning way mein present kiya gaya hai.\n\nHar prompt ek different composition aur devotional setting mein design kiya gaya hai—ek mein devotee apna forehead Ganesh idol ke trunk par rakhta hai, doosre mein woh apna head idol ke feet par rakhta hai, teesre mein ek young man quietly meditating beside Ganesha, aur chautha mein ek young woman gracefully seated with the deity. In prompts ki special baat yeh hai ki yeh raw bhakti aur natural spirituality ko premium cinematic style ke saath blend karte hain, jisse result ek high-budget devotional film jaisa lagta hai.\n\nIs series mein aapko milega: ek intimate portrait where the devotee gently rests their forehead against Ganesha's raised trunk, ek powerful moment where the devotee completely surrenders with their head at Ganesha's feet, ek peaceful portrait of a young man sitting beside a beautifully decorated Ganesha idol, aur ek graceful portrait of a young woman sharing an intimate devotional moment with Lord Ganesha. Har image mein deep spiritual connection, rich color palettes, aur divine cinematic lighting hai.",
+  "whyTrending": "Devotional portraits aur 'divine aesthetics' social media—especially Instagram, Pinterest, aur devotional photography platforms—par tezi se trend kar rahe hain. Log apni real-life bhakti aur spiritual experiences ko cinematic, premium, aur artistic way mein capture karwana pasand kar rahe hain. Yeh prompts exactly wohi offer karte hain—real emotions aur divine connection ko high-end cinematic photography ke saath fuse karna.\n\nContent creators, photographers, devotees, aur AI artists is trend ko apna rahe hain kyunki yeh portraits ko ek unique, sophisticated, aur visually striking way mein present karta hai. Ultra-realistic quality, divine lighting, aur devotional compositions isko aur bhi special aur premium banate hain. In prompts ka use festival posts, spiritual announcements, temple visit memories, devotional content, aur social media posts ke liye kiya ja sakta hai.",
+  "creationIntro": "Ganesh ji ka Devotional Masterpiece portrait create karna bahut easy hai:\n\nStep 1: Sabse pehle apni clear, high-quality personal photo select karein—face clearly visible with good lighting.\n\nStep 2: ChatGPT ya kisi bhi AI image generation platform (Midjourney, DALL-E, Stable Diffusion, Leonardo AI) par jaayein aur apni photo upload karein.\n\nStep 3: Neeche diya gaya prompt copy karein aur ChatGPT mein paste karein.\n\nStep 4: Generate karein aur multiple variations dekhein.\n\nStep 5: Best result select karein aur download karein.\n\nBas! Bas apni image upload karein aur neeche se prompt copy karke ChatGPT se apna stunning Devotional Masterpiece photo banva lo. Seconds mein AI aapka divine cinematic masterpiece create kar dega!",
+  "photoStepTitle": "AI Prompts for South Indian Devotional Masterpiece - Divine Cinematic Portraits",
+  "photoItems": [
+    {
+      "image": "/images/post45/ganpati-devotion-1.avif",
+      "title": "Silent Prayer - Forehead Against Ganesha's Trunk (4:5)",
+      "prompt": `Create an ultra-realistic cinematic vertical portrait of a young Indian man sitting peacefully beside a beautifully decorated Lord Ganesha idol during a festive celebration.The young man should have a natural, handsome appearance with short, neatly styled dark hair with subtle texture, realistic facial features, warm medium Indian skin tone, a well-groomed beard or subtle stubble, and a calm, gentle expression. He is looking directly toward Lord Ganesha with a peaceful devotional gaze filled with quiet strength and reverence. Pose him in an intimate composition, sitting close to the idol with one hand gently resting near his chin and the other placed palm-down on his knee, creating a natural emotional connection between the man and Lord Ganesha.He is wearing a traditional ivory/cream embroidered kurta with intricate subtle patterns and gold thread work, paired with a rich maroon-red and gold traditional stole/dupatta draped elegantly around his shoulders. Add a simple traditional wristwatch and minimal accessories like a subtle gold chain or kada. His clothing should have realistic fabric texture, detailed embroidery, natural folds, and premium festive styling.Beside him, place a beautifully crafted Lord Ganesha idol wearing a white traditional outfit with small golden motifs, an elaborate golden crown, traditional jewelry, and detailed ornaments. Ganesha should have a peaceful and adorable expression, positioned facing the young man as if they are sharing a quiet devotional moment.Set the scene inside a richly decorated Indian Ganesh festival or temple setting. Use deep red fabric in the background, multiple small Ganesh idols and decorative elements placed on shelves, warm golden ornaments, subtle marigold flowers, and softly glowing festive lights. Keep the entire background heavily blurred with creamy cinematic bokeh.Use warm, soft, directional lighting with a subtle golden rim light around the man's hair and shoulders. Highlight realistic skin texture, individual hair strands, detailed kurta embroidery, jewelry, Ganesha's craftsmanship, and natural shadows.Professional DSLR photography, 85mm portrait lens, f/1.8 aperture, shallow depth of field, cinematic color grading, realistic proportions, natural skin tones, HDR, sharp facial details, soft background bokeh, photorealistic quality, emotional devotional atmosphere, premium Indian festive photography, 9:16 vertical composition, ultra-high resolution, masculine presence, quiet devotion, strong yet gentle connection with the divine. `
+    },
+    {
+      "image": "/images/post45/ganpati-devotion-2.avif",
+      "title": "Ultimate Surrender - Head at Ganesha's Feet (4:5)",
+      "prompt": `Create an ultra-realistic cinematic vertical portrait of a young Indian woman sitting peacefully beside a beautifully decorated Lord Ganesha idol during a festive celebration.The young woman should have a natural, graceful appearance with long, dark, softly wavy hair cascading down her shoulders, realistic facial features, warm medium Indian skin tone, and a calm, serene expression. She is looking directly toward Lord Ganesha with a peaceful, devotional gaze filled with love and reverence. Pose her in an intimate composition, sitting close to the idol with one hand gently resting on the statue's base and the other delicately touching her chin, creating a natural emotional connection between the woman and Lord Ganesha.She is wearing a traditional ivory/cream silk saree with intricate gold zari border and subtle embroidery, paired with a rich maroon-red and gold blouse. Add a delicate traditional necklace, jhumka earrings, a simple bindi on her forehead, and a traditional wristwatch. Her clothing should have realistic fabric texture with a soft silk sheen, detailed embroidery, natural folds, and premium festive styling. Her saree pallu is elegantly draped over one shoulder, adding grace and movement.Beside her, place a beautifully crafted Lord Ganesha idol wearing a white traditional outfit with small golden motifs, an elaborate golden crown, traditional jewelry, and detailed ornaments. Ganesha should have a peaceful and adorable expression, positioned facing the young woman as if they are sharing a quiet, intimate devotional moment.Set the scene inside a richly decorated Indian Ganesh festival or temple setting. Use deep red fabric in the background, multiple small Ganesh idols and decorative elements placed on shelves, warm golden ornaments, subtle marigold flowers, and softly glowing festive lights. Keep the entire background heavily blurred with creamy cinematic bokeh.Use warm, soft, directional lighting with a subtle golden rim light around the woman's hair and shoulders. Highlight realistic skin texture, individual hair strands, detailed saree embroidery, jewelry, Ganesha's craftsmanship, and natural shadows.Professional DSLR photography, 85mm portrait lens, f/1.8 aperture, shallow depth of field, cinematic color grading, realistic proportions, natural skin tones, HDR, sharp facial details, soft background bokeh, photorealistic quality, emotional devotional atmosphere, premium Indian festive photography, 9:16 vertical composition, ultra-high resolution, feminine grace, soft elegance, intimate connection with the divine. `
+    },
+    {
+      "image": "/images/post45/ganpati-devotion-3.avif",
+      "title": "Quiet Meditation - Young Man with Ganesha (9:16)",
+      "prompt": `A cinematic medium close-up shot, captured on 35mm film with a shallow depth of field, in a 4:5 aspect ratio. On the right side of the frame, a young South Asian man with **[INSERT HAIRSTYLE]** and **[INSERT FACIAL FEATURES]** leans his forehead reverently against the raised trunk of an intricately carved, vibrantly colored Ganesha statue. His expression is one of quiet strength and deep devotion—eyes gently closed, **[INSERT MOUTH EXPRESSION]** —as he offers a silent prayer to the deity. He wears a simple, crisp white cotton kurta and dark navy chinos, his hand placed palm-down on the statue's pedestal in a gesture of humble surrender, creating a striking contrast between understated modernity and divine grandeur. The Ganesha idol dominates the left foreground, a masterpiece of craftsmanship: adorned with a gleaming gold crown, layered jeweled necklaces, and a rich vermillion and saffron silk dhoti, with its trunk gracefully curving to the left and its right hand raised in the *Abhaya Mudra* (gesture of blessing and protection). The background is a soft, dreamy blur of ancient stone pillars and temple carvings, bathed in warm, golden, diffused sunset light that casts a serene glow. Floating ethereally near the center of the composition are two small, symbolic digital icons: a luminous, anatomically detailed heart emoji and a subtly melting smiley face emoji, bridging the realms of ancient faith and contemporary emotion. The overall aesthetic is warm, candid, and deeply respectful, focusing on the silent, heartfelt dialogue between the devotee and the sacred figure. **Aspect Ratio: 4:5.**   `
+    },
+    {
+      "image": "/images/post45/ganpati-devotion-4.avif",
+      "title": "Divine Grace - Young Woman with Ganesha (9:16)",
+      "prompt": `**[INSERT SHOT TYPE]** shot, captured on 35mm film with a shallow depth of field, in a 4:5 aspect ratio. On the **[INSERT SIDE]** side of the frame, a young South Asian woman with **[INSERT HAIR DESCRIPTION]** **[INSERT POSE DESCRIPTION]** an intricately carved, vibrantly colored Ganesha statue. Her expression is one of **[INSERT EMOTION]** —**[INSERT EYE/MOUTH DETAILS]**—as she **[INSERT ACTION]**. She wears **[INSERT CLOTHING DETAILS]**, her hand **[INSERT HAND POSITION]** creating a beautiful contrast between modern simplicity and divine opulence. The Ganesha idol dominates the **[INSERT SIDE]** foreground, a masterpiece of craftsmanship: adorned with a gleaming gold crown, layered jeweled necklaces, and a rich vermillion and saffron silk dhoti, with its trunk gracefully curving to the left and its right hand raised in the Abhaya Mudra (gesture of blessing and protection). The background is a soft, dreamy blur of **[INSERT BACKGROUND DETAILS]** bathed in **[INSERT LIGHTING DETAILS]** that casts a **[INSERT MOOD]**. Floating ethereally near the center of the composition are two small, symbolic digital icons: a luminous, anatomically detailed heart emoji and a whimsical, slightly melting smiley face emoji, bridging the realms of ancient faith and contemporary emotion. The overall aesthetic is warm, candid, and deeply respectful, focusing on the silent, heartfelt dialogue between the devotee and the sacred figure. **Aspect Ratio: 4:5.****Style Modifiers:** Photorealistic, 8k, highly detailed, warm color palette, golden hour, bokeh effect, soft focus, National Geographic photography style. `
+    },
+  ],
+  "photoBtnText": "Create Your Devotional Masterpiece",
+  "photoBtnLink": "https://chatgpt.com/",
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+  "tipsTitle": "Best Results Ke Liye Tips",
+  "tips": [
+    "Apni high-quality, clear photo upload karein—face clearly visible with good lighting, natural expression.",
+    "Har prompt ka aspect ratio 4:5 ya 9:16 (Instagram portrait) hai—dhyan dein.",
+    "Identity preservation ke liye STRICT prompt instructions ko carefully follow karein.",
+    "Expression natural aur genuine hona chahiye—devotional, peaceful, surrender-filled as per prompt.",
+    "Outfit colors ko prompt ke hisaab se match karein—white/ivory clothing, maroon/navy accents.",
+    "Lighting warm, golden, aur divine honi chahiye—sunset light, golden hour, soft diffused lighting.",
+    "Background elements (temple setting, red fabric, bokeh) ko detailed aur realistic rakhein.",
+    "Facial details—skin pores, hair strands, expressions—ko ultra-realistic rakhein.",
+    "Lord Ganesha ki iconography ko strictly follow karein—elephant head, trunk, ears, Abhaya Mudra.",
+    "Multiple variations generate karein aur best select karein—different platforms different results dete hain.",
+    "Devotee-Ganesha interaction par special dhyan dein—forehead on trunk, head at feet, peaceful sitting.",
+    "Negative prompts ko copy karein—yeh unwanted elements (cartoon, mutated hands, wrong deity) ko avoid karne mein help karte hain.",
+    "Different AI platforms try karein—Midjourney, DALL-E, Stable Diffusion, Leonardo AI sab unique results dete hain.",
+    "Aspect ratio ko maintain karein—portrait composition Instagram aur social media ke liye best hai.",
+    "Digital icons (heart emoji, melting smiley) ko prompt 1-2 mein properly include karein—yeh modern touch dete hain."
+  ],
+  "mistakesTitle": "Common Mistakes to Avoid",
+  "mistakes": [
+    "Apni personal photo upload karna bhool jana—result generic aayega.",
+    "Identity preservation ignore karna—AI generic face create kar dega.",
+    "Aspect ratio ko match na karna—composition crop ho sakti hai.",
+    "Wrong outfit colors use karna—prompt ke hisaab se white/ivory aur maroon/navy required hain.",
+    "Expression ko unnatural rakhna—devotional, peaceful, surrender-filled expression required.",
+    "Lord Ganesha ki iconography ko galat karna—elephant head, trunk, ears, Abhaya Mudra mandatory hain.",
+    "Devotee-Ganesha interaction ko galat karna—har prompt ka unique interaction hai.",
+    "Hands ki anatomy ko ignore karna—mutated hands, extra fingers, ya missing fingers aam mistakes hain.",
+    "Lighting ko ignore karna—warm, golden, sunset lighting required, harsh ya unnatural nahi.",
+    "Background ko cluttered ya distracting rakhna—temple setting, red fabric, bokeh detailed aur realistic hone chahiye.",
+    "Skin ko plastic ya over-smooth rakhna—natural pores, texture, aur subtle imperfections required.",
+    "Digital icons ko miss karna—heart emoji aur melting smiley important stylistic elements hain prompt 1-2 mein.",
+    "CGI ya cartoonish style aana—ultra-realistic required.",
+    "Text, logos, ya watermarks add karna—strictly prohibited.",
+    "Wrong deity generate karna—Shiva, Krishna, Vishnu, Hanuman etc. instead of Ganesha.",
+    "Oversaturated colors aur excessive glow use karna—natural, realistic tones required."
+  ],
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Devotional Masterpiece prompts kya hain?",
+      "answer": "Yeh ek AI prompt collection hai jo devotional portraits ko cinematic, ultra-realistic, aur high-end style mein present karta hai. Har prompt alag mood, setting, aur composition mein hai—forehead on trunk, head at feet, peaceful sitting with Ganesha for both men and women."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya main apni personal photo use kar sakta hoon?",
+      "answer": "Haan. Har prompt mein STRICT IDENTITY PRESERVATION instructions di gayi hain—aap apni photo upload karein aur AI aapki identity preserve karte hue devotional elements add karega."
+    },
+    {
+      "id": "faq3",
+      "question": "Kaunse AI platforms best results dete hain?",
+      "answer": "ChatGPT (DALL-E), Midjourney, Stable Diffusion, aur Leonardo AI is prompt ke liye best results dete hain. Har platform unique interpretation deta hai."
+    },
+    {
+      "id": "faq4",
+      "question": "Har prompt ka aspect ratio 4:5 ya 9:16 kyun hai?",
+      "answer": "4:5 aur 9:16 portrait aspect ratio Instagram posts aur social media ke liye best hai. Yeh full-screen vertical viewing experience deta hai."
+    },
+    {
+      "id": "faq5",
+      "question": "Kya expression natural honi chahiye?",
+      "answer": "Haan. Prompt 1 mein quiet strength, prompt 2 mein deep humility, prompt 3 mein calm devotion, prompt 4 mein serene grace. Overacting ya exaggerated expressions avoid karein."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya main commercially use kar sakta hoon?",
+      "answer": "Commercial usage AI platform ki licensing policy par depend karta hai. Kuch platforms allow karte hain, kuch nahi. Personal use ke liye safe hai."
+    },
+    {
+      "id": "faq7",
+      "question": "Lord Ganesha ki iconography perfect kyun honi chahiye?",
+      "answer": "AI frequently generates wrong deities, missing elephant head, ya distorted Ganesha anatomy. Isliye prompts mein strict Ganesha iconography instructions di gayi hain. Multiple variations generate karein aur best select karein."
+    },
+    {
+      "id": "faq8",
+      "question": "Background kaunsa use karein?",
+      "answer": "Prompt 1-2: soft blur of ancient stone pillars and temple carvings with golden sunset light. Prompt 3-4: richly decorated festival setting with deep red fabric, shelves with small Ganesh idols, marigold flowers, and glowing festive lights."
+    },
+    {
+      "id": "faq9",
+      "question": "Lighting kaunsa best hai?",
+      "answer": "Warm, golden, diffused sunset light—golden hour lighting, soft rim light, creamy bokeh. Harsh ya unnatural lighting avoid karein."
+    },
+    {
+      "id": "faq10",
+      "question": "Kya multiple variations generate kar sakte hain?",
+      "answer": "Haan. Multiple variations generate karein aur apne hisaab ka best select karein. Different platforms different results dete hain."
+    }
+  ],
+  "conclusion": "Devotional Masterpiece AI Prompt Collection aapko stunning, ultra-realistic, aur spiritually rich devotional portraits create karne ka mauka deta hai jo divine bhakti aur cinematic photography ko beautifully combine karta hai. Har prompt ek unique devotional narrative tell karta hai—from gently resting forehead against Ganesha's trunk in silent prayer, to completely surrendering at the divine feet, to peacefully sitting beside the deity in quiet meditation.\n\nYeh prompts modern AI technology ko real bhakti, authentic spiritual connections, aur high-end cinematic aesthetics ke saath combine karte hain—result hamesha visually captivating aur emotionally resonant aata hai. Aaj hi apna Devotional Masterpiece portrait create karein aur apni bhakti ko ek timeless, cinematic, aur artistic masterpiece mein transform karein!",
+  "tags": [
+    "South Indian Devotional",
+    "Lord Ganesha",
+    "Ganpati Bappa",
+    "Cinematic Portrait",
+    "Devotional Photography",
+    "AI Image Generation",
+    "Temple Portrait",
+    "Spiritual Aesthetic",
+    "Ultra-Realistic",
+    "Golden Temple Lighting",
+    "Silent Prayer",
+    "Temple Architecture",
+    "Surrender",
+    "Bhakti Bhaav",
+    "AI Art",
+    "ChatGPT Image",
+    "Midjourney Prompt",
+    "Stable Diffusion",
+    "Leonardo AI",
+    "Devotional Wallpaper",
+    "4:5 Aspect Ratio",
+    "9:16 Aspect Ratio",
+    "Cinematic Lighting",
+    "Golden Hour",
+    "Bokeh Effect",
+    "Ganesh Chaturthi",
+    "Spiritual Portrait",
+    "Divine Aesthetic",
+    "National Geographic Style",
+    "Festival Celebration",
+    "Traditional Attire"
+  ],
+  "isTrending": true,
+  "comments": []
+  },
   {
   "id": "post-44",
   "title": "Ganesh Ji Photo edits for Ganesh Chaturthi- AI Prompts for Divine Portraits",
