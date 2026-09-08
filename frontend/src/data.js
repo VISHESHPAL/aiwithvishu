@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.1.0"; // ← Change this number
+export const DATA_VERSION = "1.1.3"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -379,8 +379,8 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
-{
-  "id": "post-46",
+    {
+  "id": "post-45",
   "title": "Ganesh Ji Forehead and Foot Toward Image - AI Prompts for Divine Portraits",
   "categoryId": "cat-1",
   "image": "/images/post45/ganpati-devotion-main.avif",
@@ -541,6 +541,167 @@ export const INITIAL_POSTS = [
     "National Geographic Style",
     "Festival Celebration",
     "Traditional Attire"
+  ],
+  "isTrending": true,
+  "comments": []
+  },
+  {
+  "id": "post-46",
+  "title": "Premium Mirror Selfie Mastery - AI Prompts for High-Fashion Menswear Portraits",
+  "categoryId": "cat-1",
+  "image": "/images/post46/mirror-selfie-main.avif",
+  "date": "September 8, 2026",
+  "author": "Vishu",
+  "introduction": "Yeh ek next-level AI prompt collection hai jo premium mirror selfies ko high-end editorial fashion photography mein transform karta hai. Is series mein ek stylish young man ko ek bright minimalist interior mein capture kiya gaya hai, standing in front of a large vertical wall mirror. Yeh portrait sirf ek simple selfie nahi hai—yeh ek cinematic, ultra-photorealistic fashion statement hai jo modern masculinity, sophisticated styling, aur minimalist luxury aesthetics ko ek frame mein present karta hai.\n\nHar prompt ek unique composition aur styling nuance explore karta hai—ek mein man oversized black blazer aur dark sunglasses pehen kar confident aura create karta hai, doosre mein woh kurta aur Nehru jacket mein traditional-modern fusion present karta hai, teesre mein light grey suit ke saath minimalist elegance, aur chautha mein leather jacket ke saath edgy street-style attitude. In prompts ki special baat yeh hai ki yeh mirror selfie ko ek mundane smartphone photo se utha kar premium editorial shoot jaisa bana dete hain—ultra-detailed textures, cinematic lighting, aur high-fashion aesthetics ke saath.\n\nIs series mein aapko milega: ek powerful black-on-black mirror selfie with structured blazer and dark sunglasses, ek sophisticated fusion look with embroidered kurta and Nehru jacket, ek light grey tailored suit for minimalist elegance, aur ek edgy black leather jacket look for a modern street-style vibe. Har image mein strong contrast, natural daylight, clean architectural lines, aur premium fashion photography vibes hain.",
+
+  "whyTrending": "Mirror selfies Instagram, Pinterest, aur fashion blogs par sabse zyada trending formats mein se ek hain—lekin aam mirror selfies ab outdated ho rahi hain. Log ab 'premium mirror selfie' aur 'editorial self-portrait' aesthetics ki taraf shift kar rahe hain, jahan photo ek simple outfit check se badh kar ek intentional, cinematic, aur high-fashion statement banta hai. Yeh prompts exactly wohi offer karte hain—modern men's fashion ko minimalist luxury interiors aur photorealistic AI quality ke saath fuse karna.\n\nContent creators, fashion influencers, lifestyle bloggers, aur AI artists is trend ko apna rahe hain kyunki yeh portraits ko ek unique, sophisticated, aur visually striking way mein present karta hai. Ultra-realistic fabric textures, cinematic lighting, clean architectural backgrounds, aur editorial composition isko aur bhi special aur premium banate hain. In prompts ka use fashion lookbooks, personal branding, social media posts, lifestyle content, aur style inspiration posts ke liye kiya ja sakta hai.",
+
+  "creationIntro": "Apna Premium Mirror Selfie Masterpiece create karna bahut easy hai:\n\nStep 1: Sabse pehle apni clear, high-quality personal photo select karein—face clearly visible with good lighting and a neutral expression.\n\nStep 2: ChatGPT ya kisi bhi AI image generation platform (Midjourney, DALL-E, Stable Diffusion, Leonardo AI) par jaayein aur apni photo upload karein.\n\nStep 3: Neeche diya gaya prompt copy karein aur ChatGPT mein paste karein.\n\nStep 4: Generate karein aur multiple variations dekhein.\n\nStep 5: Best result select karein aur download karein.\n\nBas! Apni image upload karein aur neeche se prompt copy karke ChatGPT se apna stunning Premium Mirror Selfie Masterpiece photo banva lo. Seconds mein AI aapka high-fashion editorial mirror selfie create kar dega!",
+
+  "photoStepTitle": "AI Prompts for Premium Mirror Selfie Mastery - High-Fashion Editorial Portraits",
+
+  "photoItems": [
+    {
+      "image": "/images/post46/mirror-selfie-1.avif",
+      "title": "The Black-On-Black Statement - Structured Blazer & Dark Sunglasses (4:5)",
+      "prompt": `Ultra-photorealistic premium mirror selfie portrait of a stylish man standing in front of a large vertical wall mirror in a bright minimalist modern interior, captured on a premium smartphone. Full-length composition. The man is posed naturally, one hand holding a modern black smartphone at chest level, the other hand in his trouser pocket, head slightly tilted, looking at the phone screen through dark sunglasses. He has curly black hair, a short well-groomed beard and mustache, medium warm skin tone, and a confident relaxed expression. He wears an oversized black blazer with structured shoulders over a light blue and white vertically striped button-down shirt, slightly unbuttoned at the top, paired with tailored black trousers. Accessories include a silver chain necklace, silver bracelet, and rings. The environment is a minimalist bright space with white/off-white walls, clean architectural lines, and a large floor-to-ceiling window on the left letting in soft natural daylight that creates gentle shadows and highlights. The mirror has a thin black frame. Neutral sophisticated color palette with strong contrast between the black suit and the bright interior. Shot on a modern iPhone with a natural mirror perspective using a 1x lens. Soft natural lighting, high dynamic range, sharp focus on the subject with slightly softer background, maintaining realistic depth and proportions, editorial fashion photography style, cinematic yet natural mood, ultra detailed, photorealistic, premium editorial photography. `
+    },
+  ],
+
+  "photoBtnText": "Create Your Image",
+  "photoBtnLink": "https://chatgpt.com/",
+
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+
+  "tipsTitle": "Best Results Ke Liye Tips",
+  "tips": [
+    "Apni high-quality, clear photo upload karein—face clearly visible, natural expression, good lighting.",
+    "Har prompt ka aspect ratio 4:5 ya 9:16 (Instagram portrait) hai—dhyan dein.",
+    "Identity preservation ke liye STRICT prompt instructions ko carefully follow karein.",
+    "Expression natural aur confident hona chahiye—brooding, calm, smirking, charismatic as per prompt.",
+    "Outfit colors ko prompt ke hisaab se match karein—black-on-black, ivory+black, light grey, black leather.",
+    "Lighting natural, soft, aur diffused honi chahiye—daylight from window, no harsh artificial light.",
+    "Background minimalist aur clean rakhein—white walls, floor-to-ceiling window, no clutter.",
+    "Mirror perspective aur depth realistic honi chahiye—perfect reflection with correct proportions.",
+    "Fabric textures ultra-realistic rakhein—wool, silk, cotton, leather, denim as per prompt.",
+    "Accessories ko strictly match karein—silver/gold chains, bracelets, rings, watches.",
+    "Multiple variations generate karein aur best select karein—different platforms different results dete hain.",
+    "Negative prompts ko copy karein—yeh unwanted elements (cartoon, mutated hands, blurred face) avoid karne mein help karte hain.",
+    "Different AI platforms try karein—Midjourney, DALL-E, Stable Diffusion, Leonardo AI sab unique results dete hain.",
+    "Aspect ratio ko maintain karein—portrait composition Instagram aur social media ke liye best hai.",
+    "No text, no logos, no watermarks—clean, premium editorial look ke liye zaroori hai."
+  ],
+
+  "mistakesTitle": "Common Mistakes to Avoid",
+  "mistakes": [
+    "Apni personal photo upload karna bhool jana—result generic aayega.",
+    "Identity preservation ignore karna—AI generic face create kar dega.",
+    "Aspect ratio ko match na karna—composition crop ho sakti hai.",
+    "Wrong outfit colors use karna—prompt ke hisaab se black, ivory, light grey, leather required hain.",
+    "Expression ko unnatural rakhna—confident, relaxed, charismatic expression required.",
+    "Mirror perspective ko galat karna—reflection realistic aur properly aligned honi chahiye.",
+    "Background ko cluttered ya distracting rakhna—minimalist, clean interior required.",
+    "Lighting ko harsh ya unnatural rakhna—soft natural daylight required, not studio flash.",
+    "Fabric textures ko ignore karna—wool, silk, cotton, leather realistic hone chahiye.",
+    "Skin ko plastic ya over-smooth rakhna—natural pores, texture, aur subtle imperfections required.",
+    "Accessories ko miss karna—chains, bracelets, rings, watches important styling elements hain.",
+    "Hands ki anatomy ko ignore karna—mutated hands, extra fingers, ya missing fingers aam mistakes hain.",
+    "CGI ya cartoonish style aana—ultra-realistic required.",
+    "Text, logos, ya watermarks add karna—strictly prohibited.",
+    "Oversaturated colors aur excessive glow use karna—natural, realistic tones required."
+  ],
+
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Premium Mirror Selfie Masterpiece prompts kya hain?",
+      "answer": "Yeh ek AI prompt collection hai jo simple mirror selfies ko high-end editorial fashion photography mein transform karta hai. Har prompt alag styling, mood, aur composition mein hai—black blazer, kurta+Nehru jacket, light grey suit, aur black leather jacket looks."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya main apni personal photo use kar sakta hoon?",
+      "answer": "Haan. Har prompt mein STRICT IDENTITY PRESERVATION instructions di gayi hain—aap apni photo upload karein aur AI aapki identity preserve karte hue stylish fashion elements add karega."
+    },
+    {
+      "id": "faq3",
+      "question": "Kaunse AI platforms best results dete hain?",
+      "answer": "ChatGPT (DALL-E), Midjourney, Stable Diffusion, aur Leonardo AI is prompt ke liye best results dete hain. Har platform unique interpretation deta hai."
+    },
+    {
+      "id": "faq4",
+      "question": "Har prompt ka aspect ratio 4:5 ya 9:16 kyun hai?",
+      "answer": "4:5 aur 9:16 portrait aspect ratio Instagram posts aur social media ke liye best hai. Yeh full-screen vertical viewing experience deta hai."
+    },
+    {
+      "id": "faq5",
+      "question": "Kya expression natural honi chahiye?",
+      "answer": "Haan. Prompt 1 mein brooding confidence, prompt 2 mein charismatic smile, prompt 3 mein calm composure, prompt 4 mein cool smirking attitude. Overacting ya exaggerated expressions avoid karein."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya main commercially use kar sakta hoon?",
+      "answer": "Commercial usage AI platform ki licensing policy par depend karta hai. Kuch platforms allow karte hain, kuch nahi. Personal use ke liye safe hai."
+    },
+    {
+      "id": "faq7",
+      "question": "Mirror perspective perfect kyun honi chahiye?",
+      "answer": "AI frequently generates distorted reflections, wrong perspective, ya broken mirror effects. Isliye prompts mein strict mirror perspective aur depth instructions di gayi hain. Multiple variations generate karein aur best select karein."
+    },
+    {
+      "id": "faq8",
+      "question": "Background kaunsa use karein?",
+      "answer": "Minimalist bright space—white/off-white walls, clean architectural lines, large floor-to-ceiling window on the left with soft natural daylight. No clutter, no distracting elements."
+    },
+    {
+      "id": "faq9",
+      "question": "Lighting kaunsa best hai?",
+      "answer": "Soft, diffused natural daylight from a large window—creates gentle highlights and soft shadows. Harsh studio flash ya unnatural lighting avoid karein."
+    },
+    {
+      "id": "faq10",
+      "question": "Kya multiple variations generate kar sakte hain?",
+      "answer": "Haan. Multiple variations generate karein aur apne hisaab ka best select karein. Different platforms different results dete hain."
+    }
+  ],
+
+  "conclusion": "Premium Mirror Selfie Masterpiece AI Prompt Collection aapko stunning, ultra-realistic, aur high-fashion editorial mirror selfies create karne ka mauka deta hai jo simple smartphone photos ko sophisticated fashion statements mein transform karta hai. Har prompt ek unique styling narrative tell karta hai—from powerful black-on-black structured blazer looks, to sophisticated fusion wear, to minimalist grey suit elegance, and edgy leather jacket street style.\n\nYeh prompts modern AI technology ko real personal style, premium fashion aesthetics, aur cinematic photography ke saath combine karte hain—result hamesha visually captivating aur editorially polished aata hai. Aaj hi apna Premium Mirror Selfie Masterpiece portrait create karein aur apni personal style ko ek timeless, cinematic, aur artistic fashion masterpiece mein transform karein!",
+
+  "tags": [
+    "Premium Mirror Selfie",
+    "Editorial Fashion Portrait",
+    "Men's Fashion",
+    "High-Fashion Photography",
+    "Mirror Selfie Aesthetic",
+    "AI Image Generation",
+    "Minimalist Interior",
+    "Fashion Editorial",
+    "Ultra-Realistic",
+    "Natural Daylight",
+    "Black Blazer Style",
+    "Kurta Fashion",
+    "Nehru Jacket",
+    "Light Grey Suit",
+    "Leather Jacket Style",
+    "Modern Masculinity",
+    "AI Art",
+    "ChatGPT Image",
+    "Midjourney Prompt",
+    "Stable Diffusion",
+    "Leonardo AI",
+    "Fashion Wallpaper",
+    "4:5 Aspect Ratio",
+    "9:16 Aspect Ratio",
+    "Cinematic Lighting",
+    "Street Style",
+    "Minimalist Aesthetic",
+    "Style Inspiration",
+    "Personal Branding",
+    "Modern Gentleman",
+    "Urban Fashion"
   ],
   "isTrending": true,
   "comments": []
