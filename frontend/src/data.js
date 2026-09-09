@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.1.3"; // ← Change this number
+export const DATA_VERSION = "1.1.5"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -379,7 +379,7 @@ Thank you for being a part of the AI with Vishu community. We look forward to he
 ];
 
 export const INITIAL_POSTS = [
-    {
+  {
   "id": "post-45",
   "title": "Ganesh Ji Forehead and Foot Toward Image - AI Prompts for Divine Portraits",
   "categoryId": "cat-1",
@@ -541,6 +541,171 @@ export const INITIAL_POSTS = [
     "National Geographic Style",
     "Festival Celebration",
     "Traditional Attire"
+  ],
+  "isTrending": true,
+  "comments": []
+  },
+  {
+  "id": "post-47",
+  "title": "1980s Retro Indian Photography - AI Prompts for Vintage Nostalgia",
+  "categoryId": "cat-1",
+  "image": "/images/post47/retro-80s-main.avif",
+  "date": "September 9, 2026",
+  "author": "Vishu",
+  "introduction": "Yeh ek unique aur highly nostalgic AI prompt collection hai jo aapko late 1980s ke Indian vintage photography mein le jaata hai. Ismein aap apni personal photo ko use karke khud ko 1980s ke iconic Indian setting mein dekh sakte hain—complete with retro fashion, vintage Royal Enfield Bullet, classic Ambassador cars, aur authentic analog film aesthetics.\n\nHar prompt ek different composition aur era-appropriate setting mein design kiya gaya hai—ek mein aap ek vintage Royal Enfield Bullet ke saath khade hain, doosre mein aap college campus mein retro outfit mein pose kar rahe hain, teesre mein aap 1980s ke Indian residential street mein captured hain, aur chautha mein aap ek verandah par vintage elements ke saath hain. In prompts ki special baat yeh hai ki yeh aapki exact facial identity preserve karte hain aur aapko ek authentic 1988 photograph ki tarah present karte hain—complete with analog film grain, warm amber-green tint, aur nostalgic imperfections.\n\nIs series mein aapko milega: ek vintage Royal Enfield Bullet ke saath outdoor portrait, ek college campus setting mein retro outfit ke saath candid shot, ek residential street mein old Ambassador car aur scooter ke saath composition, aur ek verandah par vintage elements ke saath intimate portrait. Har image mein authentic 1980s Indian aesthetic, warm golden-hour lighting, aur nostalgic analog film look hai.",
+  "whyTrending": "Retro aur vintage aesthetics social media—especially Instagram, Pinterest, aur photography platforms—par tezi se trend kar rahe hain. Log apni photos ko 1980s, 1990s, aur vintage Indian style mein transform karwana pasand kar rahe hain. Yeh prompts exactly wohi offer karte hain—authentic 1980s Indian photography look with analog film grain, retro fashion, aur nostalgic settings.\n\nContent creators, photographers, vintage enthusiasts, aur AI artists is trend ko apna rahe hain kyunki yeh portraits ko ek unique, nostalgic, aur visually striking way mein present karta hai. Ultra-realistic identity preservation, authentic analog film aesthetics, aur era-appropriate styling isko aur bhi special aur premium banate hain. In prompts ka use vintage theme posts, nostalgic announcements, retro photoshoots, aur social media content ke liye kiya ja sakta hai.",
+  "creationIntro": "1980s Retro Indian Photography Masterpiece create karna bahut easy hai:\n\nStep 1: Sabse pehle apni clear, high-quality personal photo select karein—face clearly visible with good lighting, natural expression.\n\nStep 2: ChatGPT ya kisi bhi AI image generation platform (Midjourney, DALL-E, Stable Diffusion, Leonardo AI) par jaayein aur apni photo upload karein.\n\nStep 3: Neeche diya gaya prompt copy karein aur ChatGPT mein paste karein.\n\nStep 4: Generate karein aur multiple variations dekhein.\n\nStep 5: Best result select karein aur download karein.\n\nBas! Apni image upload karein aur neeche se prompt copy karke ChatGPT se apna stunning 1980s Retro Indian Photography Masterpiece photo banva lo. Seconds mein AI aapka nostalgic vintage masterpiece create kar dega!",
+  "photoStepTitle": "AI Prompts for 1980s Retro Indian Photography - Vintage Nostalgia Portraits",
+  "photoItems": [
+    {
+      "image": "/images/post47/retro-80s-1.avif",
+      "title": "Verandah - Intimate Vintage Portrait (4:5)",
+      "prompt": `"Using my uploaded photo as the identity source, recreate the exact same person as if they were photographed in India during the late 1980s.**Identity preservation (critical):**- Keep the face, skin tone, body shape, smile, expression, and overall likeness identical to my uploaded photo.- Do not alter, beautify, or replace any facial features—accuracy is paramount.**Styling (1980s Indian fashion):**- Dress the person in a stylish late-80s outfit: high-waisted jeans, a printed or oversized shirt (or denim jacket), retro accessories (chunky bracelets, shades, watch), and voluminous, textured hair with period-appropriate styling.**Setting & background:**- Place them in a realistic Indian setting—could be a college campus, residential street, or verandah with typical 80s architecture, plants, and vintage elements like an old Ambassador car, scooter, or cycle rickshaw in the backdrop.**Photographic aesthetic (authentic 1988 film look):**- Apply warm, slightly faded analog film colors with a soft amber-green tint.- Add natural grain, subtle soft focus, gentle light flares, and realistic depth of field.- Mimic the look of a physical 1988 photograph—slight color shifts, moderate contrast, and a nostalgic, lived-in warmth.The final image should feel like a genuine vintage Indian photograph from 1988, not a modern digital recreation. The person must remain unmistakably themselves, just transported to that era."---###`
+    },
+    {
+      "image": "/images/post47/retro-80s-2.avif",
+      "title": "Vintage Royal Enfield - Outdoor Portrait (4:5)",
+      "prompt": `"Using my uploaded photo as the sole source for facial identity, and the provided reference image as the template for composition, setting, styling, and photographic aesthetic, generate a new image that places the exact person/people from my photo into the scene and style of the reference.Critical instructions:Preserve the faces in my uploaded photo exactly as they are—do not alter, replace, or美化 facial features, expressions, or age.Recreate the reference image's pose, framing, depth of field, and spatial arrangement of subjects and elements.Match the setting: natural Indian greenery, outdoor daylight, with a vintage Royal Enfield Bullet motorcycle prominently placed.Replicate the clothing style, period-appropriate hairstyles, and overall late-1980s Indian fashion aesthetic.Apply the lighting from the reference: warm, golden-hour or soft sunlight, with natural shadows and highlights.Emulate the photographic look: analog film grain, slightly faded colors, subtle color shifts (warm amber/greenish tint), moderate contrast, and a soft, nostalgic glow typical of late-1980s Indian photography.Ensure the final image feels like an authentic vintage photograph, not a digital or hyper-realistic modern reproduction—include subtle imperfections like slight softness, light leaks, or dust specks if present in the reference.Workflow tip: For best results, take a screenshot of the reference image and upload it alongside your personal photo. The reference defines the scene and style; your photo defines the identity. Do not swap or blend faces from the reference into the output."`
+    },
+    {
+      "image": "/images/post47/retro-80s-3.avif",
+      "title": "College Campus - Retro Outfit Candid (4:5)",
+      "prompt": `"Using my uploaded photo as the identity source, recreate the exact same person as if they were photographed in India during the late 1980s.**Identity preservation (critical):**- Keep the face, skin tone, body shape, smile, expression, and overall likeness identical to my uploaded photo.- Do not alter, beautify, or replace any facial features—accuracy is paramount.**Styling (1980s Indian fashion):**- Dress the person in a stylish late-80s outfit: high-waisted jeans, a printed or oversized shirt (or denim jacket), retro accessories (chunky bracelets, shades, watch), and voluminous, textured hair with period-appropriate styling.**Setting & background:**- Place them in a realistic Indian setting—could be a college campus, residential street, or verandah with typical 80s architecture, plants, and vintage elements like an old Ambassador car, scooter, or cycle rickshaw in the backdrop.**Photographic aesthetic (authentic 1988 film look):**- Apply warm, slightly faded analog film colors with a soft amber-green tint.- Add natural grain, subtle soft focus, gentle light flares, and realistic depth of field.- Mimic the look of a physical 1988 photograph—slight color shifts, moderate contrast, and a nostalgic, lived-in warmth.The final image should feel like a genuine vintage Indian photograph from 1988, not a modern digital recreation. The person must remain unmistakably themselves, just transported to that era."---### `
+    },
+    {
+      "image": "/images/post47/retro-80s-4.avif",
+      "title": "Residential Street - Ambassador & Scooter (4:5)",
+      "prompt": `"Transform my uploaded photo into an authentic 1980s retro photograph while keeping my exact face, facial features, skin tone, expression, body shape, and overall identity completely unchanged. Do not alter, replace, beautify, distort, or smooth my face in any way—accuracy to my original appearance is mandatory.**Fashion & styling (1980s):**- Replace my current outfit with realistic 1980s clothing: high-waisted jeans or trousers, oversized printed shirt, denim or leather jacket, vintage polo, or a colorful graphic tee.- Add period-appropriate accessories: chunky jewelry, retro sunglasses, a classic watch, headband, or belt with a bold buckle.- Style my hair with 1980s volume, texture, and shape—big curls, side-swept bangs, or a sleek teased look depending on length and gender.**Photographic aesthetic (vintage analog film):**- Apply warm, golden-hour lighting with natural shadows and soft highlights.- Use faded, slightly desaturated colors with a subtle amber/teal vintage tint.- Add realistic analog film grain, soft focus around the edges, and gentle light flares or halation.- Include natural depth of field, slight softness, and subtle imperfections (like minor color shifts or dust specks) to mimic an authentic old-camera print.The final image must look like a genuine photograph taken in the 1980s—nostalgic, warm, and natural—while my face and body remain unmistakably me." `
+    },
+  ],
+  "photoBtnText": "Create Your 1980s Retro Masterpiece",
+  "photoBtnLink": "https://chatgpt.com/",
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+  "tipsTitle": "Best Results Ke Liye Tips",
+  "tips": [
+    "Apni high-quality, clear photo upload karein—face clearly visible with good lighting, natural expression.",
+    "Har prompt mein identity preservation strictly follow karein—AI ko exact face preserve karne ke liye clear instructions di gayi hain.",
+    "Aspect ratio 4:5 (Instagram portrait) hai—dhyan dein.",
+    "Reference image upload karein prompt 1 ke liye—yeh composition, setting, aur aesthetic define karega.",
+    "Expression natural aur genuine hona chahiye—1980s vibe ke hisaab se confident, casual, aur nostalgic.",
+    "Outfit colors ko 1980s aesthetic ke hisaab se match karein—high-waisted jeans, printed shirts, denim jackets.",
+    "Hair style ko 1980s volume aur texture ke saath rakhein—big curls, side-swept bangs, teased look.",
+    "Lighting warm, golden-hour, aur soft honi chahiye—harsh ya unnatural lighting avoid karein.",
+    "Analog film grain aur subtle imperfections ko include karein—yeh authentic vintage look dete hain.",
+    "Background elements (Ambassador car, scooter, cycle rickshaw, old architecture) ko detailed aur realistic rakhein.",
+    "Facial details—skin pores, hair strands, expressions—ko ultra-realistic rakhein.",
+    "Multiple variations generate karein aur best select karein—different platforms different results dete hain.",
+    "Negative prompts ko copy karein—yeh unwanted elements (modern cars, digital artifacts, hyper-realistic look) avoid karne mein help karte hain.",
+    "Different AI platforms try karein—Midjourney, DALL-E, Stable Diffusion, Leonardo AI sab unique results dete hain.",
+    "Aspect ratio ko maintain karein—portrait composition Instagram aur social media ke liye best hai."
+  ],
+  "mistakesTitle": "Common Mistakes to Avoid",
+  "mistakes": [
+    "Apni personal photo upload karna bhool jana—result generic aayega.",
+    "Identity preservation ignore karna—AI generic face create kar dega.",
+    "Aspect ratio ko match na karna—composition crop ho sakti hai.",
+    "Wrong outfit colors use karna—1980s aesthetic ke hisaab se high-waisted jeans, printed shirts required hain.",
+    "Expression ko unnatural rakhna—confident, casual, nostalgic expression required.",
+    "Hair style ko modern rakhna—1980s volume, curls, aur texture required.",
+    "Lighting ko ignore karna—warm, golden-hour lighting required, harsh ya unnatural nahi.",
+    "Analog film grain aur imperfections ko miss karna—yeh authentic vintage look dete hain.",
+    "Background ko cluttered ya distracting rakhna—1980s Indian setting (college campus, residential street, verandah) detailed aur realistic hone chahiye.",
+    "Skin ko plastic ya over-smooth rakhna—natural pores, texture, aur subtle imperfections required.",
+    "Modern elements (new cars, smartphones, modern buildings) include karna—strictly avoid.",
+    "CGI ya hyper-realistic look aana—authentic vintage photograph look required.",
+    "Text, logos, ya watermarks add karna—strictly prohibited.",
+    "Wrong era elements add karna—1990s ya 2000s fashion instead of 1980s.",
+    "Oversaturated colors aur excessive glow use karna—faded, warm, analog colors required."
+  ],
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh 1980s Retro Photography prompts kya hain?",
+      "answer": "Yeh ek AI prompt collection hai jo aapki personal photo ko 1980s ke Indian vintage photography style mein transform karta hai. Har prompt alag setting, composition, aur mood mein hai—Royal Enfield ke saath outdoor, college campus, residential street, aur verandah."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya main apni personal photo use kar sakta hoon?",
+      "answer": "Haan. Har prompt mein STRICT IDENTITY PRESERVATION instructions di gayi hain—aap apni photo upload karein aur AI aapki identity preserve karte hue 1980s elements add karega."
+    },
+    {
+      "id": "faq3",
+      "question": "Kaunse AI platforms best results dete hain?",
+      "answer": "ChatGPT (DALL-E), Midjourney, Stable Diffusion, aur Leonardo AI is prompt ke liye best results dete hain. Prompt 1 ke liye reference image upload karna helpful hai."
+    },
+    {
+      "id": "faq4",
+      "question": "Har prompt ka aspect ratio 4:5 kyun hai?",
+      "answer": "4:5 portrait aspect ratio Instagram posts aur social media ke liye best hai. Yeh full-screen vertical viewing experience deta hai."
+    },
+    {
+      "id": "faq5",
+      "question": "Kya expression natural honi chahiye?",
+      "answer": "Haan. 1980s vibe ke hisaab se confident, casual, aur nostalgic expression required hai. Overacting ya exaggerated expressions avoid karein."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya main commercially use kar sakta hoon?",
+      "answer": "Commercial usage AI platform ki licensing policy par depend karta hai. Kuch platforms allow karte hain, kuch nahi. Personal use ke liye safe hai."
+    },
+    {
+      "id": "faq7",
+      "question": "1980s fashion mein kya include karein?",
+      "answer": "High-waisted jeans, printed/oversized shirts, denim or leather jackets, vintage polo, graphic tees, chunky jewelry, retro sunglasses, classic watch, headband, aur bold belt buckles."
+    },
+    {
+      "id": "faq8",
+      "question": "Background kaunsa use karein?",
+      "answer": "Prompt 1: natural Indian greenery with Royal Enfield. Prompt 2: college campus with 80s architecture. Prompt 3: residential street with Ambassador car, scooter, cycle rickshaw. Prompt 4: verandah with old wooden doors, potted plants, vintage furniture."
+    },
+    {
+      "id": "faq9",
+      "question": "Lighting kaunsa best hai?",
+      "answer": "Warm, golden-hour lighting with natural shadows, soft highlights, aur analog film grain. Harsh ya unnatural lighting avoid karein."
+    },
+    {
+      "id": "faq10",
+      "question": "Kya multiple variations generate kar sakte hain?",
+      "answer": "Haan. Multiple variations generate karein aur apne hisaab ka best select karein. Different platforms different results dete hain."
+    }
+  ],
+  "conclusion": "1980s Retro Indian Photography AI Prompt Collection aapko stunning, authentic, aur nostalgically rich vintage portraits create karne ka mauka deta hai jo aapko late 1980s ke iconic Indian era mein le jaata hai. Har prompt ek unique vintage narrative tell karta hai—from standing proudly with a Royal Enfield Bullet, to candid campus moments, to intimate verandah portraits.\n\nYeh prompts modern AI technology ko authentic analog film aesthetics, era-appropriate fashion, aur nostalgic Indian settings ke saath combine karte hain—result hamesha visually captivating aur emotionally resonant aata hai. Aaj hi apna 1980s Retro Masterpiece portrait create karein aur apni identity ko ek timeless, nostalgic, aur artistic vintage photograph mein transform karein!",
+  "tags": [
+    "1980s Retro Photography",
+    "Vintage Indian Photography",
+    "1988 Film Look",
+    "Royal Enfield Bullet",
+    "Ambassador Car",
+    "Retro Fashion",
+    "Analog Film Aesthetic",
+    "Nostalgic Portrait",
+    "AI Image Generation",
+    "Vintage Photoshoot",
+    "Golden Hour Lighting",
+    "Film Grain",
+    "1980s India",
+    "Retro Outfit",
+    "AI Art",
+    "ChatGPT Image",
+    "Midjourney Prompt",
+    "Stable Diffusion",
+    "Leonardo AI",
+    "Vintage Wallpaper",
+    "4:5 Aspect Ratio",
+    "Cinematic Lighting",
+    "Nostalgia Aesthetic",
+    "Period Photography",
+    "Bokeh Effect",
+    "Vintage Fashion",
+    "Old School Cool",
+    "Retro Instagram",
+    "Indian Nostalgia",
+    "Classic Motorcycle",
+    "Vintage Setting"
   ],
   "isTrending": true,
   "comments": []
