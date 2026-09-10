@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.1.5"; // ← Change this number
+export const DATA_VERSION = "1.1.7"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -547,7 +547,7 @@ export const INITIAL_POSTS = [
   },
   {
   "id": "post-47",
-  "title": "1980s Retro Indian Photography - AI Prompts for Vintage Nostalgia",
+  "title": "1980s Retro Indian Photography - AI Prompts Photo and video prompt Nostalgia",
   "categoryId": "cat-1",
   "image": "/images/post47/retro-80s-main.avif",
   "date": "September 9, 2026",
@@ -580,11 +580,11 @@ export const INITIAL_POSTS = [
   ],
   "photoBtnText": "Create Your 1980s Retro Masterpiece",
   "photoBtnLink": "https://chatgpt.com/",
-  "videoStepTitle": "",
-  "videoStepImage": "",
-  "videoPrompt": "",
-  "videoBtnText": "",
-  "videoBtnLink": "",
+  "videoStepTitle": "AI Video Prompts for 1980s Retro Indian Photography - Realistic Walking Animation",
+  "videoStepImage": "/images/post47/retro-80s-video.avif",
+  "videoPrompt": "Convert this exact image into a realistic 10-second video.\n\nKeep the person's face, facial features, identity, skin tone, hairstyle, body proportions and overall appearance exactly the same throughout the entire video. DO NOT change the face or make the person look like someone else.\n\nKeep the clothes, colors, accessories and styling exactly the same. DO NOT change the outfit.\n\nKeep the background exactly the same as the original image. DO NOT replace, modify, redesign, blur or change the background. Preserve all objects and surroundings exactly as shown.\n\nAnimate the person with realistic, natural walking motion. The person should naturally start walking while maintaining the same appearance, clothing and identity from the original image. Add realistic leg movement, arm movement, body balance, footsteps and natural walking posture. The walking movement should be smooth, physically realistic and not exaggerated.\n\nThe camera, environment, lighting, colors and composition should remain consistent with the original image. Only create natural motion from the still photograph.\n\nNO face morphing, NO face change, NO clothing change, NO background change, NO new objects, NO removed objects, NO body distortion, NO artificial movements.",
+  "videoBtnText": "Create Your 1980s Retro Walking Video",
+  "videoBtnLink": "https://flow.google.com/",
   "tipsTitle": "Best Results Ke Liye Tips",
   "tips": [
     "Apni high-quality, clear photo upload karein—face clearly visible with good lighting, natural expression.",
