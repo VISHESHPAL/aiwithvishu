@@ -1,5 +1,5 @@
 // data.js
-export const DATA_VERSION = "1.1.7"; // ← Change this number
+export const DATA_VERSION = "1.1.8"; // ← Change this number
 export const INITIAL_CATEGORIES = [
   { id: "cat-1", name: "Ai Photo Editing", slug: "ai-photo-editing" },
   { id: "cat-2", name: "Ai Video Editing Free", slug: "ai-video-editing-free" },
@@ -706,6 +706,162 @@ export const INITIAL_POSTS = [
     "Indian Nostalgia",
     "Classic Motorcycle",
     "Vintage Setting"
+  ],
+  "isTrending": true,
+  "comments": []
+  },
+  {
+  "id": "post-48",
+  "title": "GF BF Wallpaper - AI Prompt for Ultra-Realistic Black & White Romantic Couple Portrait",
+  "categoryId": "cat-1",
+  "image": "/images/post48/bidi-blush-main.avif",
+  "date": "September 12, 2026",
+  "author": "Vishu",
+  "introduction": "Yeh ek ultra-romantic aur cinematic AI prompt hai jo aapke aur aapke partner ke real facial features ko preserve karte hue ek timeless black & white couple portrait create karta hai. Ismein couple ki noses gently touch hoti hain, about to kiss—ek extreme close-up profile view mein, jismein high-key backlighting se glowing white background aur soft silhouette effect milta hai.\n\nYeh prompt fine art photography, monochrome black & white, aur premium editorial style ko combine karta hai. Strong backlighting, deep shadows, bright highlights, aur soft rim lighting se face ke contours—lips, jawline, nose—beautifully highlight hote hain. Result ek emotional, elegant, aur cinematic portrait hota hai jo social media, anniversary posts, pre-wedding shoots, aur romantic content ke liye perfect hai.\n\nIs prompt ki special baat yeh hai ki yeh uploaded photo ki exact facial structure, features, hairstyle, skin tone, aur identity ko preserve karta hai—bina faces ko excessively beautify kiye. Bas apni aur apne partner ki clear photo upload karein, prompt paste karein, aur seconds mein ek stunning black & white romantic masterpiece generate karein.",
+  "whyTrending": "Black & white romantic couple portraits aur 'about to kiss' close-up shots social media—especially Instagram, Pinterest, aur couple photography platforms—par tezi se trend kar rahe hain. Log apne real moments ko cinematic, premium, aur artistic way mein capture karwana pasand kar rahe hain. Yeh prompt exactly wohi offer karta hai—real emotions aur intimate connection ko high-end fine art photography ke saath fuse karna.\n\nCouples, content creators, photographers, aur AI artists is trend ko apna rahe hain kyunki yeh portrait ko ek unique, sophisticated, aur visually striking way mein present karta hai. Ultra-realistic quality, dramatic backlighting, aur intimate composition isko aur bhi special aur premium banate hain. Is prompt ka use anniversary posts, pre-wedding shoots, romantic content, Valentine's Day posts, aur social media couple goals ke liye kiya ja sakta hai.",
+  "creationIntro": "Bidi.Blush Romantic Black & White Portrait create karna bahut easy hai:\n\nStep 1: Sabse pehle apni aur apne partner ki clear, high-quality photo select karein—dono ke face clearly visible with good lighting.\n\nStep 2: ChatGPT ya kisi bhi AI image generation platform (Midjourney, DALL-E, Stable Diffusion, Leonardo AI) par jaayein aur dono photos upload karein.\n\nStep 3: Neeche diya gaya prompt copy karein aur ChatGPT mein paste karein.\n\nStep 4: Generate karein aur multiple variations dekhein.\n\nStep 5: Best result select karein aur download karein.\n\nBas! Bas apni aur apne partner ki photo upload karein aur neeche se prompt copy karke ChatGPT se apna stunning Bidi.Blush Romantic Portrait banva lo. Seconds mein AI aapka divine cinematic masterpiece create kar dega!",
+  "photoStepTitle": "AI Prompt for Bidi.Blush Romantic Portrait - Ultra-Realistic Black & White Couple Close-Up",
+  "photoItems": [
+    {
+      "image": "/images/post48/bidi-blush-1.avif",
+      "title": "GF BF - Romantic Black & White Couple Portrait (4:5)",
+      "prompt": ` Without changing the facial features of the uploaded man and woman, create an ultra-realistic black and white portrait of a romantic couple in an extreme close-up profile view, their noses gently touching, about to kiss.The man and woman are facing each other, creating an intimate and emotional moment. The man is slightly taller, leaning down gently, while the woman tilts her head upward. Both have calm, affectionate expressions with soft smiles.Strong high-key backlighting from behind creates a glowing white background, turning the couple into soft silhouettes with subtle facial details visible along the edges.She is wearing a white sleeveless dress with subtle jewelry. He is wearing a white loose linen shirt with the first button open, with a slight visible collar/chain detail.Lighting style: dramatic cinematic studio lighting with deep shadows and bright highlights, emphasizing the contours of the face, lips, jawline, and nose. Soft rim lighting around the profiles.Style: fine art photography, monochrome black and white, ultra-realistic, high contrast, shallow depth of field, emotional and timeless.Details: visible skin texture, natural hair strands, slight highlight on lips, realistic pores, soft facial edge lighting, minimal background distractions.Photography style: studio portrait, cinematic backlit silhouette, 85mm lens look, f/1.8 aperture, premium editorial photography.Composition: tight crop, centered faces, extreme close-up profile framing, intimate pose, soft focus falloff.Mood: romantic, emotional, elegant, cinematic, timeless.Aspect ratio: 4:5. IMPORTANT: Preserve the exact facial structure, facial features, hairstyle, skin tone, and identity of the uploaded man and woman. Do not alter or beautify the faces excessively.`
+    },
+    {
+      "image": "/images/post48/bidi-blush-2.avif",
+      "title": "GF BF  - Romantic Black & White Couple Portrait 2 (4:5)",
+      "prompt": `Create a nostalgic 1980s-inspired black-and-white portrait of the same couple from the uploaded photos, captured in an intimate, nearly-kissing pose with their noses touching and eyes locked, softened by glowing backlight and cinematic focus. Add vintage film grain, dust, scratches, light leaks, faded contrast, vignette shading, and a worn, creased photo border; the man wears an open white shirt with a subtle chain, while the woman wears a delicate light dress, loose ribbon-tied hair, small earrings, and grips his shirt, with no text in the image. `
+    },
+  ],
+  "photoBtnText": "Create Your Romantic Image",
+  "photoBtnLink": "https://chatgpt.com/",
+  "videoStepTitle": "",
+  "videoStepImage": "",
+  "videoPrompt": "",
+  "videoBtnText": "",
+  "videoBtnLink": "",
+  "tipsTitle": "Best Results Ke Liye Tips",
+  "tips": [
+    "Apni aur apne partner ki high-quality, clear photo upload karein—dono ke face clearly visible with good lighting, natural expression.",
+    "Prompt ka aspect ratio 4:5 hai—Instagram portrait ke liye best.",
+    "Identity preservation ke liye STRICT prompt instructions ko carefully follow karein.",
+    "Expression natural aur genuine hona chahiye—calm, affectionate, soft smile.",
+    "Outfit colors ko prompt ke hisaab se match karein—white sleeveless dress (woman), white loose linen shirt (man).",
+    "Lighting high-key backlighting honi chahiye—glowing white background, soft silhouette effect.",
+    "Facial details—skin pores, hair strands, lips highlight—ko ultra-realistic rakhein.",
+    "Composition tight crop, centered faces, extreme close-up profile framing honi chahiye.",
+    "Multiple variations generate karein aur best select karein—different platforms different results dete hain.",
+    "Black & white monochrome effect ko maintain karein—no color, high contrast.",
+    "Noses gently touching, about to kiss—intimate pose ko carefully capture karein.",
+    "Soft rim lighting around profiles ko highlight karein—deep shadows aur bright highlights.",
+    "Minimal background distractions rakhein—focus faces par ho.",
+    "Different AI platforms try karein—Midjourney, DALL-E, Stable Diffusion, Leonardo AI sab unique results dete hain.",
+    "Aspect ratio ko maintain karein—portrait composition Instagram aur social media ke liye best hai."
+  ],
+  "mistakesTitle": "Common Mistakes to Avoid",
+  "mistakes": [
+    "Apni ya apne partner ki photo upload karna bhool jana—result generic aayega.",
+    "Identity preservation ignore karna—AI generic face create kar dega.",
+    "Aspect ratio ko match na karna—composition crop ho sakti hai.",
+    "Wrong outfit colors use karna—prompt ke hisaab se white dress aur white linen shirt required hain.",
+    "Expression ko unnatural rakhna—calm, affectionate, soft smile required.",
+    "Lighting ko ignore karna—high-key backlighting, glowing white background required.",
+    "Faces ko excessively beautify karna—natural skin texture, pores, hair strands required.",
+    "Background ko cluttered ya distracting rakhna—minimal background distractions chahiye.",
+    "Color use karna—monochrome black & white strictly required.",
+    "Hands ya body anatomy ko ignore karna—mutated hands, extra fingers aam mistakes hain.",
+    "Noses ko touch nahi karwana—gently touching, about to kiss pose required.",
+    "Skin ko plastic ya over-smooth rakhna—natural pores, texture, subtle imperfections required.",
+    "CGI ya cartoonish style aana—ultra-realistic required.",
+    "Text, logos, ya watermarks add karna—strictly prohibited.",
+    "Oversaturated colors ya excessive glow use karna—natural, realistic monochrome tones required."
+  ],
+  "faqs": [
+    {
+      "id": "faq1",
+      "question": "Yeh Bidi.Blush prompt kya hai?",
+      "answer": "Yeh ek AI prompt hai jo aapke aur aapke partner ke real facial features ko preserve karte hue ek ultra-realistic black & white romantic couple portrait create karta hai—extreme close-up profile view mein, noses gently touching, about to kiss."
+    },
+    {
+      "id": "faq2",
+      "question": "Kya main apni aur apne partner ki photo use kar sakta hoon?",
+      "answer": "Haan. Prompt mein STRICT IDENTITY PRESERVATION instructions di gayi hain—aap dono ki photo upload karein aur AI aapki identity preserve karte hue romantic elements add karega."
+    },
+    {
+      "id": "faq3",
+      "question": "Kaunse AI platforms best results dete hain?",
+      "answer": "ChatGPT (DALL-E), Midjourney, Stable Diffusion, aur Leonardo AI is prompt ke liye best results dete hain. Har platform unique interpretation deta hai."
+    },
+    {
+      "id": "faq4",
+      "question": "Aspect ratio 4:5 kyun hai?",
+      "answer": "4:5 portrait aspect ratio Instagram posts aur social media ke liye best hai. Yeh full-screen vertical viewing experience deta hai."
+    },
+    {
+      "id": "faq5",
+      "question": "Kya expression natural honi chahiye?",
+      "answer": "Haan. Dono ke expressions calm, affectionate, aur soft smile wale hone chahiye. Overacting ya exaggerated expressions avoid karein."
+    },
+    {
+      "id": "faq6",
+      "question": "Kya main commercially use kar sakta hoon?",
+      "answer": "Commercial usage AI platform ki licensing policy par depend karta hai. Kuch platforms allow karte hain, kuch nahi. Personal use ke liye safe hai."
+    },
+    {
+      "id": "faq7",
+      "question": "Black & white kyun required hai?",
+      "answer": "Monochrome black & white portrait ko timeless, elegant, aur cinematic banata hai. High contrast aur dramatic lighting se face ke contours beautifully highlight hote hain."
+    },
+    {
+      "id": "faq8",
+      "question": "Background kaunsa use karein?",
+      "answer": "High-key backlighting se glowing white background—soft silhouette effect ke saath. Minimal background distractions rakhein taaki focus faces par rahe."
+    },
+    {
+      "id": "faq9",
+      "question": "Lighting kaunsi best hai?",
+      "answer": "Dramatic cinematic studio lighting with deep shadows and bright highlights—strong high-key backlighting from behind, soft rim lighting around profiles."
+    },
+    {
+      "id": "faq10",
+      "question": "Kya multiple variations generate kar sakte hain?",
+      "answer": "Haan. Multiple variations generate karein aur apne hisaab ka best select karein. Different platforms different results dete hain."
+    }
+  ],
+  "conclusion": "Bidi.Blush AI Prompt aapko stunning, ultra-realistic, aur emotionally rich black & white romantic couple portrait create karne ka mauka deta hai jo real intimacy aur fine art photography ko beautifully combine karta hai. Yeh prompt aapke aur aapke partner ke exact facial features preserve karte hue ek timeless, cinematic, aur premium editorial masterpiece generate karta hai—noses gently touching, about to kiss, glowing white background ke saath.\n\nYeh prompt modern AI technology ko real emotions, authentic romantic connections, aur high-end cinematic aesthetics ke saath combine karta hai—result hamesha visually captivating aur emotionally resonant aata hai. Aaj hi apna Bidi.Blush Romantic Portrait create karein aur apne special moment ko ek timeless, cinematic, aur artistic masterpiece mein transform karein!",
+  "tags": [
+    "Bidi.Blush",
+    "Romantic Couple Portrait",
+    "Black and White Photography",
+    "Ultra-Realistic",
+    "AI Image Generation",
+    "Couple Goals",
+    "Cinematic Portrait",
+    "Fine Art Photography",
+    "Monochrome",
+    "About to Kiss",
+    "Intimate Portrait",
+    "High-Key Backlighting",
+    "Silhouette Effect",
+    "Studio Portrait",
+    "85mm Lens",
+    "Premium Editorial",
+    "Romantic Aesthetic",
+    "Couple Photography",
+    "AI Art",
+    "ChatGPT Image",
+    "Midjourney Prompt",
+    "Stable Diffusion",
+    "Leonardo AI",
+    "4:5 Aspect Ratio",
+    "Cinematic Lighting",
+    "Shallow Depth of Field",
+    "Emotional Portrait",
+    "Timeless",
+    "Valentine's Day",
+    "Anniversary Post",
+    "Pre-Wedding Shoot",
+    "Social Media Couple Goals"
   ],
   "isTrending": true,
   "comments": []
